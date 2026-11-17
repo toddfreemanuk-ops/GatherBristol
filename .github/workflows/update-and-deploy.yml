@@ -1,0 +1,53 @@
+name: Update listings and deploy
+
+on:
+  schedule:
+    - cron: '20 5 * * *'   # every day at 05:20 UTC
+  workflow_dispatch:        # the "Run workflow" button
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # A push only redeploys what is already in the repository; the scrape runs on the schedule or the button.
+      - name: Refresh listings
+        if: github.event_name != 'push'
+        run: |
+          pip install --quiet pillow
+          python scripts/daily_update.py
+
+      - name: Save the refreshed listings
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "listings-bot"
+          git config user.email "listings-bot@users.noreply.github.com"
+          git add -A site source work
+          git diff --cached --quiet || git commit -m "Daily listings refresh"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4

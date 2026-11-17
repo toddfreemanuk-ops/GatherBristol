@@ -1,0 +1,293 @@
+{
+  "items": [
+    {
+      "area": "Fishponds",
+      "dow": [
+        5
+      ],
+      "g": "email parkvolunteers@bristol.gov.uk with the subject ParkWork to join; pin is approximate",
+      "k": "green",
+      "ll": [
+        51.4878,
+        -2.534
+      ],
+      "t": "ParkWork conservation and gardening session",
+      "u": "https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/parks-and-open-spaces/get-involved-in-your-local-park-or-green-space/volunteer-with-a-roving-ranger",
+      "v": "Oldbury Court",
+      "w": "Fridays, weekly; times not stated",
+      "wk": true
+    },
+    {
+      "area": "Brandon Hill",
+      "dow": [
+        2
+      ],
+      "g": "email parkvolunteers@bristol.gov.uk with the subject ParkWork to join; pin is approximate",
+      "k": "green",
+      "ll": [
+        51.4526,
+        -2.6068
+      ],
+      "t": "ParkWork conservation and gardening session",
+      "u": "https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/parks-and-open-spaces/get-involved-in-your-local-park-or-green-space/volunteer-with-a-roving-ranger",
+      "v": "Brandon Hill",
+      "w": "First Tuesday morning of the month",
+      "wk": true
+    },
+    {
+      "area": "Castle Park",
+      "dow": [
+        2
+      ],
+      "f": true,
+      "g": "email parkvolunteers@bristol.gov.uk with the subject ParkWork to join; pin is approximate",
+      "k": "green",
+      "ll": [
+        51.456,
+        -2.5887
+      ],
+      "t": "ParkWork conservation and gardening session",
+      "u": "https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/parks-and-open-spaces/get-involved-in-your-local-park-or-green-space/volunteer-with-a-roving-ranger",
+      "v": "Castle Park",
+      "w": "First Tuesday afternoon of the month",
+      "wk": true
+    },
+    {
+      "area": "Eastville",
+      "dow": [
+        3
+      ],
+      "g": "email parkvolunteers@bristol.gov.uk with the subject ParkWork to join; pin is approximate",
+      "k": "green",
+      "ll": [
+        51.47545,
+        -2.5543
+      ],
+      "t": "ParkWork conservation and gardening session",
+      "u": "https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/parks-and-open-spaces/get-involved-in-your-local-park-or-green-space/volunteer-with-a-roving-ranger",
+      "v": "Eastville Park",
+      "w": "First Wednesday of the month",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "e": "13:00",
+      "g": "no experience needed, 18 and over; register as a Volunteer Gardener with Trinity first",
+      "k": "green",
+      "ll": [
+        51.4586,
+        -2.5764
+      ],
+      "s": "10:00",
+      "t": "Community garden volunteer session",
+      "u": "https://thebristolcable.org/calendar/events/community-garden-volunteer-sessions-at-trinity-centre/",
+      "v": "Trinity Community Garden",
+      "w": "Fortnightly on Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "e": "16:00",
+      "g": "entrance by the second gate down the lane behind the prison walls",
+      "k": "green",
+      "ll": [
+        51.4804,
+        -2.595
+      ],
+      "s": "10:00",
+      "t": "Open garden day: grow, drink tea and share the harvest",
+      "u": "https://www.wellaware.org.uk/service/e36f0b9d-051a-383d-4e9b-f99814b7c779/golden-hill-community-garden",
+      "v": "Golden Hill Community Garden",
+      "w": "Wednesdays; first visit at 12:00 or 14:30",
+      "wk": true
+    },
+    {
+      "dow": [
+        3,
+        5
+      ],
+      "e": "15:30",
+      "g": "the listing does not give the site address; pin placed from my own knowledge",
+      "k": "green",
+      "ll": [
+        51.4901,
+        -2.5393
+      ],
+      "s": "09:30",
+      "t": "Food and land management volunteer",
+      "u": "https://www.avonwildlifetrust.org.uk/volunteering-opportunities/food-and-land-management-volunteer",
+      "v": "Grow Wilder (Avon Wildlife Trust)",
+      "w": "Wednesdays or Fridays",
+      "wk": true
+    },
+    {
+      "dow": [
+        4,
+        5
+      ],
+      "e": "15:30",
+      "g": "the listing does not give the site address; pin placed from my own knowledge",
+      "k": "green",
+      "ll": [
+        51.4901,
+        -2.5393
+      ],
+      "s": "09:30",
+      "t": "Maintenance volunteer",
+      "u": "https://www.avonwildlifetrust.org.uk/volunteering-opportunities/maintenance-volunteers-grow-wilder",
+      "v": "Grow Wilder (Avon Wildlife Trust)",
+      "w": "Thursdays and/or Fridays",
+      "wk": true
+    },
+    {
+      "area": "Withywood",
+      "dow": [
+        2
+      ],
+      "e": "13:30",
+      "g": "supports a weekly nature group for people facing mental health or other life challenges; pin is approximate",
+      "k": "well",
+      "ll": [
+        51.404,
+        -2.6235
+      ],
+      "s": "10:00",
+      "t": "Roots to Wellbeing volunteer",
+      "u": "https://yourpark.org.uk/volunteer",
+      "v": "Withywood Park (Your Park)",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "g": "18 and over; apply with the Volunteer now form",
+      "k": "food",
+      "ll": [
+        51.4594,
+        -2.5792
+      ],
+      "t": "Warehouse assistant: sort, pick and pack food orders",
+      "u": "https://faresharesouthwest.org.uk/volunteer/",
+      "v": "FareShare South West, Bristol Central",
+      "w": "Monday to Friday, usual working hours",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        3
+      ],
+      "e": "20:00",
+      "f": true,
+      "g": "18 and over; apply with the Volunteer now form",
+      "k": "food",
+      "ll": [
+        51.4594,
+        -2.5792
+      ],
+      "s": "17:00",
+      "t": "Evening warehouse volunteering",
+      "u": "https://faresharesouthwest.org.uk/volunteer/",
+      "v": "FareShare South West, Bristol Central",
+      "w": "Mondays and Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "FareChance employability programme",
+      "k": "well",
+      "ll": [
+        51.4265,
+        -2.6059
+      ],
+      "t": "Volunteer mentor for 18 to 25 year olds",
+      "u": "https://faresharesouthwest.org.uk/volunteer/",
+      "v": "FareShare South West, Bristol South",
+      "w": "One day a week; day not stated",
+      "wk": true
+    },
+    {
+      "dow": [
+        6,
+        7
+      ],
+      "g": "fill in the Volunteer Form to join the bank of volunteers",
+      "k": "farm",
+      "ll": [
+        51.4741,
+        -2.5785
+      ],
+      "t": "Event volunteer: bar, cafe, gate and children's activities",
+      "u": "https://www.swcityfarm.co.uk/volunteering/",
+      "v": "St Werburghs City Farm",
+      "w": "Weekends, when events are on",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "g": "supports neurodivergent adults; three-month commitment asked",
+      "k": "farm",
+      "ll": [
+        51.4741,
+        -2.5785
+      ],
+      "t": "Lead volunteer for gardening and animal care sessions",
+      "u": "https://www.swcityfarm.co.uk/volunteering/",
+      "v": "St Werburghs City Farm",
+      "w": "Monday to Friday; times not stated",
+      "wk": true
+    },
+    {
+      "dow": [
+        6,
+        7
+      ],
+      "g": "vacancies are advertised when they come up; the page may be out of date",
+      "k": "farm",
+      "ll": [
+        51.4431,
+        -2.5934
+      ],
+      "t": "Animal care volunteer",
+      "u": "https://www.windmillhillcityfarm.org.uk/get-involved/volunteering/",
+      "v": "Windmill Hill City Farm",
+      "w": "Weekends; places limited",
+      "wk": true
+    },
+    {
+      "area": "Eastville",
+      "dow": [
+        6
+      ],
+      "g": "email eastville@parkrun.com or turn up and ask; day and time are from my own knowledge, not the page",
+      "k": "sport",
+      "ll": [
+        51.47545,
+        -2.5543
+      ],
+      "s": "09:00",
+      "t": "parkrun volunteer: marshal, timekeeper or tail walker",
+      "u": "https://www.parkrun.org.uk/eastville/volunteer/",
+      "v": "Eastville parkrun",
+      "w": "Saturday mornings",
+      "wk": true
+    }
+  ],
+  "pulled": "2026-11-05"
+}

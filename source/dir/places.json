@@ -1,0 +1,356 @@
+{
+  "items": [
+    {
+      "g": "Harbourside museum in a 1950s transit shed telling 2,000 years of Bristol history",
+      "k": "museum",
+      "kid": true,
+      "ll": [
+        51.4471,
+        -2.5999
+      ],
+      "p": "Free",
+      "t": "M Shed",
+      "u": "https://visitbristol.co.uk/listing/m-shed/2431101/",
+      "v": "M Shed"
+    },
+    {
+      "g": "Three floors of art, fossils, minerals, wildlife and ancient artefacts",
+      "k": "museum",
+      "kid": true,
+      "ll": [
+        51.4566,
+        -2.605
+      ],
+      "p": "Free",
+      "t": "Bristol Museum & Art Gallery",
+      "u": "https://visitbristol.co.uk/listing/bristol-museum-%26-art-gallery/2458101/",
+      "v": "Bristol Museum & Art Gallery"
+    },
+    {
+      "g": "Interactive science centre with a 3D planetarium and an Aardman animation exhibition",
+      "k": "family",
+      "kid": true,
+      "ll": [
+        51.4504,
+        -2.6005
+      ],
+      "t": "We The Curious",
+      "u": "https://visitbristol.co.uk/listing/we-the-curious/2483101/",
+      "v": "We The Curious"
+    },
+    {
+      "g": "The restored steamship and dockyard museum on the harbour",
+      "k": "museum",
+      "kid": true,
+      "ll": [
+        51.4492,
+        -2.608
+      ],
+      "t": "Brunel's SS Great Britain",
+      "u": "https://www.bristoldockyards.org/whats-on",
+      "v": "Brunel's SS Great Britain"
+    },
+    {
+      "area": "Filton",
+      "g": "Aviation museum; entrance tickets listed from £19.50",
+      "k": "museum",
+      "kid": true,
+      "ll": [
+        51.5223,
+        -2.5833
+      ],
+      "p": "from £19.50",
+      "t": "Aerospace Bristol",
+      "u": "https://www.myguidebristol.com/events/aerospace-bristol-entrance-ticket",
+      "v": "Aerospace Bristol"
+    },
+    {
+      "g": "Townhouse museum; donations welcome",
+      "h": "Closed for winter, reopens at the start of April",
+      "k": "museum",
+      "ll": [
+        51.4538,
+        -2.6032
+      ],
+      "p": "Free",
+      "t": "The Georgian House Museum",
+      "u": "https://visitbristol.co.uk/listing/the-georgian-house-museum/2610101/",
+      "v": "The Georgian House Museum"
+    },
+    {
+      "g": "Historic house museum; donations welcome",
+      "h": "Closed for winter, reopens at the start of April",
+      "k": "museum",
+      "ll": [
+        51.4553,
+        -2.6006
+      ],
+      "p": "Free",
+      "t": "The Red Lodge Museum",
+      "u": "https://visitbristol.co.uk/things-to-do/the-red-lodge-museum-p26191",
+      "v": "The Red Lodge Museum"
+    },
+    {
+      "g": "House museum, folly and a large playground in parkland",
+      "k": "park",
+      "kid": true,
+      "ll": [
+        51.5058,
+        -2.6324
+      ],
+      "p": "Free",
+      "t": "Blaise Castle House Museum and Estate",
+      "u": "https://visitbristol.co.uk/things-to-do/blaise-castle-house-museum-and-estate-p24171",
+      "v": "Blaise Castle House Museum and Estate"
+    },
+    {
+      "g": "Museum and cultural centre near Broad Street",
+      "h": "Saturday and Sunday",
+      "k": "museum",
+      "ll": [
+        51.4556,
+        -2.5948
+      ],
+      "p": "Free",
+      "t": "Palestine Museum and Cultural Centre",
+      "u": "https://visitbristol.co.uk/listing/palestine-museum-and-cultural-centre/233260301/",
+      "v": "Palestine Museum and Cultural Centre"
+    },
+    {
+      "g": "Chapel in the shopping quarter, with a paid museum upstairs",
+      "k": "historic",
+      "ll": [
+        51.4577,
+        -2.5883
+      ],
+      "t": "John Wesley's New Room",
+      "u": "https://visitbristol.co.uk/listing/john-wesley%e2%80%99s-new-room/2518101/",
+      "v": "John Wesley's New Room"
+    },
+    {
+      "g": "Visitor centre on the Leigh Woods side of the bridge",
+      "k": "museum",
+      "kid": true,
+      "ll": [
+        51.4533,
+        -2.6319
+      ],
+      "p": "Free",
+      "t": "Clifton Suspension Bridge Museum",
+      "u": "https://visitbristol.co.uk/listing/clifton-suspension-bridge-museum/7764101/",
+      "v": "Clifton Suspension Bridge Museum"
+    },
+    {
+      "g": "Contemporary arts centre on the harbourside: exhibitions, performance, film and workshops",
+      "h": "Tuesday to Sunday, 11:00 to 18:00",
+      "k": "gallery",
+      "ll": [
+        51.4498,
+        -2.5971
+      ],
+      "p": "Free",
+      "t": "Arnolfini",
+      "u": "https://visitbristol.co.uk/listing/arnolfini/2387101/",
+      "v": "Arnolfini"
+    },
+    {
+      "g": "Contemporary art gallery and studios",
+      "h": "Gallery open all year",
+      "k": "gallery",
+      "ll": [
+        51.447,
+        -2.6096
+      ],
+      "p": "Free",
+      "t": "Spike Island",
+      "u": "https://visitbristol.co.uk/listing/spike-island/2585101/",
+      "v": "Spike Island"
+    },
+    {
+      "g": "Art gallery with exhibitions, drawing courses and workshops",
+      "k": "gallery",
+      "ll": [
+        51.4582,
+        -2.6083
+      ],
+      "t": "Royal West of England Academy",
+      "u": "https://visitbristol.co.uk/listing/royal-west-of-england-academy/2571101/",
+      "v": "Royal West of England Academy"
+    },
+    {
+      "g": "Cathedral on College Green",
+      "h": "Open 365 days a year",
+      "k": "historic",
+      "ll": [
+        51.4515,
+        -2.6007
+      ],
+      "p": "Free",
+      "t": "Bristol Cathedral",
+      "u": "https://visitbristol.co.uk/listing/bristol-cathedral/2427101/",
+      "v": "Bristol Cathedral"
+    },
+    {
+      "g": "Gothic parish church in Redcliffe",
+      "k": "historic",
+      "ll": [
+        51.4476,
+        -2.5897
+      ],
+      "t": "St Mary Redcliffe",
+      "u": "https://visitbristol.co.uk/listing/st-mary-redcliffe-church/2590101/",
+      "v": "St Mary Redcliffe"
+    },
+    {
+      "g": "Working boatyard and visitor centre on the harbour",
+      "k": "historic",
+      "kid": true,
+      "ll": [
+        51.4469,
+        -2.6159
+      ],
+      "p": "Free",
+      "t": "Underfall Yard",
+      "u": "https://visitbristol.co.uk/listing/underfall-yard/200862301/",
+      "v": "Underfall Yard"
+    },
+    {
+      "g": "Victorian cemetery and heritage site in woodland",
+      "k": "historic",
+      "ll": [
+        51.4425,
+        -2.5642
+      ],
+      "t": "Arnos Vale Cemetery",
+      "u": "https://visitbristol.co.uk/listing/arnos-vale-cemetery/81069301/",
+      "v": "Arnos Vale Cemetery"
+    },
+    {
+      "g": "Observatory above the Avon Gorge, next to the Clifton rock slide",
+      "k": "historic",
+      "kid": true,
+      "ll": [
+        51.4577,
+        -2.6237
+      ],
+      "t": "Clifton Observatory",
+      "u": "https://visitbristol.co.uk/listing/slide-down-the-clifton-rock-slide/265030301/",
+      "v": "Clifton Observatory"
+    },
+    {
+      "g": "Estate of woodland and parkland on the edge of the city",
+      "k": "park",
+      "kid": true,
+      "ll": [
+        51.4437,
+        -2.6381
+      ],
+      "p": "Free",
+      "t": "Ashton Court Estate",
+      "u": "https://visitbristol.co.uk/things-to-do/ashton-court-estate-p23881",
+      "v": "Ashton Court Estate"
+    },
+    {
+      "g": "Open parkland next to the Avon Gorge",
+      "k": "park",
+      "kid": true,
+      "ll": [
+        51.4725,
+        -2.6193
+      ],
+      "p": "Free",
+      "t": "The Downs",
+      "u": "https://visitbristol.co.uk/listing/the-downs/3940101/",
+      "v": "The Downs"
+    },
+    {
+      "g": "City farm in south Bristol",
+      "k": "family",
+      "kid": true,
+      "ll": [
+        51.4431,
+        -2.5934
+      ],
+      "p": "Free",
+      "t": "Windmill Hill City Farm",
+      "u": "https://visitbristol.co.uk/listing/windmill-hill-city-farm/2650101/",
+      "v": "Windmill Hill City Farm"
+    },
+    {
+      "g": "City farm; free to visit",
+      "k": "family",
+      "kid": true,
+      "ll": [
+        51.4741,
+        -2.5785
+      ],
+      "p": "Free",
+      "t": "St Werburghs City Farm",
+      "u": "https://visitbristol.co.uk/blog/post/free-things-to-do-in-bristol",
+      "v": "St Werburghs City Farm"
+    },
+    {
+      "g": "Georgian public square in the centre",
+      "k": "park",
+      "ll": [
+        51.4504,
+        -2.5961
+      ],
+      "p": "Free",
+      "t": "Queen Square",
+      "u": "https://visitbristol.co.uk/listing/queen-square/3865101/",
+      "v": "Queen Square"
+    },
+    {
+      "g": "Covered market and street food in the Old City",
+      "k": "market",
+      "ll": [
+        51.4544,
+        -2.5935
+      ],
+      "p": "Free",
+      "t": "St Nicholas Market",
+      "u": "https://visitbristol.co.uk/listing/st-nicholas-market/1884101/",
+      "v": "St Nicholas Market"
+    },
+    {
+      "g": "Historic stepped street of independent shops",
+      "k": "market",
+      "ll": [
+        51.4562,
+        -2.5968
+      ],
+      "p": "Free",
+      "t": "Christmas Steps Arts Quarter",
+      "u": "https://visitbristol.co.uk/listing/christmas-steps-arts-quarter/2316101/",
+      "v": "Christmas Steps Arts Quarter"
+    },
+    {
+      "g": "Central library next to the cathedral",
+      "k": "historic",
+      "kid": true,
+      "ll": [
+        51.4515,
+        -2.6024
+      ],
+      "p": "Free",
+      "t": "Bristol Central Library",
+      "u": "https://visitbristol.co.uk/listing/bristol-central-library/3797101/",
+      "v": "Bristol Central Library"
+    },
+    {
+      "g": "Immersive art experience; also runs an After Hours evening programme",
+      "k": "family",
+      "kid": true,
+      "ll": [
+        51.4457,
+        -2.5666
+      ],
+      "t": "Wake The Tiger",
+      "u": "https://visitbristol.co.uk/event/after-hours-at-wake-the-tiger/317763301/",
+      "v": "Wake The Tiger"
+    }
+  ],
+  "pulled": "2026-11-05",
+  "src": "Visit Bristol listings; postcodes from general knowledge"
+}

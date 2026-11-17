@@ -1,0 +1,36 @@
+# GatherBristol
+
+A static what's-on site for Bristol. No accounts, no server: one page that reads one data file.
+
+## What's where
+
+| Folder | What it holds |
+|---|---|
+| `site/` | Everything that gets published: `index.html`, `data/listings.json`, `img/` |
+| `source/days/` | Events by date, plus `ongoing`, `seasonal` and `sport`. Dated files are rewritten by the daily refresh |
+| `source/dir/` | Clubs, courses, promotions, volunteering, places and news. Edited by hand |
+| `work/` | The scraper's cache (event pages already read, image map) |
+| `scripts/` | The daily refresh |
+| `.github/workflows/` | Runs the refresh every morning and publishes `site/` to GitHub Pages |
+
+## The daily refresh
+
+`python scripts/daily_update.py` does this:
+
+1. Finds Headfirst Bristol event links for the next 42 days.
+2. Reads each new event page, and re-reads anything in the next 2 days so price and sold-out stay current.
+3. Rebuilds the dated files in `source/days/`. Listings from other sources on those dates are kept.
+4. Downloads a 400px preview image for each new event.
+5. Writes `site/data/listings.json` and deletes images nothing points to.
+
+If it finds fewer than half as many events as last time, it stops and leaves the site as it is.
+
+- `python scripts/daily_update.py --data-only` skips the scrape and only rebuilds the data file. Use it after editing anything in `source/`.
+- `NO_IMAGES=1` publishes without scraped images; cards fall back to the coloured posters.
+- Needs Python 3.10+ and Pillow (`pip install pillow`).
+
+## Things that are not automatic
+
+- Only Headfirst events refresh. Everything in `source/dir/` and the `ongoing`, `seasonal` and `sport` files is as it was last edited.
+- News headlines are dropped from the site once `source/dir/news.json` is more than 7 days old (its `pulled` date).
+- The contact form posts to FormSubmit, which forwards to the inbox set in `CONTACT` near the end of `site/index.html`.

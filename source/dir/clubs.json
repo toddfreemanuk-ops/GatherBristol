@@ -1,0 +1,2496 @@
+{
+  "items": [
+    {
+      "dow": [
+        4
+      ],
+      "e": "20:00",
+      "g": "also last Sunday of the month, 11:00",
+      "k": "run",
+      "ll": [
+        51.4428,
+        -2.5949
+      ],
+      "p": "Free",
+      "s": "18:15",
+      "sub": "Free social runs",
+      "t": "Alpha Run Club",
+      "u": "https://social-bristol.pages.dev/groups/alpha-run-club",
+      "v": "Alpha Bottle Shop & Tap",
+      "w": "Thursdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "e": "21:30",
+      "g": "animation meet-up and screening",
+      "k": "make",
+      "ll": [
+        51.4575,
+        -2.5906
+      ],
+      "p": "£3",
+      "s": "18:00",
+      "sub": "Animation",
+      "t": "Bring Your Own Animation",
+      "u": "https://social-bristol.pages.dev/groups/bring-your-own-animation",
+      "v": "Tabb Hub",
+      "w": "2nd Wednesday of the month",
+      "wk": false
+    },
+    {
+      "dow": [
+        3
+      ],
+      "e": "21:45",
+      "k": "games",
+      "ll": [
+        51.468,
+        -2.5916
+      ],
+      "p": "£8.50",
+      "s": "17:45",
+      "sub": "Board games",
+      "t": "Bristol Board Game Socials",
+      "u": "https://social-bristol.pages.dev/groups/bristol-board-game-socials",
+      "v": "Replay Board Game Bar",
+      "w": "Wednesdays, except the last of the month",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "e": "20:30",
+      "g": "coding",
+      "k": "tech",
+      "ll": [
+        51.4485,
+        -2.5871
+      ],
+      "p": "Free",
+      "s": "18:15",
+      "sub": "Coding",
+      "t": "Bristol Codehub: HackNight",
+      "u": "https://social-bristol.pages.dev/groups/bristol-codehub",
+      "v": "DeskLodge House",
+      "w": "Fortnightly Tuesdays",
+      "wk": false
+    },
+    {
+      "dow": [
+        3
+      ],
+      "e": "20:30",
+      "g": "coding",
+      "k": "tech",
+      "ll": [
+        51.4485,
+        -2.5871
+      ],
+      "p": "Free",
+      "s": "18:00",
+      "sub": "Coding",
+      "t": "Bristol Codehub: Python Code Dojo",
+      "u": "https://social-bristol.pages.dev/groups/bristol-codehub",
+      "v": "DeskLodge House",
+      "w": "Fortnightly Wednesdays",
+      "wk": false
+    },
+    {
+      "dow": [
+        4
+      ],
+      "e": "23:00",
+      "k": "games",
+      "ll": [
+        51.4581,
+        -2.599
+      ],
+      "p": "Free",
+      "s": "19:00",
+      "sub": "Board games",
+      "t": "Bristol Games Social",
+      "u": "https://social-bristol.pages.dev/groups/bristol-games-social",
+      "v": "The Open Arms",
+      "w": "Fortnightly Thursdays",
+      "wk": false
+    },
+    {
+      "dow": [
+        7
+      ],
+      "e": "21:00",
+      "k": "lang",
+      "ll": [
+        51.4533,
+        -2.5874
+      ],
+      "s": "18:00",
+      "sub": "Italian",
+      "t": "Italian/English Cultural Exchange",
+      "u": "https://social-bristol.pages.dev/groups/bristol-italian-english-language-exchange",
+      "v": "Left Handed Giant Brewpub",
+      "w": "Fortnightly Sundays",
+      "wk": false
+    },
+    {
+      "dow": [
+        4
+      ],
+      "e": "21:45",
+      "k": "lang",
+      "ll": [
+        51.4555,
+        -2.5939
+      ],
+      "s": "18:45",
+      "sub": "Japanese",
+      "t": "Bristol Japanese Language Meetup",
+      "u": "https://social-bristol.pages.dev/groups/bristol-japanese-meetup",
+      "v": "Hort's Townhouse",
+      "w": "Thursdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        4
+      ],
+      "e": "21:00",
+      "g": "knitting and crochet",
+      "k": "make",
+      "ll": [
+        51.4516,
+        -2.5982
+      ],
+      "p": "Free",
+      "s": "19:00",
+      "sub": "Knitting & fashion",
+      "t": "Bristol Knit Club",
+      "u": "https://social-bristol.pages.dev/groups/bristol-knit-club",
+      "v": "Watershed",
+      "w": "Fortnightly Thursdays",
+      "wk": false
+    },
+    {
+      "dow": [
+        4
+      ],
+      "e": "21:00",
+      "f": true,
+      "k": "lang",
+      "ll": [
+        51.4566,
+        -2.6077
+      ],
+      "p": "£1",
+      "s": "19:00",
+      "sub": "Mixed exchange",
+      "t": "Bristol Language Exchange",
+      "u": "https://social-bristol.pages.dev/groups/bristol-language-exchange",
+      "v": "Daisy's, The Triangle",
+      "w": "Thursdays",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "e": "22:00",
+      "g": "Spanish language and culture",
+      "k": "lang",
+      "ll": [
+        51.4854,
+        -2.6081
+      ],
+      "p": "£5",
+      "s": "19:30",
+      "sub": "Spanish",
+      "t": "Bristol Spanish Circle",
+      "u": "https://social-bristol.pages.dev/groups/bristol-spanish-circle",
+      "v": "St Peter's Church Hall, Henleaze",
+      "w": "Monthly",
+      "wk": false
+    },
+    {
+      "dow": [
+        7
+      ],
+      "e": "16:00",
+      "g": "ultimate frisbee",
+      "k": "out",
+      "ll": [
+        51.4725,
+        -2.6193
+      ],
+      "p": "Free",
+      "s": "14:00",
+      "sub": "Ultimate frisbee",
+      "t": "Bristol Ultimate Development (Sunday)",
+      "u": "https://social-bristol.pages.dev/groups/bristol-ultimate-development",
+      "v": "The Downs",
+      "w": "Sundays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "e": "20:00",
+      "g": "ultimate frisbee",
+      "k": "out",
+      "ll": [
+        51.4725,
+        -2.6193
+      ],
+      "p": "Free",
+      "s": "18:00",
+      "sub": "Ultimate frisbee",
+      "t": "Bristol Ultimate Development (Tuesday)",
+      "u": "https://social-bristol.pages.dev/groups/bristol-ultimate-development",
+      "v": "The Downs",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1
+      ],
+      "e": "22:00",
+      "f": true,
+      "k": "games",
+      "ll": [
+        51.4562,
+        -2.5968
+      ],
+      "p": "£4",
+      "s": "18:00",
+      "sub": "Board games",
+      "t": "Chance & Counters Board Game Night (Christmas Steps)",
+      "u": "https://social-bristol.pages.dev/groups/chance-and-counters",
+      "v": "Chance & Counters, Christmas Steps",
+      "w": "Mondays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "e": "22:00",
+      "k": "games",
+      "ll": [
+        51.4722,
+        -2.5915
+      ],
+      "p": "£4",
+      "s": "18:00",
+      "sub": "Board games",
+      "t": "Chance & Counters Board Game Night (Gloucester Road)",
+      "u": "https://social-bristol.pages.dev/groups/chance-and-counters",
+      "v": "Chance & Counters, Gloucester Road",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "e": "22:00",
+      "g": "art and craft social",
+      "k": "make",
+      "ll": [
+        51.4594,
+        -2.5792
+      ],
+      "p": "Free",
+      "s": "19:00",
+      "sub": "Craft socials",
+      "t": "Club 395",
+      "u": "https://social-bristol.pages.dev/groups/club-395",
+      "v": "Old Malt House, Little Ann Street",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "e": "13:00",
+      "g": "arts and crafts",
+      "k": "make",
+      "ll": [
+        51.4477,
+        -2.5877
+      ],
+      "p": "Free",
+      "s": "10:00",
+      "sub": "Craft socials",
+      "t": "Creative Space Redcliffe drop-in",
+      "u": "https://social-bristol.pages.dev/groups/creative-space-redcliffe",
+      "v": "Redcliffe Methodist Church",
+      "w": "Monthly, on a Tuesday",
+      "wk": false
+    },
+    {
+      "dow": [
+        1
+      ],
+      "e": "22:00",
+      "g": "talks, readings and book club",
+      "k": "books",
+      "ll": [
+        51.4866,
+        -2.6108
+      ],
+      "p": "£20 a year",
+      "s": "19:00",
+      "sub": "Literary societies",
+      "t": "Dickens Society",
+      "u": "https://social-bristol.pages.dev/groups/dickens-society",
+      "v": "Leonard Hall, Henleaze URC",
+      "w": "Monthly, on a Monday",
+      "wk": false
+    },
+    {
+      "dow": [
+        2
+      ],
+      "e": "20:00",
+      "g": "electronic art",
+      "k": "tech",
+      "ll": [
+        51.4516,
+        -2.5982
+      ],
+      "p": "Free",
+      "s": "18:00",
+      "sub": "Electronic art",
+      "t": "Dorkbot Bristol",
+      "u": "https://social-bristol.pages.dev/groups/dorkbot-bristol",
+      "v": "Watershed",
+      "w": "2nd Tuesday of the month",
+      "wk": false
+    },
+    {
+      "dow": [
+        2
+      ],
+      "e": "22:00",
+      "g": "Dungeons and Dragons",
+      "k": "games",
+      "ll": [
+        51.4579,
+        -2.5896
+      ],
+      "p": "£12",
+      "s": "18:00",
+      "sub": "Role-playing",
+      "t": "The Dragon and Scribe",
+      "u": "https://social-bristol.pages.dev/groups/dragon-and-scribe",
+      "v": "Excelsior, Merchant Street",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "e": "22:00",
+      "f": true,
+      "k": "make",
+      "ll": [
+        51.4581,
+        -2.599
+      ],
+      "p": "Free",
+      "s": "18:00",
+      "sub": "Drawing",
+      "t": "Drawing Club Bristol",
+      "u": "https://social-bristol.pages.dev/groups/drawing-club-bristol",
+      "v": "The Robin Hood",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "e": "22:00",
+      "k": "make",
+      "ll": [
+        51.4424,
+        -2.6135
+      ],
+      "p": "£4",
+      "s": "19:45",
+      "sub": "Drawing",
+      "t": "Drink 'n' Draw",
+      "u": "https://social-bristol.pages.dev/groups/drink-n-draw",
+      "v": "The Tobacco Factory",
+      "w": "1st Tuesday of the month",
+      "wk": false
+    },
+    {
+      "dow": [
+        7
+      ],
+      "e": "10:00",
+      "g": "cold water dip and social, men only",
+      "k": "out",
+      "ll": [
+        51.4481,
+        -2.5283
+      ],
+      "p": "Free",
+      "s": "08:00",
+      "sub": "Cold water",
+      "t": "Ice Breakers Bristol",
+      "u": "https://social-bristol.pages.dev/groups/ice-breakers-bristol",
+      "v": "Conham River Park",
+      "w": "Sundays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "e": "20:00",
+      "f": true,
+      "g": "social 6 to 10k, drinks after",
+      "k": "run",
+      "ll": [
+        51.4533,
+        -2.5874
+      ],
+      "p": "Free",
+      "s": "18:15",
+      "sub": "Free social runs",
+      "t": "Left Handed Giant Run Club (Tuesday)",
+      "u": "https://lhgrunclub.com/",
+      "v": "Left Handed Giant Brewpub",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        4
+      ],
+      "e": "20:00",
+      "g": "social 6 to 10k, drinks after",
+      "k": "run",
+      "ll": [
+        51.4562,
+        -2.5715
+      ],
+      "p": "Free",
+      "s": "18:15",
+      "sub": "Free social runs",
+      "t": "Left Handed Giant Run Club (Thursday)",
+      "u": "https://lhgrunclub.com/",
+      "v": "LHG Tap Room, St Philips",
+      "w": "Thursdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "e": "20:00",
+      "g": "social 5k harbour loop",
+      "k": "run",
+      "ll": [
+        51.4411,
+        -2.6028
+      ],
+      "p": "Free",
+      "s": "18:15",
+      "sub": "Free social runs",
+      "t": "Local Legends Run Club",
+      "u": "https://social-bristol.pages.dev/groups/local-legends-run-club",
+      "v": "Local, North Street",
+      "w": "Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "e": "21:00",
+      "g": "road and gravel cycling",
+      "k": "out",
+      "ll": [
+        51.4498,
+        -2.6019
+      ],
+      "p": "Free",
+      "s": "18:30",
+      "sub": "Cycling",
+      "t": "Newtown Park Cycle Club",
+      "u": "https://social-bristol.pages.dev/groups/newtown-park-cycle-club",
+      "v": "Millennium Square",
+      "w": "Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        3
+      ],
+      "e": "20:00",
+      "g": "social 5k harbour run",
+      "k": "run",
+      "ll": [
+        51.4504,
+        -2.5961
+      ],
+      "p": "Free",
+      "s": "18:00",
+      "sub": "Free social runs",
+      "t": "Queen Square Run Club (evening)",
+      "u": "https://social-bristol.pages.dev/groups/queen-square-run-club",
+      "v": "Queen Square",
+      "w": "Mondays and Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        5
+      ],
+      "e": "08:30",
+      "g": "social 5k harbour run",
+      "k": "run",
+      "ll": [
+        51.4504,
+        -2.5961
+      ],
+      "p": "Free",
+      "s": "07:30",
+      "sub": "Free social runs",
+      "t": "Queen Square Run Club (Friday morning)",
+      "u": "https://social-bristol.pages.dev/groups/queen-square-run-club",
+      "v": "Queen Square",
+      "w": "Fridays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "e": "21:00",
+      "g": "non-fiction book club",
+      "k": "books",
+      "ll": [
+        51.4545,
+        -2.603
+      ],
+      "p": "£15",
+      "s": "19:00",
+      "sub": "Book clubs",
+      "t": "Rebel Book Club",
+      "u": "https://social-bristol.pages.dev/groups/rebel-book-club",
+      "v": "The Orange Tree, Park Street",
+      "w": "Last Tuesday of the month",
+      "wk": false
+    },
+    {
+      "dow": [
+        4
+      ],
+      "e": "21:00",
+      "g": "off-road cycling",
+      "k": "out",
+      "ll": [
+        51.453,
+        -2.6399
+      ],
+      "p": "Free",
+      "s": "19:00",
+      "sub": "Cycling",
+      "t": "Ride Bristol (evening ride)",
+      "u": "https://social-bristol.pages.dev/groups/ride-bristol",
+      "v": "Pedal Progression, Ashton Court",
+      "w": "3rd Thursday of the month",
+      "wk": false
+    },
+    {
+      "dow": [
+        6
+      ],
+      "e": "12:00",
+      "g": "off-road cycling",
+      "k": "out",
+      "ll": [
+        51.453,
+        -2.6399
+      ],
+      "p": "Free",
+      "s": "09:15",
+      "sub": "Cycling",
+      "t": "Ride Bristol (women's ride)",
+      "u": "https://social-bristol.pages.dev/groups/ride-bristol",
+      "v": "Pedal Progression, Ashton Court",
+      "w": "1st Saturday of the month",
+      "wk": false
+    },
+    {
+      "dow": [
+        4
+      ],
+      "e": "20:00",
+      "k": "run",
+      "ll": [
+        51.4411,
+        -2.6028
+      ],
+      "p": "Free",
+      "s": "18:00",
+      "sub": "Free social runs",
+      "t": "Run The Ponds",
+      "u": "https://social-bristol.pages.dev/groups/run-the-ponds",
+      "v": "The All Inn, North Street",
+      "w": "Thursdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "e": "22:00",
+      "f": true,
+      "k": "music",
+      "ll": [
+        51.4518,
+        -2.5931
+      ],
+      "p": "Free",
+      "s": "20:00",
+      "sub": "Singing",
+      "t": "Sea Shanty Singing Night",
+      "u": "https://social-bristol.pages.dev/groups/sea-shanty-singing-night",
+      "v": "The Llandoger Trow",
+      "w": "2nd and 4th Tuesdays of the month",
+      "wk": false
+    },
+    {
+      "dow": [
+        7
+      ],
+      "e": "16:00",
+      "g": "sustainable fashion workshop",
+      "k": "make",
+      "ll": [
+        51.4628,
+        -2.5897
+      ],
+      "s": "14:00",
+      "sub": "Knitting & fashion",
+      "t": "Slow Fashion Social",
+      "u": "https://social-bristol.pages.dev/groups/slow-fashion-social",
+      "v": "The Canteen",
+      "w": "1st Sunday of the month",
+      "wk": false
+    },
+    {
+      "dow": [
+        3
+      ],
+      "e": "23:00",
+      "k": "games",
+      "ll": [
+        51.4152,
+        -2.6109
+      ],
+      "p": "£7.50 a month",
+      "s": "19:30",
+      "sub": "Chess",
+      "t": "South Bristol Chess Club",
+      "u": "https://www.southbristolchess.com/",
+      "v": "Bristol Independent Gaming",
+      "w": "Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2,
+        4
+      ],
+      "e": "19:15",
+      "k": "run",
+      "ll": [
+        51.4432,
+        -2.5992
+      ],
+      "p": "50p",
+      "s": "18:00",
+      "sub": "Paid club sessions",
+      "t": "Southville Running Club",
+      "u": "https://www.southvillerunningclub.co.uk/",
+      "v": "The Southbank Club",
+      "w": "Tuesdays and Thursdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        7
+      ],
+      "e": "18:00",
+      "g": "fighting game community",
+      "k": "games",
+      "ll": [
+        51.4566,
+        -2.5924
+      ],
+      "p": "Free",
+      "s": "12:00",
+      "sub": "Video games",
+      "t": "Super Miner Battle Farm",
+      "u": "https://social-bristol.pages.dev/groups/super-miner-battle-farm",
+      "v": "The Lanes",
+      "w": "Sundays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1
+      ],
+      "e": "21:00",
+      "f": true,
+      "k": "books",
+      "ll": [
+        51.4516,
+        -2.5982
+      ],
+      "p": "Free",
+      "s": "19:00",
+      "sub": "Book clubs",
+      "t": "Utopian Book Collective",
+      "u": "https://social-bristol.pages.dev/groups/utopian-book-collective",
+      "v": "Watershed",
+      "w": "1st Monday of the month",
+      "wk": false
+    },
+    {
+      "dow": [
+        2
+      ],
+      "e": "19:30",
+      "k": "run",
+      "ll": [
+        51.4644,
+        -2.6094
+      ],
+      "p": "Free",
+      "s": "18:15",
+      "sub": "Free social runs",
+      "t": "Whitmore Tap Run Club",
+      "u": "https://social-bristol.pages.dev/groups/whitmore-tap-run-club",
+      "v": "The Whitmore Tap",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1
+      ],
+      "e": "20:00",
+      "k": "social",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "p": "Free",
+      "s": "18:00",
+      "sub": "Board game socials",
+      "t": "Wobbly Socials Board Game Night",
+      "u": "https://social-bristol.pages.dev/groups/wobbly-socials",
+      "v": "Bristol Folk House",
+      "w": "Last Monday of the month",
+      "wk": false
+    },
+    {
+      "dow": [
+        3
+      ],
+      "e": "23:00",
+      "g": "East and South East Asian culture and food",
+      "k": "social",
+      "ll": [
+        51.4517,
+        -2.5946
+      ],
+      "p": "Free",
+      "s": "19:00",
+      "sub": "Culture & food",
+      "t": "WOW's ESEA and Friends Meetup",
+      "u": "https://social-bristol.pages.dev/groups/wows-esea-and-friends-meetup",
+      "v": "Kongs of King Street",
+      "w": "1st Wednesday of the month",
+      "wk": false
+    },
+    {
+      "dow": [
+        4
+      ],
+      "e": "23:00",
+      "g": "Bristol Board Games Meetup",
+      "k": "games",
+      "ll": [
+        51.4749,
+        -2.533
+      ],
+      "p": "Free",
+      "s": "18:30",
+      "sub": "Board games",
+      "t": "Fishponds Gaming Night",
+      "u": "https://meetup.com/bristol-board-games-meetup",
+      "v": "The Greyhound Fishponds",
+      "w": "Thursdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        5
+      ],
+      "g": "Bristol Board Games Meetup",
+      "k": "games",
+      "ll": [
+        51.4152,
+        -2.6109
+      ],
+      "p": "£6",
+      "s": "18:30",
+      "sub": "Board games",
+      "t": "Blood on the Clocktower",
+      "u": "https://meetup.com/bristol-board-games-meetup",
+      "v": "Bristol Independent Gaming",
+      "w": "Fridays",
+      "wk": true
+    },
+    {
+      "dow": [
+        7
+      ],
+      "g": "Bristol Board Games Meetup, all day",
+      "k": "games",
+      "ll": [
+        51.4152,
+        -2.6109
+      ],
+      "p": "£6",
+      "s": "12:30",
+      "sub": "Board games",
+      "t": "Bristol Independent Gaming Sunday",
+      "u": "https://meetup.com/bristol-board-games-meetup",
+      "v": "Bristol Independent Gaming",
+      "w": "Sundays",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.5004,
+        -2.6986
+      ],
+      "p": "Free",
+      "s": "11:00",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Avonmouth Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Avonmouth Library",
+      "w": "Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4444,
+        -2.5934
+      ],
+      "p": "Free",
+      "s": "14:00",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Bedminster Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Bedminster Library",
+      "w": "Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        4
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4444,
+        -2.5934
+      ],
+      "p": "Free",
+      "s": "11:00",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Bedminster Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Bedminster Library",
+      "w": "Thursdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        5
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4444,
+        -2.5934
+      ],
+      "p": "Free",
+      "s": "11:00",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Bedminster Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Bedminster Library",
+      "w": "Fridays",
+      "wk": true
+    },
+    {
+      "dow": [
+        6
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4444,
+        -2.5934
+      ],
+      "p": "Free",
+      "s": "11:00",
+      "sub": "Storytime",
+      "t": "Storytime at Bedminster Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Bedminster Library",
+      "w": "Saturdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4743,
+        -2.5919
+      ],
+      "p": "Free",
+      "s": "11:30",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Bishopston Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Bishopston Library",
+      "w": "Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        6
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4743,
+        -2.5919
+      ],
+      "p": "Free",
+      "s": "11:30",
+      "sub": "Storytime",
+      "t": "Storytime at Bishopston Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Bishopston Library",
+      "w": "Saturdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "g": "for babies and under-fives; runs all year",
+      "k": "kids",
+      "ll": [
+        51.4207,
+        -2.6165
+      ],
+      "p": "Free",
+      "s": "14:00",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Bishopsworth Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Bishopsworth Library",
+      "w": "Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        5
+      ],
+      "g": "for babies and under-fives; runs all year",
+      "k": "kids",
+      "ll": [
+        51.4207,
+        -2.6165
+      ],
+      "p": "Free",
+      "s": "10:30",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Bishopsworth Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Bishopsworth Library",
+      "w": "Fridays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1
+      ],
+      "g": "for babies and under-fives; runs all year",
+      "k": "kids",
+      "ll": [
+        51.4515,
+        -2.6024
+      ],
+      "p": "Free",
+      "s": "10:45",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Central Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Central Library",
+      "w": "Mondays",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "g": "for babies and under-fives; runs all year",
+      "k": "kids",
+      "ll": [
+        51.4515,
+        -2.6024
+      ],
+      "p": "Free",
+      "s": "10:45",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Central Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Central Library",
+      "w": "Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        6
+      ],
+      "g": "for babies and under-fives; runs all year",
+      "k": "kids",
+      "ll": [
+        51.4515,
+        -2.6024
+      ],
+      "p": "Free",
+      "s": "10:45",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Central Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Central Library",
+      "w": "Saturdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        5
+      ],
+      "g": "for babies and under-fives; runs all year",
+      "k": "kids",
+      "ll": [
+        51.4515,
+        -2.6024
+      ],
+      "p": "Free",
+      "s": "10:45",
+      "sub": "Storytime",
+      "t": "Storytime at Central Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Central Library",
+      "w": "Fridays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4544,
+        -2.6204
+      ],
+      "p": "Free",
+      "s": "10:30",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Clifton Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Clifton Library",
+      "w": "Mondays",
+      "wk": true
+    },
+    {
+      "dow": [
+        5
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4544,
+        -2.6204
+      ],
+      "p": "Free",
+      "s": "10:30",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Clifton Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Clifton Library",
+      "w": "Fridays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4544,
+        -2.6204
+      ],
+      "p": "Free",
+      "s": "14:30",
+      "sub": "Storytime",
+      "t": "Storytime at Clifton Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Clifton Library",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4248,
+        -2.586
+      ],
+      "p": "Free",
+      "s": "11:30",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Filwood Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Filwood Library",
+      "w": "Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        5
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4248,
+        -2.586
+      ],
+      "p": "Free",
+      "s": "11:30",
+      "sub": "Storytime",
+      "t": "Storytime at Filwood Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Filwood Library",
+      "w": "Fridays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4776,
+        -2.5331
+      ],
+      "p": "Free",
+      "s": "14:15",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Fishponds Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Fishponds Library",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4049,
+        -2.5981
+      ],
+      "p": "Free",
+      "s": "14:15",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Hartcliffe Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Hartcliffe Library",
+      "w": "Mondays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.5094,
+        -2.6205
+      ],
+      "p": "Free",
+      "s": "11:30",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Henbury Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Henbury Library",
+      "w": "Mondays",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.5094,
+        -2.6205
+      ],
+      "p": "Free",
+      "s": "11:30",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Henbury Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Henbury Library",
+      "w": "Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4816,
+        -2.6123
+      ],
+      "p": "Free",
+      "s": "11:30",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Henleaze Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Henleaze Library",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        4
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4816,
+        -2.6123
+      ],
+      "p": "Free",
+      "s": "14:00",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Henleaze Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Henleaze Library",
+      "w": "Thursdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        5
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4816,
+        -2.6123
+      ],
+      "p": "Free",
+      "s": "14:00",
+      "sub": "Storytime",
+      "t": "Storytime at Henleaze Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Henleaze Library",
+      "w": "Fridays",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4749,
+        -2.5171
+      ],
+      "p": "Free",
+      "s": "12:00",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Hillfields Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Hillfields Library",
+      "w": "Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4951,
+        -2.5738
+      ],
+      "p": "Free",
+      "s": "11:30",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Horfield Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Horfield Library",
+      "w": "Mondays",
+      "wk": true
+    },
+    {
+      "dow": [
+        4
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4951,
+        -2.5738
+      ],
+      "p": "Free",
+      "s": "10:30",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Horfield Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Horfield Library",
+      "w": "Thursdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4951,
+        -2.5738
+      ],
+      "p": "Free",
+      "s": "11:30",
+      "sub": "Storytime",
+      "t": "Storytime at Horfield Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Horfield Library",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4661,
+        -2.5735
+      ],
+      "p": "Free",
+      "s": "14:15",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Junction 3 Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Junction 3 Library",
+      "w": "Mondays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4661,
+        -2.5735
+      ],
+      "p": "Free",
+      "s": "14:45",
+      "sub": "Storytime",
+      "t": "Storytime at Junction 3 Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Junction 3 Library",
+      "w": "Mondays",
+      "wk": true
+    },
+    {
+      "dow": [
+        5
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4661,
+        -2.5735
+      ],
+      "p": "Free",
+      "s": "11:30",
+      "sub": "Storytime",
+      "t": "Storytime at Junction 3 Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Junction 3 Library",
+      "w": "Fridays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4344,
+        -2.568
+      ],
+      "p": "Free",
+      "s": "11:30",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Knowle Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Knowle Library",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        4
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4344,
+        -2.568
+      ],
+      "p": "Free",
+      "s": "11:30",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Knowle Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Knowle Library",
+      "w": "Thursdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        5
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4344,
+        -2.568
+      ],
+      "p": "Free",
+      "s": "11:30",
+      "sub": "Storytime",
+      "t": "Storytime at Knowle Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Knowle Library",
+      "w": "Fridays",
+      "wk": true
+    },
+    {
+      "dow": [
+        4
+      ],
+      "g": "for babies and under-fives; runs all year",
+      "k": "kids",
+      "ll": [
+        51.4336,
+        -2.6021
+      ],
+      "p": "Free",
+      "s": "14:00",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Marksbury Road Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Marksbury Road Library",
+      "w": "Thursdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "g": "for babies and under-fives; runs all year",
+      "k": "kids",
+      "ll": [
+        51.4336,
+        -2.6021
+      ],
+      "p": "Free",
+      "s": "10:30",
+      "sub": "Storytime",
+      "t": "Storytime at Marksbury Road Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Marksbury Road Library",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4654,
+        -2.6108
+      ],
+      "p": "Free",
+      "s": "11:30",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Redland Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Redland Library",
+      "w": "Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        5
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4654,
+        -2.6108
+      ],
+      "p": "Free",
+      "s": "14:30",
+      "sub": "Storytime",
+      "t": "Storytime at Redland Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Redland Library",
+      "w": "Fridays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4917,
+        -2.6482
+      ],
+      "p": "Free",
+      "s": "10:45",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Sea Mills Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Sea Mills Library",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        4
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4873,
+        -2.6759
+      ],
+      "p": "Free",
+      "s": "11:00",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Shirehampton Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Shirehampton Library",
+      "w": "Thursdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.5038,
+        -2.5992
+      ],
+      "p": "Free",
+      "s": "11:30",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Southmead Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Southmead Library",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.5038,
+        -2.5992
+      ],
+      "p": "Free",
+      "s": "11:30",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Southmead Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Southmead Library",
+      "w": "Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4601,
+        -2.5452
+      ],
+      "p": "Free",
+      "s": "11:00",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at St George Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "St George Library",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        4
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4601,
+        -2.5452
+      ],
+      "p": "Free",
+      "s": "10:15",
+      "sub": "Storytime",
+      "t": "Storytime at St George Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "St George Library",
+      "w": "Thursdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4641,
+        -2.5828
+      ],
+      "p": "Free",
+      "s": "10:30",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at St Paul's Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "St Paul's Library",
+      "w": "Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        5
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4124,
+        -2.5473
+      ],
+      "p": "Free",
+      "s": "10:30",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Stockwood Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Stockwood Library",
+      "w": "Fridays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4124,
+        -2.5473
+      ],
+      "p": "Free",
+      "s": "14:00",
+      "sub": "Storytime",
+      "t": "Storytime at Stockwood Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Stockwood Library",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4918,
+        -2.6221
+      ],
+      "p": "Free",
+      "s": "11:15",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Westbury Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Westbury Library",
+      "w": "Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        5
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4918,
+        -2.6221
+      ],
+      "p": "Free",
+      "s": "11:15",
+      "sub": "Storytime",
+      "t": "Storytime at Westbury Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Westbury Library",
+      "w": "Fridays",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4141,
+        -2.5715
+      ],
+      "p": "Free",
+      "s": "14:15",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Whitchurch Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Whitchurch Library",
+      "w": "Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4385,
+        -2.5516
+      ],
+      "p": "Free",
+      "s": "10:30",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Wick Road Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Wick Road Library",
+      "w": "Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4385,
+        -2.5516
+      ],
+      "p": "Free",
+      "s": "14:00",
+      "sub": "Rhyme and Storytime",
+      "t": "Rhyme and Storytime at Wick Road Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Wick Road Library",
+      "w": "Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        5
+      ],
+      "g": "for babies and under-fives; term time only",
+      "k": "kids",
+      "ll": [
+        51.4385,
+        -2.5516
+      ],
+      "p": "Free",
+      "s": "10:30",
+      "sub": "Storytime",
+      "t": "Storytime at Wick Road Library",
+      "u": "https://www.bristol.gov.uk/residents/libraries-and-archives/services-for-children-and-young-people/baby-bounce-and-rhyme-and-storytime-sessions",
+      "v": "Wick Road Library",
+      "w": "Fridays",
+      "wk": true
+    },
+    {
+      "dow": [
+        7
+      ],
+      "g": "winning team gets a £50 bar tab; one listing says Friday, so check the day",
+      "k": "quiz",
+      "ll": [
+        51.4504,
+        -2.5985
+      ],
+      "s": "20:00",
+      "t": "Barbara's Bier Haus pub quiz",
+      "u": "https://trivianearme.net/bristol-eng-gb",
+      "v": "Barbara's Bier Haus",
+      "w": "Sundays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "k": "quiz",
+      "ll": [
+        51.4495,
+        -2.6027
+      ],
+      "s": "19:00",
+      "t": "BrewDog Harbourside pub quiz",
+      "u": "https://trivianearme.net/bristol-eng-gb",
+      "v": "BrewDog Harbourside",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "g": "listed under its former name, Brewhouse & Kitchen",
+      "k": "quiz",
+      "ll": [
+        51.4636,
+        -2.6079
+      ],
+      "s": "19:30",
+      "t": "Merchant of Cotham pub quiz",
+      "u": "https://trivianearme.net/bristol-eng-gb",
+      "v": "Merchant of Cotham",
+      "w": "Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1
+      ],
+      "g": "teams of up to six; booking recommended",
+      "k": "quiz",
+      "ll": [
+        51.4743,
+        -2.5919
+      ],
+      "p": "£2",
+      "s": "20:00",
+      "t": "The Cider Press pub quiz",
+      "u": "https://trivianearme.net/bristol-eng-gb",
+      "v": "The Cider Press",
+      "w": "Mondays",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "k": "quiz",
+      "ll": [
+        51.4697,
+        -2.6153
+      ],
+      "s": "20:30",
+      "t": "Coach & Horses pub quiz",
+      "u": "https://trivianearme.net/bristol-eng-gb",
+      "v": "Coach & Horses",
+      "w": "Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        4
+      ],
+      "k": "quiz",
+      "ll": [
+        51.4526,
+        -2.5996
+      ],
+      "p": "Free",
+      "s": "20:00",
+      "t": "The Green House pub quiz",
+      "u": "https://trivianearme.net/bristol-eng-gb",
+      "v": "The Green House",
+      "w": "Thursdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "k": "quiz",
+      "ll": [
+        51.4348,
+        -2.5628
+      ],
+      "s": "20:30",
+      "t": "Knowle Hotel pub quiz",
+      "u": "https://trivianearme.net/bristol-eng-gb",
+      "v": "Knowle Hotel",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        7
+      ],
+      "g": "cash entry",
+      "k": "quiz",
+      "ll": [
+        51.4701,
+        -2.6154
+      ],
+      "p": "£2",
+      "s": "20:00",
+      "t": "Port of Call pub quiz",
+      "u": "https://trivianearme.net/bristol-eng-gb",
+      "v": "Port of Call",
+      "w": "Sundays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "g": "hosted by Let's Get Quizzical; first prize a £50 bar tab",
+      "k": "quiz",
+      "ll": [
+        51.459,
+        -2.6102
+      ],
+      "p": "£2",
+      "s": "19:30",
+      "t": "Racks Bar & Kitchen pub quiz",
+      "u": "https://www.yuup.co/stories/best-pub-quizzes-in-bristol",
+      "v": "Racks Bar & Kitchen",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1
+      ],
+      "k": "quiz",
+      "ll": [
+        51.4679,
+        -2.6047
+      ],
+      "s": "20:00",
+      "t": "Red Monkey Micro Pub pub quiz",
+      "u": "https://trivianearme.net/bristol-eng-gb",
+      "v": "Red Monkey Micro Pub",
+      "w": "Mondays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1
+      ],
+      "k": "quiz",
+      "ll": [
+        51.4496,
+        -2.5971
+      ],
+      "p": "£1",
+      "s": "20:00",
+      "t": "Shakespeare Tavern pub quiz",
+      "u": "https://trivianearme.net/bristol-eng-gb",
+      "v": "Shakespeare Tavern",
+      "w": "Mondays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "k": "quiz",
+      "ll": [
+        51.4648,
+        -2.6102
+      ],
+      "s": "20:00",
+      "t": "Steam pub quiz",
+      "u": "https://trivianearme.net/bristol-eng-gb",
+      "v": "Steam",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        4
+      ],
+      "k": "quiz",
+      "ll": [
+        51.4608,
+        -2.5872
+      ],
+      "s": "19:00",
+      "t": "Surrey Vaults pub quiz",
+      "u": "https://trivianearme.net/bristol-eng-gb",
+      "v": "Surrey Vaults",
+      "w": "Thursdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1
+      ],
+      "k": "quiz",
+      "ll": [
+        51.4625,
+        -2.6148
+      ],
+      "s": "20:30",
+      "t": "The Alma Tavern pub quiz",
+      "u": "https://trivianearme.net/bristol-eng-gb",
+      "v": "The Alma Tavern",
+      "w": "Mondays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1
+      ],
+      "k": "quiz",
+      "ll": [
+        51.4528,
+        -2.5773
+      ],
+      "s": "20:00",
+      "t": "The Barley Mow pub quiz",
+      "u": "https://trivianearme.net/bristol-eng-gb",
+      "v": "The Barley Mow",
+      "w": "Mondays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "k": "quiz",
+      "ll": [
+        51.4565,
+        -2.6084
+      ],
+      "p": "£1",
+      "s": "20:00",
+      "t": "The Brass Pig pub quiz",
+      "u": "https://trivianearme.net/bristol-eng-gb",
+      "v": "The Brass Pig",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1
+      ],
+      "k": "quiz",
+      "ll": [
+        51.4743,
+        -2.5919
+      ],
+      "p": "£2",
+      "s": "19:30",
+      "t": "The Bristol Flyer pub quiz",
+      "u": "https://trivianearme.net/bristol-eng-gb",
+      "v": "The Bristol Flyer",
+      "w": "Mondays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "k": "quiz",
+      "ll": [
+        51.4539,
+        -2.6016
+      ],
+      "s": "19:30",
+      "t": "The Bristol Ram pub quiz",
+      "u": "https://trivianearme.net/bristol-eng-gb",
+      "v": "The Bristol Ram",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "g": "every other Tuesday, so check before going",
+      "k": "quiz",
+      "ll": [
+        51.4449,
+        -2.5928
+      ],
+      "p": "Free",
+      "s": "20:00",
+      "t": "The Dark Horse pub quiz",
+      "u": "https://trivianearme.net/bristol-eng-gb",
+      "v": "The Dark Horse, Bedminster",
+      "w": "Every other Tuesday",
+      "wk": false
+    },
+    {
+      "dow": [
+        2
+      ],
+      "g": "every other Tuesday, so check before going",
+      "k": "quiz",
+      "ll": [
+        51.4594,
+        -2.5518
+      ],
+      "p": "Free",
+      "s": "20:00",
+      "t": "The Dark Horse pub quiz",
+      "u": "https://trivianearme.net/bristol-eng-gb",
+      "v": "The Dark Horse, Redfield",
+      "w": "Every other Tuesday",
+      "wk": false
+    },
+    {
+      "dow": [
+        2
+      ],
+      "k": "quiz",
+      "ll": [
+        51.4347,
+        -2.5487
+      ],
+      "s": "20:00",
+      "t": "The Kings Arms pub quiz",
+      "u": "https://trivianearme.net/bristol-eng-gb",
+      "v": "The Kings Arms, Brislington",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "k": "quiz",
+      "ll": [
+        51.4588,
+        -2.5578
+      ],
+      "s": "20:00",
+      "t": "The Old Stillage pub quiz",
+      "u": "https://trivianearme.net/bristol-eng-gb",
+      "v": "The Old Stillage",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "g": "quiz and bingo together, with a rollover jackpot question; one listing says Sunday",
+      "k": "quiz",
+      "ll": [
+        51.4401,
+        -2.6087
+      ],
+      "p": "£2",
+      "s": "21:00",
+      "t": "The Spotted Cow pub quiz",
+      "u": "https://unifresher.co.uk/cities/bristol/the-best-places-to-do-a-pub-quiz-in-bristol/",
+      "v": "The Spotted Cow",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1
+      ],
+      "k": "quiz",
+      "ll": [
+        51.4816,
+        -2.6123
+      ],
+      "s": "20:00",
+      "t": "Westbury Park Pub and Kitchen pub quiz",
+      "u": "https://trivianearme.net/bristol-eng-gb",
+      "v": "Westbury Park Pub and Kitchen",
+      "w": "Mondays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "g": "Super Quiz: half-time food included and a bonus game for £250; booking recommended",
+      "k": "quiz",
+      "ll": [
+        51.4484,
+        -2.591
+      ],
+      "p": "£1",
+      "s": "20:30",
+      "t": "Colosseum pub quiz",
+      "u": "https://unifresher.co.uk/cities/bristol/the-best-places-to-do-a-pub-quiz-in-bristol/",
+      "v": "Colosseum",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "g": "Super Quiz: half-time food included and a bonus game for £250; booking recommended",
+      "k": "quiz",
+      "ll": [
+        51.4545,
+        -2.5931
+      ],
+      "p": "£1",
+      "s": "20:30",
+      "t": "The Crown pub quiz",
+      "u": "https://unifresher.co.uk/cities/bristol/the-best-places-to-do-a-pub-quiz-in-bristol/",
+      "v": "The Crown",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "g": "Super Quiz: half-time food included and a bonus game for £250; booking recommended",
+      "k": "quiz",
+      "ll": [
+        51.4538,
+        -2.5927
+      ],
+      "p": "£1",
+      "s": "20:30",
+      "t": "The Mother's Ruin pub quiz",
+      "u": "https://unifresher.co.uk/cities/bristol/the-best-places-to-do-a-pub-quiz-in-bristol/",
+      "v": "The Mother's Ruin",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "g": "Super Quiz: half-time food included and a bonus game for £250; booking recommended",
+      "k": "quiz",
+      "ll": [
+        51.4749,
+        -2.533
+      ],
+      "p": "£1",
+      "s": "20:30",
+      "t": "The Greyhound pub quiz",
+      "u": "https://unifresher.co.uk/cities/bristol/the-best-places-to-do-a-pub-quiz-in-bristol/",
+      "v": "The Greyhound, Fishponds",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1
+      ],
+      "g": "no bookings; hosted by Let's Get Quizzical",
+      "k": "quiz",
+      "ll": [
+        51.4635,
+        -2.5919
+      ],
+      "p": "£2",
+      "s": "19:30",
+      "t": "Hare on the Hill pub quiz",
+      "u": "https://unifresher.co.uk/cities/bristol/the-best-places-to-do-a-pub-quiz-in-bristol/",
+      "v": "Hare on the Hill",
+      "w": "Mondays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1
+      ],
+      "g": "booking recommended",
+      "k": "quiz",
+      "ll": [
+        51.4817,
+        -2.5833
+      ],
+      "p": "£2",
+      "s": "19:30",
+      "t": "The Lazy Dog pub quiz",
+      "u": "https://unifresher.co.uk/cities/bristol/the-best-places-to-do-a-pub-quiz-in-bristol/",
+      "v": "The Lazy Dog",
+      "w": "Mondays",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "g": "lasts around two hours; booking recommended",
+      "k": "quiz",
+      "ll": [
+        51.4357,
+        -2.5948
+      ],
+      "s": "17:00",
+      "t": "The Brunel pub quiz",
+      "u": "https://unifresher.co.uk/cities/bristol/the-best-places-to-do-a-pub-quiz-in-bristol/",
+      "v": "The Brunel",
+      "w": "Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1
+      ],
+      "g": "proceeds go to Macmillan Cancer Support; first prize a £30 bar tab",
+      "k": "quiz",
+      "ll": [
+        51.4535,
+        -2.6253
+      ],
+      "p": "£2",
+      "s": "19:30",
+      "t": "The White Lion pub quiz",
+      "u": "https://unifresher.co.uk/cities/bristol/the-best-places-to-do-a-pub-quiz-in-bristol/",
+      "v": "The White Lion, Clifton",
+      "w": "Mondays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2
+      ],
+      "g": "rolling cash jackpot; tables cannot be booked",
+      "k": "quiz",
+      "ll": [
+        51.4559,
+        -2.594
+      ],
+      "s": "20:30",
+      "t": "The Bank Tavern pub quiz",
+      "u": "https://www.yuup.co/stories/best-pub-quizzes-in-bristol",
+      "v": "The Bank Tavern",
+      "w": "Tuesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1
+      ],
+      "g": "start time not stated; winners may get a £50 bar voucher; listing last updated January 2025",
+      "k": "quiz",
+      "ll": [
+        51.4564,
+        -2.5977
+      ],
+      "p": "Free",
+      "t": "Zerodegrees pub quiz",
+      "u": "https://www.designmynight.com/bristol/quiz-nights-bristol",
+      "v": "Zerodegrees",
+      "w": "Mondays",
+      "wk": true
+    }
+  ],
+  "pulled": "2026-11-05",
+  "src": "Social Bristol directory, Meetup, club sites"
+}

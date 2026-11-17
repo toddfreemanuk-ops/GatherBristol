@@ -1,0 +1,1348 @@
+{
+  "items": [
+    {
+      "dow": [
+        3,
+        4,
+        5
+      ],
+      "e": "14:00",
+      "k": "set",
+      "ll": [
+        51.4504,
+        -2.5925
+      ],
+      "p": "£43",
+      "pt": "food",
+      "s": "12:00",
+      "t": "Four-course lunch for £43",
+      "u": "https://www.adelinayard.com/",
+      "v": "Adelina Yard",
+      "w": "Wednesday to Friday",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "e": "16:00",
+      "k": "lunch",
+      "ll": [
+        51.4546,
+        -2.5976
+      ],
+      "p": "£10",
+      "pt": "food",
+      "s": "12:00",
+      "t": "£10 Bam Bowls",
+      "u": "https://bambalan.co.uk/",
+      "v": "Bambalan",
+      "w": "Monday to Friday",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "k": "kids",
+      "ll": [
+        51.4546,
+        -2.5976
+      ],
+      "p": "Free",
+      "pt": "food",
+      "t": "Kids eat free with an adult main",
+      "u": "https://bambalan.co.uk/",
+      "v": "Bambalan",
+      "w": "Days not stated",
+      "wk": true
+    },
+    {
+      "dow": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "k": "set",
+      "ll": [
+        51.4543,
+        -2.6181
+      ],
+      "p": "£22",
+      "pt": "food",
+      "s": "17:00",
+      "t": "Three tapas and a drink for £22",
+      "u": "https://grupo44.co.uk/bar44/bristol/",
+      "v": "Bar 44",
+      "w": "Wed and Thu 17:00 to 18:30, Fri 12:00 to 18:00, Sat 12:00 to 15:00",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "e": "14:00",
+      "k": "lunch",
+      "ll": [
+        51.4666,
+        -2.5876
+      ],
+      "p": "£23",
+      "pt": "food",
+      "s": "12:00",
+      "t": "Menu del Giorno: two courses £23, three £26",
+      "u": "https://www.bianchisrestaurant.co.uk/",
+      "v": "Bianchis",
+      "w": "Lunchtimes",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "e": "14:30",
+      "k": "kids",
+      "ll": [
+        51.4666,
+        -2.5876
+      ],
+      "p": "Free",
+      "pt": "food",
+      "s": "12:00",
+      "t": "Kids eat free",
+      "u": "https://www.bianchisrestaurant.co.uk/",
+      "v": "Bianchis",
+      "w": "Monday to Friday, lunch and early evening",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "e": "16:00",
+      "k": "lunch",
+      "ll": [
+        51.4722,
+        -2.5915
+      ],
+      "p": "£10",
+      "pt": "food",
+      "s": "12:00",
+      "t": "Burger, fries, drink and games for £10",
+      "u": "https://www.chanceandcounters.com/bristol-gloucester-road/",
+      "v": "Chance & Counters, Gloucester Road",
+      "w": "Monday to Friday",
+      "wk": true
+    },
+    {
+      "dow": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "e": "15:30",
+      "k": "lunch",
+      "ll": [
+        51.4406,
+        -2.6046
+      ],
+      "p": "£30",
+      "pt": "food",
+      "s": "12:00",
+      "t": "Three courses for £30",
+      "u": "https://www.correstaurant.com/about",
+      "v": "COR",
+      "w": "Tuesday to Friday",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "k": "lunch",
+      "ll": [
+        51.4513,
+        -2.5925
+      ],
+      "p": "£9.90",
+      "pt": "food",
+      "t": "One course £9.90, two courses £14.90",
+      "u": "https://www.granarybristol.com/",
+      "v": "The Granary",
+      "w": "Weekdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "e": "15:30",
+      "k": "lunch",
+      "ll": [
+        51.4555,
+        -2.6186
+      ],
+      "p": "£16.90",
+      "pt": "food",
+      "s": "12:00",
+      "t": "Main, side, miso soup and drink for £16.90",
+      "u": "https://www.kibou.co.uk/",
+      "v": "KIBOU",
+      "w": "Monday to Friday",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "k": "set",
+      "ll": [
+        51.4679,
+        -2.6047
+      ],
+      "p": "£21",
+      "pt": "food",
+      "t": "Two courses £21, three £26",
+      "u": "https://lifelessorganised.com/2025/06/01/food-drink-offers-in-bristol/",
+      "v": "Little Hollows",
+      "w": "Days not stated",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "k": "lunch",
+      "ll": [
+        51.4792,
+        -2.614
+      ],
+      "p": "£35",
+      "pt": "food",
+      "t": "Three courses and a glass of wine for £35",
+      "u": "https://littlefrench.co.uk/",
+      "v": "Littlefrench",
+      "w": "Monday to Thursday lunchtimes",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "e": "16:00",
+      "k": "lunch",
+      "ll": [
+        51.4504,
+        -2.5985
+      ],
+      "p": "£10",
+      "pt": "food",
+      "s": "12:00",
+      "t": "Toastie, fries or salad and a drink for £10",
+      "u": "https://www.no1harbourside.co.uk/",
+      "v": "No.1 Harbourside",
+      "w": "Monday to Friday",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "k": "set",
+      "ll": [
+        51.4537,
+        -2.5947
+      ],
+      "p": "£23",
+      "pt": "food",
+      "t": "Two courses £23, three £26",
+      "u": "https://www.pastaripiena.co.uk/",
+      "v": "Pasta Ripiena",
+      "w": "Days not stated",
+      "wk": true
+    },
+    {
+      "dow": [
+        2,
+        3,
+        4
+      ],
+      "k": "lunch",
+      "ll": [
+        51.4439,
+        -2.6103
+      ],
+      "p": "£25",
+      "pt": "food",
+      "t": "Three courses for £25",
+      "u": "https://www.sonnystores.com/",
+      "v": "Sonny Stores",
+      "w": "Tuesday to Thursday lunchtimes",
+      "wk": true
+    },
+    {
+      "dow": [
+        3,
+        4,
+        5
+      ],
+      "e": "14:30",
+      "k": "lunch",
+      "ll": [
+        51.4422,
+        -2.6143
+      ],
+      "p": "£20",
+      "pt": "food",
+      "s": "12:00",
+      "t": "Flatbread, a dip and two mezze for £20",
+      "u": "https://soukitchen.co.uk/",
+      "v": "Soukitchen",
+      "w": "Wednesday to Friday",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "e": "17:00",
+      "f": true,
+      "k": "lunch",
+      "ll": [
+        51.4513,
+        -2.5925
+      ],
+      "p": "£6.50",
+      "pt": "food",
+      "s": "12:00",
+      "t": "Classic burger with fries or slaw for £6.50",
+      "u": "https://threebrothersburgers.co.uk/",
+      "v": "Three Brothers Burgers",
+      "w": "Monday to Friday",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "k": "discount",
+      "ll": [
+        51.4406,
+        -2.5753
+      ],
+      "p": "£12",
+      "pt": "food",
+      "t": "Two small breakfasts with tea or coffee for £12",
+      "u": "https://lifelessorganised.com/2025/06/01/food-drink-offers-in-bristol/",
+      "v": "Totterdown Canteen",
+      "w": "Monday to Thursday",
+      "wk": true
+    },
+    {
+      "dow": [
+        3,
+        4,
+        5
+      ],
+      "k": "lunch",
+      "ll": [
+        51.4679,
+        -2.6047
+      ],
+      "p": "£35",
+      "pt": "food",
+      "t": "Three-course lunch for £35",
+      "u": "https://www.wilsonsbristol.co.uk/food",
+      "v": "Wilsons",
+      "w": "Wednesday to Friday",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "e": "17:00",
+      "k": "lunch",
+      "ll": [
+        51.45503,
+        -2.61792
+      ],
+      "p": "£21",
+      "pt": "food",
+      "s": "12:00",
+      "t": "Two courses £21, three £25",
+      "u": "https://www.cliftonalbion.co.uk/",
+      "v": "The Albion",
+      "w": "Monday to Friday",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "e": "19:00",
+      "k": "set",
+      "ll": [
+        51.4521,
+        -2.593
+      ],
+      "p": "£17.95",
+      "pt": "food",
+      "s": "12:00",
+      "t": "Two courses £17.95, three £20.95",
+      "u": "https://aqua-restaurant.com/",
+      "v": "Aqua",
+      "w": "Monday to Friday",
+      "wk": true
+    },
+    {
+      "dow": [
+        5,
+        6
+      ],
+      "k": "set",
+      "ll": [
+        51.4415,
+        -2.5776
+      ],
+      "p": "£25",
+      "pt": "food",
+      "t": "Two courses £25, three £29",
+      "u": "https://www.bankbristol.com/",
+      "v": "BANK Bristol",
+      "w": "Friday and Saturday, before 18:00",
+      "wk": true
+    },
+    {
+      "dow": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "f": true,
+      "k": "set",
+      "ll": [
+        51.4544,
+        -2.5947
+      ],
+      "p": "£22",
+      "pt": "food",
+      "s": "12:00",
+      "t": "Early Bird: rump steak, fries and a drink for £22",
+      "u": "https://theoxbristol.com/",
+      "v": "The Ox",
+      "w": "Tue to Thu 12:00 to 14:30 and 17:00 to 19:00, Fri and Sat 12:00 to 19:00",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "k": "set",
+      "ll": [
+        51.4795,
+        -2.6142
+      ],
+      "p": "£20",
+      "pt": "food",
+      "s": "12:00",
+      "t": "Two courses £20, three £23",
+      "u": "https://www.pregobar.co.uk/",
+      "v": "Prego",
+      "w": "Wed to Fri 12:00 to 14:00, Mon to Thu 17:00 to 18:00",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "k": "discount",
+      "ll": [
+        51.459,
+        -2.6102
+      ],
+      "p": "£19",
+      "pt": "food",
+      "t": "Three small plates for £19",
+      "u": "https://www.racks-bristol.co.uk/",
+      "v": "Racks",
+      "w": "Every day",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "e": "21:00",
+      "f": true,
+      "k": "discount",
+      "ll": [
+        51.4516,
+        -2.5982
+      ],
+      "pt": "food",
+      "s": "12:00",
+      "t": "30% off main meals with a cinema ticket",
+      "u": "https://www.watershed.co.uk/whatson/cinebites",
+      "v": "Watershed Cafe",
+      "w": "Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        3
+      ],
+      "k": "set",
+      "ll": [
+        51.46726,
+        -2.60313
+      ],
+      "p": "£60",
+      "pt": "food",
+      "t": "Two steaks, two sides and a bottle of house wine for £60",
+      "u": "https://www.thekensingtonarms.co.uk/",
+      "v": "The Kensington Arms",
+      "w": "Wednesdays",
+      "wk": true
+    },
+    {
+      "dow": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "k": "set",
+      "ll": [
+        51.4553,
+        -2.6197
+      ],
+      "p": "£45",
+      "pt": "food",
+      "t": "Two sirloin steaks and a bottle of Malbec for £45",
+      "u": "https://www.no4cliftonvillage.co.uk/clifton-restaurant/",
+      "v": "No.4 Clifton Village",
+      "w": "Tuesday to Friday",
+      "wk": true
+    },
+    {
+      "dow": [
+        6
+      ],
+      "k": "discount",
+      "ll": [
+        51.45611,
+        -2.58273
+      ],
+      "p": "£14",
+      "pt": "food",
+      "t": "Burger, chips and a drink for £14",
+      "u": "https://punchbowlbristol.com/",
+      "v": "The Punch Bowl",
+      "w": "All day Saturday",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "k": "discount",
+      "ll": [
+        51.46881,
+        -2.59315
+      ],
+      "p": "£12",
+      "pt": "food",
+      "t": "Pizza and a pint for £12",
+      "u": "https://lifelessorganised.com/2025/06/01/food-drink-offers-in-bristol/",
+      "v": "The Cat & Wheel",
+      "w": "Days not stated",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "k": "set",
+      "ll": [
+        51.457,
+        -2.587
+      ],
+      "p": "£28",
+      "pt": "food",
+      "t": "Two courses £28, three with a cocktail £35",
+      "u": "https://lifelessorganised.com/2025/06/01/food-drink-offers-in-bristol/",
+      "v": "Harvey Nichols Second Floor Restaurant",
+      "w": "Days not stated",
+      "wk": true
+    },
+    {
+      "dow": [
+        4,
+        5,
+        6
+      ],
+      "e": "21:00",
+      "g": "from the venue's own offers page; dates can vary",
+      "k": "drinks",
+      "ll": [
+        51.4548,
+        -2.5943
+      ],
+      "pt": "drink",
+      "s": "17:00",
+      "t": "Happy hour: 2-for-1 cocktails, £25 bubbles",
+      "u": "https://www.blamegloria.co.uk/bars/bristol/offers/happy-hour",
+      "v": "Blame Gloria",
+      "w": "Thursday to Saturday",
+      "wk": true
+    },
+    {
+      "dow": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "g": "price from a 2024 student guide; times from a listings site",
+      "k": "drinks",
+      "ll": [
+        51.4695,
+        -2.5938
+      ],
+      "p": "£16",
+      "pt": "drink",
+      "s": "16:00",
+      "t": "Two cocktails for £16 at happy hour",
+      "u": "https://www.designmynight.com/bristol/whats-on/happy-hour-in-bristol",
+      "v": "The Bootlegger",
+      "w": "Tuesday to Friday 16:00 to 22:00, Saturday from 12:00",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "f": true,
+      "k": "drinks",
+      "ll": [
+        51.4562,
+        -2.6066
+      ],
+      "pick": 2,
+      "pt": "drink",
+      "s": "16:30",
+      "t": "2-for-1 cocktails at happy hour",
+      "u": "https://beatone.co.uk/bristol/happy-hour",
+      "v": "Be At One",
+      "w": "Sunday to Thursday 16:30 to 20:00, Friday 15:00 to 20:00, Saturday 14:00 to 18:00",
+      "why": "Happy hour runs every day, so it works for an after-work catch-up or a Saturday afternoon.",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "e": "21:00",
+      "k": "drinks",
+      "ll": [
+        51.4538,
+        -2.5928
+      ],
+      "pt": "drink",
+      "s": "15:00",
+      "t": "2-for-1 cocktails, £3.50 pints and house wine",
+      "u": "https://www.revolution-bars.co.uk/bar/bristol",
+      "v": "Revolution",
+      "w": "Sunday to Friday",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "k": "drinks",
+      "ll": [
+        51.4531,
+        -2.5968
+      ],
+      "pt": "drink",
+      "t": "2-for-1 cocktails all day",
+      "u": "https://www.turtlebay.co.uk/locations/bristol-broad-quay",
+      "v": "Turtle Bay, Broad Quay",
+      "w": "Every day",
+      "wk": true
+    },
+    {
+      "dow": [
+        5,
+        6
+      ],
+      "k": "drinks",
+      "ll": [
+        51.4532,
+        -2.5948
+      ],
+      "pt": "drink",
+      "s": "17:00",
+      "t": "2-for-1 cocktails, £25 Prosecco, £5 beers",
+      "u": "https://www.tonightjosephine.co.uk/bars/bristol/offers",
+      "v": "Tonight Josephine",
+      "w": "Friday 17:00 to 21:00, Saturday 20:00 to 21:00",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "k": "drinks",
+      "ll": [
+        51.4504,
+        -2.5985
+      ],
+      "p": "£13",
+      "pt": "drink",
+      "t": "Two cocktails for £13 all day",
+      "u": "https://www.iguanas.co.uk/restaurants/bristol-harbourside",
+      "v": "Las Iguanas, Harbourside",
+      "w": "Every day",
+      "wk": true
+    },
+    {
+      "dow": [
+        5
+      ],
+      "k": "drinks",
+      "ll": [
+        51.4498,
+        -2.6014
+      ],
+      "p": "£20",
+      "pt": "drink",
+      "t": "Bottle of Prosecco for £20",
+      "u": "https://www.slugandlettuce.co.uk/bristol-harbourside/offers",
+      "v": "Slug & Lettuce, Harbourside",
+      "w": "Fridays",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "g": "student offer from a student guide; bring student ID",
+      "k": "student",
+      "ll": [
+        51.46439,
+        -2.6093
+      ],
+      "pt": "drink",
+      "t": "15% off drinks for students",
+      "u": "https://urban-student.co.uk/17-student-discounts-every-bristol-student-should-know-about/",
+      "v": "The Whitmore Tap",
+      "w": "Monday to Thursday",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "student offer from a student guide; bring student ID",
+      "k": "student",
+      "ll": [
+        51.45217,
+        -2.59291
+      ],
+      "pt": "drink",
+      "t": "10% off food and drink for students",
+      "u": "https://urban-student.co.uk/17-student-discounts-every-bristol-student-should-know-about/",
+      "v": "King Street Brew House",
+      "w": "Days not stated",
+      "wk": true
+    },
+    {
+      "area": "Clifton",
+      "dow": [],
+      "g": "student offer from a student guide; bring student ID",
+      "k": "student",
+      "ll": [
+        51.4588,
+        -2.61422
+      ],
+      "pt": "drink",
+      "t": "20% off all food and drink for students",
+      "u": "https://thetab.com/2025/02/17/save-those-pennies-the-top-spots-in-bristol-to-use-your-student-discount",
+      "v": "Channings",
+      "w": "Days not stated",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "student offer from a student guide; bring student ID",
+      "k": "student",
+      "ll": [
+        51.45533,
+        -2.6029
+      ],
+      "p": "£3.25",
+      "pt": "drink",
+      "t": "Pints from £3.25 and £6 pizzas with the Mixr app",
+      "u": "https://thetab.com/2025/02/17/save-those-pennies-the-top-spots-in-bristol-to-use-your-student-discount",
+      "v": "The White Harte",
+      "w": "Days not stated",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2
+      ],
+      "g": "student offer from a student guide; bring student ID",
+      "k": "student",
+      "ll": [
+        51.4504,
+        -2.5985
+      ],
+      "pt": "drink",
+      "t": "15% off a meal or drinks for students",
+      "u": "https://urban-student.co.uk/17-student-discounts-every-bristol-student-should-know-about/",
+      "v": "No.1 Harbourside",
+      "w": "Monday and Tuesday",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "k": "lunch",
+      "ll": [
+        51.4504,
+        -2.5985
+      ],
+      "p": "£10",
+      "pick": 3,
+      "pt": "food",
+      "t": "Main course with a soft drink or mocktail for £10",
+      "u": "https://www.iguanas.co.uk/restaurants/bristol-harbourside",
+      "v": "Las Iguanas, Harbourside",
+      "w": "Days not stated",
+      "why": "A sit-down harbourside lunch for a tenner.",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "k": "kids",
+      "ll": [
+        51.4504,
+        -2.5985
+      ],
+      "p": "Free",
+      "pt": "food",
+      "t": "Kids eat free with the Las Iguanas app",
+      "u": "https://www.iguanas.co.uk/restaurants/bristol-harbourside",
+      "v": "Las Iguanas, Harbourside",
+      "w": "Every day",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "k": "discount",
+      "ll": [
+        51.4585,
+        -2.5846
+      ],
+      "p": "£1",
+      "pt": "food",
+      "t": "Second main for £1 for Zillionaires' Club members",
+      "u": "https://www.zizzi.co.uk/italian-restaurants/south-west/bristol/bristol-cabot-circus/offers",
+      "v": "Zizzi, Cabot Circus",
+      "w": "Monday to Friday all day, Sunday from 17:00, until 20 November",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "k": "set",
+      "ll": [
+        51.4585,
+        -2.5846
+      ],
+      "p": "£25",
+      "pt": "food",
+      "t": "Two Dine: a pizza, two sides and two soft drinks for £25",
+      "u": "https://www.zizzi.co.uk/italian-restaurants/south-west/bristol/bristol-cabot-circus/offers",
+      "v": "Zizzi, Cabot Circus",
+      "w": "Days not stated",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "e": "17:00",
+      "g": "from an undated press round-up; confirm before travelling",
+      "k": "kids",
+      "ll": [
+        51.4634,
+        -2.6095
+      ],
+      "p": "Free",
+      "pt": "food",
+      "s": "12:00",
+      "t": "Free kids' meal with an adult pizza or main",
+      "u": "https://bristolworld.com/lifestyle/food-and-drink/places-in-bristol-where-kids-eat-free-or-nearly-free-this-spring-half-term-4564520",
+      "v": "Flour & Ash",
+      "w": "Sunday to Friday",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "g": "from an undated press round-up; confirm before travelling",
+      "k": "kids",
+      "ll": [
+        51.4533,
+        -2.5966
+      ],
+      "p": "Free",
+      "pt": "food",
+      "t": "Kids eat free all day Thursday; £1 kids' meals Sunday to Wednesday 16:00 to 18:00",
+      "u": "https://bristolworld.com/lifestyle/food-and-drink/places-in-bristol-where-kids-eat-free-or-nearly-free-this-spring-half-term-4564520",
+      "v": "Bella Italia, Baldwin Street",
+      "w": "Thursday all day, Sunday to Wednesday 16:00 to 18:00",
+      "wk": true
+    },
+    {
+      "dow": [
+        1
+      ],
+      "g": "from an undated press round-up; confirm before travelling",
+      "k": "kids",
+      "ll": [
+        51.4357,
+        -2.5948
+      ],
+      "p": "£1",
+      "pt": "food",
+      "t": "Kids' meals for £1 or £1.50 with a full-paying adult",
+      "u": "https://bristolworld.com/lifestyle/food-and-drink/places-in-bristol-where-kids-eat-free-or-nearly-free-this-spring-half-term-4564520",
+      "v": "Hungry Horse, St John's Lane",
+      "w": "Mondays",
+      "wk": true
+    },
+    {
+      "dow": [
+        5
+      ],
+      "g": "from an undated press round-up; confirm before travelling",
+      "k": "kids",
+      "ll": [
+        51.4734,
+        -2.5678
+      ],
+      "pt": "food",
+      "t": "Children's pasta, drink and fruit for 45p for IKEA Family members",
+      "u": "https://bristolworld.com/lifestyle/food-and-drink/places-in-bristol-where-kids-eat-free-or-nearly-free-this-spring-half-term-4564520",
+      "v": "IKEA",
+      "w": "Fridays",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "from an undated press round-up; confirm before travelling",
+      "k": "kids",
+      "ll": [
+        51.4585,
+        -2.5858
+      ],
+      "p": "£2",
+      "pt": "food",
+      "t": "Kids' main and side for £2 with a full-price adult meal",
+      "u": "https://bristolworld.com/lifestyle/food-and-drink/places-in-bristol-where-kids-eat-free-or-nearly-free-this-spring-half-term-4564520",
+      "v": "Gourmet Burger Kitchen, Cabot Circus",
+      "w": "Days not stated",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "g": "student offer from a student guide; bring student ID",
+      "k": "student",
+      "ll": [
+        51.4521,
+        -2.593
+      ],
+      "pt": "food",
+      "t": "50% off food for students",
+      "u": "https://urban-student.co.uk/17-student-discounts-every-bristol-student-should-know-about/",
+      "v": "Aqua",
+      "w": "Monday to Friday",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "student offer from a student guide; bring student ID",
+      "k": "student",
+      "ll": [
+        51.4546,
+        -2.5976
+      ],
+      "pt": "food",
+      "t": "20% off food for students",
+      "u": "https://urban-student.co.uk/17-student-discounts-every-bristol-student-should-know-about/",
+      "v": "Bambalan",
+      "w": "Days not stated",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "student offer from a student guide; bring student ID",
+      "k": "student",
+      "ll": [
+        51.4504,
+        -2.5985
+      ],
+      "p": "£10.99",
+      "pt": "food",
+      "t": "Student rates: lunch from £10.99, dinner from £15.99",
+      "u": "https://urban-student.co.uk/17-student-discounts-every-bristol-student-should-know-about/",
+      "v": "Za Za Bazaar",
+      "w": "Days not stated",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "g": "student offer from a student guide; bring student ID",
+      "k": "student",
+      "ll": [
+        51.4568,
+        -2.6082
+      ],
+      "p": "£17.99",
+      "pt": "food",
+      "t": "Student dinner for £17.99",
+      "u": "https://urban-student.co.uk/17-student-discounts-every-bristol-student-should-know-about/",
+      "v": "Cosmo",
+      "w": "Sunday to Friday",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "student offer from a student guide; bring student ID",
+      "k": "student",
+      "ll": [
+        51.4555,
+        -2.6037
+      ],
+      "pt": "food",
+      "t": "10% off a meal for students",
+      "u": "https://urban-student.co.uk/17-student-discounts-every-bristol-student-should-know-about/",
+      "v": "Yakinori, Park Street",
+      "w": "Days not stated",
+      "wk": true
+    },
+    {
+      "area": "Whiteladies Road",
+      "dow": [],
+      "g": "Bristol store only",
+      "k": "student",
+      "ll": [
+        51.4698,
+        -2.6148
+      ],
+      "pt": "shop",
+      "t": "10% off full-price items for University of Bristol staff and students",
+      "u": "https://www.bristol.ac.uk/sustainability/operations-and-estates/transport/travel-discounts-and-benefits/discounts-at-outdoor-shops/",
+      "v": "Ellis Brigham, Whiteladies Road",
+      "w": "Any day, with a University of Bristol ID card",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "excludes books, maps and sale items",
+      "k": "student",
+      "ll": [
+        51.4444,
+        -2.5929
+      ],
+      "pt": "shop",
+      "t": "10% off full-price items for University of Bristol staff and students",
+      "u": "https://www.bristol.ac.uk/sustainability/operations-and-estates/transport/travel-discounts-and-benefits/discounts-at-outdoor-shops/",
+      "v": "Taunton Leisure, Bedminster Parade",
+      "w": "Any day, with a University of Bristol ID card",
+      "wk": true
+    },
+    {
+      "area": "Broadmead",
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "e": "19:00",
+      "f": true,
+      "g": "dates from a Christmas events guide",
+      "k": "market",
+      "ll": [
+        51.4584,
+        -2.5873
+      ],
+      "p": "Free",
+      "pt": "shop",
+      "s": "10:00",
+      "t": "Christmas market stalls, free to browse",
+      "u": "https://bristolchristmasmarket.com/",
+      "v": "Bristol Christmas Market, Broadmead",
+      "w": "Daily, 6 November to 23 December, 10:00 to 19:00",
+      "wk": true
+    },
+    {
+      "dow": [
+        6,
+        7
+      ],
+      "e": "16:00",
+      "g": "entry price not stated",
+      "k": "market",
+      "ll": [
+        51.4548,
+        -2.5983
+      ],
+      "pt": "shop",
+      "s": "10:00",
+      "t": "Made in Bristol Gift Fair: up to 200 local designer-makers",
+      "u": "https://www.madeinbristolshop.co.uk/giftfair",
+      "v": "Bristol Beacon",
+      "w": "Saturday 28 November, Sunday 6 December and Saturday 12 December, 10:00 to 16:00",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "new account and promo code BOVNEWTIX100; two tickets per person",
+      "k": "tickets",
+      "ll": [
+        51.4522,
+        -2.5943
+      ],
+      "p": "Free",
+      "pick": 1,
+      "pt": "other",
+      "t": "Free preview tickets for first-time visitors (Bristol New Tix)",
+      "u": "https://bristololdvic.org.uk/your-visit/booking-information/pricing-information",
+      "v": "Bristol Old Vic",
+      "w": "Preview performances; 100 tickets per show",
+      "why": "Never been? Your first night at the country's oldest working theatre costs nothing.",
+      "wk": true
+    },
+    {
+      "dow": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "g": "open to everyone; chosen at checkout",
+      "k": "tickets",
+      "ll": [
+        51.4522,
+        -2.5943
+      ],
+      "pt": "other",
+      "t": "£5 off the standard price with Open Concession",
+      "u": "https://bristololdvic.org.uk/your-visit/booking-information/pricing-information",
+      "v": "Bristol Old Vic",
+      "w": "Any day, on Pay What You Choose events",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "18 and over, one per person, photo ID needed; selected gyms only",
+      "k": "fitness",
+      "ll": [
+        51.4571,
+        -2.6084
+      ],
+      "p": "Free",
+      "pt": "other",
+      "t": "Free one-day gym pass with pool, sauna and steam room",
+      "u": "https://nuffieldhealth.com/campaigns/gyms/free-1-day-gym-pass/bristol",
+      "v": "Nuffield Health Bristol Fitness & Wellbeing Gym",
+      "w": "Pick a day and time when you request it",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "from a student guide updated December 2025; confirm at the box office",
+      "k": "tickets",
+      "ll": [
+        51.4516,
+        -2.5982
+      ],
+      "p": "£5",
+      "pt": "other",
+      "t": "£5 cinema tickets for under-24s and students",
+      "u": "https://unifresher.co.uk/cities/bristol/things-to-do-for-under-10/",
+      "v": "Watershed",
+      "w": "Days not stated",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "student offer from a student guide; bring student ID; pin placed from my own knowledge",
+      "k": "days",
+      "ll": [
+        51.4457,
+        -2.5666
+      ],
+      "p": "£10",
+      "pt": "other",
+      "t": "£10 student tickets",
+      "u": "https://urban-student.co.uk/17-student-discounts-every-bristol-student-should-know-about/",
+      "v": "Wake the Tiger",
+      "w": "Days not stated",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "student offer from a student guide; bring student ID",
+      "k": "tickets",
+      "ll": [
+        51.4424,
+        -2.6135
+      ],
+      "p": "£10",
+      "pt": "other",
+      "t": "£10 student tickets to shows, all year",
+      "u": "https://urban-student.co.uk/17-student-discounts-every-bristol-student-should-know-about/",
+      "v": "Tobacco Factory Theatres",
+      "w": "Days not stated",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "needs the VIP Pass: £1 for a 30-day trial, then £4.99 a month; pin placed from my own knowledge",
+      "k": "days",
+      "ll": [
+        51.4509,
+        -2.6029
+      ],
+      "pt": "other",
+      "t": "Kids go free with a Day Out With The Kids VIP Pass",
+      "u": "https://www.dayoutwiththekids.co.uk/offers/bristol-aquarium",
+      "v": "Bristol Aquarium",
+      "w": "Days not stated",
+      "wk": true
+    }
+  ],
+  "pulled": "2026-11-05",
+  "src": "Life Less Organised (Sep 2025), venue pages, Unifresher, Urban Student, The Tab, Bristol World, University of Bristol"
+}

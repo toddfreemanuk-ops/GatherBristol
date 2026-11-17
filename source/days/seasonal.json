@@ -1,0 +1,219 @@
+{
+  "items": [
+    {
+      "d": "2026-11-05",
+      "k": "season",
+      "ll": [
+        51.4577,
+        -2.6237
+      ],
+      "p": "£10",
+      "s": "18:00",
+      "sea": "Bonfire Night",
+      "sub": "Fireworks",
+      "t": "Clifton Observatory Bonfire Night",
+      "u": "https://seasonhopper.co.uk/bonfire-night/bristol/",
+      "v": "Clifton Observatory"
+    },
+    {
+      "d": "2026-11-06",
+      "g": "gates 17:30, bonfire 19:15, main display 20:00",
+      "k": "season",
+      "ll": [
+        51.4913,
+        -2.4944
+      ],
+      "p": "£11",
+      "s": "17:30",
+      "sea": "Bonfire Night",
+      "sub": "Fireworks",
+      "t": "Downend Round Table Fireworks",
+      "u": "https://visitbristol.co.uk/event/downend-round-table-fireworks/337964301/",
+      "v": "King George V Playing Fields, Downend"
+    },
+    {
+      "d": "2026-11-07",
+      "g": "display at 19:00; pin is approximate",
+      "k": "season",
+      "ll": [
+        51.4993,
+        -2.6212
+      ],
+      "p": "£12",
+      "s": "17:30",
+      "sea": "Bonfire Night",
+      "sub": "Fireworks",
+      "t": "Bristol Fireworks Fiesta",
+      "u": "https://seasonhopper.co.uk/bonfire-night/bristol/",
+      "v": "Canford Park, Westbury-on-Trym"
+    },
+    {
+      "d": "2026-11-07",
+      "g": "fireworks at 19:00",
+      "k": "season",
+      "ll": [
+        51.4403,
+        -2.6303
+      ],
+      "p": "£11",
+      "s": "17:30",
+      "sea": "Bonfire Night",
+      "sub": "Fireworks",
+      "t": "Ashton Park Fireworks Night",
+      "u": "https://seasonhopper.co.uk/bonfire-night/bristol/",
+      "v": "Ashton Park School",
+      "x": "Sold out"
+    },
+    {
+      "d": "2026-11-08",
+      "e": "10:30",
+      "g": "no booking needed",
+      "k": "season",
+      "ll": [
+        51.4515,
+        -2.6007
+      ],
+      "p": "Free",
+      "s": "09:30",
+      "sea": "Remembrance Sunday",
+      "sub": "Services & parades",
+      "t": "Remembrance Sunday service",
+      "u": "https://bristol-cathedral.co.uk/event/remembrance-sunday/",
+      "v": "Bristol Cathedral"
+    },
+    {
+      "d": "2026-11-08",
+      "g": "two-minute silence at 11:00; in 2025 the parade left College Green at about 10:25, so check this year's timings",
+      "k": "season",
+      "ll": [
+        51.4546,
+        -2.5972
+      ],
+      "p": "Free",
+      "s": "11:00",
+      "sea": "Remembrance Sunday",
+      "sub": "Services & parades",
+      "t": "Remembrance parade and Cenotaph service",
+      "u": "https://www.bristolworld.com/whats-on/remembrance-day-2025-events-bristol-area-5391451",
+      "v": "The Cenotaph, Colston Avenue"
+    },
+    {
+      "d": "2026-11-26",
+      "k": "season",
+      "ll": [
+        51.4464,
+        -2.5998
+      ],
+      "sea": "Christmas",
+      "sub": "Lights & switch-ons",
+      "t": "Wapping Wharf Christmas Lights Switch-On",
+      "u": "https://www.wappingwharf.co.uk/",
+      "v": "Wapping Wharf"
+    },
+    {
+      "d": "2026-11-27",
+      "e": "21:00",
+      "g": "pin marks the village centre",
+      "k": "season",
+      "ll": [
+        51.4545,
+        -2.6205
+      ],
+      "s": "17:30",
+      "sea": "Christmas",
+      "sub": "Lights & switch-ons",
+      "t": "Christmas Dubs: Volkswagen Christmas Light Show",
+      "u": "https://discoverclifton.co.uk/",
+      "v": "Clifton Village"
+    },
+    {
+      "from": "2026-11-27",
+      "g": "light trail, not Christmas Day",
+      "k": "season",
+      "ll": [
+        51.4437,
+        -2.6381
+      ],
+      "sea": "Christmas",
+      "sub": "Lights & switch-ons",
+      "t": "Luminate at Ashton Court",
+      "to": "2026-12-28",
+      "u": "https://www.luminate.live/ashton-court",
+      "v": "Ashton Court"
+    },
+    {
+      "from": "2026-11-27",
+      "k": "family",
+      "ll": [
+        51.4498,
+        -2.6019
+      ],
+      "sea": "Christmas",
+      "sub": "Family days",
+      "t": "Vintage Winter Wonderland",
+      "to": "2027-01-03",
+      "u": "https://www.heatheronhertravels.com/christmas-in-bristol/",
+      "v": "Millennium Square"
+    },
+    {
+      "from": "2026-11-20",
+      "g": "Tobacco Factory Theatres",
+      "k": "stage",
+      "ll": [
+        51.4424,
+        -2.6135
+      ],
+      "sea": "Christmas",
+      "sub": "Theatre & dance",
+      "t": "A Christmas Carol",
+      "to": "2027-01-09",
+      "u": "https://www.tobaccofactorytheatres.com/",
+      "v": "The Tobacco Factory"
+    },
+    {
+      "from": "2026-11-27",
+      "k": "stage",
+      "ll": [
+        51.4522,
+        -2.5943
+      ],
+      "sea": "Christmas",
+      "sub": "Theatre & dance",
+      "t": "Cinderella: A Fairy Tale",
+      "to": "2027-01-02",
+      "u": "https://www.heatheronhertravels.com/christmas-in-bristol/",
+      "v": "Bristol Old Vic"
+    },
+    {
+      "from": "2026-11-28",
+      "g": "gift fair, 10:00 to 16:00; check which days",
+      "k": "food",
+      "ll": [
+        51.4548,
+        -2.5983
+      ],
+      "sea": "Christmas",
+      "sub": "Markets",
+      "t": "Made in Bristol Gift Fair",
+      "to": "2026-12-12",
+      "u": "https://www.madeinbristolshop.co.uk/giftfair",
+      "v": "Bristol Beacon"
+    },
+    {
+      "from": "2026-12-04",
+      "k": "season",
+      "ll": [
+        51.4476,
+        -2.5897
+      ],
+      "sea": "Christmas",
+      "sub": "Fairs & festivals",
+      "t": "Treefest",
+      "to": "2026-12-06",
+      "u": "https://www.heatheronhertravels.com/christmas-in-bristol/",
+      "v": "St Mary Redcliffe"
+    }
+  ],
+  "pulled": "2026-11-05",
+  "src": "SeasonHopper, Visit Bristol, Bristol Cathedral, Bristol World, Heather on her Travels"
+}

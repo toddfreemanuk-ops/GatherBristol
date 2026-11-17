@@ -1,0 +1,1105 @@
+{
+  "items": [
+    {
+      "d": "2026-11-07",
+      "e": "16:15",
+      "k": "art",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£63",
+      "s": "10:45",
+      "sub": "Drawing",
+      "t": "Drawing: Pencil and Pen",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-07",
+      "e": "16:00",
+      "k": "art",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£31.50",
+      "s": "13:00",
+      "sub": "Painting",
+      "t": "Watercolour: Botanical Greeting Cards",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-07",
+      "e": "16:00",
+      "k": "photo",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£88",
+      "s": "10:00",
+      "sub": "Darkroom & film",
+      "t": "Large Format Photography",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-07",
+      "e": "16:00",
+      "k": "craft",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£73",
+      "s": "10:00",
+      "sub": "Calligraphy & bookbinding",
+      "t": "Calligraphy: Modern",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-07",
+      "e": "16:00",
+      "k": "craft",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£68",
+      "s": "10:00",
+      "sub": "Crochet & weaving",
+      "t": "Freeform Crochet (Improvers)",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-07",
+      "e": "16:00",
+      "k": "craft",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£93",
+      "s": "10:00",
+      "sub": "Special effects",
+      "t": "Play with Prosthetics",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-07",
+      "e": "16:00",
+      "k": "life",
+      "len": "Two days",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": false,
+      "p": "£141",
+      "s": "10:00",
+      "sub": "Interiors",
+      "t": "Interior Design Foundations",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-08",
+      "e": "16:00",
+      "k": "art",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£63",
+      "s": "10:00",
+      "sub": "Drawing",
+      "t": "Cartoons and Comics",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-08",
+      "e": "16:00",
+      "k": "photo",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£88",
+      "s": "10:00",
+      "sub": "Darkroom & film",
+      "t": "Darkroom Printing",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-08",
+      "e": "16:00",
+      "k": "photo",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£63",
+      "s": "10:00",
+      "sub": "Digital",
+      "t": "Studio Photography",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-08",
+      "e": "13:00",
+      "k": "craft",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£36.50",
+      "s": "10:00",
+      "sub": "Sewing & textiles",
+      "t": "Embroidery: Texture and Detail (Improvers)",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-08",
+      "e": "16:00",
+      "k": "craft",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£98",
+      "s": "10:00",
+      "sub": "Jewellery",
+      "t": "Trio of Earrings",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-08",
+      "e": "16:00",
+      "k": "write",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£68",
+      "s": "10:00",
+      "sub": "Poetry",
+      "t": "Collage Poetry",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-13",
+      "e": "12:30",
+      "k": "art",
+      "len": "5 weeks",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": false,
+      "p": "£100",
+      "s": "10:30",
+      "sub": "Art coaching",
+      "t": "Art Coaching: Get Artwork Seen, Shared and Sold",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-14",
+      "e": "16:00",
+      "k": "art",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£68",
+      "s": "10:00",
+      "sub": "Art history",
+      "t": "The Mustard in The Mayonnaise: Contemporary Art",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-14",
+      "e": "16:00",
+      "f": true,
+      "k": "photo",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£98",
+      "s": "10:00",
+      "sub": "Darkroom & film",
+      "t": "Analogue Photography",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-14",
+      "e": "16:00",
+      "k": "photo",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£63",
+      "s": "10:00",
+      "sub": "Digital",
+      "t": "Photo Editing",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-14",
+      "e": "16:15",
+      "k": "art",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£68",
+      "s": "10:15",
+      "sub": "Painting",
+      "t": "Ways into Abstraction",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-14",
+      "e": "16:30",
+      "k": "craft",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£78.50",
+      "s": "09:30",
+      "sub": "Sewing & textiles",
+      "t": "Sew an Apron in a Day",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-14",
+      "e": "12:30",
+      "k": "perform",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£26",
+      "s": "10:30",
+      "sub": "Dance",
+      "t": "Moulin Rouge Dance",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-14",
+      "e": "15:00",
+      "k": "perform",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£26",
+      "s": "13:00",
+      "sub": "Dance",
+      "t": "Burlesque",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-14",
+      "e": "13:00",
+      "k": "life",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£31.50",
+      "s": "10:00",
+      "sub": "Tarot",
+      "t": "Tarot: Reading the Cards II (Improvers)",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-14",
+      "e": "16:00",
+      "k": "craft",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£78",
+      "s": "10:00",
+      "sub": "Pottery",
+      "t": "Pottery: Open Studio (Improvers)",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-15",
+      "e": "13:30",
+      "k": "art",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£42",
+      "s": "10:00",
+      "sub": "Art history",
+      "t": "Medieval Multimedia: Altars, Altarpieces and all Things Inbetween",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-15",
+      "e": "13:00",
+      "k": "art",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£36.50",
+      "s": "10:00",
+      "sub": "Drawing",
+      "t": "Drawing: Autumn Migrant Birds of the Severn Estuary",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-15",
+      "e": "16:00",
+      "k": "photo",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£63",
+      "s": "10:00",
+      "sub": "Digital",
+      "t": "Photographic Journaling",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-15",
+      "e": "16:00",
+      "k": "perform",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£10.50",
+      "s": "15:00",
+      "sub": "Dance",
+      "t": "Brazilian Rhythm Dance",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-15",
+      "e": "16:30",
+      "k": "perform",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£31.50",
+      "s": "13:30",
+      "sub": "Music theory",
+      "t": "Reading Sheet Music: Pattern Recognition",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-15",
+      "e": "13:00",
+      "k": "perform",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£31.50",
+      "s": "10:00",
+      "sub": "Instruments",
+      "t": "Transverse Ocarina",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-15",
+      "e": "12:30",
+      "k": "perform",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£16",
+      "s": "11:00",
+      "sub": "Singing",
+      "t": "Dare to Sing (Beginners)",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-15",
+      "e": "16:00",
+      "k": "life",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£73",
+      "s": "10:00",
+      "sub": "Hair & beauty",
+      "t": "Understanding Afro Hair",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-21",
+      "e": "16:15",
+      "k": "art",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£63",
+      "s": "10:45",
+      "sub": "Painting",
+      "t": "Watercolour and Pen: Botanical Painting",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-21",
+      "e": "16:00",
+      "k": "art",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£68",
+      "s": "10:00",
+      "sub": "Drawing",
+      "t": "Charcoal and Pastels",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-21",
+      "e": "16:00",
+      "k": "craft",
+      "len": "1.5 days",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": false,
+      "p": "£119.50",
+      "s": "10:00",
+      "sub": "Sewing & textiles",
+      "t": "Natural Dyes and Sewing a Cushion Cover",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-21",
+      "e": "16:30",
+      "k": "craft",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£83.50",
+      "s": "09:30",
+      "sub": "Sewing & textiles",
+      "t": "Handmade Lingerie (Improvers)",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-21",
+      "e": "12:30",
+      "k": "well",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£31.50",
+      "s": "10:00",
+      "sub": "Feldenkrais",
+      "t": "Sitting Comfortably: Feldenkrais Method",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-21",
+      "e": "16:00",
+      "k": "well",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£31.50",
+      "s": "13:30",
+      "sub": "Feldenkrais",
+      "t": "Standing Tall: Feldenkrais Method",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-21",
+      "e": "16:30",
+      "k": "well",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£31.50",
+      "s": "13:30",
+      "sub": "Facial massage",
+      "t": "Gua Sha Facial Massage",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-21",
+      "e": "16:00",
+      "k": "craft",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£78",
+      "s": "10:00",
+      "sub": "Crochet & weaving",
+      "t": "Christmas Pompom Wreath",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-22",
+      "e": "16:00",
+      "k": "craft",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£68",
+      "s": "10:00",
+      "sub": "Sewing & textiles",
+      "t": "Embroidery: Thread Painting",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-22",
+      "e": "16:00",
+      "k": "craft",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£83",
+      "s": "10:00",
+      "sub": "Mosaic",
+      "t": "Mosaic Workshop",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-22",
+      "e": "16:00",
+      "f": true,
+      "k": "craft",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£98",
+      "s": "10:00",
+      "sub": "Jewellery",
+      "t": "Silver Ring in a Day",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-22",
+      "e": "16:00",
+      "k": "perform",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£68",
+      "s": "10:00",
+      "sub": "Instruments",
+      "t": "Irish Penny Whistle",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-22",
+      "e": "13:00",
+      "k": "well",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£36.50",
+      "s": "10:00",
+      "sub": "Dreaming",
+      "t": "Lucid Dreaming",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-22",
+      "e": "16:00",
+      "k": "photo",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£88",
+      "s": "10:00",
+      "sub": "Darkroom & film",
+      "t": "Lith Printing",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-22",
+      "e": "16:00",
+      "k": "life",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£63",
+      "s": "10:00",
+      "sub": "Business",
+      "t": "Social Media for Business",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-28",
+      "e": "16:15",
+      "f": true,
+      "k": "art",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£93",
+      "s": "10:15",
+      "sub": "Life drawing",
+      "t": "Life Drawing: Adventurous (Improvers)",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-28",
+      "e": "16:00",
+      "f": true,
+      "k": "craft",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£83",
+      "s": "10:00",
+      "sub": "Calligraphy & bookbinding",
+      "t": "Bookbinding: Make a Sketchbook",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-28",
+      "e": "16:00",
+      "k": "craft",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£83",
+      "s": "10:00",
+      "sub": "Sewing & textiles",
+      "t": "Natural Dyes",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-28",
+      "e": "16:00",
+      "k": "craft",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£68",
+      "s": "10:00",
+      "sub": "Sewing & textiles",
+      "t": "Sewing Surgery",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-28",
+      "e": "16:00",
+      "f": true,
+      "k": "craft",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£78",
+      "s": "10:00",
+      "sub": "Crochet & weaving",
+      "t": "Weave a Willow Reindeer Sculpture",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-28",
+      "e": "12:30",
+      "k": "photo",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£46.50",
+      "s": "09:30",
+      "sub": "Alternative processes",
+      "t": "Phytogram: Printing with Chemistry",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-28",
+      "e": "16:30",
+      "k": "photo",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£46.50",
+      "s": "13:30",
+      "sub": "Alternative processes",
+      "t": "Lumen Printing",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-28",
+      "e": "16:00",
+      "k": "photo",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£63",
+      "s": "10:00",
+      "sub": "Digital",
+      "t": "Street Photography",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-28",
+      "e": "13:00",
+      "k": "life",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£31.50",
+      "s": "10:00",
+      "sub": "Tarot",
+      "t": "Tarot for Everyone",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-28",
+      "e": "16:30",
+      "k": "well",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£31.50",
+      "s": "13:30",
+      "sub": "Facial massage",
+      "t": "Facial Cupping",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-29",
+      "e": "13:30",
+      "k": "art",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£42",
+      "s": "10:00",
+      "sub": "Art history",
+      "t": "How to do Art History and Navigate Thousands of Years of Art",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-11-29",
+      "e": "16:00",
+      "k": "art",
+      "len": "One day",
+      "ll": [
+        51.4543,
+        -2.602
+      ],
+      "one": true,
+      "p": "£73",
+      "s": "10:00",
+      "sub": "Drawing",
+      "t": "Drawing: Barn Owl and Tawny Owl",
+      "u": "https://www.bristolfolkhouse.co.uk/",
+      "v": "Bristol Folk House"
+    },
+    {
+      "d": "2026-12-14",
+      "e": "16:00",
+      "k": "print",
+      "len": "Two days",
+      "ll": [
+        51.447,
+        -2.6096
+      ],
+      "one": false,
+      "p": "£175",
+      "s": "10:00",
+      "sub": "Riso",
+      "t": "RISO: 2 day workshop",
+      "u": "https://www.spikeprintstudio.org/courses",
+      "v": "Spike Print Studio",
+      "x": "Sold out"
+    },
+    {
+      "d": "2027-01-11",
+      "e": "16:30",
+      "k": "print",
+      "len": "5 weeks",
+      "ll": [
+        51.447,
+        -2.6096
+      ],
+      "one": false,
+      "p": "£236.50",
+      "s": "13:30",
+      "sub": "Etching",
+      "t": "5 week CPD Etching",
+      "u": "https://www.spikeprintstudio.org/courses",
+      "v": "Spike Print Studio",
+      "x": "Sold out"
+    },
+    {
+      "d": "2027-01-11",
+      "e": "21:00",
+      "k": "print",
+      "len": "10 weeks",
+      "ll": [
+        51.447,
+        -2.6096
+      ],
+      "one": false,
+      "p": "£382.50",
+      "s": "18:00",
+      "sub": "Screenprinting",
+      "t": "10 Week Beginners Screenprinting (evening)",
+      "u": "https://www.spikeprintstudio.org/courses",
+      "v": "Spike Print Studio",
+      "x": "Sold out"
+    },
+    {
+      "d": "2027-01-11",
+      "e": "16:30",
+      "k": "print",
+      "len": "10 weeks",
+      "ll": [
+        51.447,
+        -2.6096
+      ],
+      "one": false,
+      "p": "£382.50",
+      "s": "13:30",
+      "sub": "Screenprinting",
+      "t": "10 Week Beginners Screenprinting (afternoon)",
+      "u": "https://www.spikeprintstudio.org/courses",
+      "v": "Spike Print Studio",
+      "x": "Sold out"
+    },
+    {
+      "d": "2027-01-12",
+      "e": "21:00",
+      "k": "print",
+      "len": "10 weeks",
+      "ll": [
+        51.447,
+        -2.6096
+      ],
+      "one": false,
+      "p": "£382.50",
+      "s": "18:00",
+      "sub": "Etching",
+      "t": "10 Week Etching",
+      "u": "https://www.spikeprintstudio.org/courses",
+      "v": "Spike Print Studio",
+      "x": "Sold out"
+    },
+    {
+      "d": "2027-01-12",
+      "e": "21:00",
+      "k": "print",
+      "len": "10 weeks",
+      "ll": [
+        51.447,
+        -2.6096
+      ],
+      "one": false,
+      "p": "£382.50",
+      "s": "18:00",
+      "sub": "Screenprinting",
+      "t": "10 Week Intermediate Screenprinting",
+      "u": "https://www.spikeprintstudio.org/courses",
+      "v": "Spike Print Studio",
+      "x": "Sold out"
+    }
+  ],
+  "pulled": "2026-11-05",
+  "src": "Bristol Folk House autumn 2026 programme, Spike Print Studio"
+}
