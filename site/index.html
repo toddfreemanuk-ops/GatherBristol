@@ -59584,7 +59584,7 @@ $('diceBody').addEventListener('click',ev=>{ if(ev.target.closest('button')) $('
 $('rollAll').addEventListener('click',()=>roll(visible().filter(e=>!e.x&&notOver(e)),KINDS[kind].label+' that match'));
 
 /* ---------- get in touch ---------- */
-const CONTACT='https://formsubmit.co/ajax/toddfreeman.uk@gmail.com';   // FormSubmit forwards each message to this inbox
+const CONTACT='https://formsubmit.co/ajax/862b17fae4aacddb1d361ceb0fb3cde3';   // FormSubmit forwards each message to the owner's inbox; this is its public alias for that address
 function openContact(topic){ const d=$('contactDlg'), st=$('ctStatus'); if(topic) $('ctTopic').value=topic; st.textContent=''; st.classList.remove('err'); if(!d.open) d.showModal(); }
 document.querySelectorAll('[data-contact]').forEach(b=>b.addEventListener('click',()=>openContact(b.dataset.contact)));
 document.querySelectorAll('dialog [data-close]').forEach(b=>b.addEventListener('click',()=>b.closest('dialog').close()));
