@@ -1887,21 +1887,6 @@
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1641/e164175_i365698_s5.jpg"
 },
-"https://www.headfirstbristol.co.uk/whats-on/cafe-kino/wed-2-dec-trash-kit-supports--162920": {
-"url": "https://www.headfirstbristol.co.uk/whats-on/cafe-kino/wed-2-dec-trash-kit-supports--162920",
-"etype": "MusicEvent",
-"title": "Trash Kit",
-"desc": "Support announcements & poster coming soon!",
-"crumb": "Bristol Gigs",
-"venue": "Cafe Kino",
-"postcode": "BS1 3RU",
-"locality": "Bristol",
-"start": "2026-12-02T19:30+00:00",
-"end": "2026-12-02T22:00+00:00",
-"min_price": 12.9,
-"sold": false,
-"image": "https://www.headfirstbristol.co.uk/images/events/1629/e162920_i361154_s5.jpg"
-},
 "https://www.headfirstbristol.co.uk/whats-on/cafe-kino/wed-9-dec-dan-lyons-and-body-orchestra-winter-of-discontent-tour-165399": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/cafe-kino/wed-9-dec-dan-lyons-and-body-orchestra-winter-of-discontent-tour-165399",
 "etype": "MusicEvent",
@@ -4257,21 +4242,6 @@
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1654/e165441_i370020_s5.jpg"
 },
-"https://www.headfirstbristol.co.uk/whats-on/mothers-ruin/sat-21-nov-crucial-vibrations-at-the-rathouse-165443": {
-"url": "https://www.headfirstbristol.co.uk/whats-on/mothers-ruin/sat-21-nov-crucial-vibrations-at-the-rathouse-165443",
-"etype": "MusicEvent",
-"title": "Crucial Vibrations at The Rathouse",
-"desc": "Crucial Vibrations are back in Bristol! Putting together another carefully curated line-up, championing underground sounds and all things independent.",
-"crumb": "Bristol Nightlife",
-"venue": "The Mothers Ruin",
-"postcode": "BS1 1UE",
-"locality": "Bristol",
-"start": "2026-11-21T22:00+00:00",
-"end": "2026-11-22T02:00+00:00",
-"min_price": null,
-"sold": false,
-"image": "https://www.headfirstbristol.co.uk/images/events/1654/e165443_i370025_s5.jpg"
-},
 "https://www.headfirstbristol.co.uk/whats-on/mothers-ruin/sat-28-nov-reverb-bistro-falla-soundsmith-spilla-t-tom-g-165447": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/mothers-ruin/sat-28-nov-reverb-bistro-falla-soundsmith-spilla-t-tom-g-165447",
 "etype": "MusicEvent",
@@ -4497,36 +4467,6 @@
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1628/e162870_i360901_s4.jpg"
 },
-"https://www.headfirstbristol.co.uk/whats-on/sawmills/sat-12-dec-sg-lewis-163122": {
-"url": "https://www.headfirstbristol.co.uk/whats-on/sawmills/sat-12-dec-sg-lewis-163122",
-"etype": "MusicEvent",
-"title": "SG Lewis",
-"desc": "The versatile artist, producer, and DJ brings his boundary pushing take on club-focused music to Bristol",
-"crumb": "Bristol Nightlife",
-"venue": "Sawmills",
-"postcode": "BS5 0TW",
-"locality": "Bristol",
-"start": "2026-12-12T15:00+00:00",
-"end": "2026-12-12T22:00+00:00",
-"min_price": 5.5,
-"sold": false,
-"image": "https://www.headfirstbristol.co.uk/images/events/1631/e163122_i370065_s5.jpg"
-},
-"https://www.headfirstbristol.co.uk/whats-on/sawmills/sat-21-nov-lights-out-w-mandidextrous-163137": {
-"url": "https://www.headfirstbristol.co.uk/whats-on/sawmills/sat-21-nov-lights-out-w-mandidextrous-163137",
-"etype": "MusicEvent",
-"title": "Lights Out w/ Mandidextrous",
-"desc": "Bristol's speedbass champion brings a new and exclusive event concept to Sawmills",
-"crumb": "Bristol Nightlife",
-"venue": "Sawmills",
-"postcode": "BS5 0TW",
-"locality": "Bristol",
-"start": "2026-11-21T14:00+00:00",
-"end": "2026-11-21T22:00+00:00",
-"min_price": 18.45,
-"sold": false,
-"image": "https://www.headfirstbristol.co.uk/images/events/1631/e163137_i362126_s5.jpg"
-},
 "https://www.headfirstbristol.co.uk/whats-on/sawmills/sat-28-nov-hamdi-fc-vs-bristol-2026-161128": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/sawmills/sat-28-nov-hamdi-fc-vs-bristol-2026-161128",
 "etype": "MusicEvent",
@@ -4556,21 +4496,6 @@
 "min_price": 20.5,
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1616/e161666_i371926_s5.jpg"
-},
-"https://www.headfirstbristol.co.uk/whats-on/shredenhams/fri-20-nov-no-signal-004-chez-de-milo-b2b-nd-baumecker-164669": {
-"url": "https://www.headfirstbristol.co.uk/whats-on/shredenhams/fri-20-nov-no-signal-004-chez-de-milo-b2b-nd-baumecker-164669",
-"etype": "MusicEvent",
-"title": "NO SIGNAL 004 - Chez de Milo B2B ND Baumecker",
-"desc": "NO SIGNAL 004 brings Chez de Milo and Berlin's ND_Baumecker together for an extended B2B session at Shredenhams.",
-"crumb": "Bristol Nightlife",
-"venue": "Shredenhams",
-"postcode": "BS1 3JL",
-"locality": "Bristol",
-"start": "2026-11-20T22:00+00:00",
-"end": "2026-11-21T04:00+00:00",
-"min_price": 16.2,
-"sold": false,
-"image": "https://www.headfirstbristol.co.uk/images/events/1646/e164669_i367310_s5.jpg"
 },
 "https://www.headfirstbristol.co.uk/whats-on/shredenhams/fri-27-nov-open-return-x-balloon-tomb-164450": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/shredenhams/fri-27-nov-open-return-x-balloon-tomb-164450",
@@ -6132,21 +6057,6 @@
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1661/e166160_i372431_s4.jpg"
 },
-"https://www.headfirstbristol.co.uk/whats-on/the-crown/tue-15-dec-cargoh-ld-marco-cargo-nkat-uman-wva-more-165469": {
-"url": "https://www.headfirstbristol.co.uk/whats-on/the-crown/tue-15-dec-cargoh-ld-marco-cargo-nkat-uman-wva-more-165469",
-"etype": "MusicEvent",
-"title": "CARGOHÖLD: Marco Cargo, NKAT, Uman, Wva + more",
-"desc": "New label and events outfit CARGOHÖLD brings together multiple genres for a rave celebrating strictly four to the floor bangers.",
-"crumb": "Bristol Nightlife",
-"venue": "The Crown",
-"postcode": "BS1 1JH",
-"locality": "Bristol",
-"start": "2026-12-15T22:00+00:00",
-"end": "2026-12-16T03:00+00:00",
-"min_price": null,
-"sold": false,
-"image": "https://www.headfirstbristol.co.uk/images/events/1654/e165469_i370111_s5.jpg"
-},
 "https://www.headfirstbristol.co.uk/whats-on/the-crown/tue-24-nov-bread-n-butter-ro-la-whisker-gnome-gupperz-mat-wav-164335": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/the-crown/tue-24-nov-bread-n-butter-ro-la-whisker-gnome-gupperz-mat-wav-164335",
 "etype": "MusicEvent",
@@ -7136,21 +7046,6 @@
 "min_price": 10.8,
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1619/e161905_i357852_s4.jpg"
-},
-"https://www.headfirstbristol.co.uk/whats-on/the-love-inn/fri-20-nov-ombrar-the-stairs-listening-party-live-sets-164499": {
-"url": "https://www.headfirstbristol.co.uk/whats-on/the-love-inn/fri-20-nov-ombrar-the-stairs-listening-party-live-sets-164499",
-"etype": "MusicEvent",
-"title": "OMBRAR 'The Stairs' - Listening Party + sets",
-"desc": "Friday 20 November Free entry - Listening party &  Dj sets at the Love Inn",
-"crumb": "Bristol Gigs",
-"venue": "The Love Inn",
-"postcode": "BS1 3QY",
-"locality": "Bristol",
-"start": "2026-11-20T17:45+00:00",
-"end": "2026-11-20T22:00+00:00",
-"min_price": null,
-"sold": false,
-"image": "https://www.headfirstbristol.co.uk/images/events/1644/e164499_i366767_s4.jpg"
 },
 "https://www.headfirstbristol.co.uk/whats-on/the-love-inn/fri-20-nov-sleep-felt-far-away-w-jay-duncan-ido-plumes-164363": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/the-love-inn/fri-20-nov-sleep-felt-far-away-w-jay-duncan-ido-plumes-164363",
@@ -9492,21 +9387,6 @@
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1611/e161117_i355513_s4.jpg"
 },
-"https://www.headfirstbristol.co.uk/whats-on/strange-brew/sun-22-nov-shearwater-loma-any-kind-30-left--161117": {
-"url": "https://www.headfirstbristol.co.uk/whats-on/strange-brew/sun-22-nov-shearwater-loma-any-kind-30-left--161117",
-"etype": "MusicEvent",
-"title": "SHEARWATER + LOMA + ANY KIND",
-"desc": "Hushed, baroque, enigmatic indie pop from Texas releasing on Sub Pop records.  Both Loma and Shearwater feature songwriter Jonathan Meiburg and producer Dan Duszynski and also feature an Emily - Emily Cross in Loma and Emily Lee in Shearwate",
-"crumb": "Bristol Gigs",
-"venue": "Strange Brew",
-"postcode": "BS1 3DB",
-"locality": "Bristol",
-"start": "2026-11-22T19:00+00:00",
-"end": "2026-11-22T22:30+00:00",
-"min_price": 23.7,
-"sold": false,
-"image": "https://www.headfirstbristol.co.uk/images/events/1611/e161117_i355513_s4.jpg"
-},
 "https://www.headfirstbristol.co.uk/whats-on/strange-brew/sun-27-dec-winter-whine-9-handstand-papi-b2b-yusuf-suave-165968": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/strange-brew/sun-27-dec-winter-whine-9-handstand-papi-b2b-yusuf-suave-165968",
 "etype": "MusicEvent",
@@ -10122,21 +10002,6 @@
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1666/e166625_i374047_s4.jpg"
 },
-"https://www.headfirstbristol.co.uk/whats-on/the-island/sat-28-nov-fit-gipsy-dance-workshop-free-tester--166838": {
-"url": "https://www.headfirstbristol.co.uk/whats-on/the-island/sat-28-nov-fit-gipsy-dance-workshop-free-tester--166838",
-"etype": "Event",
-"title": "Fit Gipsy Dance Workshop",
-"desc": "Fitness & Therapeutic Flamenco",
-"crumb": "Bristol Concerts, Theatre & Dance",
-"venue": "The Island",
-"postcode": "BS1 2BE",
-"locality": "Bristol",
-"start": "2026-11-28T11:15+00:00",
-"end": "2026-11-28T12:30+00:00",
-"min_price": null,
-"sold": false,
-"image": "https://www.headfirstbristol.co.uk/images/events/1668/e166838_i374793_s4.jpg"
-},
 "https://www.headfirstbristol.co.uk/whats-on/the-lanes/sat-28-nov--fat-lip-b-d-a-b-tches-party--166612": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/the-lanes/sat-28-nov--fat-lip-b-d-a-b-tches-party--166612",
 "etype": "MusicEvent",
@@ -10617,6 +10482,21 @@
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1597/e159708_i350269_s4.jpg"
 },
+"https://www.headfirstbristol.co.uk/whats-on/eastville-club/sat-5-dec-ornsteins-album-launch-with-kate-stapley-and-hamburger-166021": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/eastville-club/sat-5-dec-ornsteins-album-launch-with-kate-stapley-and-hamburger-166021",
+"etype": "MusicEvent",
+"title": "ORNSTEINS ALBUM LAUNCH WITH KATE STAPLEY AND HAMBURGER",
+"desc": "Wild Kindness returns with another evening of noisy power pop and wholesome antics",
+"crumb": "Bristol Gigs",
+"venue": "Eastville Club",
+"postcode": "",
+"locality": "",
+"start": "2026-12-05T19:00+00:00",
+"end": "2026-12-06T01:00+00:00",
+"min_price": 10.8,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1660/e166021_i372486_s5.jpg"
+},
 "https://www.headfirstbristol.co.uk/whats-on/after-dark/thu-19-nov-lost-in-sound-165775": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/after-dark/thu-19-nov-lost-in-sound-165775",
 "etype": "MusicEvent",
@@ -10647,6 +10527,21 @@
 "sold": true,
 "image": "https://www.headfirstbristol.co.uk/images/events/1650/e165094_i368842_s4.jpg"
 },
+"https://www.headfirstbristol.co.uk/whats-on/bookhaus/fri-11-dec-bookhaus-artist-s-series-kate-talbot-of-hung-drawn-and-quoted-166919": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/bookhaus/fri-11-dec-bookhaus-artist-s-series-kate-talbot-of-hung-drawn-and-quoted-166919",
+"etype": "Event",
+"title": "Bookhaus artist's series: Kate Talbot of Hung, Drawn and Quoted",
+"desc": "Bookhaus artist's series: Kate Talbot of Hung, Drawn and Quoted",
+"crumb": "Bristol Concerts, Theatre & Dance",
+"venue": "Bookhaus",
+"postcode": "BS1 6ZJ",
+"locality": "Bristol",
+"start": "2026-12-11T18:00+00:00",
+"end": "2026-12-11T20:00+00:00",
+"min_price": 7.6,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1669/e166919_i375070_s5.jpg"
+},
 "https://www.headfirstbristol.co.uk/whats-on/bookhaus/tue-17-nov-hexes-of-the-deadwood-forest-with-agnieszka-szpila-164738": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/bookhaus/tue-17-nov-hexes-of-the-deadwood-forest-with-agnieszka-szpila-164738",
 "etype": "Event",
@@ -10661,6 +10556,21 @@
 "min_price": 7.6,
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1647/e164738_i367609_s3.jpg"
+},
+"https://www.headfirstbristol.co.uk/whats-on/bristol-beacon/sat-19-dec-bristol-choral-society-handel-messiah-166910": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/bristol-beacon/sat-19-dec-bristol-choral-society-handel-messiah-166910",
+"etype": "MusicEvent",
+"title": "Handel Messiah",
+"desc": "Bristol Choral Society Present Handel's Messiah in the wonderful acoustic of the Beacon Hall.",
+"crumb": "Bristol Gigs",
+"venue": "Bristol Beacon",
+"postcode": "BS1 5AR",
+"locality": "Bristol",
+"start": "2026-12-19T18:15+00:00",
+"end": "2026-12-19T21:45+00:00",
+"min_price": null,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1669/e166910_i375041_s5.jpg"
 },
 "https://www.headfirstbristol.co.uk/whats-on/bristol-beacon/thu-19-nov-scott-matthews-passing-stranger-20th-anniversary-tour-154343": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/bristol-beacon/thu-19-nov-scott-matthews-passing-stranger-20th-anniversary-tour-154343",
@@ -10692,6 +10602,36 @@
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1585/e158541_i346681_s4.jpg"
 },
+"https://www.headfirstbristol.co.uk/whats-on/cafe-kino/mon-23-nov-cts-screening-we-are-making-a-film-about-mark-fisher-166416": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/cafe-kino/mon-23-nov-cts-screening-we-are-making-a-film-about-mark-fisher-166416",
+"etype": "Event",
+"title": "CTS SCREENING : WE ARE MAKING A FILM ABOUT MARK FISHER",
+"desc": "CINEMA TRANSEXUÁL PRESENTS A FILM INSIDE AN ARTWORK!",
+"crumb": "Bristol Concerts, Theatre & Dance",
+"venue": "Cafe Kino",
+"postcode": "BS1 3RU",
+"locality": "Bristol",
+"start": "2026-11-23T18:30+00:00",
+"end": "2026-11-23T21:00+00:00",
+"min_price": null,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1664/e166416_i374997_s4.jpg"
+},
+"https://www.headfirstbristol.co.uk/whats-on/cafe-kino/mon-7-dec-sober-sapphic-pub-quiz-christmas-edition--166928": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/cafe-kino/mon-7-dec-sober-sapphic-pub-quiz-christmas-edition--166928",
+"etype": "Event",
+"title": "Sober Sapphic Pub Quiz - Christmas Edition",
+"desc": "Yuletide GAY with Muddled Muse’ Sober-Sapphic-Pub-Quiz with a festive twist!",
+"crumb": "Bristol Concerts, Theatre & Dance",
+"venue": "Cafe Kino",
+"postcode": "BS1 3RU",
+"locality": "Bristol",
+"start": "2026-12-07T19:00+00:00",
+"end": "2026-12-07T21:30+00:00",
+"min_price": 4.5,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1669/e166928_i375114_s4.jpg"
+},
 "https://www.headfirstbristol.co.uk/whats-on/cafe-kino/thu-19-nov-cinema-transexu-l-presents-shame-166414": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/cafe-kino/thu-19-nov-cinema-transexu-l-presents-shame-166414",
 "etype": "Event",
@@ -10722,6 +10662,21 @@
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1581/e158130_i345382_s4.jpg"
 },
+"https://www.headfirstbristol.co.uk/whats-on/cafe-kino/wed-2-dec-trash-kit-motes-162920": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/cafe-kino/wed-2-dec-trash-kit-motes-162920",
+"etype": "MusicEvent",
+"title": "Trash Kit  + Motes",
+"desc": "Support announcements & poster coming soon!",
+"crumb": "Bristol Gigs",
+"venue": "Cafe Kino",
+"postcode": "BS1 3RU",
+"locality": "Bristol",
+"start": "2026-12-02T19:30+00:00",
+"end": "2026-12-02T22:00+00:00",
+"min_price": 12.9,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1629/e162920_i374991_s4.jpg"
+},
 "https://www.headfirstbristol.co.uk/whats-on/clock-factory/thu-19-nov-bog-x-blkout-friends-166777": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/clock-factory/thu-19-nov-bog-x-blkout-friends-166777",
 "etype": "MusicEvent",
@@ -10736,6 +10691,21 @@
 "min_price": null,
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1667/e166777_i374542_s4.jpg"
+},
+"https://www.headfirstbristol.co.uk/whats-on/cosies/sat-12-dec-remedy-166945": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/cosies/sat-12-dec-remedy-166945",
+"etype": "MusicEvent",
+"title": "Remedy",
+"desc": "Acid / Breakbeat / Hardcore / Techno / Jungle / Drum & Bass",
+"crumb": "Bristol Nightlife",
+"venue": "Cosies",
+"postcode": "BS2 8RG",
+"locality": "Bristol",
+"start": "2026-12-12T22:00+00:00",
+"end": "2026-12-13T03:00+00:00",
+"min_price": 3.4,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1669/e166945_i375168_s4.jpg"
 },
 "https://www.headfirstbristol.co.uk/whats-on/cosies/thu-19-nov-dogwater-up-close-166046": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/cosies/thu-19-nov-dogwater-up-close-166046",
@@ -10781,21 +10751,6 @@
 "min_price": 7.1,
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1660/e166039_i372047_s4.jpg"
-},
-"https://www.headfirstbristol.co.uk/whats-on/eastville-club/sat-5-dec-ornsteins-album-launch-with-kate-stapley-and-hamburger-166021": {
-"url": "https://www.headfirstbristol.co.uk/whats-on/eastville-club/sat-5-dec-ornsteins-album-launch-with-kate-stapley-and-hamburger-166021",
-"etype": "MusicEvent",
-"title": "ORNSTEINS ALBUM LAUNCH WITH KATE STAPLEY AND HAMBURGER",
-"desc": "Wild Kindness returns with another evening of noisy power pop and wholesome antics",
-"crumb": "Bristol Gigs",
-"venue": "Eastville Club",
-"postcode": "",
-"locality": "",
-"start": "2026-12-05T19:00+00:00",
-"end": "2026-12-06T01:00+00:00",
-"min_price": 10.8,
-"sold": false,
-"image": "https://www.headfirstbristol.co.uk/images/events/1660/e166021_i372486_s5.jpg"
 },
 "https://www.headfirstbristol.co.uk/whats-on/exchange/thu-19-nov-the-bracknall-149282": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/exchange/thu-19-nov-the-bracknall-149282",
@@ -10887,6 +10842,21 @@
 "sold": true,
 "image": "https://www.headfirstbristol.co.uk/images/events/1593/e159313_i349157_s4.jpg"
 },
+"https://www.headfirstbristol.co.uk/whats-on/ill-repute/fri-27-nov-patsy-gamble-blues-collective-166934": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/ill-repute/fri-27-nov-patsy-gamble-blues-collective-166934",
+"etype": "MusicEvent",
+"title": "Patsy Gamble Blues Collective",
+"desc": "Saxophone blues gig at ill repute",
+"crumb": "Bristol Gigs",
+"venue": "The Ill Repute",
+"postcode": "BS2 0DF",
+"locality": "Bristol",
+"start": "2026-11-27T19:30+00:00",
+"end": "2026-11-27T23:45+00:00",
+"min_price": null,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1669/e166934_i375122_s4.jpg"
+},
 "https://www.headfirstbristol.co.uk/whats-on/ill-repute/thu-19-nov--trans-panic-first-uk-screening-165905": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/ill-repute/thu-19-nov--trans-panic-first-uk-screening-165905",
 "etype": "Event",
@@ -10931,6 +10901,21 @@
 "min_price": null,
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1664/e166439_i373371_s4.jpg"
+},
+"https://www.headfirstbristol.co.uk/whats-on/ill-repute/wed-18-nov-blues-jam-night-with-the-bad-reputations-166927": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/ill-repute/wed-18-nov-blues-jam-night-with-the-bad-reputations-166927",
+"etype": "MusicEvent",
+"title": "Blues Jam Night with the Bad Reputations",
+"desc": "Blues jam night",
+"crumb": "Bristol Gigs",
+"venue": "The Ill Repute",
+"postcode": "BS2 0DF",
+"locality": "Bristol",
+"start": "2026-11-18T19:30+00:00",
+"end": "2026-11-18T23:30+00:00",
+"min_price": null,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1669/e166927_i375102_s4.jpg"
 },
 "https://www.headfirstbristol.co.uk/whats-on/jam-jar/thu-19-nov-the-jam-jar-presents-thanda-choir-ms-si-160159": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/jam-jar/thu-19-nov-the-jam-jar-presents-thanda-choir-ms-si-160159",
@@ -10977,6 +10962,21 @@
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1559/e155932_i338569_s5.jpg"
 },
+"https://www.headfirstbristol.co.uk/whats-on/kit-form/fri-27-nov-ringing-world-symposium-166895": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/kit-form/fri-27-nov-ringing-world-symposium-166895",
+"etype": "Event",
+"title": "Ringing World Symposium",
+"desc": "Sarahsson presents research, demos and handmade instruments as part of her upcoming album project 'The Ringing World'",
+"crumb": "Bristol Concerts, Theatre & Dance",
+"venue": "KIT FORM",
+"postcode": "BS2 8JP",
+"locality": "Bristol",
+"start": "2026-11-27T19:00+00:00",
+"end": "2026-11-27T21:00+00:00",
+"min_price": null,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1668/e166895_i375011_s5.jpg"
+},
 "https://www.headfirstbristol.co.uk/whats-on/kit-form/wed-18-nov-reconvene-a-group-exhibition-preview-evening-165119": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/kit-form/wed-18-nov-reconvene-a-group-exhibition-preview-evening-165119",
 "etype": "Event",
@@ -11022,6 +11022,21 @@
 "sold": true,
 "image": "https://www.headfirstbristol.co.uk/images/events/1652/e165294_i369552_s5.jpg"
 },
+"https://www.headfirstbristol.co.uk/whats-on/mr-wolfs/wed-18-nov-mods-50s-60s-music-166918": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/mr-wolfs/wed-18-nov-mods-50s-60s-music-166918",
+"etype": "MusicEvent",
+"title": "MODS - 50s & 60s Music",
+"desc": "Twist the night away to all the best chart hits from the 50s & 60s",
+"crumb": "Bristol Nightlife",
+"venue": "Mr Wolfs",
+"postcode": "BS1 1TG",
+"locality": "Bristol",
+"start": "2026-11-18T00:00+00:00",
+"end": "2026-11-18T03:00+00:00",
+"min_price": null,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1669/e166918_i375068_s4.jpg"
+},
 "https://www.headfirstbristol.co.uk/whats-on/prsc/tue-17-nov-why-don-t-our-kids-kick-off-like-the-french-ones--164254": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/prsc/tue-17-nov-why-don-t-our-kids-kick-off-like-the-french-ones--164254",
 "etype": "Event",
@@ -11066,6 +11081,21 @@
 "min_price": 10.8,
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1604/e160421_i352728_s4.jpg"
+},
+"https://www.headfirstbristol.co.uk/whats-on/sawmills/sat-12-dec-sg-lewis-atrip-milly-on-air-163122": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/sawmills/sat-12-dec-sg-lewis-atrip-milly-on-air-163122",
+"etype": "MusicEvent",
+"title": "SG Lewis, ATRIP + Milly on Air",
+"desc": "The versatile artist, producer, and DJ brings his boundary pushing take on club-focused music to Bristol",
+"crumb": "Bristol Nightlife",
+"venue": "Sawmills",
+"postcode": "BS5 0TW",
+"locality": "Bristol",
+"start": "2026-12-12T15:00+00:00",
+"end": "2026-12-12T22:00+00:00",
+"min_price": 5.5,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1631/e163122_i370065_s5.jpg"
 },
 "https://www.headfirstbristol.co.uk/whats-on/st-georges-hall/thu-19-nov-queer-poetry-bristol-writing-group-166122": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/st-georges-hall/thu-19-nov-queer-poetry-bristol-writing-group-166122",
@@ -11157,6 +11187,36 @@
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1641/e164122_i366676_s4.jpg"
 },
+"https://www.headfirstbristol.co.uk/whats-on/take-five-cafe/sat-28-nov-power-trip-systems-dancefloor-impact-166778": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/take-five-cafe/sat-28-nov-power-trip-systems-dancefloor-impact-166778",
+"etype": "MusicEvent",
+"title": "Power Trip Systems - dancefloor impact",
+"desc": "No-nonsense dancefloor bangers on a crystal clear soundsystem",
+"crumb": "Bristol Nightlife",
+"venue": "Take Five Cafe",
+"postcode": "BS1 3QY",
+"locality": "Bristol",
+"start": "2026-11-28T22:00+00:00",
+"end": "2026-11-29T03:00+00:00",
+"min_price": 3.4,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1667/e166778_i374554_s3.jpg"
+},
+"https://www.headfirstbristol.co.uk/whats-on/the-attic-bar/sat-28-nov-the-mad-hatter-s-tea-party-166917": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/the-attic-bar/sat-28-nov-the-mad-hatter-s-tea-party-166917",
+"etype": "MusicEvent",
+"title": "The Mad Hatter's Tea Party",
+"desc": "Adventure down the rabbit hole and join us for The Mad Hatter's Tea Party immersive experience!",
+"crumb": "Bristol Nightlife",
+"venue": "The Full Moon & Attic Bar",
+"postcode": "BS1 3PR",
+"locality": "Bristol",
+"start": "2026-11-28T21:00+00:00",
+"end": "2026-11-29T02:00+00:00",
+"min_price": null,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1669/e166917_i375059_s5.jpg"
+},
 "https://www.headfirstbristol.co.uk/whats-on/the-attic-bar/thu-19-nov-nfi-presents-attic-attack-165139": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/the-attic-bar/thu-19-nov-nfi-presents-attic-attack-165139",
 "etype": "MusicEvent",
@@ -11171,6 +11231,21 @@
 "min_price": 5.5,
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1651/e165139_i369041_s4.jpg"
+},
+"https://www.headfirstbristol.co.uk/whats-on/the-beehive-centre/sun-22-nov-inti-ecstatic-dance-166961": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/the-beehive-centre/sun-22-nov-inti-ecstatic-dance-166961",
+"etype": "Event",
+"title": "Inti Ecstatic Dance",
+"desc": "Nti Ecstatic Dance - A dance of release and renewal.",
+"crumb": "Bristol Concerts, Theatre & Dance",
+"venue": "The Beehive Centre",
+"postcode": "",
+"locality": "",
+"start": "2026-11-22T12:45+00:00",
+"end": "2026-11-22T17:00+00:00",
+"min_price": 16.2,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1669/e166961_i375206_s4.jpg"
 },
 "https://www.headfirstbristol.co.uk/whats-on/the-bristol-fringe/thu-19-nov-guthrie-kennard-friends-166713": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/the-bristol-fringe/thu-19-nov-guthrie-kennard-friends-166713",
@@ -11322,6 +11397,36 @@
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1659/e165936_i371591_s5.jpg"
 },
+"https://www.headfirstbristol.co.uk/whats-on/the-crown/thu-3-dec-ritual-frequency-with-aerbreak-tektonik-sounds-166882": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/the-crown/thu-3-dec-ritual-frequency-with-aerbreak-tektonik-sounds-166882",
+"etype": "MusicEvent",
+"title": "Ritual Frequency - With Aerbreak + Tektonik Sounds",
+"desc": "Winter darkness meets high-velocity breakbeats as Aerbreak headlines, bringing raw jungle and hardcore pressure across two rooms powered by Tektonic Sounds at The Crown.",
+"crumb": "Bristol Nightlife",
+"venue": "The Crown",
+"postcode": "BS1 1JH",
+"locality": "Bristol",
+"start": "2026-12-03T22:00+00:00",
+"end": "2026-12-04T03:00+00:00",
+"min_price": 4.5,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1668/e166882_i375131_s4.jpg"
+},
+"https://www.headfirstbristol.co.uk/whats-on/the-crown/tue-15-dec-cargoh-ld-marco-cargo-nkat-uman-wva-165469": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/the-crown/tue-15-dec-cargoh-ld-marco-cargo-nkat-uman-wva-165469",
+"etype": "MusicEvent",
+"title": "CARGOHÖLD: Marco Cargo, NKAT, Uman, Double Helix + Wva",
+"desc": "New label and events outfit CARGOHÖLD brings together multiple genres for a rave celebrating strictly four to the floor bangers.",
+"crumb": "Bristol Nightlife",
+"venue": "The Crown",
+"postcode": "BS1 1JH",
+"locality": "Bristol",
+"start": "2026-12-15T22:00+00:00",
+"end": "2026-12-16T03:00+00:00",
+"min_price": null,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1654/e165469_i374999_s4.jpg"
+},
 "https://www.headfirstbristol.co.uk/whats-on/the-crown/tue-17-nov-fall-2-the-floor-launch-party-betsy-mae-b2b-os-man-more-164303": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/the-crown/tue-17-nov-fall-2-the-floor-launch-party-betsy-mae-b2b-os-man-more-164303",
 "etype": "MusicEvent",
@@ -11382,6 +11487,36 @@
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1629/e162953_i361267_s4.jpg"
 },
+"https://www.headfirstbristol.co.uk/whats-on/the-fleece/fri-27-nov-choker-presents-s-ance-alt-clubnight-occult-giveaways-166894": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/the-fleece/fri-27-nov-choker-presents-s-ance-alt-clubnight-occult-giveaways-166894",
+"etype": "MusicEvent",
+"title": "CHOKER Presents: SÉANCE - Alt Clubnight + Occult Giveaways",
+"desc": "Bristol c ntiest alt night, non-stop back-to-back emo, giving away ouija boards, crystals, tarot cards etc etc...",
+"crumb": "Bristol Nightlife",
+"venue": "The Fleece",
+"postcode": "BS1 6JJ",
+"locality": "Bristol",
+"start": "2026-11-27T23:00+00:00",
+"end": "2026-11-28T04:00+00:00",
+"min_price": 6.55,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1668/e166894_i374968_s4.jpg"
+},
+"https://www.headfirstbristol.co.uk/whats-on/the-fleece/thu-19-nov-cult-classic-90s-00s-witchy-clubnight-166896": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/the-fleece/thu-19-nov-cult-classic-90s-00s-witchy-clubnight-166896",
+"etype": "MusicEvent",
+"title": "CULT CLASSIC: 90s/00s Witchy Clubnight",
+"desc": "Wouldst thou like to live deliciously?",
+"crumb": "Bristol Nightlife",
+"venue": "The Fleece",
+"postcode": "BS1 6JJ",
+"locality": "Bristol",
+"start": "2026-11-19T23:00+00:00",
+"end": "2026-11-20T04:00+00:00",
+"min_price": 6.55,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1668/e166896_i374985_s4.jpg"
+},
 "https://www.headfirstbristol.co.uk/whats-on/the-fleece/tue-17-nov-urne-159789": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/the-fleece/tue-17-nov-urne-159789",
 "etype": "MusicEvent",
@@ -11396,6 +11531,21 @@
 "min_price": null,
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1597/e159789_i350349_s4.jpg"
+},
+"https://www.headfirstbristol.co.uk/whats-on/the-folk-house/mon-23-nov-ben-duff-filmm-166904": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/the-folk-house/mon-23-nov-ben-duff-filmm-166904",
+"etype": "MusicEvent",
+"title": "Ben Duff & Filmm",
+"desc": "Join us for a night of tunes from Ben Duff and Filmm.",
+"crumb": "Bristol Gigs",
+"venue": "Bristol Folk House",
+"postcode": "BS1 5JG",
+"locality": "Bristol",
+"start": "2026-11-23T19:00+00:00",
+"end": "2026-11-23T21:30+00:00",
+"min_price": 8.65,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1669/e166904_i375017_s4.jpg"
 },
 "https://www.headfirstbristol.co.uk/whats-on/the-gallimaufry/thu-19-nov-more-soup-djs-ft-tbh-166289": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/the-gallimaufry/thu-19-nov-more-soup-djs-ft-tbh-166289",
@@ -11442,6 +11592,21 @@
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1652/e165225_i369529_s4.jpg"
 },
+"https://www.headfirstbristol.co.uk/whats-on/the-island/sat-28-nov-fit-gipsy-dance-workshop-166838": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/the-island/sat-28-nov-fit-gipsy-dance-workshop-166838",
+"etype": "Event",
+"title": "Fit Gipsy Dance Workshop",
+"desc": "Fitness & Therapeutic Flamenco",
+"crumb": "Bristol Concerts, Theatre & Dance",
+"venue": "The Island",
+"postcode": "BS1 2BE",
+"locality": "Bristol",
+"start": "2026-11-28T11:15+00:00",
+"end": "2026-11-28T12:30+00:00",
+"min_price": null,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1668/e166838_i374793_s4.jpg"
+},
 "https://www.headfirstbristol.co.uk/whats-on/the-island/thu-19-nov-solace-atmosphere-in-motion-165932": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/the-island/thu-19-nov-solace-atmosphere-in-motion-165932",
 "etype": "Event",
@@ -11471,6 +11636,21 @@
 "min_price": 13.5,
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1601/e160184_i351822_s5.jpg"
+},
+"https://www.headfirstbristol.co.uk/whats-on/the-louisiana/sat-5-dec-cellar-door-x-gigsoc-magda-166872": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/the-louisiana/sat-5-dec-cellar-door-x-gigsoc-magda-166872",
+"etype": "MusicEvent",
+"title": "Magda",
+"desc": "Cellar Door x Gigsoc Christmas party!",
+"crumb": "Bristol Gigs",
+"venue": "The Louisiana",
+"postcode": "BS1 6UA",
+"locality": "Bristol",
+"start": "2026-12-05T19:00+00:00",
+"end": "2026-12-05T22:30+00:00",
+"min_price": 11.4,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1668/e166872_i374949_s4.jpg"
 },
 "https://www.headfirstbristol.co.uk/whats-on/the-louisiana/tue-17-nov-the-zangwills-157011": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/the-louisiana/tue-17-nov-the-zangwills-157011",
@@ -11517,6 +11697,21 @@
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1657/e165728_i370861_s4.jpg"
 },
+"https://www.headfirstbristol.co.uk/whats-on/the-love-inn/tue-17-nov-pollinate-166835": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/the-love-inn/tue-17-nov-pollinate-166835",
+"etype": "Event",
+"title": "POLLINATE",
+"desc": "An open decks session for shes, theys, trans & non-binary",
+"crumb": "Bristol Concerts, Theatre & Dance",
+"venue": "The Love Inn",
+"postcode": "BS1 3QY",
+"locality": "Bristol",
+"start": "2026-11-17T18:30+00:00",
+"end": "2026-11-17T22:00+00:00",
+"min_price": null,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1668/e166835_i374770_s4.jpg"
+},
 "https://www.headfirstbristol.co.uk/whats-on/the-love-inn/wed-18-nov-quanto-residency-02-w-k-werk-caruti-160892": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/the-love-inn/wed-18-nov-quanto-residency-02-w-k-werk-caruti-160892",
 "etype": "MusicEvent",
@@ -11531,6 +11726,21 @@
 "min_price": 6.55,
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1608/e160892_i371172_s4.jpg"
+},
+"https://www.headfirstbristol.co.uk/whats-on/the-love-inn/wed-25-nov-bcfs-love-gig--166907": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/the-love-inn/wed-25-nov-bcfs-love-gig--166907",
+"etype": "MusicEvent",
+"title": "BCFS love gig",
+"desc": "Bristol Charity Fashion Show brings you a night of dancing, bands, djs and good vibes",
+"crumb": "Bristol Gigs",
+"venue": "The Love Inn",
+"postcode": "BS1 3QY",
+"locality": "Bristol",
+"start": "2026-11-25T19:00+00:00",
+"end": "2026-11-25T22:00+00:00",
+"min_price": 2.4,
+"sold": false,
+"image": ""
 },
 "https://www.headfirstbristol.co.uk/whats-on/the-moon-club/thu-19-nov-ramble-presents-seb-odyssey-164366": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/the-moon-club/thu-19-nov-ramble-presents-seb-odyssey-164366",
@@ -11651,6 +11861,51 @@
 "min_price": 21.55,
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1506/e150608_i373044_s5.jpg"
+},
+"https://www.headfirstbristol.co.uk/whats-on/the-wardrobe-theatre/sun-6-dec-the-lost-cabaret-166914": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/the-wardrobe-theatre/sun-6-dec-the-lost-cabaret-166914",
+"etype": "Event",
+"title": "The Lost Cabaret",
+"desc": "A Bi-monthly alt comedy and clowning cabaret held at The Wardrobe Theatre, always 2pm first sunday of the month.",
+"crumb": "Bristol Concerts, Theatre & Dance",
+"venue": "The Wardrobe Theatre",
+"postcode": "BS2 0DF",
+"locality": "Bristol",
+"start": "2026-12-06T13:45+00:00",
+"end": "2026-12-06T16:00+00:00",
+"min_price": null,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1669/e166914_i375078_s4.jpg"
+},
+"https://www.headfirstbristol.co.uk/whats-on/tothemoon/wed-2-dec-cosy-1-1-tarot-readings-in-central-bristol-166915": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/tothemoon/wed-2-dec-cosy-1-1-tarot-readings-in-central-bristol-166915",
+"etype": "Event",
+"title": "Cosy 1:1 Tarot Readings in Central Bristol",
+"desc": "The year is nearly through, what might the cards reveal for you?",
+"crumb": "Bristol Concerts, Theatre & Dance",
+"venue": "To The Moon",
+"postcode": "BS2 0JT",
+"locality": "Bristol",
+"start": "2026-12-02T19:00+00:00",
+"end": "2026-12-02T22:00+00:00",
+"min_price": 23.7,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1669/e166915_i375065_s4.jpg"
+},
+"https://www.headfirstbristol.co.uk/whats-on/watershed/thu-26-nov-sonic-cinema-da-chi-sa-to-166900": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/watershed/thu-26-nov-sonic-cinema-da-chi-sa-to-166900",
+"etype": "Event",
+"title": "Sonic Cinema: Daïchi Saïto",
+"desc": "Sonic Cinema, the Japan Foundation, and BEEF present the films of Montreal-based artist Daïchi Saïto, projected from his personal 35mm prints.",
+"crumb": "Bristol Concerts, Theatre & Dance",
+"venue": "Watershed",
+"postcode": "BS1 5TX",
+"locality": "Bristol",
+"start": "2026-11-26T18:30+00:00",
+"end": "2026-11-26T20:15+00:00",
+"min_price": null,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1669/e166900_i374998_s5.jpg"
 },
 "https://www.headfirstbristol.co.uk/whats-on/watershed/tue-17-nov-festival-of-economics-catherine-mann-bank-of-england--157532": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/watershed/tue-17-nov-festival-of-economics-catherine-mann-bank-of-england--157532",
