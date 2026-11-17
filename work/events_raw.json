@@ -10587,6 +10587,36 @@
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1662/e166253_i372704_s4.jpg"
 },
+"https://www.headfirstbristol.co.uk/whats-on/ill-repute/tue-29-dec-the-big-bloody-quiz-of-the-year-2026-165503": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/ill-repute/tue-29-dec-the-big-bloody-quiz-of-the-year-2026-165503",
+"etype": "Event",
+"title": "The Big Bloody Quiz of the Year 2026",
+"desc": "Join us at The Ill Repute for a big bloody quiz celebrating the headlines, hits and absolute nonsense of 2026, with loads of prizes up for grabs.",
+"crumb": "Bristol Concerts, Theatre & Dance",
+"venue": "The Ill Repute",
+"postcode": "BS2 0DF",
+"locality": "Bristol",
+"start": "2026-12-29T19:00+00:00",
+"end": "2026-12-29T23:00+00:00",
+"min_price": 21.55,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1655/e165503_i370224_s4.jpg"
+},
+"https://www.headfirstbristol.co.uk/whats-on/the-fleece/tue-29-dec-ed-force-one-iron-maiden-priest-unleashed-judas-priest--159708": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/the-fleece/tue-29-dec-ed-force-one-iron-maiden-priest-unleashed-judas-priest--159708",
+"etype": "MusicEvent",
+"title": "Ed Force One",
+"desc": "Ed Force One (Iron Maiden) + Priest Unleashed (Judas Priest) Priest Unleashed 7.45 – 9.00 Ed Force One 9.15 – 10.45 ED FORCE ONE are a tribute band.",
+"crumb": "Bristol Gigs",
+"venue": "The Fleece",
+"postcode": "BS1 6JJ",
+"locality": "Bristol",
+"start": "2026-12-29T19:00+00:00",
+"end": "2026-12-29T23:00+00:00",
+"min_price": null,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1597/e159708_i350269_s4.jpg"
+},
 "https://www.headfirstbristol.co.uk/whats-on/after-dark/thu-19-nov-lost-in-sound-165775": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/after-dark/thu-19-nov-lost-in-sound-165775",
 "etype": "MusicEvent",
@@ -10752,6 +10782,21 @@
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1660/e166039_i372047_s4.jpg"
 },
+"https://www.headfirstbristol.co.uk/whats-on/eastville-club/sat-5-dec-ornsteins-album-launch-with-kate-stapley-and-hamburger-166021": {
+"url": "https://www.headfirstbristol.co.uk/whats-on/eastville-club/sat-5-dec-ornsteins-album-launch-with-kate-stapley-and-hamburger-166021",
+"etype": "MusicEvent",
+"title": "ORNSTEINS ALBUM LAUNCH WITH KATE STAPLEY AND HAMBURGER",
+"desc": "Wild Kindness returns with another evening of noisy power pop and wholesome antics",
+"crumb": "Bristol Gigs",
+"venue": "Eastville Club",
+"postcode": "",
+"locality": "",
+"start": "2026-12-05T19:00+00:00",
+"end": "2026-12-06T01:00+00:00",
+"min_price": 10.8,
+"sold": false,
+"image": "https://www.headfirstbristol.co.uk/images/events/1660/e166021_i372486_s5.jpg"
+},
 "https://www.headfirstbristol.co.uk/whats-on/exchange/thu-19-nov-the-bracknall-149282": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/exchange/thu-19-nov-the-bracknall-149282",
 "etype": "MusicEvent",
@@ -10871,21 +10916,6 @@
 "min_price": null,
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1650/e165034_i369370_s4.jpg"
-},
-"https://www.headfirstbristol.co.uk/whats-on/ill-repute/tue-29-dec-the-big-bloody-quiz-of-the-year-2026-165503": {
-"url": "https://www.headfirstbristol.co.uk/whats-on/ill-repute/tue-29-dec-the-big-bloody-quiz-of-the-year-2026-165503",
-"etype": "Event",
-"title": "The Big Bloody Quiz of the Year 2026",
-"desc": "Join us at The Ill Repute for a big bloody quiz celebrating the headlines, hits and absolute nonsense of 2026, with loads of prizes up for grabs.",
-"crumb": "Bristol Concerts, Theatre & Dance",
-"venue": "The Ill Repute",
-"postcode": "BS2 0DF",
-"locality": "Bristol",
-"start": "2026-12-29T19:00+00:00",
-"end": "2026-12-29T23:00+00:00",
-"min_price": 21.55,
-"sold": false,
-"image": "https://www.headfirstbristol.co.uk/images/events/1655/e165503_i370224_s4.jpg"
 },
 "https://www.headfirstbristol.co.uk/whats-on/ill-repute/wed-18-nov-blues-jam-night-with-bad-reputation-rhythm-blues-revue-166439": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/ill-repute/wed-18-nov-blues-jam-night-with-bad-reputation-rhythm-blues-revue-166439",
@@ -11366,21 +11396,6 @@
 "min_price": null,
 "sold": false,
 "image": "https://www.headfirstbristol.co.uk/images/events/1597/e159789_i350349_s4.jpg"
-},
-"https://www.headfirstbristol.co.uk/whats-on/the-fleece/tue-29-dec-ed-force-one-iron-maiden-priest-unleashed-judas-priest--159708": {
-"url": "https://www.headfirstbristol.co.uk/whats-on/the-fleece/tue-29-dec-ed-force-one-iron-maiden-priest-unleashed-judas-priest--159708",
-"etype": "MusicEvent",
-"title": "Ed Force One",
-"desc": "Ed Force One (Iron Maiden) + Priest Unleashed (Judas Priest) Priest Unleashed 7.45 – 9.00 Ed Force One 9.15 – 10.45 ED FORCE ONE are a tribute band.",
-"crumb": "Bristol Gigs",
-"venue": "The Fleece",
-"postcode": "BS1 6JJ",
-"locality": "Bristol",
-"start": "2026-12-29T19:00+00:00",
-"end": "2026-12-29T23:00+00:00",
-"min_price": null,
-"sold": false,
-"image": "https://www.headfirstbristol.co.uk/images/events/1597/e159708_i350269_s4.jpg"
 },
 "https://www.headfirstbristol.co.uk/whats-on/the-gallimaufry/thu-19-nov-more-soup-djs-ft-tbh-166289": {
 "url": "https://www.headfirstbristol.co.uk/whats-on/the-gallimaufry/thu-19-nov-more-soup-djs-ft-tbh-166289",
