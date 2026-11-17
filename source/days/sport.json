@@ -1,0 +1,301 @@
+{
+  "items": [
+    {
+      "area": "Ashton Gate",
+      "d": "2026-11-07",
+      "g": "Championship",
+      "k": "sport",
+      "ll": [
+        51.4407,
+        -2.6206
+      ],
+      "s": "12:30",
+      "sub": "Football",
+      "t": "Bristol City v Norwich City",
+      "u": "https://www.bcfc.co.uk/",
+      "v": "Ashton Gate Stadium"
+    },
+    {
+      "area": "Ashton Gate",
+      "d": "2026-11-24",
+      "g": "Championship",
+      "k": "sport",
+      "ll": [
+        51.4407,
+        -2.6206
+      ],
+      "s": "19:45",
+      "sub": "Football",
+      "t": "Bristol City v Wrexham",
+      "u": "https://www.bcfc.co.uk/",
+      "v": "Ashton Gate Stadium"
+    },
+    {
+      "area": "Ashton Gate",
+      "d": "2026-12-05",
+      "g": "Championship",
+      "k": "sport",
+      "ll": [
+        51.4407,
+        -2.6206
+      ],
+      "s": "12:30",
+      "sub": "Football",
+      "t": "Bristol City v Swansea City",
+      "u": "https://www.bcfc.co.uk/",
+      "v": "Ashton Gate Stadium"
+    },
+    {
+      "area": "Ashton Gate",
+      "d": "2026-12-19",
+      "g": "Championship",
+      "k": "sport",
+      "ll": [
+        51.4407,
+        -2.6206
+      ],
+      "s": "12:30",
+      "sub": "Football",
+      "t": "Bristol City v Cardiff City",
+      "u": "https://www.bcfc.co.uk/",
+      "v": "Ashton Gate Stadium"
+    },
+    {
+      "area": "Ashton Gate",
+      "d": "2026-12-29",
+      "g": "Championship; kick-off converted from a non-UK listing, check with the club",
+      "k": "sport",
+      "ll": [
+        51.4407,
+        -2.6206
+      ],
+      "s": "19:45",
+      "sub": "Football",
+      "t": "Bristol City v Stoke City",
+      "u": "https://www.goal.com/en/team/bristol-city/fixtures-results/c5485h5qulh4l0k0py5b9xug1",
+      "v": "Ashton Gate Stadium"
+    },
+    {
+      "area": "Ashton Gate",
+      "d": "2026-11-20",
+      "g": "Bristol Bears men",
+      "k": "sport",
+      "ll": [
+        51.4407,
+        -2.6206
+      ],
+      "s": "19:45",
+      "sub": "Rugby union",
+      "t": "Bristol Bears v Bath Rugby",
+      "u": "https://www.bristolbearsrugby.com/match-centre/fixtures/?tab=fixtures",
+      "v": "Ashton Gate Stadium"
+    },
+    {
+      "area": "Ashton Gate",
+      "d": "2026-12-12",
+      "g": "Bristol Bears men",
+      "k": "sport",
+      "ll": [
+        51.4407,
+        -2.6206
+      ],
+      "s": "20:00",
+      "sub": "Rugby union",
+      "t": "Bristol Bears v Munster Rugby",
+      "u": "https://www.bristolbearsrugby.com/match-centre/fixtures/?tab=fixtures",
+      "v": "Ashton Gate Stadium"
+    },
+    {
+      "area": "Ashton Gate",
+      "d": "2026-12-20",
+      "g": "Bristol Bears men",
+      "k": "sport",
+      "ll": [
+        51.4407,
+        -2.6206
+      ],
+      "s": "15:00",
+      "sub": "Rugby union",
+      "t": "Bristol Bears v Harlequins",
+      "u": "https://www.bristolbearsrugby.com/match-centre/fixtures/?tab=fixtures",
+      "v": "Ashton Gate Stadium"
+    },
+    {
+      "area": "Ashton Gate",
+      "d": "2026-12-26",
+      "g": "Bristol Bears men",
+      "k": "sport",
+      "ll": [
+        51.4407,
+        -2.6206
+      ],
+      "s": "15:05",
+      "sub": "Rugby union",
+      "t": "Bristol Bears v Newcastle Red Bulls",
+      "u": "https://www.bristolbearsrugby.com/match-centre/fixtures/?tab=fixtures",
+      "v": "Ashton Gate Stadium"
+    },
+    {
+      "area": "Horfield",
+      "d": "2026-11-06",
+      "k": "sport",
+      "ll": [
+        51.4858,
+        -2.5836
+      ],
+      "s": "19:30",
+      "sub": "Football",
+      "t": "Bristol Rovers v Cambridge United",
+      "u": "https://www.bristolrovers.co.uk/fixture/list/34",
+      "v": "Memorial Stadium"
+    },
+    {
+      "area": "Horfield",
+      "d": "2026-11-10",
+      "k": "sport",
+      "ll": [
+        51.4858,
+        -2.5836
+      ],
+      "s": "19:00",
+      "sub": "Football",
+      "t": "Bristol Rovers v Reading",
+      "u": "https://www.bristolrovers.co.uk/fixture/list/34",
+      "v": "Memorial Stadium"
+    },
+    {
+      "area": "Horfield",
+      "d": "2026-11-14",
+      "g": "League Two",
+      "k": "sport",
+      "ll": [
+        51.4858,
+        -2.5836
+      ],
+      "s": "15:00",
+      "sub": "Football",
+      "t": "Bristol Rovers v Chesterfield",
+      "u": "https://www.bristolrovers.co.uk/fixture/list/34",
+      "v": "Memorial Stadium"
+    },
+    {
+      "area": "Horfield",
+      "d": "2026-11-28",
+      "g": "League Two",
+      "k": "sport",
+      "ll": [
+        51.4858,
+        -2.5836
+      ],
+      "s": "12:30",
+      "sub": "Football",
+      "t": "Bristol Rovers v Tranmere Rovers",
+      "u": "https://www.bristolrovers.co.uk/fixture/list/34",
+      "v": "Memorial Stadium"
+    },
+    {
+      "area": "Horfield",
+      "d": "2026-12-12",
+      "g": "League Two",
+      "k": "sport",
+      "ll": [
+        51.4858,
+        -2.5836
+      ],
+      "s": "15:00",
+      "sub": "Football",
+      "t": "Bristol Rovers v Accrington Stanley",
+      "u": "https://www.bristolrovers.co.uk/fixture/list/34",
+      "v": "Memorial Stadium"
+    },
+    {
+      "area": "Horfield",
+      "d": "2026-12-26",
+      "g": "League Two",
+      "k": "sport",
+      "ll": [
+        51.4858,
+        -2.5836
+      ],
+      "s": "15:00",
+      "sub": "Football",
+      "t": "Bristol Rovers v Walsall",
+      "u": "https://www.bristolrovers.co.uk/fixture/list/34",
+      "v": "Memorial Stadium"
+    },
+    {
+      "area": "Stoke Gifford",
+      "d": "2026-11-08",
+      "k": "sport",
+      "ll": [
+        51.5126,
+        -2.5555
+      ],
+      "s": "15:00",
+      "sub": "Basketball",
+      "t": "Bristol Flyers v Surrey 89ers",
+      "u": "https://www.bristolflyers.co.uk/match-centre/teams/bristol-flyers/fixtures",
+      "v": "SGS College Arena"
+    },
+    {
+      "area": "Stoke Gifford",
+      "d": "2026-11-11",
+      "g": "European game; opponent depends on a qualifier",
+      "k": "sport",
+      "ll": [
+        51.5126,
+        -2.5555
+      ],
+      "s": "19:45",
+      "sub": "Basketball",
+      "t": "Bristol Flyers v Dubrava Zagreb",
+      "u": "https://www.bristolflyers.co.uk/match-centre/teams/bristol-flyers/fixtures",
+      "v": "SGS College Arena"
+    },
+    {
+      "area": "Stoke Gifford",
+      "d": "2026-11-20",
+      "k": "sport",
+      "ll": [
+        51.5126,
+        -2.5555
+      ],
+      "s": "19:30",
+      "sub": "Basketball",
+      "t": "Bristol Flyers v Cheshire Phoenix",
+      "u": "https://www.bristolflyers.co.uk/match-centre/teams/bristol-flyers/fixtures",
+      "v": "SGS College Arena"
+    },
+    {
+      "area": "Stoke Gifford",
+      "d": "2026-12-03",
+      "g": "European game",
+      "k": "sport",
+      "ll": [
+        51.5126,
+        -2.5555
+      ],
+      "s": "19:45",
+      "sub": "Basketball",
+      "t": "Bristol Flyers v Kapfenberg Bulls",
+      "u": "https://www.bristolflyers.co.uk/match-centre/teams/bristol-flyers/fixtures",
+      "v": "SGS College Arena"
+    },
+    {
+      "area": "Stoke Gifford",
+      "d": "2026-12-06",
+      "k": "sport",
+      "ll": [
+        51.5126,
+        -2.5555
+      ],
+      "s": "15:00",
+      "sub": "Basketball",
+      "t": "Bristol Flyers v Surrey 89ers",
+      "u": "https://www.bristolflyers.co.uk/match-centre/teams/bristol-flyers/fixtures",
+      "v": "SGS College Arena"
+    }
+  ],
+  "pulled": "2026-11-05",
+  "src": "Club fixture lists"
+}
