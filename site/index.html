@@ -711,6 +711,8 @@ dialog.dlg::backdrop{background:rgba(20,16,12,.5)}
 .dlg .msg:empty{display:none}
 @keyframes rolled{from{transform:rotate(-3deg) scale(.94);opacity:0}to{transform:none;opacity:1}}
 .dlg .prof.rolled{animation:rolled .28s ease-out}
+#exMain,.mappanel{scroll-margin-top:76px}
+@media (max-width:820px){.mappanel{scroll-margin-top:12px}}
 .sponsor .lead{margin:0 0 12px}
 .sitefoot .lnk{font-size:inherit;color:inherit}
 
@@ -59453,8 +59455,9 @@ function setDays(arr){F.days=new Set(arr); if(arr.length) calMonth=arr[0].slice(
 const sameSet=arr=>arr.length>0&&arr.length===F.days.size&&arr.every(x=>F.days.has(x));
 function renderControls(){
   const K=KINDS[kind], all=DATA[kind];
+  const toResults=()=>(matchMedia('(max-width:820px)').matches?document.querySelector('.mappanel'):$('exMain')).scrollIntoView({block:'start',behavior:still()?'auto':'smooth'});   // picking a tile jumps down to the map and its results; on one-column screens the filters sit above the map, so go to the map itself
   const tile=k=>{const b=el('button','kind'); b.type='button'; b.setAttribute('aria-pressed',k===kind?'true':'false');
-    b.dataset.k=k; const ic=el('i'); ic.append(ico(KINDS[k].icon,21)); b.append(ic,el('span','',KINDS[k].label),el('small','',String(DATA[k].filter(upcoming).length))); b.addEventListener('click',()=>setKind(k)); return b;};
+    b.dataset.k=k; const ic=el('i'); ic.append(ico(KINDS[k].icon,21)); b.append(ic,el('span','',KINDS[k].label),el('small','',String(DATA[k].filter(upcoming).length))); b.addEventListener('click',()=>{setKind(k);toResults();}); return b;};
   $('kinds').replaceChildren(...TILES.map(tile)); $('pkinds').replaceChildren(...PTILES.map(tile));
   $('diceBarSub').textContent='See six from '+K.label+', then roll the dice to choose one';
   // category, with its sub-categories opening underneath
