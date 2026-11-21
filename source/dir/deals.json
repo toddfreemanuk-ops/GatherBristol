@@ -1,4 +1,5 @@
 {
+  "first_table_pulled": "2026-11-21",
   "items": [
     {
       "dow": [
@@ -1341,8 +1342,1853 @@
       "v": "Bristol Aquarium",
       "w": "Days not stated",
       "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.454,
+        -2.5966
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/central/4500-miles-from-delhi",
+      "v": "4500 Miles from Delhi",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4555,
+        -2.6186
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/clifton/acento",
+      "v": "Acento",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.457,
+        -2.597
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/central/asado",
+      "v": "Asado",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4629,
+        -2.5176
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/kingswood/athugala-ceylon",
+      "v": "Athugala Ceylon",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4537,
+        -2.5946
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/city-centre/back-garden-pizzeria",
+      "v": "Back Garden Pizzeria",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.456,
+        -2.5975
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/central/bambalan",
+      "v": "Bambalan",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4565,
+        -2.6078
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/clifton/bare-grills",
+      "v": "Bare Grills",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4562,
+        -2.6131
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/clifton/barrelhouse",
+      "v": "Barrelhouse",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4889,
+        -2.5029
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/downend/the-beehive-asian-style-food",
+      "v": "Beehive Asian Diner",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4612,
+        -2.6025
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/clifton/beerd",
+      "v": "Beerd",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4663,
+        -2.5881
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/central/bianchis",
+      "v": "Bianchis Restaurant",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4567,
+        -2.5966
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/central/bistro-du-vin-bristol-city-centre",
+      "v": "Bistro Du Vin Bristol City Centre",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4636,
+        -2.6073
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/cotham-hill/black-cumin",
+      "v": "Black Cumin",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4539,
+        -2.5891
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/finzels-reach/bocabar-finzels-reach",
+      "v": "Bocabar Finzels Reach",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4427,
+        -2.5952
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/bedminster/bombil",
+      "v": "Bombil",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4671,
+        -2.6123
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/central/buenasado",
+      "v": "Buenasado",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4536,
+        -2.5945
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/central/burger-theory",
+      "v": "Burger Theory St Stephen’s Street",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4614,
+        -2.5905
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/stokes-croft/caribbean-croft",
+      "v": "Caribbean Croft",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4698,
+        -2.5953
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/redland/casa-mexicana",
+      "v": "Casa Mexicana",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4518,
+        -2.5952
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/central/cathay-rendezvous",
+      "v": "Cathay Rendezvous",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4549,
+        -2.6193
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/clifton/chandos-restaurant",
+      "v": "Chandos Restaurant",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4806,
+        -2.5884
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/gloucester-road/chi",
+      "v": "Chi",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £8 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4561,
+        -2.5824
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/old-market/chido-wey",
+      "v": "Chido Wey",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4699,
+        -2.576
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/st-werburghs/clouds",
+      "v": "CLOUDS",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4546,
+        -2.598
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/city-centre/colonnade",
+      "v": "Colonnade",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4458,
+        -2.6115
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/bedminster/coronation-curry-house",
+      "v": "Coronation Curry House",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4537,
+        -2.5949
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/central/cotto",
+      "v": "Cotto",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4704,
+        -2.616
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/clifton/crave",
+      "v": "Crave",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4559,
+        -2.5909
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/city-centre/crispy-dosa-bristol",
+      "v": "Crispy Dosa Bristol",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4537,
+        -2.5947
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch",
+      "u": "https://www.firsttable.co.uk/bristol/central/dangun",
+      "v": "Dangun",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4546,
+        -2.5943
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/central/dirty-martini",
+      "v": "Dirty Martini Bristol",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4695,
+        -2.5937
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/gloucester-road/dosa-queen",
+      "v": "Dosa Queen",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4631,
+        -2.5168
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/kingswood/eastern-spice",
+      "v": "Eastern Spice",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4559,
+        -2.6064
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/clifton/eatchu-at-clifton-triangle",
+      "v": "Eatchu at Clifton Triangle",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4668,
+        -2.6114
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/clifton/estrella-de-tapas",
+      "v": "Estrella De Tapas",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.464,
+        -2.6091
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/redland/feather",
+      "v": "Feather",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4538,
+        -2.5959
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/city-centre/franco-manca-bristol",
+      "v": "Franco Manca Bristol",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £8 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4682,
+        -2.5647
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/easton/garden-of-easton",
+      "v": "Garden of Easton",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.484,
+        -2.5981
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/bishopston/gloucester-old-spot",
+      "v": "Gloucester Old Spot",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4534,
+        -2.6253
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/clifton/bistro-du-vin-avon-gorge",
+      "v": "Goram & Vincent by Hotel du Vin Avon Gorge",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4492,
+        -2.5931
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/central/harbour-house",
+      "v": "Harbour House",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £3 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4499,
+        -2.6061
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at breakfast, lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/central/harbour-hub",
+      "v": "Harbour Hub",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4572,
+        -2.5969
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/central/haveli-the-yard",
+      "v": "Haveli The Yard",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4528,
+        -2.5982
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/city-centre/himalayan-kitchen",
+      "v": "Himalayan Kitchen",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £4 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4511,
+        -2.6077
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/city-centre/hotwells-eatery",
+      "v": "Hotwells Eatery",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4525,
+        -2.599
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/central/izakaya-x-yakiniku",
+      "v": "Izakaya x Yakiniku",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4499,
+        -2.602
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/harbourside/jamaya",
+      "v": "Jamaya",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £8 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4713,
+        -2.5931
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/gloucester-road/kal-dosa",
+      "v": "Kal Dosa",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4615,
+        -2.5904
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/stokes-croft/khao",
+      "v": "Khao",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4697,
+        -2.5955
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/cotham/kottu-hut",
+      "v": "Kottu Hut",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4559,
+        -2.6074
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/clifton/krishnas-inn",
+      "v": "Krishna's Inn",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4544,
+        -2.6136
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/clifton/kush-bristol",
+      "v": "Kush Bristol",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4485,
+        -2.5418
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/brislington/loro-di-napoli-pizzeria-and-trattoria",
+      "v": "L'oro di Napoli - Pizzeria & Trattoria",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.47,
+        -2.5944
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/redland/la-campagnuola",
+      "v": "La Campagnuola",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.449,
+        -2.5883
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/central/la-panza",
+      "v": "La Panza",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4857,
+        -2.6112
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/henleaze/la-scala",
+      "v": "La Scala",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4685,
+        -2.6138
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/clifton/la-tazza",
+      "v": "La Tazza",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4639,
+        -2.6081
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/cotham-hill/mangosteen",
+      "v": "Mangosteen Cotham Hill",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4749,
+        -2.591
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/gloucester-road/mangosteen-gloucester-road",
+      "v": "Mangosteen Gloucester Road",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4419,
+        -2.6134
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/southville/mangosteen-north-st",
+      "v": "Mangosteen North Street",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4677,
+        -2.6058
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/redland/meyze",
+      "v": "MEY·ZE",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4641,
+        -2.6081
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/cotham-hill/muino",
+      "v": "Muiño",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4511,
+        -2.6077
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/hotwells/naan-and-co-hotwells",
+      "v": "Naan & Co Hotwells",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.463,
+        -2.5901
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/stokes-croft/nadu",
+      "v": "Nadu",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £8 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4693,
+        -2.5757
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/st-werburghs/cafe-napolita",
+      "v": "Napolita",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4521,
+        -2.5978
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/harbourside/no-1-harbourside",
+      "v": "No.1 Harbourside",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4556,
+        -2.6198
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/clifton/clifton-no-4",
+      "v": "No.4 Clifton Village",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £4 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4666,
+        -2.5688
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/easton/noshh",
+      "v": "Noshh Grill",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4548,
+        -2.6206
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/clifton/nutmeg",
+      "v": "Nutmeg",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4537,
+        -2.5981
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/central/nutmeg-street-kitchen",
+      "v": "Nutmeg Street Kitchen",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4678,
+        -2.6063
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/redland/one-fish-street",
+      "v": "One Fish Street",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4711,
+        -2.5927
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/gloucester-road/palomar",
+      "v": "Palomar Restaurant & Bar",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4635,
+        -2.6089
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/redland/pazzo",
+      "v": "Pazzo",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4554,
+        -2.6049
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/clifton/pizza-in-the-park",
+      "v": "Pizza On The Park",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.45,
+        -2.6022
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/harbourside/pizza-express-bristol-harbourside",
+      "v": "PizzaExpress Harbourside",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4643,
+        -2.6093
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/redland/pizzarova-whiteladies-road",
+      "v": "Pizzarova - Whiteladies Road",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4632,
+        -2.6088
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch",
+      "u": "https://www.firsttable.co.uk/bristol/clifton/pocha",
+      "v": "Pocha",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4628,
+        -2.5902
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/stokes-croft/poco",
+      "v": "Poco Tapas Bar",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4498,
+        -2.6159
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/clifton/raj-bari",
+      "v": "Raj Bari",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4891,
+        -2.5033
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/downend/rajastan-royal",
+      "v": "Rajastan Royal",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4538,
+        -2.5949
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/central/ramen-monster-bristol",
+      "v": "Ramen Monster",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4717,
+        -2.5922
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/bishopston/ramen-ya",
+      "v": "Ramen Ya",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4951,
+        -2.5738
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/horfield/ramen-zen",
+      "v": "Ramen Zen",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4529,
+        -2.5987
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/central/rhapsody-wine-bar-and-restaurant",
+      "v": "Rhapsody Wine Bar and Restaurant",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.464,
+        -2.6081
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/cotham-hill/rock-salt",
+      "v": "Rock Salt",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £8 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.442,
+        -2.5965
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/bedminster/sambol",
+      "v": "Sambol",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £8 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4675,
+        -2.6064
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/redland/snobbys",
+      "v": "Snobby's",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £8 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4421,
+        -2.6137
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/southville/souk-kitchen",
+      "v": "Souk Kitchen",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £3 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4615,
+        -2.6083
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at breakfast or lunch",
+      "u": "https://www.firsttable.co.uk/bristol/clifton/terrace-at-43",
+      "v": "Terrace at 43",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4581,
+        -2.5847
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/city-centre/thai-express-kitchen",
+      "v": "Thai Express Kitchen",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4443,
+        -2.6132
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/southville/the-ashville-steakhouse",
+      "v": "The Ashville Steakhouse",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £8 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4632,
+        -2.5628
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/easton/the-baffled-king",
+      "v": "The Baffled King",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4741,
+        -2.6107
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/redland/the-cambridge-arms",
+      "v": "The Cambridge Arms",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4628,
+        -2.5897
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/stokes-croft/the-canteen",
+      "v": "The Canteen",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £8 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4557,
+        -2.6209
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/clifton/the-clifton-sausage",
+      "v": "The Clifton Sausage",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4701,
+        -2.5938
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/gloucester-road/the-coconut-tree-gloucester-road",
+      "v": "The Coconut Tree - Gloucester Road",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4521,
+        -2.5966
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/city-centre/the-coconut-tree-harbourside",
+      "v": "The Coconut Tree - Harbourside",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4869,
+        -2.5073
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/downend/the-duck-and-willow",
+      "v": "The Duck and Willow",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4892,
+        -2.6085
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/central/the-eastfield",
+      "v": "The Eastfield Pub",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4516,
+        -2.5929
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/central/the-granary",
+      "v": "The Granary",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4683,
+        -2.5644
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/easton/the-journey-tibet-to-india",
+      "v": "The Journey Tibet to India",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4595,
+        -2.5515
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/redfield/the-lock-up",
+      "v": "The Lock Up",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4408,
+        -2.6111
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/southville/the-malago",
+      "v": "The Malago",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4659,
+        -2.6112
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/clifton/the-metropolitan",
+      "v": "The Metropolitan",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4568,
+        -2.5791
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/old-market/the-old-market-assembly",
+      "v": "The Old Market Assembly",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4545,
+        -2.5945
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/central/the-ox",
+      "v": "The Ox Bristol",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4595,
+        -2.5508
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/redfield/the-red-church",
+      "v": "The Red Church",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4503,
+        -2.5972
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/central/the-river-grille",
+      "v": "The River Grille",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4698,
+        -2.5951
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/redland/the-saigon-kitchen",
+      "v": "The Saigon Kitchen",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4778,
+        -2.5901
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/bishopston/thikanaa",
+      "v": "Thikanaa Bristol",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4545,
+        -2.6189
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/clifton/third-eye-restaurant-and-bar",
+      "v": "Third Eye Restaurant & Bar",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4522,
+        -2.5926
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/central/three-brothers",
+      "v": "Three Brothers Burgers",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4502,
+        -2.5993
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/harbourside/tikka-flame",
+      "v": "Tikka Flame",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4805,
+        -2.5885
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/bishopston/tomato-and-basil-pizzeria",
+      "v": "Tomato & Basil Pizzeria",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4533,
+        -2.5966
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/city-centre/tonkotsu",
+      "v": "Tonkotsu Bristol",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £3 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4529,
+        -2.597
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at breakfast, lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/city-centre/turtle-bay-bristol",
+      "v": "Turtle Bay Bristol",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4703,
+        -2.5944
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/bishopston/two-crows",
+      "v": "Two Crows",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.475,
+        -2.591
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/bishopston/uncle-wahs",
+      "v": "Uncle Wah's",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4519,
+        -2.5975
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/city-centre/under-the-stars",
+      "v": "Under the Stars",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4805,
+        -2.6116
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at dinner",
+      "u": "https://www.firsttable.co.uk/bristol/henleaze/westbury-park",
+      "v": "Westbury Park Pub & Kitchen",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4563,
+        -2.598
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch",
+      "u": "https://www.firsttable.co.uk/bristol/clifton/zero-degrees",
+      "v": "Zero Degrees",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4589,
+        -2.585
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/broadmead/cabot-circus/zizzi-bristol-cabot-circus",
+      "v": "Zizzi - Bristol Cabot Circus",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
+    },
+    {
+      "dow": [],
+      "g": "booked through First Table; booking fee £6 for two; food only, drinks are full price",
+      "k": "first",
+      "ll": [
+        51.4544,
+        -2.6204
+      ],
+      "pt": "food",
+      "t": "50% off the food bill on the first table at lunch or dinner",
+      "u": "https://www.firsttable.co.uk/bristol/clifton/zizzi-bristol-clifton-village",
+      "v": "Zizzi - Bristol Clifton Village",
+      "w": "Days vary; pick a date on First Table",
+      "wk": true
     }
   ],
   "pulled": "2026-11-05",
-  "src": "Life Less Organised (Sep 2025), venue pages, Unifresher, Urban Student, The Tab, Bristol World, University of Bristol"
+  "src": "Life Less Organised (Sep 2025), venue pages, Unifresher, Urban Student, The Tab, Bristol World, University of Bristol, First Table"
 }

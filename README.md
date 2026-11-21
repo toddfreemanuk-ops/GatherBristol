@@ -32,5 +32,6 @@ If it finds fewer than half as many events as last time, it stops and leaves the
 ## Things that are not automatic
 
 - Only Headfirst events refresh. Everything in `source/dir/` and the `ongoing`, `seasonal` and `sport` files is as it was last edited.
+- The First Table offers (50% off the food bill) are refreshed by hand: `python scripts/first_table.py`, then `python scripts/daily_update.py --data-only`. It replaces only the First Table entries in `source/dir/deals.json`.
 - News headlines are dropped from the site once `source/dir/news.json` is more than 7 days old (its `pulled` date).
 - The contact form posts to FormSubmit, which forwards to the inbox set in `CONTACT` near the end of `site/index.html`.
