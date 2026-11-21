@@ -8,7 +8,7 @@ A static what's-on site for Bristol. No accounts, no server: one page that reads
 |---|---|
 | `site/` | Everything that gets published: `index.html`, `data/listings.json`, `img/` |
 | `source/days/` | Events by date, plus `ongoing`, `seasonal` and `sport`. Dated files are rewritten by the daily refresh |
-| `source/dir/` | Clubs, courses, promotions, volunteering, places and news. Edited by hand |
+| `source/dir/` | Clubs, courses, health & fitness, promotions, volunteering, places and news. Edited by hand |
 | `work/` | The scraper's cache (event pages already read, image map) |
 | `scripts/` | The daily refresh |
 | `.github/workflows/` | Runs the refresh every morning and publishes `site/` to GitHub Pages |

@@ -506,6 +506,7 @@ h3 small{font-size:13px;color:var(--muted2)}
 .kind[data-k="clubs"],.kind[data-k="pother"]{--kc:var(--c1)}
 .kind[data-k="kids"],.kind[data-k="pdrink"]{--kc:var(--c2)}
 .kind[data-k="sport"]{--kc:var(--c6)}
+.kind[data-k="fit"]{--kc:var(--c8)}
 .kind[data-k="vol"]{--kc:var(--c4)}
 
 /* browse: filters, map, results, picks */
@@ -59024,7 +59025,10 @@ KINDS.always={label:'Always on',one:'Place',noun:'place',icon:'Landmark',types:[
 const KORDER=['events','clubs','courses','always','deals','vol'];
 KINDS.season={label:'In season',one:'Seasonal',noun:'listing',icon:'Flame',types:[]};   // categories are the seasons, filled from the data
 KINDS.kids={label:'Kids & family',one:'Family',noun:'listing',icon:'Smile',types:[['fam','Family events & shows','PartyPopper'],['story','Story & rhyme time','BookOpen'],['make','Making & play','Scissors'],['fire','Fireworks & seasonal','Flame'],['place','Places to take them','Landmark']]};
-const TILES=['season','events','courses','clubs','kids','sport','vol','always'];
+const TILES=['season','events','courses','clubs','kids','fit','sport','vol','always'];
+KINDS.fit={label:'Health & fitness',one:'Activity',noun:'listing',icon:'HeartPulse',types:[['swim','Outdoor & wild swimming','Waves'],['pool','Pools & leisure centres','LifeBuoy'],['gym','Gyms & classes','Dumbbell'],['run','Running','Footprints'],['yoga','Yoga & pilates','Flower2'],['climb','Climbing','Mountain'],
+  ['cycle','Cycling','Bike'],['water','Watersports','Sailboat'],['team','Team & racket sports','Volleyball'],['walk','Walking & outdoor fitness','TreePine']]};   // its own listings (source/dir/fitness.json) plus the sporty groups already under Clubs & societies
+const fitCat=e=>e.kind==='fit'?e.k:e.k==='run'?'run':/cold water|swim/i.test(e.sub)?'swim':/cycl|bike/i.test(e.sub)?'cycle':/walk|hik|rambl/i.test(e.sub)?'walk':'team';   // where a club sits in the Health & fitness view
 KINDS.vol={label:'Volunteering',one:'Volunteering',noun:'role',icon:'Heart',types:[['green','Parks & gardens','Trees'],['food','Food & poverty','Package'],['farm','City farms & animals','Tractor'],['well','Wellbeing & support','HandHeart'],['sport','Sport & events','Medal']]};
 const MV=KINDS.always.types.map(t=>'mv_'+t[0]);   // the Must visit row: one tile per kind of place
 MV.forEach((k,i)=>{const t=KINDS.always.types[i]; KINDS[k]={label:t[1],one:'Place',noun:'place',icon:t[2],types:[t]};});
@@ -59036,18 +59040,19 @@ KINDS.deals={label:'Promotions',one:'Offer',noun:'offer',icon:'BadgePercent',typ
 const PT={pfood:['food','Food','Utensils'],pdrink:['drink','Drink','Beer'],pshop:['shop','Shopping','ShoppingBag'],pother:['other','Other','Sparkles']};
 PTILES.forEach(k=>{KINDS[k]={label:PT[k][1],one:'Offer',noun:'offer',icon:PT[k][2],types:KINDS.deals.types};});
 const SEAICON={'Bonfire Night':'Flame','Remembrance Sunday':'Flower2','Christmas':'Snowflake'};
-const wkKind=()=>kind==='clubs'||kind==='deals'||kind==='vol'||PTILES.includes(kind);
-const wkly=e=>e.kind==='clubs'||e.kind==='deals'||e.kind==='vol';   // listings that repeat on weekdays rather than sit on a date
+const wkKind=()=>kind==='clubs'||kind==='deals'||kind==='vol'||kind==='fit'||PTILES.includes(kind);
+const wkly=e=>e.kind==='clubs'||e.kind==='deals'||e.kind==='vol'||e.kind==='fit';   // listings that repeat on weekdays rather than sit on a date
 const isEv=()=>!wkKind()&&kind!=='courses'&&!alwKind();
 const undated=e=>wkly(e)||e.kind==='always';
-const ck=e=>kind==='season'?e.sea:kind==='kids'?e.kc:kind==='sport'?e.sub:e.k;   // which field the left-hand category list filters on
+const ck=e=>kind==='season'?e.sea:kind==='kids'?e.kc:kind==='sport'?e.sub:kind==='fit'?e.fc:e.k;   // which field the left-hand category list filters on
 const isKid=e=>e.kind==='events'?(e.k==='family'||/\bfamily\b/i.test(e.g)||e.sub==='Fireworks'):e.kind==='clubs'?e.k==='kids':e.kind==='deals'?e.k==='kids':e.kind==='always'?!!e.kid:false;
 const kidCat=e=>e.kind==='deals'?'place':e.kind==='clubs'?'story':e.kind==='always'?'place':(e.sub==='Fireworks'||e.sea)?'fire':/making|workshop/i.test(e.g+' '+e.sub)?'make':'fam';
 function rebuildViews(){ DATA.kids=KORDER.flatMap(k=>DATA[k]).filter(isKid); DATA.kids.forEach(e=>{e.kc=kidCat(e);}); PTILES.forEach(k=>{DATA[k]=DATA.deals.filter(e=>e.pt===PT[k][0]);});
   MV.forEach(k=>{DATA[k]=DATA.always.filter(e=>'mv_'+e.k===k);});
+  { const o=KINDS.fit.types.map(t=>t[0]); DATA.fit=FIT.concat(DATA.clubs.filter(e=>e.k==='run'||e.k==='out')); DATA.fit.forEach(e=>{e.fc=fitCat(e);}); DATA.fit.sort((a,b)=>o.indexOf(a.fc)-o.indexOf(b.fc)||a.t.localeCompare(b.t)); }
   DATA.sport=DATA.events.filter(e=>e.k==='sport'); const S=KINDS.sport, sn=[...new Set(DATA.sport.filter(upcoming).map(e=>e.sub))].sort();
   S.types=sn.map(n=>[n,n,SPORTICON[n]||'Trophy']); S.name={}; S.col={}; S.ico={}; sn.forEach((n,i)=>{S.name[n]=n; S.ico[n]=SPORTICON[n]||'Trophy'; S.col[n]='var(--c'+[6,0,4,1,5,3][i%6]+')';}); }
-['events','clubs','courses','kids','always','deals','vol'].concat(PTILES,MV).forEach(k=>{const K=KINDS[k];K.name={};K.col={};K.ico={};K.types.forEach(([id,n,ic],i)=>{K.name[id]=n;K.ico[id]=ic;K.col[id]='var(--c'+(i%10)+')';});});
+['events','clubs','courses','kids','always','deals','vol','fit'].concat(PTILES,MV).forEach(k=>{const K=KINDS[k];K.name={};K.col={};K.ico={};K.types.forEach(([id,n,ic],i)=>{K.name[id]=n;K.ico[id]=ic;K.col[id]='var(--c'+(i%10)+')';});});
 const SLOTS=[['am','Morning','before 12'],['pm','Afternoon','12 to 5'],['eve','Evening','5 to 9'],['late','Late','9pm on']];
 const slotOf=s=>{const h=+s.slice(0,2);return h<6?'late':h<12?'am':h<17?'pm':h<21?'eve':'late';};
 const MON=['January','February','March','April','May','June','July','August','September','October','November','December'];
@@ -59072,6 +59077,7 @@ function blurb(e){
   const cat=tname(e), sub=e.sub&&e.sub!=='Other'?e.sub:'', where=e.v+(e.area?' in '+e.area:'');
   if(e.kind==='vol') return cat+' volunteering with '+e.v+(e.area?' in '+e.area:'')+'. '+(e.w?e.w+(e.s&&!/\d/.test(e.w)?', '+e.s+(e.e?' to '+e.e:''):'')+'.':'')+(e.g?' '+e.g.charAt(0).toUpperCase()+e.g.slice(1)+'.':'')+' Check with the organiser before you turn up.';
   if(e.kind==='deals') return 'Listed under '+lower(cat)+(e.area?', in '+e.area:'')+'. '+(/^Days not stated/.test(e.w)||!e.w?'The source does not say which days it runs.':e.w+(e.s&&!/\d/.test(e.w)?', '+e.s+(e.e?' to '+e.e:''):'')+'.')+(e.g?' Note: '+e.g+'.':'')+' Offers change often, so check with the venue before you go.';
+  if(e.kind==='fit') return (e.g?e.g.charAt(0).toUpperCase()+e.g.slice(1)+'. ':'')+'Listed under '+lower(cat)+(e.t===e.v?(e.area?', in '+e.area:''):', at '+where)+'.'+(e.w?' '+e.w+(e.s&&!/\d/.test(e.w)?', '+e.s+(e.e?' to '+e.e:''):'')+'.':'')+' Times and prices change, so check the link before you go.';
   if(e.kind==='clubs'&&e.k==='quiz') return (e.wk?'Weekly pub quiz':'Pub quiz')+' at '+where+'. '+e.w+(e.s?' from '+e.s:'')+'.'+(e.g?' '+e.g.charAt(0).toUpperCase()+e.g.slice(1)+'.':'')+' Quiz nights move and pause, so check with the pub before you go.';
   if(e.kind==='clubs') return cat+' group'+(sub?' ('+lower(sub)+')':'')+' at '+where+'. Meets '+(/^(Mon|Tue|Wed|Thu|Fri|Sat|Sun)/.test(e.w)?e.w:lower(e.w))+(e.s?' from '+e.s:'')+(e.e?' to '+e.e:'')+'.'+(e.g?' '+e.g.charAt(0).toUpperCase()+e.g.slice(1)+'.':'')+(e.wk?' Runs every week, so you can turn up to the next one.':' Not weekly, so check the date with the group.');
   if(e.kind==='courses') return e.len+' '+lower(sub||cat)+' course at '+where+', starting '+nice(e.d)+(e.s?' at '+e.s:'')+(e.e?' and finishing at '+e.e:'')+'.'+(e.one?' A single session, no follow-up weeks.':' Runs over several sessions.');
@@ -59088,11 +59094,12 @@ function poster(e,cls){ const p=el('div','poster '+(cls||'')+' pt'+(parseInt(has
 
 /* ---------- state ---------- */
 const mkF=()=>({cat:'',subs:new Set(),days:new Set(),slots:new Set(),dows:new Set(),lens:new Set(),q:'',free:false,hideSold:false,untimed:false,under50:false,weekly:false,near:0});
-const FS={}; function startFilters(){ ['events','clubs','courses','always','deals','vol','season','kids'].concat(PTILES,MV,['sport']).forEach(k=>FS[k]=mkF());
+const FS={}; function startFilters(){ ['events','clubs','courses','always','deals','vol','season','kids','fit'].concat(PTILES,MV,['sport']).forEach(k=>FS[k]=mkF());
   ['events','season','kids','sport'].forEach(k=>FS[k].days.add(TODAY)); }   // date-led views open on today; courses list by start date, so they open on any day
 startFilters();
 let kind='events', F=FS.events;
-const DATA={events:[],clubs:[],courses:[],always:[],deals:[],vol:[],season:[],kids:[]}; PTILES.concat(MV,['sport']).forEach(k=>DATA[k]=[]);
+const DATA={events:[],clubs:[],courses:[],always:[],deals:[],vol:[],season:[],kids:[],fit:[]}; PTILES.concat(MV,['sport']).forEach(k=>DATA[k]=[]);
+let FIT=[];   // the Health & fitness tile's own listings; DATA.fit adds the sporty clubs to these
 const BYID=new Map();
 let NEWS=[]; const got={days:false,dir:false}; let fitted=false;
 let calMonth=TODAY.slice(0,7), failMsg='', showN=12, sortNear=false;
@@ -59320,6 +59327,8 @@ function ingestDir(docs){
     if(d.id==='clubs'){ DATA.clubs=items.map(o=>{const b=base(o,'clubs'); if(!b) return null;
         return stamp(Object.assign(b,{w:o.w?String(o.w):'',dow:Array.isArray(o.dow)?o.dow.filter(n=>n>=1&&n<=7):[],wk:!!o.wk}));}).filter(Boolean)
         .sort((a,b)=>KINDS.clubs.types.findIndex(t=>t[0]===a.k)-KINDS.clubs.types.findIndex(t=>t[0]===b.k)||a.t.localeCompare(b.t)); }
+    if(d.id==='fitness'){ FIT=items.map(o=>{const b=base(o,'fit'); if(!b) return null;
+        return stamp(Object.assign(b,{w:o.w?String(o.w).slice(0,120):'',dow:Array.isArray(o.dow)?o.dow.filter(n=>n>=1&&n<=7):[],wk:!!o.wk}));}).filter(Boolean); }
     if(d.id==='news'){ NEWS=items.filter(o=>o&&typeof o.t==='string'&&/^https:\/\//.test(o.u||'')).map(o=>({t:o.t.slice(0,160),u:o.u,src:String(o.src||'').slice(0,40),tag:String(o.tag||'').slice(0,30)})); }
     if(d.id==='volunteer'){ DATA.vol=items.map(o=>{const b=base(o,'vol'); if(!b) return null;
         return stamp(Object.assign(b,{w:o.w?String(o.w).slice(0,120):'',dow:Array.isArray(o.dow)?o.dow.filter(n=>n>=1&&n<=7):[],wk:true}));}).filter(Boolean)
@@ -59476,7 +59485,7 @@ function renderControls(){
   $('cats').replaceChildren(...kids); $('catClear').hidden=!F.cat;
   const isC=wkKind();
   $('secDow').hidden=!isC; $('secDay').hidden=isC||alwKind(); $('secTime').hidden=alwKind(); $('secLen').hidden=kind!=='courses'; $('secNear').hidden=!LOC;
-  $('lblUnder').hidden=kind!=='courses'; $('lblWeekly').hidden=kind!=='clubs'; $('secDow').querySelector('h2').firstChild.nodeValue=kind==='clubs'?'Meets on ':kind==='vol'?'Happens on ':'Valid on '; $('lblSold').hidden=isC||alwKind(); $('lblUntimed').hidden=!(isEv()&&F.slots.size);
+  $('lblUnder').hidden=kind!=='courses'; $('lblWeekly').hidden=kind!=='clubs'; $('secDow').querySelector('h2').firstChild.nodeValue=kind==='clubs'?'Meets on ':kind==='vol'?'Happens on ':kind==='fit'?'On or open on ':'Valid on '; $('lblSold').hidden=isC||alwKind(); $('lblUntimed').hidden=!(isEv()&&F.slots.size);
   $('dayTitle').textContent=kind==='courses'?'Starts on':'Day'; $('catTitle').textContent=kind==='season'?'Season':'Category';
   if(LOC) $('nearChips').replaceChildren(...NEAR.map(([m,n])=>chip(n,F.near===m,()=>{F.near=m;render();})));
   {
@@ -59539,7 +59548,7 @@ function renderFeatured(){ const box=$('featured'), kids=[];
 function renderResults(){
   const K=KINDS[kind], all=DATA[kind], ready=isEv()?got.days:got.dir;
   $('listTitle').textContent=K.label+' that match';
-  $('src').innerHTML='Events from <a href="https://www.headfirstbristol.co.uk/" target="_blank" rel="noopener">Headfirst Bristol</a> and <a href="https://visitbristol.co.uk/whats-on/this-week-in-bristol" target="_blank" rel="noopener">Visit Bristol</a>; groups from the volunteer-run <a href="https://social-bristol.pages.dev/" target="_blank" rel="noopener">Social Bristol</a> directory, Meetup and club sites; pub quizzes from Trivia Near Me, Unifresher, Yuup and DesignMyNight; courses from <a href="https://www.bristolfolkhouse.co.uk/" target="_blank" rel="noopener">Bristol Folk House</a> and <a href="https://www.spikeprintstudio.org/courses" target="_blank" rel="noopener">Spike Print Studio</a>; food promotions from the <a href="https://lifelessorganised.com/2025/06/01/food-drink-offers-in-bristol/" target="_blank" rel="noopener">Life Less Organised</a> round-up (last updated September 2025), DesignMyNight, venue pages, student guides (Unifresher, Urban Student, The Tab), Bristol World, the University of Bristol, Bristol Old Vic and Nuffield Health; volunteering from Bristol City Council, FareShare South West, Avon Wildlife Trust, Your Park, the city farms and community gardens. Times and prices change, so check the link before you travel. Distances are straight-line. Map © OpenStreetMap contributors.'+(UPDATED?' Listings last refreshed '+nice(UPDATED)+'.':'');
+  $('src').innerHTML='Events from <a href="https://www.headfirstbristol.co.uk/" target="_blank" rel="noopener">Headfirst Bristol</a> and <a href="https://visitbristol.co.uk/whats-on/this-week-in-bristol" target="_blank" rel="noopener">Visit Bristol</a>; groups from the volunteer-run <a href="https://social-bristol.pages.dev/" target="_blank" rel="noopener">Social Bristol</a> directory, Meetup and club sites; pub quizzes from Trivia Near Me, Unifresher, Yuup and DesignMyNight; courses from <a href="https://www.bristolfolkhouse.co.uk/" target="_blank" rel="noopener">Bristol Folk House</a> and <a href="https://www.spikeprintstudio.org/courses" target="_blank" rel="noopener">Spike Print Studio</a>; food promotions from the <a href="https://lifelessorganised.com/2025/06/01/food-drink-offers-in-bristol/" target="_blank" rel="noopener">Life Less Organised</a> round-up (last updated September 2025), DesignMyNight, venue pages, student guides (Unifresher, Urban Student, The Tab), Bristol World, the University of Bristol, Bristol Old Vic and Nuffield Health; volunteering from Bristol City Council, FareShare South West, Avon Wildlife Trust, Your Park, the city farms and community gardens; health and fitness listings from venue and organiser sites. Times and prices change, so check the link before you travel. Distances are straight-line. Map © OpenStreetMap contributors.'+(UPDATED?' Listings last refreshed '+nice(UPDATED)+'.':'');
   pinLayer.clearLayers(); markers.clear(); hi=null; $('mapInfo').hidden=true;
   if(LOC){ youMarker=L.marker(LOC.ll,{interactive:false,keyboard:false,zIndexOffset:-100,icon:L.divIcon({className:'',iconSize:[18,18],html:'<span class="youpin" style="display:block"></span>'})}); pinLayer.addLayer(youMarker); }
   if(!ready){ $('count').textContent=failMsg?'Nothing to show':'Loading'; $('list').replaceChildren(el('div','empty',failMsg||'Fetching the listings.')); return; }
@@ -59629,7 +59638,7 @@ $('diceBar').addEventListener('click',()=>{ showSix(); track('dice: opened ('+KI
 $('diceRoll').addEventListener('click',()=>{ rollDice(); track('dice: rolled ('+KINDS[kind].label+')'); });
 $('diceDeal').addEventListener('click',()=>{ showSix(); track('dice: six different ('+KINDS[kind].label+')'); });
 document.addEventListener('click',ev=>{ const a=ev.target.closest&&ev.target.closest('a[target="_blank"]'); if(!a) return;   // outbound clicks, counted per venue
-  const u=a.getAttribute('href'), e=KORDER.flatMap(k=>DATA[k]).find(x=>x.u===u); if(e) track('details click: '+e.v,e.t); else if(a.closest('#friends')) track('news link'); },true);
+  const u=a.getAttribute('href'), e=KORDER.flatMap(k=>DATA[k]).concat(FIT).find(x=>x.u===u); if(e) track('details click: '+e.v,e.t); else if(a.closest('#friends')) track('news link'); },true);
 $('diceDlg').addEventListener('close',()=>{ clearInterval(rolling); rolling=null; });
 $('dicePick').addEventListener('click',ev=>{ if(ev.target.closest('button')) $('diceDlg').close(); },true);   // the card's own buttons jump to the map, so close first
 
