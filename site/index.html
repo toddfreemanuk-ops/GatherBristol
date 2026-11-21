@@ -59327,7 +59327,7 @@ function ingestDir(docs){
     if(d.id==='clubs'){ DATA.clubs=items.map(o=>{const b=base(o,'clubs'); if(!b) return null;
         return stamp(Object.assign(b,{w:o.w?String(o.w):'',dow:Array.isArray(o.dow)?o.dow.filter(n=>n>=1&&n<=7):[],wk:!!o.wk}));}).filter(Boolean)
         .sort((a,b)=>KINDS.clubs.types.findIndex(t=>t[0]===a.k)-KINDS.clubs.types.findIndex(t=>t[0]===b.k)||a.t.localeCompare(b.t)); }
-    if(d.id==='fitness'){ FIT=items.map(o=>{const b=base(o,'fit'); if(!b) return null;
+    if(d.id==='fitness'){ FIT=items.map(o=>{const b=base(o,'fit'); if(!b||(o.to&&String(o.to)<TODAY)) return null;   // a one-off with a "to" date drops off after it
         return stamp(Object.assign(b,{w:o.w?String(o.w).slice(0,120):'',dow:Array.isArray(o.dow)?o.dow.filter(n=>n>=1&&n<=7):[],wk:!!o.wk}));}).filter(Boolean); }
     if(d.id==='news'){ NEWS=items.filter(o=>o&&typeof o.t==='string'&&/^https:\/\//.test(o.u||'')).map(o=>({t:o.t.slice(0,160),u:o.u,src:String(o.src||'').slice(0,40),tag:String(o.tag||'').slice(0,30)})); }
     if(d.id==='volunteer'){ DATA.vol=items.map(o=>{const b=base(o,'vol'); if(!b) return null;
