@@ -489,28 +489,40 @@ h3 small{font-size:13px;color:var(--muted2)}
 /* I'm looking for + Editor's picks */
 .lookgrid{border-radius:28px;padding:24px;box-shadow:0 14px 40px rgba(120,80,40,.06);grid-template-columns:minmax(0,5fr) minmax(0,2fr);gap:24px 22px;align-items:start}
 .lookgrid h3 small.soon,.pr h3 .soon{font:400 12px var(--f-body);letter-spacing:0;text-transform:none;color:var(--muted2)}
-.dash .lookgrid .kinds{gap:10px}
+.dash .lookgrid .kinds{gap:18px}
 .dash #kinds{grid-template-columns:repeat(5,minmax(0,1fr))}
 .dash #pkinds{grid-template-columns:repeat(2,minmax(0,1fr))}
-.dash .kind{grid-template-areas:"i n" "t t";gap:10px 6px;border:2px solid var(--line-soft);border-radius:16px;padding:10px 12px;background:color-mix(in srgb,var(--kc) 6%,var(--panel));font-weight:400;font-size:15px;line-height:1.15;transition:transform .15s,box-shadow .15s,background .15s}
-.dash .kind i{width:30px;height:30px;background:color-mix(in srgb,var(--kc) 14%,transparent);color:var(--kc)}
-.dash .kind small{font-size:12px;color:var(--muted2);align-self:center}
-.dash .kind span{min-height:2.3em}   /* room for a two-line label, so every tile is the same height */
-.dash .kind:hover{border-color:var(--line-soft);background:color-mix(in srgb,var(--kc) 6%,var(--panel));transform:translateY(-2px);box-shadow:0 6px 16px rgba(120,80,40,.1)}
-.dash .kind[aria-pressed="true"]{border-color:var(--kc);background:color-mix(in srgb,var(--kc) 15%,var(--panel));box-shadow:none;color:var(--ink)}
-.dash .kind[aria-pressed="true"] i{background:color-mix(in srgb,var(--kc) 14%,transparent);color:var(--kc)}
-.dash #pkinds .kind:not([aria-pressed="true"]){border:2px solid color-mix(in srgb,var(--c0) 38%,var(--panel));background:var(--panel-warm)}
-.dash #pkinds .kind:not([aria-pressed="true"]):hover{background:color-mix(in srgb,var(--c0) 7%,var(--panel));transform:none;box-shadow:none}
-.kind[data-k="season"],.kind[data-k="always"],.kind[data-k="pfood"]{--kc:var(--c0)}
-.kind[data-k="events"],.kind[data-k="ev"],.kind[data-k="pshop"]{--kc:var(--c3)}
-.kind[data-k="music"]{--kc:var(--c7)}
-.kind[data-k="courses"]{--kc:var(--c5)}
-.kind[data-k="clubs"],.kind[data-k="pother"]{--kc:var(--c1)}
-.kind[data-k="kids"],.kind[data-k="pdrink"]{--kc:var(--c2)}
-.kind[data-k="sport"]{--kc:var(--c6)}
-.kind[data-k="fit"]{--kc:var(--c8)}
-.kind[data-k="vol"]{--kc:var(--c4)}
-@media (max-width:1100px){.lookgrid{gap:20px 16px} .dash .lookgrid .kinds{gap:8px} .dash .kind{font-size:13.5px;padding:10px 9px}}
+/* "sticker" tiles: --c is the category colour and --fg the colour that reads on it; the hard shadow sits outside the tile */
+.dash .kind{--tile-ink:#2B1D16;--tile-paper:#FFFDF8;--tile-sh:var(--c);box-sizing:border-box;container-type:inline-size;min-height:122px;grid-template-columns:auto minmax(0,1fr);grid-template-rows:auto minmax(0,1fr);grid-template-areas:"i n" "t t";gap:6px 8px;padding:14px 16px 16px;border:2px solid var(--tile-ink);border-radius:16px;background:var(--tile-paper);color:var(--tile-ink);box-shadow:6px 6px 0 var(--tile-sh);font-family:var(--f-display);font-weight:400;font-size:20px;line-height:24px;transition:transform .15s,box-shadow .15s}
+.dash .kind i{box-sizing:border-box;width:58px;height:58px;border:2px solid var(--tile-ink);border-radius:14px;background:var(--c);color:var(--fg);transform:rotate(-8deg)}
+.dash .kind i svg{width:32px;height:32px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.dash .kind small{align-self:start;justify-self:end;font-size:14px;font-weight:500;color:inherit}
+.dash .kind span{align-self:end;display:flex;align-items:flex-end}
+/* container widths are the tile's inside width, without its padding and border */
+@container (max-width:171px){.dash .kind span{min-height:48px;min-height:2lh}}   /* too narrow for the longest label on one line: every tile keeps room for two, so the rows stay level */
+@container (max-width:130px){.dash .kind span{font-size:18px;line-height:22px}}   /* the longest single word ("Volunteering") must still fit on one line */
+@container (max-width:117px){.dash .kind span{font-size:16px;line-height:20px}}
+@media (min-width:1280px){.dash .kind span{min-height:48px;min-height:2lh}}   /* the two blocks sit side by side here, so all fourteen tiles keep one height */
+@media (min-width:1280px) and (max-width:1399px){.dash .kind span{font-size:17px;line-height:21px}}
+.dash .kind:hover{border-color:var(--tile-ink);background:var(--tile-paper);transform:translate(-2px,-2px);box-shadow:8px 8px 0 var(--tile-sh)}
+.dash .kind[aria-pressed="true"]{--tile-sh:var(--tile-ink);border-color:var(--tile-ink);background:var(--c);color:var(--fg);box-shadow:6px 6px 0 var(--tile-sh)}
+.dash .kind[aria-pressed="true"]:hover{background:var(--c);box-shadow:8px 8px 0 var(--tile-sh)}
+.dash .kind[aria-pressed="true"] i{background:var(--tile-paper);color:var(--tile-ink)}
+.dash .kind[aria-pressed="true"] small{opacity:1}
+.dash .kind:focus-visible{outline:3px solid var(--ink);outline-offset:4px}
+.kind[data-k="season"],.kind[data-k="vol"]{--c:#C8401A;--fg:#FFFFFF}
+.kind[data-k="events"],.kind[data-k="ev"],.kind[data-k="always"]{--c:#8B3F7A;--fg:#FFFFFF}
+.kind[data-k="music"],.kind[data-k="pfood"]{--c:#F2B134;--fg:#2B1D16}
+.kind[data-k="courses"],.kind[data-k="pdrink"]{--c:#1F7A75;--fg:#FFFFFF}
+.kind[data-k="clubs"],.kind[data-k="sport"]{--c:#2F5DA8;--fg:#FFFFFF}
+.kind[data-k="kids"],.kind[data-k="pshop"]{--c:#F4A7B0;--fg:#2B1D16}
+.kind[data-k="fit"],.kind[data-k="pother"]{--c:#357A40;--fg:#FFFFFF}
+@media (max-width:1100px){.lookgrid{gap:20px 16px}}
+@media (max-width:1279px){.lookgrid{grid-template-columns:minmax(0,1fr)} .dash .lookgrid #pkinds{grid-template-columns:repeat(4,minmax(0,1fr))}}   /* side by side, five across leaves the tiles too narrow for the chip, count and label */
+@media (max-width:999px){.dash .lookgrid #kinds{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:699px){.dash .lookgrid #kinds,.dash .lookgrid #pkinds{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:419px){.dash .kind{padding:14px 12px 16px}}
+@media (max-width:349px){.dash .lookgrid #kinds,.dash .lookgrid #pkinds{grid-template-columns:minmax(0,1fr)}}
 
 /* browse: filters, map, results, picks */
 .main{grid-template-columns:280px minmax(0,1fr) 320px;gap:20px}
@@ -666,7 +678,7 @@ table.t td{border-bottom-color:var(--line-soft)}
   .herotext{padding:28px 16px 32px}
   .cap{font-size:20px}
   .lookgrid{grid-template-columns:minmax(0,1fr);padding:18px}
-  .dash #pkinds{grid-template-columns:repeat(5,minmax(0,1fr))}
+  .dash #pkinds{grid-template-columns:repeat(4,minmax(0,1fr))}
   .hgrid,.lhead{grid-template-columns:minmax(0,1fr)}
   .lhead .poster{min-height:150px}
   .psec{padding:20px}
@@ -674,9 +686,6 @@ table.t td{border-bottom-color:var(--line-soft)}
 @media (max-width:640px){
   .hero .herotext .brand{font-size:clamp(36px,12vw,44px)}
   .apphead{position:static}
-  .dash #kinds{grid-template-columns:repeat(3,minmax(0,1fr))}
-  .dash #pkinds{grid-template-columns:repeat(4,minmax(0,1fr))}
-  .dash .lookgrid .kinds{gap:8px} .dash .kind{padding:8px 7px;font-size:12px;gap:8px 4px} .dash .kind small{font-size:11px}
   .prof{grid-template-columns:96px minmax(0,1fr)}
   .pb{padding:14px 16px}
   .pb .ti{font-size:19px}
