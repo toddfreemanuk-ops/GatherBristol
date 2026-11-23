@@ -916,14 +916,14 @@ dialog.dlg::backdrop{background:rgba(20,16,12,.5)}
       <div class="dlg-h"><h3 id="adTitle">Add a listing</h3><button type="button" class="dlg-x" data-close aria-label="Close">×</button></div>
       <p class="lead">Tell us about an event, group, class or offer in Bristol. It's free. We check each one before it goes on the site.</p>
       <label class="fld"><span>What is it?</span><select id="adType" name="type"><option>Event</option><option>Club or group</option><option>Class or course</option><option>Health &amp; fitness</option><option>Offer</option><option>Volunteering</option><option>Place to visit</option></select></label>
-      <label class="fld"><span>Name of the listing</span><input id="adName" name="listing" type="text" required maxlength="120"></label>
-      <label class="fld"><span>Venue and address</span><input id="adVenue" name="venue" type="text" required maxlength="200" placeholder="Venue name, street and postcode"></label>
-      <label class="fld"><span>When</span><input id="adWhen" name="when" type="text" required maxlength="160" placeholder="Tuesdays 7pm to 9pm, or Sat 12 December 8pm"></label>
-      <label class="fld"><span>Price <em>optional</em></span><input id="adPrice" name="price" type="text" maxlength="60" placeholder="Free, or £8"></label>
-      <label class="fld"><span>Link <em>optional</em></span><input id="adLink" name="link" type="url" maxlength="300" placeholder="https://"></label>
-      <label class="fld"><span>Anything else <em>optional</em></span><textarea id="adMsg" name="details" rows="3" maxlength="2000"></textarea></label>
-      <label class="fld"><span>Your name</span><input id="adYou" name="name" type="text" required maxlength="80" autocomplete="name"></label>
-      <label class="fld"><span>Your email</span><input id="adEmail" name="email" type="email" required maxlength="120" autocomplete="email"></label>
+      <label class="fld"><span>Name of the listing</span><input id="adName" name="listing" type="text" required maxlength="120" placeholder="e.g. Tuesday Night Pub Quiz"></label>
+      <label class="fld"><span>Venue and address</span><input id="adVenue" name="venue" type="text" required maxlength="200" placeholder="e.g. The Volunteer Tavern, 9 New Street, BS2 9DX"></label>
+      <label class="fld"><span>When</span><input id="adWhen" name="when" type="text" required maxlength="160" placeholder="e.g. Every Tuesday 7pm to 9pm, or Sat 12 December 8pm"></label>
+      <label class="fld"><span>Price <em>optional</em></span><input id="adPrice" name="price" type="text" maxlength="60" placeholder="e.g. Free, £5 on the door, or from £12"></label>
+      <label class="fld"><span>Link <em>optional</em></span><input id="adLink" name="link" type="url" maxlength="300" placeholder="e.g. https://www.yourvenue.co.uk/quiz"></label>
+      <label class="fld"><span>Anything else <em>optional</em></span><textarea id="adMsg" name="details" rows="3" maxlength="2000" placeholder="e.g. Teams of up to six, booking advised, step-free access"></textarea></label>
+      <label class="fld"><span>Your name</span><input id="adYou" name="name" type="text" required maxlength="80" autocomplete="name" placeholder="e.g. Sam Carter"></label>
+      <label class="fld"><span>Your email</span><input id="adEmail" name="email" type="email" required maxlength="120" autocomplete="email" placeholder="e.g. sam@yourvenue.co.uk"></label>
       <input class="vh" id="adHoney" name="_honey" type="text" tabindex="-1" autocomplete="off" aria-hidden="true">
       <p class="msg" id="adStatus" role="status"></p>
       <div class="acts"><button class="btn" type="submit" id="adSend">Send listing</button><button class="lnk" type="button" data-close>Cancel</button></div>
