@@ -706,6 +706,7 @@ table.t td{border-bottom-color:var(--line-soft)}
 .ah-nav .cta{background:var(--sel);color:var(--sel-ink)}
 .ah-nav .cta:hover{color:var(--sel-ink);opacity:.88}
 .hero .loc{margin-top:18px;max-width:560px}
+@media (min-width:901px){.hero .loc{max-width:min(560px,calc(50% - 40px))} .hero .loc input{flex:1 1 140px;width:auto;min-width:0}}   /* the bridge fills the right half of the header, so the patch box stays in the left half */
 dialog.dlg{border:1px solid var(--line);border-radius:16px;padding:0;background:var(--panel);color:var(--ink);width:min(580px,calc(100vw - 32px));max-height:calc(100vh - 32px);overflow:auto;box-shadow:0 20px 60px rgba(0,0,0,.3)}
 dialog.dlg::backdrop{background:rgba(20,16,12,.5)}
 .dlg-in{padding:18px 20px 20px;display:flex;flex-direction:column;gap:10px}
