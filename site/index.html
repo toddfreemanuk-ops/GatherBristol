@@ -486,7 +486,7 @@ h3 small{font-size:13px;color:var(--muted2)}
 .card .pr{font-size:13px}
 .offer{color:var(--link)}
 
-/* I'm looking for + Promotions */
+/* I'm looking for + Editor's picks */
 .lookgrid{border-radius:28px;padding:24px;box-shadow:0 14px 40px rgba(120,80,40,.06);grid-template-columns:minmax(0,5fr) minmax(0,2fr);gap:24px 22px;align-items:start}
 .lookgrid h3 small.soon,.pr h3 .soon{font:400 12px var(--f-body);letter-spacing:0;text-transform:none;color:var(--muted2)}
 .dash .lookgrid .kinds{gap:10px}
@@ -538,6 +538,14 @@ h3 small{font-size:13px;color:var(--muted2)}
 .maphead{padding:4px 6px 12px}
 .maphead b{font-size:24px;font-weight:400}
 .maphead button{color:var(--link);font-size:13px}
+.maphead{align-items:center}
+.maptools{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.maptools input{width:200px;max-width:100%;padding:8px 14px;font-size:14px}
+.maphead .mtool{border:1px solid var(--line-ctl);background:var(--panel);border-radius:999px;padding:7px 14px;color:var(--ink);text-decoration:none;white-space:nowrap}
+.maphead .mtool:hover{border-color:var(--ink)}
+.maphead .mtool[aria-pressed="true"]{background:var(--sel);border-color:var(--sel);color:var(--sel-ink)}
+.mapnote{margin:0 6px 10px;font-size:13px;color:var(--muted)}
+.addrow{margin:14px 0 6px;font-size:14px;color:var(--muted)}
 .mapwrap{height:500px;border:0;border-radius:20px;overflow:hidden}
 .mapinfo{border-radius:14px}
 .pin{border:3px solid var(--pin-fill);box-shadow:0 3px 8px rgba(60,30,10,.2);font:500 12px/1 var(--f-mono)}
@@ -797,6 +805,7 @@ dialog.dlg::backdrop{background:rgba(20,16,12,.5)}
     <div class="ah-in">
       <div class="ah-brand"><i aria-hidden="true"></i>GatherBristol</div>
       <nav class="ah-nav" aria-label="Main">
+        <button type="button" data-add>Add a listing</button>
         <button type="button" class="cta" data-contact="Sponsorship">Sponsor or get in touch</button>
       </nav>
     </div>
@@ -818,7 +827,7 @@ dialog.dlg::backdrop{background:rgba(20,16,12,.5)}
       <div class="panel lookgrid">
         <div class="lk"><h3><span>I'm looking for</span></h3>
         <div class="kinds" id="kinds"></div></div>
-        <div class="pr"><h3><span>Promotions</span><small class="soon">More coming soon</small></h3>
+        <div class="pr"><h3><span>Editor's picks</span><small class="soon">More coming soon</small></h3>
         <div class="kinds" id="pkinds"></div></div>
       </div>
     </section>
@@ -856,7 +865,8 @@ dialog.dlg::backdrop{background:rgba(20,16,12,.5)}
       </aside>
       <div class="mid">
         <section class="panel mappanel">
-          <div class="maphead"><b id="count">Loading</b><button type="button" id="reset" hidden>Reset filters</button></div>
+          <div class="maphead"><b id="count">Loading</b><div class="maptools"><input type="search" id="gq" placeholder="Search everything" aria-label="Search all listings" maxlength="80"><button type="button" class="mtool" id="nearBtn" aria-pressed="false">Near me</button><button type="button" class="mtool" id="shareBtn">Copy link</button><button type="button" id="reset" hidden>Reset filters</button></div></div>
+          <p class="mapnote" id="mapNote" role="status" hidden></p>
           <div class="mapwrap"><div id="map"></div><div class="mapinfo" id="mapInfo" hidden></div></div>
         </section>
         <div class="dicerow"><button type="button" class="dicebar" id="diceBar"><span class="die" id="diceBarDie" aria-hidden="true"></span><span class="dbt"><b>Pick me an option</b><small id="diceBarSub">Picks one at random from the list below</small></span></button></div>
@@ -864,11 +874,12 @@ dialog.dlg::backdrop{background:rgba(20,16,12,.5)}
           <h3><span id="listTitle">Matches</span><small>Hover a card to find it on the map</small></h3>
           <div id="list"><div class="empty">Fetching the listings.</div></div>
         </section>
+        <p class="addrow">Know something we've missed? <button type="button" class="lnk" data-add>Add a listing</button></p>
         <p class="src" id="src"></p>
       </div>
       <aside class="right">
       <div class="panel">
-          <h3><span>Editor's picks this week</span><small>Promotions</small></h3>
+          <h3><span>Editor's picks this week</span></h3>
           <div class="picks" id="picks"></div>
         </div>
       <div class="panel" id="newsPanel" hidden>
@@ -900,6 +911,25 @@ dialog.dlg::backdrop{background:rgba(20,16,12,.5)}
     </div>
   </dialog>
 
+  <dialog class="dlg" id="addDlg" aria-labelledby="adTitle">
+    <form class="dlg-in" id="adForm">
+      <div class="dlg-h"><h3 id="adTitle">Add a listing</h3><button type="button" class="dlg-x" data-close aria-label="Close">×</button></div>
+      <p class="lead">Tell us about an event, group, class or offer in Bristol. It's free. We check each one before it goes on the site.</p>
+      <label class="fld"><span>What is it?</span><select id="adType" name="type"><option>Event</option><option>Club or group</option><option>Class or course</option><option>Health &amp; fitness</option><option>Offer</option><option>Volunteering</option><option>Place to visit</option></select></label>
+      <label class="fld"><span>Name of the listing</span><input id="adName" name="listing" type="text" required maxlength="120"></label>
+      <label class="fld"><span>Venue and address</span><input id="adVenue" name="venue" type="text" required maxlength="200" placeholder="Venue name, street and postcode"></label>
+      <label class="fld"><span>When</span><input id="adWhen" name="when" type="text" required maxlength="160" placeholder="Tuesdays 7pm to 9pm, or Sat 12 December 8pm"></label>
+      <label class="fld"><span>Price <em>optional</em></span><input id="adPrice" name="price" type="text" maxlength="60" placeholder="Free, or £8"></label>
+      <label class="fld"><span>Link <em>optional</em></span><input id="adLink" name="link" type="url" maxlength="300" placeholder="https://"></label>
+      <label class="fld"><span>Anything else <em>optional</em></span><textarea id="adMsg" name="details" rows="3" maxlength="2000"></textarea></label>
+      <label class="fld"><span>Your name</span><input id="adYou" name="name" type="text" required maxlength="80" autocomplete="name"></label>
+      <label class="fld"><span>Your email</span><input id="adEmail" name="email" type="email" required maxlength="120" autocomplete="email"></label>
+      <input class="vh" id="adHoney" name="_honey" type="text" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <p class="msg" id="adStatus" role="status"></p>
+      <div class="acts"><button class="btn" type="submit" id="adSend">Send listing</button><button class="lnk" type="button" data-close>Cancel</button></div>
+      <p class="src">We only use your details to check the listing with you. Messages are delivered by email through FormSubmit.</p>
+    </form>
+  </dialog>
   <dialog class="dlg" id="contactDlg" aria-labelledby="ctTitle">
     <form class="dlg-in" id="ctForm">
       <div class="dlg-h"><h3 id="ctTitle">Get in touch</h3><button type="button" class="dlg-x" data-close aria-label="Close">×</button></div>
@@ -59038,10 +59068,12 @@ KINDS.sport={label:'Live sport',one:'Event',noun:'fixture',icon:'Trophy',types:[
 const isMusic=e=>e.k==='gig'||e.k==='club';   // the Events tile and the Music tile are two views over the one events list
 KINDS.music={label:'Music',one:'Event',noun:'event',icon:'Music',types:KINDS.events.types.filter(t=>t[0]==='gig'||t[0]==='club')};
 KINDS.ev={label:'Events',one:'Event',noun:'event',icon:'Ticket',types:KINDS.events.types.filter(t=>t[0]==='comedy').concat(KINDS.events.types.filter(t=>!['gig','club','comedy'].includes(t[0])))};   // comedy leads the list
+KINDS.search={label:'Search results',one:'Listing',noun:'listing',icon:'Search',types:[['events','Events','Ticket'],['clubs','Clubs & societies','Users'],['courses','Courses','GraduationCap'],['fit','Health & fitness','HeartPulse'],['always','Places','Landmark'],['deals','Offers','BadgePercent'],['vol','Volunteering','Heart']]};   // every listing at once; the categories are the sections
+const homeKind=e=>e.kind==='deals'?'p'+e.pt:e.kind==='events'?(isMusic(e)?'music':'ev'):e.kind;   // the tile a listing lives under
 const SPORTICON={'Football':'Goal','Basketball':'Dribbble','Rugby union':'Trophy'};
 const alwKind=()=>kind==='always'||MV.includes(kind);
-const PTILES=['pfood','pdrink','pshop','pother'];   // the Promotions row: four views over the one promotions list
-KINDS.deals={label:'Promotions',one:'Offer',noun:'offer',icon:'BadgePercent',types:[['lunch','Lunch deals','Sandwich'],['set','Set menus & early bird','UtensilsCrossed'],['drinks','Happy hour & drinks','Martini'],['kids','Kids eat free','Baby'],['discount','Discounts & bundles','BadgePercent'],['student','Student discounts','GraduationCap'],['market','Markets & fairs','Store'],['tickets','Tickets & culture','Ticket'],['fitness','Fitness & wellbeing','Dumbbell'],['days','Days out','FerrisWheel'],['shop','Shop offers','ShoppingBag'],['first','50% off with First Table','Percent']]};
+const PTILES=['pfood','pdrink','pshop','pother'];   // the Editor's picks row: four views over the one offers list
+KINDS.deals={label:'Offers',one:'Offer',noun:'offer',icon:'BadgePercent',types:[['lunch','Lunch deals','Sandwich'],['set','Set menus & early bird','UtensilsCrossed'],['drinks','Happy hour & drinks','Martini'],['kids','Kids eat free','Baby'],['discount','Discounts & bundles','BadgePercent'],['student','Student discounts','GraduationCap'],['market','Markets & fairs','Store'],['tickets','Tickets & culture','Ticket'],['fitness','Fitness & wellbeing','Dumbbell'],['days','Days out','FerrisWheel'],['shop','Shop offers','ShoppingBag'],['first','50% off with First Table','Percent']]};
 const PT={pfood:['food','Food','Utensils'],pdrink:['drink','Drink','Beer'],pshop:['shop','Shopping','ShoppingBag'],pother:['other','Other','Sparkles']};
 PTILES.forEach(k=>{KINDS[k]={label:PT[k][1],one:'Offer',noun:'offer',icon:PT[k][2],types:KINDS.deals.types};});
 const SEAICON={'Bonfire Night':'Flame','Remembrance Sunday':'Flower2','Christmas':'Snowflake'};
@@ -59049,16 +59081,16 @@ const wkKind=()=>kind==='clubs'||kind==='deals'||kind==='vol'||kind==='fit'||PTI
 const wkly=e=>e.kind==='clubs'||e.kind==='deals'||e.kind==='vol'||e.kind==='fit';   // listings that repeat on weekdays rather than sit on a date
 const isEv=()=>!wkKind()&&kind!=='courses'&&!alwKind();
 const undated=e=>wkly(e)||e.kind==='always';
-const ck=e=>kind==='season'?e.sea:kind==='kids'?e.kc:kind==='sport'?e.sub:kind==='fit'?e.fc:e.k;   // which field the left-hand category list filters on
+const ck=e=>kind==='season'?e.sea:kind==='kids'?e.kc:kind==='sport'?e.sub:kind==='fit'?e.fc:kind==='search'?e.kind:e.k;   // which field the left-hand category list filters on
 const isKid=e=>e.kind==='events'?(e.k==='family'||/\bfamily\b/i.test(e.g)||e.sub==='Fireworks'):e.kind==='clubs'?e.k==='kids':e.kind==='deals'?e.k==='kids':e.kind==='always'?!!e.kid:false;
 const kidCat=e=>e.kind==='deals'?'place':e.kind==='clubs'?'story':e.kind==='always'?'place':(e.sub==='Fireworks'||e.sea)?'fire':/making|workshop/i.test(e.g+' '+e.sub)?'make':'fam';
 function rebuildViews(){ DATA.kids=KORDER.flatMap(k=>DATA[k]).filter(isKid); DATA.kids.forEach(e=>{e.kc=kidCat(e);}); PTILES.forEach(k=>{DATA[k]=DATA.deals.filter(e=>e.pt===PT[k][0]);});
   MV.forEach(k=>{DATA[k]=DATA.always.filter(e=>'mv_'+e.k===k);});
   { const o=KINDS.fit.types.map(t=>t[0]); DATA.fit=FIT.concat(DATA.clubs.filter(e=>e.k==='run'||e.k==='out')); DATA.fit.forEach(e=>{e.fc=fitCat(e);}); DATA.fit.sort((a,b)=>o.indexOf(a.fc)-o.indexOf(b.fc)||a.t.localeCompare(b.t)); }
-  DATA.music=DATA.events.filter(isMusic); DATA.ev=DATA.events.filter(e=>!isMusic(e));
+  DATA.music=DATA.events.filter(isMusic); DATA.ev=DATA.events.filter(e=>!isMusic(e)); DATA.search=KORDER.flatMap(k=>DATA[k]).concat(FIT);
   DATA.sport=DATA.events.filter(e=>e.k==='sport'); const S=KINDS.sport, sn=[...new Set(DATA.sport.filter(upcoming).map(e=>e.sub))].sort();
   S.types=sn.map(n=>[n,n,SPORTICON[n]||'Trophy']); S.name={}; S.col={}; S.ico={}; sn.forEach((n,i)=>{S.name[n]=n; S.ico[n]=SPORTICON[n]||'Trophy'; S.col[n]='var(--c'+[6,0,4,1,5,3][i%6]+')';}); }
-['events','clubs','courses','kids','always','deals','vol','fit'].concat(PTILES,MV).forEach(k=>{const K=KINDS[k];K.name={};K.col={};K.ico={};K.types.forEach(([id,n,ic],i)=>{K.name[id]=n;K.ico[id]=ic;K.col[id]='var(--c'+(i%10)+')';});});
+['events','clubs','courses','kids','always','deals','vol','fit','search'].concat(PTILES,MV).forEach(k=>{const K=KINDS[k];K.name={};K.col={};K.ico={};K.types.forEach(([id,n,ic],i)=>{K.name[id]=n;K.ico[id]=ic;K.col[id]='var(--c'+(i%10)+')';});});
 ['music','ev'].forEach(k=>{const K=KINDS[k],E=KINDS.events;K.name={};K.col={};K.ico={};K.types.forEach(([id,n,ic])=>{K.name[id]=n;K.ico[id]=ic;K.col[id]=E.col[id];});});
 const SLOTS=[['am','Morning','before 12'],['pm','Afternoon','12 to 5'],['eve','Evening','5 to 9'],['late','Late','9pm on']];
 const slotOf=s=>{const h=+s.slice(0,2);return h<6?'late':h<12?'am':h<17?'pm':h<21?'eve':'late';};
@@ -59101,11 +59133,11 @@ function poster(e,cls){ const p=el('div','poster '+(cls||'')+' pt'+(parseInt(has
 
 /* ---------- state ---------- */
 const mkF=()=>({cat:'',subs:new Set(),days:new Set(),slots:new Set(),dows:new Set(),lens:new Set(),q:'',free:false,hideSold:false,untimed:false,under50:false,weekly:false,near:0});
-const FS={}; function startFilters(){ ['events','clubs','courses','always','deals','vol','season','kids','fit','ev','music'].concat(PTILES,MV,['sport']).forEach(k=>FS[k]=mkF());
+const FS={}; function startFilters(){ ['events','clubs','courses','always','deals','vol','season','kids','fit','ev','music','search'].concat(PTILES,MV,['sport']).forEach(k=>FS[k]=mkF());
   ['events','ev','music','season','kids','sport'].forEach(k=>FS[k].days.add(TODAY)); }   // date-led views open on today; courses list by start date, so they open on any day
 startFilters();
 let kind='ev', F=FS.ev;
-const DATA={events:[],clubs:[],courses:[],always:[],deals:[],vol:[],season:[],kids:[],fit:[],ev:[],music:[]}; PTILES.concat(MV,['sport']).forEach(k=>DATA[k]=[]);
+const DATA={events:[],clubs:[],courses:[],always:[],deals:[],vol:[],season:[],kids:[],fit:[],ev:[],music:[],search:[]}; PTILES.concat(MV,['sport']).forEach(k=>DATA[k]=[]);
 let FIT=[];   // the Health & fitness tile's own listings; DATA.fit adds the sporty clubs to these
 const BYID=new Map();
 let NEWS=[]; const got={days:false,dir:false}; let fitted=false;
@@ -59315,7 +59347,7 @@ function base(o,kd){ if(!o||!o.t||!o.v||!Array.isArray(o.ll)||typeof o.ll[0]!=='
   b.hay=(b.t+' '+b.v+' '+b.g+' '+b.area+' '+K.name[b.k]+' '+b.sub).toLowerCase(); return b;}
 const ord=e=>e.s?((+e.s.slice(0,2)<6?24:0)+ +e.s.slice(0,2))*60+ +e.s.slice(3):9999;
 const stamp=e=>{e.id=e.kind[0]+hash(e.t+'|'+(e.d||'')+'|'+e.v+'|'+(e.w||'')); return e;};
-function reindex(){BYID.clear(); KORDER.forEach(k=>DATA[k].forEach(e=>BYID.set(e.id,e)));}
+function reindex(){BYID.clear(); KORDER.forEach(k=>DATA[k].forEach(e=>BYID.set(e.id,e))); FIT.forEach(e=>BYID.set(e.id,e));}
 function ingestDays(docs){ const out=[];
   docs.forEach(d=>(Array.isArray(d.items)?d.items:[]).forEach(o=>{const b=base(o,'events'); if(!b) return;
     if(d.id==='ongoing'){ if(o.from&&o.to) out.push(stamp(Object.assign(b,{from:o.from,to:o.to,run:true,d:'9999'}))); }
@@ -59354,7 +59386,7 @@ function settle(){ // keep the view steady: only move, and only zoom out, when n
   if(map.getSize().x<50) return;
   const pts=visible().map(e=>e.ll); if(!pts.length) return; const b=map.getBounds(); if(pts.some(p=>b.contains(p))) return;
   map.fitBounds(L.latLngBounds(pts).pad(0.15),{maxZoom:Math.max(map.getZoom(),13)}); }
-function afterData(){ render(); }
+function afterData(){ if(!applyHash()) render(); hashReady=true; writeHash(); }   // a shared link opens on the view it was copied from
 
 /* ---------- filtering ---------- */
 const upcoming=e=>undated(e)?true:e.run?e.to>=TODAY:e.d>=TODAY;
@@ -59371,7 +59403,7 @@ function pass(e,skip){
   if(skip!=='near'&&F.near&&LOC&&dist(e)>F.near) return false;
   if(F.free&&e.cost!==0) return false;
   if(F.hideSold&&e.x) return false;
-  if(F.q&&!e.hay.includes(F.q)) return false;
+  if(F.q&&!F.q.split(/\s+/).every(w=>e.hay.includes(w))) return false;   // every word typed must appear somewhere in the listing
   return true;
 }
 const visible=()=>DATA[kind].filter(e=>pass(e));
@@ -59406,7 +59438,7 @@ function meta(e,full){const m=el('div','me'); const i=el('i'); i.style.backgroun
 const vkey=e=>e.v+'@'+e.ll[0].toFixed(5)+','+e.ll[1].toFixed(5);
 function focus(e){ // show an item on the map, switching section or clearing filters if they hide it
   track('view on map: '+e.v,e.t);
-  if(!DATA[kind].includes(e)) setKind(e.kind==='deals'?'p'+e.pt:e.kind==='events'?(isMusic(e)?'music':'ev'):e.kind,true);
+  if(!DATA[kind].includes(e)) setKind(homeKind(e),true);
   if(!pass(e)){FS[kind]=F=mkF(); syncInputs(); render();}
   const mk=markers.get(vkey(e)); if(!mk) return;
   map.setView(e.ll,Math.max(map.getZoom(),14)); mk.openPopup();
@@ -59434,6 +59466,7 @@ function profile(e){ const K=KINDS[e.kind], p=el('article','prof'); p.style.setP
   if(e.g&&e.kind==='events'&&e.k!=='sport'){ const tg=el('div','tags'); e.g.split(',').map(x=>x.trim()).filter(Boolean).slice(0,5).forEach(x=>tg.append(el('span','',x))); bd.append(tg); }
   const ac=el('div','acts');
   const mb=el('button','lnk','Show on map'); mb.type='button'; mb.addEventListener('click',()=>focus(e)); ac.append(mb);
+  const sh=el('button','lnk share','Share'); sh.type='button'; sh.title='Copy a link to this listing'; sh.addEventListener('click',()=>{ copyLink(pageUrl()+'#t='+homeKind(e)+'&l='+e.id,sh,'Share'); track('share: listing',e.t); }); ac.append(sh);
   if(e.u){const a=el('a','lnk',(e.kind==='events'?'Tickets & details':'Details')+' ↗'); a.href=e.u; a.target='_blank'; a.rel='noopener'; ac.append(a);}
   if(e.x) ac.append(el('span','so',e.x));
   bd.append(ac); p.append(poster(e),bd); linkHover(p,e); return p; }
@@ -59476,7 +59509,7 @@ function renderControls(){
   const K=KINDS[kind], all=DATA[kind];
   const toResults=()=>(matchMedia('(max-width:820px)').matches?document.querySelector('.mappanel'):$('exMain')).scrollIntoView({block:'start',behavior:still()?'auto':'smooth'});   // picking a tile jumps down to the map and its results; on one-column screens the filters sit above the map, so go to the map itself
   const tile=k=>{const b=el('button','kind'); b.type='button'; b.setAttribute('aria-pressed',k===kind?'true':'false');
-    b.dataset.k=k; const ic=el('i'); ic.append(ico(KINDS[k].icon,21)); b.append(ic,el('span','',KINDS[k].label),el('small','',String(DATA[k].filter(upcoming).length))); b.addEventListener('click',()=>{setKind(k);toResults();track('tile: '+KINDS[k].label);}); return b;};
+    b.dataset.k=k; const ic=el('i'); ic.append(ico(KINDS[k].icon,21)); b.append(ic,el('span','',KINDS[k].label),el('small','',String(DATA[k].filter(upcoming).length))); b.addEventListener('click',()=>{$('gq').value='';setKind(k);toResults();track('tile: '+KINDS[k].label);}); return b;};
   $('kinds').replaceChildren(...TILES.map(tile)); $('pkinds').replaceChildren(...PTILES.map(tile));
   $('diceBarSub').textContent='Picks one at random from the list below';
   // category, with its sub-categories opening underneath
@@ -59548,14 +59581,14 @@ function renderPicks(){ const box=$('picks'), withImg=DATA.deals.filter(hasImg),
     const ac=el('div','acts'); const mb=el('button','lnk','Show on map'); mb.type='button'; mb.addEventListener('click',()=>focus(e)); ac.append(mb);
     if(e.u){const a=el('a','lnk','Details ↗'); a.href=e.u; a.target='_blank'; a.rel='noopener'; ac.append(a);} bd.append(ac); c.append(ps,bd); linkHover(c,e); return c; })); }
 function renderFeatured(){ const box=$('featured'), kids=[];
-  (fk=>[fk].filter(k=>KORDER.includes(k)).concat(KORDER.filter(k=>k!==fk)))(PTILES.includes(kind)?'deals':MV.includes(kind)?'always':kind==='sport'||kind==='ev'||kind==='music'?'events':kind).forEach(k=>{ const items=DATA[k].filter(e=>e.f&&upcoming(e)).slice(0,5); if(!items.length) return;
+  (fk=>[fk].filter(k=>KORDER.includes(k)).concat(KORDER.filter(k=>k!==fk)))(PTILES.includes(kind)?'deals':MV.includes(kind)?'always':kind==='sport'||kind==='ev'||kind==='music'||kind==='search'?'events':kind).forEach(k=>{ const items=DATA[k].filter(e=>e.f&&upcoming(e)).slice(0,5); if(!items.length) return;
     kids.push(el('h2','',KINDS[k].label)); const f=el('div','feat'); items.forEach(e=>f.append(card(e,false))); kids.push(f); });
   if(!kids.length) kids.push(el('div','empty','Featured picks appear here once the listings load.'));
   box.replaceChildren(...kids); }
 function renderResults(){
   const K=KINDS[kind], all=DATA[kind], ready=isEv()?got.days:got.dir;
-  $('listTitle').textContent=K.label+' that match';
-  $('src').innerHTML='Events from <a href="https://www.headfirstbristol.co.uk/" target="_blank" rel="noopener">Headfirst Bristol</a> and <a href="https://visitbristol.co.uk/whats-on/this-week-in-bristol" target="_blank" rel="noopener">Visit Bristol</a>; groups from the volunteer-run <a href="https://social-bristol.pages.dev/" target="_blank" rel="noopener">Social Bristol</a> directory, Meetup and club sites; pub quizzes from Trivia Near Me, Unifresher, Yuup and DesignMyNight; courses from <a href="https://www.bristolfolkhouse.co.uk/" target="_blank" rel="noopener">Bristol Folk House</a> and <a href="https://www.spikeprintstudio.org/courses" target="_blank" rel="noopener">Spike Print Studio</a>; food promotions from the <a href="https://lifelessorganised.com/2025/06/01/food-drink-offers-in-bristol/" target="_blank" rel="noopener">Life Less Organised</a> round-up (last updated September 2025), <a href="https://www.firsttable.co.uk/bristol" target="_blank" rel="noopener">First Table</a>, DesignMyNight, venue pages, student guides (Unifresher, Urban Student, The Tab), Bristol World, the University of Bristol, Bristol Old Vic and Nuffield Health; volunteering from Bristol City Council, FareShare South West, Avon Wildlife Trust, Your Park, the city farms and community gardens; health and fitness listings from venue and organiser sites. Times and prices change, so check the link before you travel. Distances are straight-line. Map © OpenStreetMap contributors.'+(UPDATED?' Listings last refreshed '+nice(UPDATED)+'.':'');
+  $('listTitle').textContent=kind==='search'?'Everything matching "'+F.q+'"':K.label+' that match';
+  $('src').innerHTML='Events from <a href="https://www.headfirstbristol.co.uk/" target="_blank" rel="noopener">Headfirst Bristol</a> and <a href="https://visitbristol.co.uk/whats-on/this-week-in-bristol" target="_blank" rel="noopener">Visit Bristol</a>; groups from the volunteer-run <a href="https://social-bristol.pages.dev/" target="_blank" rel="noopener">Social Bristol</a> directory, Meetup and club sites; pub quizzes from Trivia Near Me, Unifresher, Yuup and DesignMyNight; courses from <a href="https://www.bristolfolkhouse.co.uk/" target="_blank" rel="noopener">Bristol Folk House</a> and <a href="https://www.spikeprintstudio.org/courses" target="_blank" rel="noopener">Spike Print Studio</a>; food offers from the <a href="https://lifelessorganised.com/2025/06/01/food-drink-offers-in-bristol/" target="_blank" rel="noopener">Life Less Organised</a> round-up (last updated September 2025), <a href="https://www.firsttable.co.uk/bristol" target="_blank" rel="noopener">First Table</a>, DesignMyNight, venue pages, student guides (Unifresher, Urban Student, The Tab), Bristol World, the University of Bristol, Bristol Old Vic and Nuffield Health; volunteering from Bristol City Council, FareShare South West, Avon Wildlife Trust, Your Park, the city farms and community gardens; health and fitness listings from venue and organiser sites. Times and prices change, so check the link before you travel. Distances are straight-line. Map © OpenStreetMap contributors.'+(UPDATED?' Listings last refreshed '+nice(UPDATED)+'.':'');
   pinLayer.clearLayers(); markers.clear(); hi=null; $('mapInfo').hidden=true;
   if(LOC){ youMarker=L.marker(LOC.ll,{interactive:false,keyboard:false,zIndexOffset:-100,icon:L.divIcon({className:'',iconSize:[18,18],html:'<span class="youpin" style="display:block"></span>'})}); pinLayer.addLayer(youMarker); }
   if(!ready){ $('count').textContent=failMsg?'Nothing to show':'Loading'; $('list').replaceChildren(el('div','empty',failMsg||'Fetching the listings.')); return; }
@@ -59569,7 +59602,7 @@ function renderResults(){
   const grid=el('div','profiles'); shown.forEach(e=>grid.append(profile(e))); if(shown.length) frag.append(grid);
   if(ordered.length>shown.length){const m=el('button','btn ghost','Show '+Math.min(12,ordered.length-shown.length)+' more of '+ordered.length); m.type='button'; m.style.marginTop='12px'; m.addEventListener('click',()=>{showN+=12;renderResults();}); frag.append(m);}
   if(hiddenUntimed){const n=el('div','empty',hiddenUntimed+' more event'+(hiddenUntimed===1?' has':'s have')+' no start time listed, so the time filter hides '+(hiddenUntimed===1?'it':'them')+'. Tick "Include events with no start time listed" to see them.'); n.style.marginTop='12px'; frag.append(n);}
-  if(!vis.length&&!hiddenUntimed) frag.append(el('div','empty',all.length?'Nothing matches these filters. Clear one, or pick another category.':PTILES.includes(kind)?'No '+K.label.toLowerCase()+' promotions have been loaded yet.':'No '+K.label.toLowerCase()+' have been loaded yet.'));
+  if(!vis.length&&!hiddenUntimed) frag.append(el('div','empty',all.length?'Nothing matches these filters. Clear one, or pick another category.':PTILES.includes(kind)?'No '+K.label.toLowerCase()+' offers have been loaded yet.':'No '+K.label.toLowerCase()+' have been loaded yet.'));
   $('list').replaceChildren(frag);
   venues.forEach((evs,k)=>{const one=evs.every(e=>e.k===evs[0].k), n=evs.length, size=n>1?28:18;
     const mk=L.marker(evs[0].ll,{title:evs[0].v+' ('+n+')',riseOnHover:true,icon:L.divIcon({className:'',iconSize:[size,size],
@@ -59577,7 +59610,7 @@ function renderResults(){
     mk.bindPopup(()=>popup(evs[0].v,evs),{maxWidth:300,autoPanPadding:[24,24]}); pinLayer.addLayer(mk); markers.set(k,mk);});
   settle();
 }
-function render(){ showN=12; renderControls(); renderDash(); renderResults(); renderPicks(); renderFeatured(); }
+function render(){ showN=12; renderControls(); renderDash(); renderResults(); renderPicks(); renderFeatured(); writeHash(); }
 
 /* ---------- wiring ---------- */
 const shift=n=>()=>{const [y,m]=calMonth.split('-').map(Number);calMonth=iso(new Date(y,m-1+n,1)).slice(0,7);renderControls();};
@@ -59620,7 +59653,7 @@ $('diceBar').addEventListener('click',()=>{ pickOne(); track('dice: picked ('+KI
 $('diceRoll').addEventListener('click',()=>{ pickOne(); track('dice: another ('+KINDS[kind].label+')'); });
 document.addEventListener('click',ev=>{ const a=ev.target.closest&&ev.target.closest('a[target="_blank"]'); if(!a) return;   // outbound clicks, counted per venue
   const u=a.getAttribute('href'), e=KORDER.flatMap(k=>DATA[k]).concat(FIT).find(x=>x.u===u); if(e) track('details click: '+e.v,e.t); else if(a.closest('#friends')) track('news link'); },true);
-$('dicePick').addEventListener('click',ev=>{ if(ev.target.closest('button')) $('diceDlg').close(); },true);   // the card's own buttons jump to the map, so close first
+$('dicePick').addEventListener('click',ev=>{ if(ev.target.closest('button:not(.share)')) $('diceDlg').close(); },true);   // the card's own buttons jump to the map, so close first
 
 /* ---------- get in touch ---------- */
 const CONTACT='https://formsubmit.co/ajax/862b17fae4aacddb1d361ceb0fb3cde3';   // FormSubmit forwards each message to the owner's inbox; this is its public alias for that address
@@ -59635,6 +59668,62 @@ $('ctForm').addEventListener('submit',async ev=>{ ev.preventDefault(); const st=
   try{ const r=await fetch(CONTACT,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(body)});
     const j=await r.json().catch(()=>({})); if(!r.ok||String(j.success)==='false') throw new Error(j.message||'not sent');
     track('contact: sent ('+body.topic+')'); $('ctForm').reset(); st.textContent='Thanks, your message has been sent. We\'ll reply by email.';
+  }catch(e){ st.classList.add('err'); st.textContent='Sorry, that didn\'t send. Please try again in a minute.'; }
+  btn.disabled=false; });
+
+/* ---------- search everything, near me, links you can share ---------- */
+let prevKind='ev';
+$('gq').addEventListener('input',ev=>{ const q=ev.target.value.trim().toLowerCase();
+  if(q.length>=2){ if(kind!=='search'){ prevKind=kind; setKind('search',true); } F.q=q; $('q').value=q; render(); }
+  else if(kind==='search') setKind(prevKind); });
+$('gq').addEventListener('change',()=>{ if(kind==='search') track('search everything'); });   // counted without what was typed
+const note=t=>{ const n=$('mapNote'); n.textContent=t||''; n.hidden=!t; };
+function setLoc(l){ LOC=l; if(!l) Object.keys(FS).forEach(k=>FS[k].near=0); sortNear=!!l;
+  const b=$('nearBtn'); b.setAttribute('aria-pressed',l?'true':'false'); b.textContent=l?'Near me: on':'Near me';
+  render(); if(l) map.setView(l.ll,Math.max(map.getZoom(),14)); }
+$('nearBtn').addEventListener('click',()=>{ if(LOC){ setLoc(null); note(''); return; }
+  if(!navigator.geolocation){ note('This browser cannot share a location.'); return; }
+  note('Finding where you are…');
+  navigator.geolocation.getCurrentPosition(p=>{ const ll=[p.coords.latitude,p.coords.longitude];
+      if(!bounds.contains(ll)){ note('You look to be outside Bristol, so distances stay switched off.'); return; }
+      setLoc({label:'your location',ll}); note('Showing the nearest first, with distances from where you are. Your location stays on this device.'); track('near me set'); },
+    ()=>note('We could not get your location. Allow location for this site, then try again.'),{enableHighAccuracy:false,timeout:10000,maximumAge:300000}); });
+const DATED=['events','ev','music','season','kids','sport'];   // views that open on today
+let hashReady=false;
+function stateHash(){ const p=[], add=(k,v)=>p.push(k+'='+encodeURIComponent(v));
+  if(kind!=='ev') add('t',kind); if(F.cat) add('c',F.cat); if(F.subs.size) add('s',[...F.subs].join('|'));
+  const days=[...F.days].sort().join(','); if(days!==(DATED.includes(kind)?TODAY:'')) add('d',days||'any');
+  if(F.dows.size) add('w',[...F.dows].sort().join('')); if(F.slots.size) add('tm',[...F.slots].join(',')); if(F.q) add('q',F.q); if(F.free) add('free',1);
+  return p.join('&'); }
+function writeHash(){ if(!hashReady) return; const h=stateHash(); try{ history.replaceState(null,'',h?'#'+h:location.pathname+location.search); }catch(e){} }
+function applyHash(){ const P=new URLSearchParams(location.hash.slice(1)); if(!['t','c','d','q','l','w','tm','free'].some(k=>P.has(k))) return false;
+  const t=P.get('t'), k=t&&FS[t]&&KINDS[t]?t:'ev'; kind=k; F=FS[k]=mkF(); if(DATED.includes(k)) F.days.add(TODAY);
+  const c=P.get('c'); if(c&&(KINDS[k].name||{})[c]!==undefined) F.cat=c;
+  if(F.cat) (P.get('s')||'').split('|').filter(Boolean).slice(0,12).forEach(x=>F.subs.add(x));
+  if(P.has('d')){ F.days.clear(); const ds=P.get('d').split(',').filter(x=>/^\d{4}-\d\d-\d\d$/.test(x)&&x>=TODAY);   // days that have passed are dropped
+    ds.forEach(x=>F.days.add(x)); if(ds.length) calMonth=ds[0].slice(0,7); else if(P.get('d')!=='any'&&DATED.includes(k)) F.days.add(TODAY); }
+  (P.get('w')||'').split('').map(Number).filter(n=>n>=1&&n<=7).forEach(n=>F.dows.add(n));
+  (P.get('tm')||'').split(',').filter(x=>SLOTS.some(s=>s[0]===x)).forEach(x=>F.slots.add(x));
+  F.q=(P.get('q')||'').slice(0,80).toLowerCase(); F.free=P.get('free')==='1';
+  $('gq').value=k==='search'?F.q:''; map.closePopup(); syncInputs(); render();
+  const e=P.get('l')&&BYID.get(P.get('l')); if(e) focus(e);
+  return true; }
+addEventListener('hashchange',()=>{ if(hashReady&&location.hash.slice(1)!==stateHash()) applyHash(); });
+const pageUrl=()=>location.origin+location.pathname;
+function copyLink(url,btn,label){ const done=()=>{ btn.textContent='Link copied'; setTimeout(()=>{ btn.textContent=label; },1800); };
+  const old=()=>{ const i=document.createElement('input'); i.value=url; (btn.closest('dialog')||document.body).append(i); i.select(); let ok=false; try{ ok=document.execCommand('copy'); }catch(e){} i.remove(); if(ok) done(); else prompt('Copy this link',url); };
+  if(navigator.clipboard&&navigator.clipboard.writeText) navigator.clipboard.writeText(url).then(done,old); else old(); }
+$('shareBtn').addEventListener('click',()=>{ const h=stateHash(); copyLink(pageUrl()+(h?'#'+h:''),$('shareBtn'),'Copy link'); track('share: view'); });
+
+/* ---------- add a listing ---------- */
+document.querySelectorAll('[data-add]').forEach(b=>b.addEventListener('click',()=>{ const d=$('addDlg'), st=$('adStatus'); st.textContent=''; st.classList.remove('err'); if(!d.open) d.showModal(); track('add listing: opened'); }));
+$('adForm').addEventListener('submit',async ev=>{ ev.preventDefault(); const st=$('adStatus'), btn=$('adSend'), v=id=>$(id).value.trim(); st.classList.remove('err');
+  if($('adHoney').value){ st.textContent='Thanks, your listing has been sent.'; return; }   // filled only by bots
+  const body={_subject:'GatherBristol: listing to add - '+v('adName'),_template:'table',_captcha:'false',type:v('adType'),listing:v('adName'),venue:v('adVenue'),when:v('adWhen'),price:v('adPrice'),link:v('adLink'),details:v('adMsg'),name:v('adYou'),email:v('adEmail')};
+  btn.disabled=true; st.textContent='Sending…';
+  try{ const r=await fetch(CONTACT,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(body)});
+    const j=await r.json().catch(()=>({})); if(!r.ok||String(j.success)==='false') throw new Error(j.message||'not sent');
+    track('add listing: sent ('+body.type+')'); $('adForm').reset(); st.textContent='Thanks, your listing has been sent. We check each one before it goes on the site.';
   }catch(e){ st.classList.add('err'); st.textContent='Sorry, that didn\'t send. Please try again in a minute.'; }
   btn.disabled=false; });
 
