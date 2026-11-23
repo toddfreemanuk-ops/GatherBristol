@@ -2,9 +2,63 @@
   "items": [
     {
       "k": "swim", "sub": "Lido", "t": "Lido Bristol", "v": "Lido Bristol", "ll": [51.4595, -2.6108],
-      "u": "https://www.lidobristol.com/swim", "p": "from £35",
-      "g": "heated outdoor pool and spa; non-members swim by booking a swim and meal package, adults 16 and over",
-      "w": "Booked swim and meal packages; pick a date when you book", "dow": [], "wk": true
+      "u": "https://www.lidobristol.com/swimming/public-access/", "p": "from £25",
+      "g": "heated outdoor pool; non-member sessions include the sauna, steam room and hot tub, £25 Monday to Thursday and £30 Friday to Sunday; swim and meal packages also bookable",
+      "w": "Daily, two-hour sessions starting 10:00 to 15:00", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
+    },
+    {
+      "k": "spa", "sub": "Spa", "t": "Lido Bristol: sauna, steam room and hot tub", "v": "Lido Bristol", "ll": [51.4595, -2.6108],
+      "u": "https://www.lidobristol.com/spa/facilities", "p": "from £25",
+      "g": "sauna, steam room and hot tub beside the outdoor pool, adults only; non-member sessions £25 Monday to Thursday and £30 Friday to Sunday; massages and treatments from £90",
+      "w": "Daily, two-hour sessions starting 10:00 to 15:00", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
+    },
+    {
+      "k": "spa", "sub": "Community sauna", "t": "The Ardagh Community Sauna", "v": "Ardagh Pavilion, Horfield Common", "ll": [51.4852, -2.5955],
+      "u": "https://ardaghcommunitysauna.org/", "p": "£12",
+      "g": "large wood-fired community sauna; £12 for 60 minutes",
+      "w": "Mon to Thu 15:00 to 21:00, Fri to Sun 10:00 to 21:00", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
+    },
+    {
+      "k": "spa", "sub": "Community sauna", "t": "Bristol Community Sauna", "v": "St Anne's House", "ll": [51.4527, -2.5477],
+      "u": "https://bristolcommunitysauna.org/", "p": "£10",
+      "g": "not-for-profit Finnish saunas with cold plunges; 75-minute sessions, £5 for members",
+      "w": "Booked sessions; see the schedule", "dow": [], "wk": true
+    },
+    {
+      "k": "spa", "sub": "Community sauna", "t": "Stone & Steam Community Sauna", "v": "Hartcliffe City Farm", "ll": [51.4035, -2.5881],
+      "u": "https://sites.google.com/view/stoneandsteam/find-us", "p": "£12",
+      "g": "community sauna with a cold plunge at the city farm; 60-minute sessions, £6 for members",
+      "w": "Booked sessions; check the calendar", "dow": [], "wk": true
+    },
+    {
+      "k": "spa", "sub": "Outdoor sauna", "t": "Orchard Sauna", "v": "Windmill Hill City Farm", "ll": [51.4431, -2.5934],
+      "u": "https://www.orchardsauna.co.uk/",
+      "g": "outdoor barrel sauna with cold plunge pools in the farm orchard; use the Philip Street entrance",
+      "w": "Fri to Mon all day, Tue to Thu 15:00 to 21:00", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
+    },
+    {
+      "k": "spa", "sub": "Outdoor sauna", "t": "Fire & Ice Wellness", "v": "Westbury Wildlife Park", "ll": [51.4944, -2.6141],
+      "u": "https://www.fireicewellness.co.uk/", "p": "£17.50",
+      "g": "two wood-fired saunas, a wild swimming pool and ice baths in a wildlife park; £17.50 for an hour",
+      "w": "Mon and Tue 15:00 to 21:00, Wed to Sun 09:00 to 21:00", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
+    },
+    {
+      "k": "spa", "sub": "Outdoor sauna", "t": "SiVo Wellness", "v": "SiVo Wellness, Leigh Court", "ll": [51.469, -2.6598],
+      "u": "https://sivowellness.com/",
+      "g": "saunas and ice baths in a wellness garden at Leigh Court, Abbots Leigh",
+      "w": "Tue, Wed and Fri 18:00 to 21:00, Sat and Sun 09:00 to 14:00", "dow": [2, 3, 5, 6, 7], "wk": true
+    },
+    {
+      "k": "spa", "sub": "Spa", "t": "HarSPA at Harbour Hotel Bristol", "v": "Harbour Hotel Bristol", "ll": [51.4545, -2.5945],
+      "u": "https://www.harbourhotels.co.uk/our-hotels/bristol/harbour-hotel-bristol/harspa-bristol", "p": "from £40",
+      "g": "hotel spa with indoor pool, hydrotherapy pool, sauna and steam room; four hours for £40 Monday to Thursday, £45 Friday to Sunday, over-18s",
+      "w": "Booked spa access; check availability", "dow": [], "wk": true
+    },
+    {
+      "k": "spa", "sub": "Floatation", "t": "Bristol Float Centre", "v": "Bristol Float Centre", "ll": [51.4525, -2.5987],
+      "u": "https://www.floatbristol.co.uk/", "p": "from £60",
+      "g": "three private floatation rooms on College Green; one-hour float from £60, float for two £90",
+      "w": "Tue to Sat 09:00 to 17:00", "dow": [2, 3, 4, 5, 6], "wk": true
     },
     {
       "k": "swim", "sub": "Harbour swimming", "t": "Sunday Morning Swim (winter)", "v": "All-Aboard Watersports, Baltic Wharf", "ll": [51.4463, -2.6173],

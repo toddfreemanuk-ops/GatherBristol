@@ -490,10 +490,10 @@ h3 small{font-size:13px;color:var(--muted2)}
 .lookgrid{border-radius:28px;padding:24px;box-shadow:0 14px 40px rgba(120,80,40,.06);grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:24px 28px;align-items:start}
 .lookgrid h3 small.soon,.pr h3 .soon{font:400 12px var(--f-body);letter-spacing:0;text-transform:none;color:var(--muted2)}
 .dash .lookgrid .kinds{gap:10px}
-.dash #kinds{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+.dash #kinds{grid-template-columns:repeat(5,minmax(0,1fr))}
 .dash #pkinds{grid-template-columns:repeat(2,minmax(0,1fr))}
-.dash .kind{grid-template-areas:"i n" "t t";gap:18px 8px;border:2px solid var(--line-soft);border-radius:20px;padding:14px 16px;background:color-mix(in srgb,var(--kc) 6%,var(--panel));font-weight:400;font-size:18px;line-height:1.15;transition:transform .15s,box-shadow .15s,background .15s}
-.dash .kind i{width:40px;height:40px;background:color-mix(in srgb,var(--kc) 14%,transparent);color:var(--kc)}
+.dash .kind{grid-template-areas:"i n" "t t";gap:10px 6px;border:2px solid var(--line-soft);border-radius:16px;padding:10px 12px;background:color-mix(in srgb,var(--kc) 6%,var(--panel));font-weight:400;font-size:15px;line-height:1.15;transition:transform .15s,box-shadow .15s,background .15s}
+.dash .kind i{width:30px;height:30px;background:color-mix(in srgb,var(--kc) 14%,transparent);color:var(--kc)}
 .dash .kind small{font-size:12px;color:var(--muted2);align-self:center}
 .dash .kind:hover{border-color:var(--line-soft);background:color-mix(in srgb,var(--kc) 6%,var(--panel));transform:translateY(-2px);box-shadow:0 6px 16px rgba(120,80,40,.1)}
 .dash .kind[aria-pressed="true"]{border-color:var(--kc);background:color-mix(in srgb,var(--kc) 15%,var(--panel));box-shadow:none;color:var(--ink)}
@@ -501,13 +501,15 @@ h3 small{font-size:13px;color:var(--muted2)}
 .dash #pkinds .kind:not([aria-pressed="true"]){border:1px dashed var(--line-dash);background:var(--panel-warm)}
 .dash #pkinds .kind:not([aria-pressed="true"]):hover{background:color-mix(in srgb,var(--c0) 7%,var(--panel));transform:none;box-shadow:none}
 .kind[data-k="season"],.kind[data-k="always"],.kind[data-k="pfood"]{--kc:var(--c0)}
-.kind[data-k="events"],.kind[data-k="pshop"]{--kc:var(--c3)}
+.kind[data-k="events"],.kind[data-k="ev"],.kind[data-k="pshop"]{--kc:var(--c3)}
+.kind[data-k="music"]{--kc:var(--c7)}
 .kind[data-k="courses"]{--kc:var(--c5)}
 .kind[data-k="clubs"],.kind[data-k="pother"]{--kc:var(--c1)}
 .kind[data-k="kids"],.kind[data-k="pdrink"]{--kc:var(--c2)}
 .kind[data-k="sport"]{--kc:var(--c6)}
 .kind[data-k="fit"]{--kc:var(--c8)}
 .kind[data-k="vol"]{--kc:var(--c4)}
+@media (max-width:1100px){.lookgrid{grid-template-columns:minmax(0,1fr)}}
 
 /* browse: filters, map, results, picks */
 .main{grid-template-columns:280px minmax(0,1fr) 320px;gap:20px}
@@ -662,7 +664,8 @@ table.t td{border-bottom-color:var(--line-soft)}
 @media (max-width:640px){
   .hero .herotext .brand{font-size:clamp(36px,12vw,44px)}
   .apphead{position:static}
-  .dash #kinds{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .dash #kinds{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .dash .lookgrid .kinds{gap:8px} .dash .kind{padding:8px 7px;font-size:12px;gap:8px 4px} .dash .kind small{font-size:11px}
   .prof{grid-template-columns:96px minmax(0,1fr)}
   .pb{padding:14px 16px}
   .pb .ti{font-size:19px}
@@ -59025,14 +59028,17 @@ KINDS.always={label:'Always on',one:'Place',noun:'place',icon:'Landmark',types:[
 const KORDER=['events','clubs','courses','always','deals','vol'];
 KINDS.season={label:'In season',one:'Seasonal',noun:'listing',icon:'Flame',types:[]};   // categories are the seasons, filled from the data
 KINDS.kids={label:'Kids & family',one:'Family',noun:'listing',icon:'Smile',types:[['fam','Family events & shows','PartyPopper'],['story','Story & rhyme time','BookOpen'],['make','Making & play','Scissors'],['fire','Fireworks & seasonal','Flame'],['place','Places to take them','Landmark']]};
-const TILES=['season','events','courses','clubs','kids','fit','sport','vol','always'];
-KINDS.fit={label:'Health & fitness',one:'Activity',noun:'listing',icon:'HeartPulse',types:[['swim','Outdoor & wild swimming','Waves'],['pool','Pools & leisure centres','LifeBuoy'],['gym','Gyms & classes','Dumbbell'],['run','Running','Footprints'],['yoga','Yoga & pilates','Flower2'],['climb','Climbing','Mountain'],
+const TILES=['season','ev','music','courses','clubs','kids','fit','sport','vol','always'];
+KINDS.fit={label:'Health & fitness',one:'Activity',noun:'listing',icon:'HeartPulse',types:[['swim','Outdoor & wild swimming','Waves'],['pool','Pools & leisure centres','LifeBuoy'],['spa','Saunas & spas','Bath'],['gym','Gyms & classes','Dumbbell'],['run','Running','Footprints'],['yoga','Yoga & pilates','Flower2'],['climb','Climbing','Mountain'],
   ['cycle','Cycling','Bike'],['water','Watersports','Sailboat'],['team','Team & racket sports','Volleyball'],['walk','Walking & outdoor fitness','TreePine']]};   // its own listings (source/dir/fitness.json) plus the sporty groups already under Clubs & societies
 const fitCat=e=>e.kind==='fit'?e.k:e.k==='run'?'run':/cold water|swim/i.test(e.sub)?'swim':/cycl|bike/i.test(e.sub)?'cycle':/walk|hik|rambl/i.test(e.sub)?'walk':'team';   // where a club sits in the Health & fitness view
 KINDS.vol={label:'Volunteering',one:'Volunteering',noun:'role',icon:'Heart',types:[['green','Parks & gardens','Trees'],['food','Food & poverty','Package'],['farm','City farms & animals','Tractor'],['well','Wellbeing & support','HandHeart'],['sport','Sport & events','Medal']]};
 const MV=KINDS.always.types.map(t=>'mv_'+t[0]);   // the Must visit row: one tile per kind of place
 MV.forEach((k,i)=>{const t=KINDS.always.types[i]; KINDS[k]={label:t[1],one:'Place',noun:'place',icon:t[2],types:[t]};});
 KINDS.sport={label:'Live sport',one:'Event',noun:'fixture',icon:'Trophy',types:[]};   // categories are the sports, filled from the data
+const isMusic=e=>e.k==='gig'||e.k==='club';   // the Events tile and the Music tile are two views over the one events list
+KINDS.music={label:'Music',one:'Event',noun:'event',icon:'Music',types:KINDS.events.types.filter(t=>t[0]==='gig'||t[0]==='club')};
+KINDS.ev={label:'Events',one:'Event',noun:'event',icon:'Ticket',types:KINDS.events.types.filter(t=>t[0]==='comedy').concat(KINDS.events.types.filter(t=>!['gig','club','comedy'].includes(t[0])))};   // comedy leads the list
 const SPORTICON={'Football':'Goal','Basketball':'Dribbble','Rugby union':'Trophy'};
 const alwKind=()=>kind==='always'||MV.includes(kind);
 const PTILES=['pfood','pdrink','pshop','pother'];   // the Promotions row: four views over the one promotions list
@@ -59050,9 +59056,11 @@ const kidCat=e=>e.kind==='deals'?'place':e.kind==='clubs'?'story':e.kind==='alwa
 function rebuildViews(){ DATA.kids=KORDER.flatMap(k=>DATA[k]).filter(isKid); DATA.kids.forEach(e=>{e.kc=kidCat(e);}); PTILES.forEach(k=>{DATA[k]=DATA.deals.filter(e=>e.pt===PT[k][0]);});
   MV.forEach(k=>{DATA[k]=DATA.always.filter(e=>'mv_'+e.k===k);});
   { const o=KINDS.fit.types.map(t=>t[0]); DATA.fit=FIT.concat(DATA.clubs.filter(e=>e.k==='run'||e.k==='out')); DATA.fit.forEach(e=>{e.fc=fitCat(e);}); DATA.fit.sort((a,b)=>o.indexOf(a.fc)-o.indexOf(b.fc)||a.t.localeCompare(b.t)); }
+  DATA.music=DATA.events.filter(isMusic); DATA.ev=DATA.events.filter(e=>!isMusic(e));
   DATA.sport=DATA.events.filter(e=>e.k==='sport'); const S=KINDS.sport, sn=[...new Set(DATA.sport.filter(upcoming).map(e=>e.sub))].sort();
   S.types=sn.map(n=>[n,n,SPORTICON[n]||'Trophy']); S.name={}; S.col={}; S.ico={}; sn.forEach((n,i)=>{S.name[n]=n; S.ico[n]=SPORTICON[n]||'Trophy'; S.col[n]='var(--c'+[6,0,4,1,5,3][i%6]+')';}); }
 ['events','clubs','courses','kids','always','deals','vol','fit'].concat(PTILES,MV).forEach(k=>{const K=KINDS[k];K.name={};K.col={};K.ico={};K.types.forEach(([id,n,ic],i)=>{K.name[id]=n;K.ico[id]=ic;K.col[id]='var(--c'+(i%10)+')';});});
+['music','ev'].forEach(k=>{const K=KINDS[k],E=KINDS.events;K.name={};K.col={};K.ico={};K.types.forEach(([id,n,ic])=>{K.name[id]=n;K.ico[id]=ic;K.col[id]=E.col[id];});});
 const SLOTS=[['am','Morning','before 12'],['pm','Afternoon','12 to 5'],['eve','Evening','5 to 9'],['late','Late','9pm on']];
 const slotOf=s=>{const h=+s.slice(0,2);return h<6?'late':h<12?'am':h<17?'pm':h<21?'eve':'late';};
 const MON=['January','February','March','April','May','June','July','August','September','October','November','December'];
@@ -59094,11 +59102,11 @@ function poster(e,cls){ const p=el('div','poster '+(cls||'')+' pt'+(parseInt(has
 
 /* ---------- state ---------- */
 const mkF=()=>({cat:'',subs:new Set(),days:new Set(),slots:new Set(),dows:new Set(),lens:new Set(),q:'',free:false,hideSold:false,untimed:false,under50:false,weekly:false,near:0});
-const FS={}; function startFilters(){ ['events','clubs','courses','always','deals','vol','season','kids','fit'].concat(PTILES,MV,['sport']).forEach(k=>FS[k]=mkF());
-  ['events','season','kids','sport'].forEach(k=>FS[k].days.add(TODAY)); }   // date-led views open on today; courses list by start date, so they open on any day
+const FS={}; function startFilters(){ ['events','clubs','courses','always','deals','vol','season','kids','fit','ev','music'].concat(PTILES,MV,['sport']).forEach(k=>FS[k]=mkF());
+  ['events','ev','music','season','kids','sport'].forEach(k=>FS[k].days.add(TODAY)); }   // date-led views open on today; courses list by start date, so they open on any day
 startFilters();
-let kind='events', F=FS.events;
-const DATA={events:[],clubs:[],courses:[],always:[],deals:[],vol:[],season:[],kids:[],fit:[]}; PTILES.concat(MV,['sport']).forEach(k=>DATA[k]=[]);
+let kind='ev', F=FS.ev;
+const DATA={events:[],clubs:[],courses:[],always:[],deals:[],vol:[],season:[],kids:[],fit:[],ev:[],music:[]}; PTILES.concat(MV,['sport']).forEach(k=>DATA[k]=[]);
 let FIT=[];   // the Health & fitness tile's own listings; DATA.fit adds the sporty clubs to these
 const BYID=new Map();
 let NEWS=[]; const got={days:false,dir:false}; let fitted=false;
@@ -59399,7 +59407,7 @@ function meta(e,full){const m=el('div','me'); const i=el('i'); i.style.backgroun
 const vkey=e=>e.v+'@'+e.ll[0].toFixed(5)+','+e.ll[1].toFixed(5);
 function focus(e){ // show an item on the map, switching section or clearing filters if they hide it
   track('view on map: '+e.v,e.t);
-  if(!DATA[kind].includes(e)) setKind(e.kind==='deals'?'p'+e.pt:e.kind,true);
+  if(!DATA[kind].includes(e)) setKind(e.kind==='deals'?'p'+e.pt:e.kind==='events'?(isMusic(e)?'music':'ev'):e.kind,true);
   if(!pass(e)){FS[kind]=F=mkF(); syncInputs(); render();}
   const mk=markers.get(vkey(e)); if(!mk) return;
   map.setView(e.ll,Math.max(map.getZoom(),14)); mk.openPopup();
@@ -59541,7 +59549,7 @@ function renderPicks(){ const box=$('picks'), withImg=DATA.deals.filter(hasImg),
     const ac=el('div','acts'); const mb=el('button','lnk','Show on map'); mb.type='button'; mb.addEventListener('click',()=>focus(e)); ac.append(mb);
     if(e.u){const a=el('a','lnk','Details ↗'); a.href=e.u; a.target='_blank'; a.rel='noopener'; ac.append(a);} bd.append(ac); c.append(ps,bd); linkHover(c,e); return c; })); }
 function renderFeatured(){ const box=$('featured'), kids=[];
-  (fk=>[fk].filter(k=>KORDER.includes(k)).concat(KORDER.filter(k=>k!==fk)))(PTILES.includes(kind)?'deals':MV.includes(kind)?'always':kind==='sport'?'events':kind).forEach(k=>{ const items=DATA[k].filter(e=>e.f&&upcoming(e)).slice(0,5); if(!items.length) return;
+  (fk=>[fk].filter(k=>KORDER.includes(k)).concat(KORDER.filter(k=>k!==fk)))(PTILES.includes(kind)?'deals':MV.includes(kind)?'always':kind==='sport'||kind==='ev'||kind==='music'?'events':kind).forEach(k=>{ const items=DATA[k].filter(e=>e.f&&upcoming(e)).slice(0,5); if(!items.length) return;
     kids.push(el('h2','',KINDS[k].label)); const f=el('div','feat'); items.forEach(e=>f.append(card(e,false))); kids.push(f); });
   if(!kids.length) kids.push(el('div','empty','Featured picks appear here once the listings load.'));
   box.replaceChildren(...kids); }
