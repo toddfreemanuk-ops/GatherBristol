@@ -73,6 +73,12 @@ def discover():
             if len(parts) == 3 and re.match(r'[a-z]{3}-\d', parts[2]): found.add(u); venues.add(parts[1])
             elif len(parts) == 2 and parts[1] not in ('tonight', 'this-weekend', 'new-years-eve'): venues.add(parts[1])
     for p in pages: scan(BASE + '/' + p)
+    # Headfirst has a listings page for every day; these reach small venues that no listing page links to
+    for i in range(HORIZON + 1):
+        d = TODAY + dt.timedelta(days=i)
+        nth = 'th' if 10 <= d.day % 100 <= 20 else {1: 'st', 2: 'nd', 3: 'rd'}.get(d.day % 10, 'th')
+        scan(f"{BASE}/whats-on/{d.strftime('%A').lower()}-{d.day}{nth}-{d.strftime('%B').lower()}-{d.year}")
+    venues = {v for v in venues if not re.match(r'(?:mon|tues|wednes|thurs|fri|satur|sun)day-\d', v)}   # day pages are not venues
     print('venues to scan', len(venues), flush=True)
     for i, v in enumerate(sorted(venues), 1):
         scan(f'{BASE}/whats-on/{v}')

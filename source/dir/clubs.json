@@ -2489,6 +2489,85 @@
       "v": "Zerodegrees",
       "w": "Mondays",
       "wk": true
+    },
+    {
+      "dow": [
+        7
+      ],
+      "e": "13:00",
+      "k": "run",
+      "ll": [
+        51.4426,
+        -2.5958
+      ],
+      "p": "Free",
+      "s": "11:00",
+      "sub": "Free social runs",
+      "t": "Alpha Run Club (Monthly Plogging Event)",
+      "u": "https://social-bristol.pages.dev/groups/alpha-run-club",
+      "v": "Alpha Bottle Shop & Tap",
+      "w": "Last Sunday of the month",
+      "wk": false
+    },
+    {
+      "dow": [
+        6
+      ],
+      "e": "12:00",
+      "g": "book ahead",
+      "k": "out",
+      "ll": [
+        51.4686,
+        -2.6238
+      ],
+      "p": "Free",
+      "s": "10:00",
+      "sub": "Walking",
+      "t": "Bristol Gym Girls",
+      "u": "https://social-bristol.pages.dev/groups/bristol-gym-girls",
+      "v": "The Downs",
+      "w": "Last Saturday of the month",
+      "wk": false
+    },
+    {
+      "dow": [
+        3
+      ],
+      "e": "17:00",
+      "g": "book ahead",
+      "k": "social",
+      "ll": [
+        51.4574,
+        -2.5906
+      ],
+      "p": "£7",
+      "s": "10:00",
+      "sub": "Co-working",
+      "t": "Wobbly Socials (Wobbly Workers)",
+      "u": "https://social-bristol.pages.dev/groups/wobbly-socials",
+      "v": "Tabb Hub",
+      "w": "3rd Wednesday of every month",
+      "wk": false
+    },
+    {
+      "dow": [
+        2
+      ],
+      "e": "21:00",
+      "g": "conversation practice for all levels, not a taught class; places are limited, so RSVP on Meetup",
+      "k": "lang",
+      "ll": [
+        51.4577,
+        -2.5821
+      ],
+      "p": "Free",
+      "s": "19:00",
+      "sub": "Spanish",
+      "t": "Bristol Spanish Intercambio: Spanish and English language exchange",
+      "u": "https://www.meetup.com/bristol-spanish-intercambio/",
+      "v": "The Volunteer Tavern",
+      "w": "Tuesdays",
+      "wk": true
     }
   ],
   "pulled": "2026-11-05",
