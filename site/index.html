@@ -499,7 +499,7 @@ h3 small{font-size:13px;color:var(--muted2)}
 .dash .kind:hover{border-color:var(--line-soft);background:color-mix(in srgb,var(--kc) 6%,var(--panel));transform:translateY(-2px);box-shadow:0 6px 16px rgba(120,80,40,.1)}
 .dash .kind[aria-pressed="true"]{border-color:var(--kc);background:color-mix(in srgb,var(--kc) 15%,var(--panel));box-shadow:none;color:var(--ink)}
 .dash .kind[aria-pressed="true"] i{background:color-mix(in srgb,var(--kc) 14%,transparent);color:var(--kc)}
-.dash #pkinds .kind:not([aria-pressed="true"]){border:2px dashed var(--line-dash);background:var(--panel-warm)}
+.dash #pkinds .kind:not([aria-pressed="true"]){border:2px solid color-mix(in srgb,var(--c0) 38%,var(--panel));background:var(--panel-warm)}
 .dash #pkinds .kind:not([aria-pressed="true"]):hover{background:color-mix(in srgb,var(--c0) 7%,var(--panel));transform:none;box-shadow:none}
 .kind[data-k="season"],.kind[data-k="always"],.kind[data-k="pfood"]{--kc:var(--c0)}
 .kind[data-k="events"],.kind[data-k="ev"],.kind[data-k="pshop"]{--kc:var(--c3)}
@@ -678,6 +678,7 @@ table.t td{border-bottom-color:var(--line-soft)}
 /* dice, dialogs, get in touch */
 .dicebar{justify-self:center;display:inline-flex;align-items:center;gap:14px;border:2px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:10px 24px 10px 12px;text-align:left;box-shadow:0 6px 18px rgba(120,80,40,.08);transition:transform .15s,border-color .15s;max-width:100%}
 .dicebar:hover{border-color:var(--c0);transform:translateY(-2px)}
+.dicerow{text-align:center}
 .dicebar:hover .die{transform:rotate(-14deg)}
 .dbt{display:flex;flex-direction:column;gap:1px;min-width:0}
 .dbt b{font-family:var(--f-display);font-weight:400;font-size:19px;line-height:1.15}
@@ -825,7 +826,6 @@ dialog.dlg::backdrop{background:rgba(20,16,12,.5)}
         <div class="pr"><h3><span>Promotions</span><small class="soon">More coming soon</small></h3>
         <div class="kinds" id="pkinds"></div></div>
       </div>
-      <button type="button" class="dicebar" id="diceBar"><span class="die" id="diceBarDie" aria-hidden="true"></span><span class="dbt"><b>Pick me an option</b><small id="diceBarSub">See six ideas, then roll the dice to choose one</small></span></button>
     </section>
     <div class="main" id="exMain">
       <aside class="panel left">
@@ -864,6 +864,7 @@ dialog.dlg::backdrop{background:rgba(20,16,12,.5)}
           <div class="maphead"><b id="count">Loading</b><button type="button" id="reset" hidden>Reset filters</button></div>
           <div class="mapwrap"><div id="map"></div><div class="mapinfo" id="mapInfo" hidden></div></div>
         </section>
+        <div class="dicerow"><button type="button" class="dicebar" id="diceBar"><span class="die" id="diceBarDie" aria-hidden="true"></span><span class="dbt"><b>Pick me an option</b><small id="diceBarSub">Picks one at random from the list below</small></span></button></div>
         <section class="panel">
           <h3><span id="listTitle">Matches</span><small>Hover a card to find it on the map</small></h3>
           <div id="list"><div class="empty">Fetching the listings.</div></div>
@@ -899,7 +900,7 @@ dialog.dlg::backdrop{background:rgba(20,16,12,.5)}
       <div class="dlg-h"><h3 id="diceTitle">Pick me an option</h3><button type="button" class="dlg-x" data-close aria-label="Close">×</button></div>
       <p class="lead" id="diceLead"></p>
       <div class="opts" id="diceBody"></div>
-      <div class="rollrow"><span class="die big" id="diceBig" aria-hidden="true"></span><button type="button" class="btn" id="diceRoll">Roll the dice</button><button type="button" class="lnk" id="diceDeal">Show six different ones</button></div>
+      <div class="rollrow"><button type="button" class="btn" id="diceRoll">Pick another</button></div>
       <div id="dicePick" aria-live="polite"></div>
     </div>
   </dialog>
@@ -59482,7 +59483,7 @@ function renderControls(){
   const tile=k=>{const b=el('button','kind'); b.type='button'; b.setAttribute('aria-pressed',k===kind?'true':'false');
     b.dataset.k=k; const ic=el('i'); ic.append(ico(KINDS[k].icon,21)); b.append(ic,el('span','',KINDS[k].label),el('small','',String(DATA[k].filter(upcoming).length))); b.addEventListener('click',()=>{setKind(k);toResults();track('tile: '+KINDS[k].label);}); return b;};
   $('kinds').replaceChildren(...TILES.map(tile)); $('pkinds').replaceChildren(...PTILES.map(tile));
-  $('diceBarSub').textContent='See six from '+K.label+', then roll the dice to choose one';
+  $('diceBarSub').textContent='Picks one at random from the list below';
   // category, with its sub-categories opening underneath
   const tc={}, sc2={}; all.forEach(e=>{ if(pass(e,'cat')) tc[ck(e)]=(tc[ck(e)]||0)+1; if(ck(e)===F.cat&&pass(e,'sub')) sc2[e.sub]=(sc2[e.sub]||0)+1; });
   const kids=[];
@@ -59614,43 +59615,25 @@ $('hDate').textContent=NOW.toLocaleDateString('en-GB',{weekday:'long',day:'numer
 let mapSized=false;
 function fitMap(){ setTimeout(()=>{ map.invalidateSize(); if(!mapSized&&map.getSize().x>50){ mapSized=true; map.fitBounds(LOC?L.latLng(LOC.ll).toBounds(4500):[[51.438,-2.625],[51.482,-2.555]]); } },30); }
 
-/* ---------- dice: six options from the chosen section, then a roll picks one ---------- */
+/* ---------- dice: one random pick from the list on screen ---------- */
 const notOver=e=>!(e.kind==='events'&&!e.run&&e.d===TODAY&&e.s&&e.s<NOWHM&&+e.s.slice(0,2)>=6);   // skip what already started earlier today
-function rollPool(k){ // one option's upcoming listings; dated ones lean to the next week so the pick is something you could do soon
-  const all=DATA[k].filter(e=>upcoming(e)&&!e.x&&notOver(e)), wk=addDays(TODAY,7), soon=all.filter(e=>undated(e)||e.run||e.d<=wk);
-  return soon.length>=5?soon:all; }
 const PIPS=[[4],[0,8],[0,4,8],[0,2,6,8],[0,2,4,6,8],[0,2,3,5,6,8]];   // which of a die face's nine cells carry a pip
 function setDie(d,n){ if(d.children.length!==9) d.replaceChildren(...[...Array(9)].map(()=>el('i'))); [...d.children].forEach((p,i)=>{p.className=PIPS[n-1].includes(i)?'on':'';}); return d; }
 const still=()=>matchMedia('(prefers-reduced-motion:reduce)').matches;
-let six=[], rolling=null;
-function dealSix(){ // six at random, spread across venues and categories before doubling up
-  const pool=rollPool(kind).slice(); for(let i=pool.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [pool[i],pool[j]]=[pool[j],pool[i]]; }
-  const out=[], seen=new Set(); pool.forEach(e=>{ const k=e.k+'|'+e.v; if(out.length<6&&!seen.has(k)){ seen.add(k); out.push(e); } });
-  pool.forEach(e=>{ if(out.length<6&&!out.includes(e)) out.push(e); }); return out; }
-function showSix(){ clearInterval(rolling); rolling=null; six=dealSix(); const K=KINDS[kind], box=$('diceBody'), n=six.length, btn=$('diceRoll');
-  $('diceTitle').textContent='Pick me an option: '+K.label; $('dicePick').replaceChildren(); setDie($('diceBig'),n||1).classList.remove('spin');
-  $('diceLead').textContent=n>1?'Here are '+(n===6?'six':n)+'. Roll the dice and it chooses one for you.':n?'There is only one to choose from right now.':'';
-  if(!n) box.replaceChildren(el('div','empty',got.days||got.dir?'Nothing to pick from here right now. Choose another option above and try again.':'The listings are still loading. Try again in a moment.'));
-  else box.replaceChildren(...six.map((e,i)=>{ const r=el('div','opt'), tx=el('div','otx'), D=e.kind==='deals';
-    tx.append(el('b','',D?e.v+': '+e.t:e.t),el('span','',whenText(e)+' · '+(e.kind==='always'||D?e.area:e.v)+(priceText(e)?' · '+priceText(e):''))); r.append(setDie(el('span','die sm'),i+1),tx); return r; }));
-  btn.hidden=!n; btn.disabled=false; btn.textContent='Roll the dice'; $('diceBig').hidden=!n; $('diceDeal').hidden=rollPool(kind).length<=n;
+let lastPick=null;
+function pickOne(){ // the matching listings, minus sold-out ones and anything that started earlier today; never the same one twice running
+  const K=KINDS[kind], all=visible().filter(e=>!e.x&&notOver(e)), pool=all.length>1?all.filter(e=>e!==lastPick):all, btn=$('diceRoll');
+  $('diceTitle').textContent='Pick me an option: '+K.label; $('diceBody').replaceChildren(); btn.hidden=all.length<2;
+  if(!all.length){ lastPick=null; $('diceLead').textContent=''; $('dicePick').replaceChildren(el('div','empty',got.days||got.dir?'Nothing in the list to pick from right now. Clear a filter or choose another option, then try again.':'The listings are still loading. Try again in a moment.')); }
+  else{ const e=lastPick=pool[Math.floor(Math.random()*pool.length)], c=profile(e); if(!still()) c.classList.add('rolled');
+    $('diceLead').textContent=all.length>1?'Picked at random from the '+all.length+' in the list.':'There is only one in the list right now.'; $('dicePick').replaceChildren(c);
+    setDie($('diceBarDie'),1+Math.floor(Math.random()*6)); }
   if(!$('diceDlg').open) $('diceDlg').showModal(); }
-function rollDice(){ if(rolling||!six.length) return; const n=six.length, pick=1+Math.floor(Math.random()*n), big=$('diceBig'), rows=[...$('diceBody').children], btn=$('diceRoll');
-  const land=()=>{ rolling=null; setDie(big,pick).classList.remove('spin'); rows.forEach((r,i)=>{ r.classList.remove('on'); r.classList.toggle('hit',i===pick-1); });
-    const c=profile(six[pick-1]); if(!still()) c.classList.add('rolled'); $('dicePick').replaceChildren(el('h2','','You rolled a '+pick),c);
-    btn.disabled=false; btn.textContent='Roll again'; c.scrollIntoView({block:'nearest',behavior:still()?'auto':'smooth'}); };
-  $('dicePick').replaceChildren(); rows.forEach(r=>r.classList.remove('hit'));
-  if(still()||n<2){ land(); return; }
-  btn.disabled=true; big.classList.add('spin'); let t=0, last=0;
-  rolling=setInterval(()=>{ let f=1+Math.floor(Math.random()*n); if(f===last) f=f%n+1; last=f; setDie(big,f); rows.forEach((r,i)=>r.classList.toggle('on',i===f-1));
-    if(++t>=13){ clearInterval(rolling); land(); } },110); }
-setDie($('diceBarDie'),5); setDie($('diceBig'),6);
-$('diceBar').addEventListener('click',()=>{ showSix(); track('dice: opened ('+KINDS[kind].label+')'); });
-$('diceRoll').addEventListener('click',()=>{ rollDice(); track('dice: rolled ('+KINDS[kind].label+')'); });
-$('diceDeal').addEventListener('click',()=>{ showSix(); track('dice: six different ('+KINDS[kind].label+')'); });
+setDie($('diceBarDie'),5);
+$('diceBar').addEventListener('click',()=>{ pickOne(); track('dice: picked ('+KINDS[kind].label+')'); });
+$('diceRoll').addEventListener('click',()=>{ pickOne(); track('dice: another ('+KINDS[kind].label+')'); });
 document.addEventListener('click',ev=>{ const a=ev.target.closest&&ev.target.closest('a[target="_blank"]'); if(!a) return;   // outbound clicks, counted per venue
   const u=a.getAttribute('href'), e=KORDER.flatMap(k=>DATA[k]).concat(FIT).find(x=>x.u===u); if(e) track('details click: '+e.v,e.t); else if(a.closest('#friends')) track('news link'); },true);
-$('diceDlg').addEventListener('close',()=>{ clearInterval(rolling); rolling=null; });
 $('dicePick').addEventListener('click',ev=>{ if(ev.target.closest('button')) $('diceDlg').close(); },true);   // the card's own buttons jump to the map, so close first
 
 /* ---------- get in touch ---------- */
