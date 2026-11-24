@@ -1,240 +1,1053 @@
 {
-  "items": [
-    {
-      "k": "swim", "sub": "Lido", "t": "Lido Bristol", "v": "Lido Bristol", "ll": [51.4595, -2.6108],
-      "u": "https://www.lidobristol.com/swimming/public-access/", "p": "from £25",
-      "g": "heated outdoor pool; non-member sessions include the sauna, steam room and hot tub, £25 Monday to Thursday and £30 Friday to Sunday; swim and meal packages also bookable",
-      "w": "Daily, two-hour sessions starting 10:00 to 15:00", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
-    },
-    {
-      "k": "spa", "sub": "Spa", "t": "Lido Bristol: sauna, steam room and hot tub", "v": "Lido Bristol", "ll": [51.4595, -2.6108],
-      "u": "https://www.lidobristol.com/spa/facilities", "p": "from £25",
-      "g": "sauna, steam room and hot tub beside the outdoor pool, adults only; non-member sessions £25 Monday to Thursday and £30 Friday to Sunday; massages and treatments from £90",
-      "w": "Daily, two-hour sessions starting 10:00 to 15:00", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
-    },
-    {
-      "k": "spa", "sub": "Community sauna", "t": "The Ardagh Community Sauna", "v": "Ardagh Pavilion, Horfield Common", "ll": [51.4852, -2.5955],
-      "u": "https://ardaghcommunitysauna.org/", "p": "£12",
-      "g": "large wood-fired community sauna; £12 for 60 minutes",
-      "w": "Mon to Thu 15:00 to 21:00, Fri to Sun 10:00 to 21:00", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
-    },
-    {
-      "k": "spa", "sub": "Community sauna", "t": "Bristol Community Sauna", "v": "St Anne's House", "ll": [51.4527, -2.5477],
-      "u": "https://bristolcommunitysauna.org/", "p": "£10",
-      "g": "not-for-profit Finnish saunas with cold plunges; 75-minute sessions, £5 for members",
-      "w": "Booked sessions; see the schedule", "dow": [], "wk": true
-    },
-    {
-      "k": "spa", "sub": "Community sauna", "t": "Stone & Steam Community Sauna", "v": "Hartcliffe City Farm", "ll": [51.4035, -2.5881],
-      "u": "https://sites.google.com/view/stoneandsteam/find-us", "p": "£12",
-      "g": "community sauna with a cold plunge at the city farm; 60-minute sessions, £6 for members",
-      "w": "Booked sessions; check the calendar", "dow": [], "wk": true
-    },
-    {
-      "k": "spa", "sub": "Outdoor sauna", "t": "Orchard Sauna", "v": "Windmill Hill City Farm", "ll": [51.4431, -2.5934],
-      "u": "https://www.orchardsauna.co.uk/",
-      "g": "outdoor barrel sauna with cold plunge pools in the farm orchard; use the Philip Street entrance",
-      "w": "Fri to Mon all day, Tue to Thu 15:00 to 21:00", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
-    },
-    {
-      "k": "spa", "sub": "Outdoor sauna", "t": "Fire & Ice Wellness", "v": "Westbury Wildlife Park", "ll": [51.4944, -2.6141],
-      "u": "https://www.fireicewellness.co.uk/", "p": "£17.50",
-      "g": "two wood-fired saunas, a wild swimming pool and ice baths in a wildlife park; £17.50 for an hour",
-      "w": "Mon and Tue 15:00 to 21:00, Wed to Sun 09:00 to 21:00", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
-    },
-    {
-      "k": "spa", "sub": "Outdoor sauna", "t": "SiVo Wellness", "v": "SiVo Wellness, Leigh Court", "ll": [51.469, -2.6598],
-      "u": "https://sivowellness.com/",
-      "g": "saunas and ice baths in a wellness garden at Leigh Court, Abbots Leigh",
-      "w": "Tue, Wed and Fri 18:00 to 21:00, Sat and Sun 09:00 to 14:00", "dow": [2, 3, 5, 6, 7], "wk": true
-    },
-    {
-      "k": "spa", "sub": "Spa", "t": "HarSPA at Harbour Hotel Bristol", "v": "Harbour Hotel Bristol", "ll": [51.4545, -2.5945],
-      "u": "https://www.harbourhotels.co.uk/our-hotels/bristol/harbour-hotel-bristol/harspa-bristol", "p": "from £40",
-      "g": "hotel spa with indoor pool, hydrotherapy pool, sauna and steam room; four hours for £40 Monday to Thursday, £45 Friday to Sunday, over-18s",
-      "w": "Booked spa access; check availability", "dow": [], "wk": true
-    },
-    {
-      "k": "spa", "sub": "Floatation", "t": "Bristol Float Centre", "v": "Bristol Float Centre", "ll": [51.4525, -2.5987],
-      "u": "https://www.floatbristol.co.uk/", "p": "from £60",
-      "g": "three private floatation rooms on College Green; one-hour float from £60, float for two £90",
-      "w": "Tue to Sat 09:00 to 17:00", "dow": [2, 3, 4, 5, 6], "wk": true
-    },
-    {
-      "k": "swim", "sub": "Harbour swimming", "t": "Sunday Morning Swim (winter)", "v": "All-Aboard Watersports, Baltic Wharf", "ll": [51.4463, -2.6173],
-      "u": "https://www.allaboardwatersports.co.uk/book-with-us/courses/course/winter-swim/", "p": "£8",
-      "g": "lifeguarded open-water swim in a cordoned part of the Floating Harbour; runs most Sundays, book ahead, 18 and over, called off if water quality or weather is poor",
-      "w": "Sundays", "dow": [7], "s": "09:00", "e": "10:30", "wk": true
-    },
-    {
-      "k": "swim", "sub": "Harbour swimming", "t": "Winter Solstice Swim, Yoga and Sauna", "v": "All-Aboard Watersports, Baltic Wharf", "ll": [51.4463, -2.6173],
-      "u": "https://www.allaboardwatersports.co.uk/book-with-us/courses/course/winter-solstice-swim/", "p": "£8",
-      "g": "one-off harbour swim; £15 with yoga, sauna booked separately",
-      "w": "Monday 21 December, 10:00 to 12:00", "dow": [1], "wk": false, "to": "2026-12-21"
-    },
-    {
-      "k": "swim", "sub": "Harbour swimming", "t": "New Year's Day Dip", "v": "All-Aboard Watersports, Baltic Wharf", "ll": [51.4463, -2.6173],
-      "u": "https://www.allaboardwatersports.co.uk/book-with-us/courses/course/new-years-day-dip/", "p": "£8",
-      "g": "one-off harbour dip",
-      "w": "Friday 1 January, 10:30 to 12:00", "dow": [5], "wk": false, "to": "2027-01-01"
-    },
-    {
-      "k": "pool", "sub": "Swimming pool", "t": "Bristol South Swimming Pool", "v": "Bristol South Swimming Pool", "ll": [51.442, -2.6003],
-      "u": "https://www.everyoneactive.com/centre/bristol-south-swimming-pool/",
-      "g": "30m indoor pool in a listed 1931 building; these are centre hours, so check the swim timetable",
-      "w": "Mon to Fri 07:00 to 22:00, Sat and Sun 08:00 to 15:00", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
-    },
-    {
-      "k": "pool", "sub": "Swimming pool", "t": "Jubilee Pool & Gym", "v": "Jubilee Pool & Gym", "ll": [51.4326, -2.5621],
-      "u": "https://jubileepoolbristol.co.uk/timetable/", "p": "£5.95",
-      "g": "community-run indoor pool and gym in Knowle; adult swim price shown, concessions and juniors pay less",
-      "w": "See the timetable for swim sessions", "dow": [], "wk": true
-    },
-    {
-      "k": "pool", "sub": "Leisure centre", "t": "Horfield Leisure Centre", "v": "Horfield Leisure Centre", "ll": [51.4938, -2.5871],
-      "u": "https://www.everyoneactive.com/centre/horfield-leisure-centre/",
-      "g": "eight-lane 25m pool and learner pool, gym, classes, sports hall and squash",
-      "w": "Mon to Fri 06:00 to 22:00, Sat and Sun 07:00 to 22:00", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
-    },
-    {
-      "k": "pool", "sub": "Leisure centre", "t": "Easton Leisure Centre", "v": "Easton Leisure Centre", "ll": [51.4598, -2.574],
-      "u": "https://www.everyoneactive.com/centre/easton-leisure-centre/",
-      "g": "main and teaching pools, gym with a women-only gym, classes, sports hall and squash; pool hours are shorter at weekends",
-      "w": "Mon to Fri 06:30 to 22:30, Sat 07:30 to 20:00, Sun 07:30 to 21:00", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
-    },
-    {
-      "k": "pool", "sub": "Leisure centre", "t": "Hengrove Park Leisure Centre", "v": "Hengrove Park Leisure Centre", "ll": [51.4129, -2.5834],
-      "u": "https://www.leisurecentre.com/hengrove-park-leisure-centre", "p": "£5.60",
-      "g": "50m pool and learner pool, large gym, classes, sports hall and climbing wall; adult swim price shown",
-      "w": "Mon to Fri 05:30 to 22:00, Sat 08:00 to 18:00, Sun 08:00 to 19:00", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
-    },
-    {
-      "k": "pool", "sub": "Leisure centre", "t": "Henbury Leisure Centre", "v": "Henbury Leisure Centre", "ll": [51.5094, -2.6326],
-      "u": "https://www.everyoneactive.com/centre/henbury-leisure-centre/",
-      "g": "six-lane 25m pool and teaching pool, gym, classes and sports hall",
-      "w": "Mon to Fri 06:30 to 22:00, Sat and Sun 07:30 to 17:30", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
-    },
-    {
-      "k": "gym", "sub": "Gym & sports centre", "t": "St Pauls Community Sports Academy", "v": "St Pauls Community Sports Academy", "ll": [51.4624, -2.5805],
-      "u": "https://www.everyoneactive.com/centre/st-pauls-community-sports-academy/",
-      "g": "gym, studios, sports hall and floodlit 3G pitches",
-      "w": "Mon to Fri 07:00 to 22:00, Sat 09:00 to 16:00, Sun 09:00 to 21:00", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
-    },
-    {
-      "k": "gym", "sub": "Gym & sports centre", "t": "Kingsdown Sports Centre", "v": "Kingsdown Sports Centre", "ll": [51.4618, -2.5986],
-      "u": "https://www.elitesportsuk.com/kingsdown/", "p": "£8",
-      "g": "gym, classes, five-court sports hall and squash courts; price shown is a pay-as-you-go class",
-      "w": "Mon to Thu 07:00 to 22:30, Fri 07:00 to 22:00, Sat 08:00 to 18:00, Sun 09:00 to 22:00", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
-    },
-    {
-      "k": "gym", "sub": "Gym & sports centre", "t": "University of Bristol Indoor Sports Centre", "v": "University of Bristol Indoor Sports Centre", "ll": [51.4592, -2.6028],
-      "u": "https://www.bristol.ac.uk/sport/memberships/payg/", "p": "£12",
-      "g": "university gym open to the public pay-as-you-go; £12 a gym visit, classes £8.50; hours change by term",
-      "w": "Mon to Fri 07:00 to 22:30, Sat 08:00 to 20:00, Sun 08:00 to 21:00", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
-    },
-    {
-      "k": "run", "sub": "parkrun", "t": "Ashton Court parkrun", "v": "Ashton Court Estate", "ll": [51.4437, -2.6381],
-      "u": "https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/sports-and-fitness/running-in-bristol", "p": "Free",
-      "g": "free weekly timed 5km run or walk; register with parkrun before your first one",
-      "w": "Saturdays", "dow": [6], "s": "09:00", "wk": true
-    },
-    {
-      "k": "run", "sub": "parkrun", "t": "Eastville parkrun", "v": "Eastville Park", "ll": [51.47545, -2.5543],
-      "u": "https://www.parkrun.org.uk/eastville/", "p": "Free",
-      "g": "free weekly timed 5km run or walk; register with parkrun before your first one",
-      "w": "Saturdays", "dow": [6], "s": "09:00", "wk": true
-    },
-    {
-      "k": "run", "sub": "Junior parkrun", "t": "Eastville junior parkrun", "v": "Eastville Park", "ll": [51.47545, -2.5543],
-      "u": "https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/sports-and-fitness/running-in-bristol", "p": "Free",
-      "g": "free weekly 2km run for ages 4 to 14; check the start time",
-      "w": "Sunday mornings", "dow": [7], "wk": true
-    },
-    {
-      "k": "yoga", "sub": "Yoga", "t": "Bristol Yoga Centre", "v": "Bristol Yoga Centre", "ll": [51.4553, -2.6007],
-      "u": "https://bristolyogacentre.co.uk/", "p": "£12",
-      "g": "yoga studio on Park Row; drop-ins welcome, booking recommended, £11 concession",
-      "w": "See the timetable for classes", "dow": [], "wk": true
-    },
-    {
-      "k": "yoga", "sub": "Yoga", "t": "Yogasara", "v": "Yogasara", "ll": [51.4654, -2.5889],
-      "u": "https://www.yogasara.co.uk/timetable/", "p": "from £5",
-      "g": "yoga studio in Montpelier; £5 community places, 14-day intro pass £25",
-      "w": "See the timetable for classes", "dow": [], "wk": true
-    },
-    {
-      "k": "yoga", "sub": "Hot yoga", "t": "Hot Pod Yoga Bristol", "v": "Hot Pod Yoga Bristol", "ll": [51.4559, -2.5918],
-      "u": "https://hotpodyoga.com/studios/bristol/",
-      "g": "hot yoga in a heated pod studio",
-      "w": "Open seven days; see the timetable for classes", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
-    },
-    {
-      "k": "climb", "sub": "Bouldering", "t": "The Climbing Academy: The Mothership", "v": "The Climbing Academy, The Mothership", "ll": [51.4554, -2.5691],
-      "u": "https://www.theclimbingacademy.com/locations/the-mothership/", "p": "£14.50",
-      "g": "large indoor bouldering centre; adult entry shown, under-16s £9.80",
-      "w": "Mon to Fri 07:00 to 22:00, Sat and Sun 08:00 to 20:00", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
-    },
-    {
-      "k": "climb", "sub": "Indoor climbing", "t": "The Climbing Academy: The Church", "v": "The Climbing Academy, The Church", "ll": [51.4713, -2.5768],
-      "u": "https://www.theclimbingacademy.com/locations/the-church/", "p": "£14.50",
-      "g": "indoor climbing in a converted church in St Werburghs; adult entry shown, under-16s £9.80",
-      "w": "Mon to Fri 12:00 to 22:00, Sat and Sun 09:00 to 18:00", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
-    },
-    {
-      "k": "climb", "sub": "Indoor climbing", "t": "Redpoint Bristol", "v": "Redpoint Bristol", "ll": [51.4344, -2.6129],
-      "u": "https://www.redpointbristol.co.uk/", "p": "£16",
-      "g": "indoor roped climbing and bouldering centre; adult entry shown",
-      "w": "Mon to Fri 10:00 to 22:00, weekends 10:00 to 19:00", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
-    },
-    {
-      "k": "climb", "sub": "Bouldering", "t": "Flashpoint Bristol: Easton", "v": "Flashpoint Bristol, Easton", "ll": [51.4685, -2.5702],
-      "u": "https://flashpointeaston.com/", "p": "£16",
-      "g": "bouldering centre with Clip 'n Climb, formerly Bloc Climbing; adult entry shown; opens 07:00 on Wednesdays",
-      "w": "Mon to Fri 09:00 to 22:00, weekends 09:00 to 18:00", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
-    },
-    {
-      "k": "climb", "sub": "Bouldering", "t": "Flashpoint Bristol: Temple Meads", "v": "Flashpoint Bristol, Temple Meads", "ll": [51.4449, -2.5824],
-      "u": "https://flashpointtemple.com/", "p": "£16",
-      "g": "indoor bouldering centre; adult entry shown; opens 07:00 Tuesday to Thursday",
-      "w": "Mon 10:00 to 22:00, Tue to Fri 09:00 to 22:00, weekends 09:00 to 19:00", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
-    },
-    {
-      "k": "cycle", "sub": "Mountain biking", "t": "Pedal Progression", "v": "Pedal Progression, Ashton Court", "ll": [51.453, -2.6399],
-      "u": "https://www.pedalprogression.com/", "p": "from £15",
-      "g": "mountain bike hire and skills coaching on the Ashton Court trails; adult hire £15 for an hour; closed Mondays",
-      "w": "Tue to Fri 10:00 to 17:00, Sat 10:30 to 17:00, Sun 10:00 to 16:00", "dow": [2, 3, 4, 5, 6, 7], "wk": true
-    },
-    {
-      "k": "cycle", "sub": "Traffic-free track", "t": "Bristol Cycling Centre", "v": "Bristol Cycling Centre", "ll": [51.4094, -2.5778],
-      "u": "https://betterbybike.info/cycling-centres/bristol-cycling-centre/", "p": "from £3",
-      "g": "traffic-free track in Hengrove with family, inclusive and learn-to-ride sessions; open sessions £3 per family member, £5 for adults without children",
-      "w": "Timetabled sessions; check the dates before you go", "dow": [], "wk": false
-    },
-    {
-      "k": "water", "sub": "Rowing, sailing & paddling", "t": "All-Aboard Watersports", "v": "All-Aboard Watersports, Baltic Wharf", "ll": [51.4463, -2.6173],
-      "u": "https://www.allaboardwatersports.co.uk/", "p": "from £8",
-      "g": "charity running sailing, rowing and paddlesports on the harbour; social rowing £17, social sailing £22, pay and play rowing £8 for people who have rowed before",
-      "w": "Sessions through the week; book online", "dow": [], "wk": true
-    },
-    {
-      "k": "water", "sub": "Paddleboarding", "t": "SUP Bristol", "v": "SUP Bristol, Bristol Harbour", "ll": [51.4463, -2.6173],
-      "u": "https://www.supbristol.com/", "p": "from £30",
-      "g": "guided paddleboarding and sit-on-top kayaking on the harbour, meeting near Underfall Yard",
-      "w": "Booked sessions; check dates when you book", "dow": [], "wk": false
-    },
-    {
-      "k": "team", "sub": "Tennis", "t": "Bristol Parks Tennis: Canford Park", "v": "Canford Park, Westbury-on-Trym", "ll": [51.4993, -2.6212],
-      "u": "https://clubspark.lta.org.uk/bristolparkstennis", "p": "£5",
-      "g": "eight public park courts to book online; £5 a court per hour, or a household membership for £35 a year",
-      "w": "All year; book a court online", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
-    },
-    {
-      "k": "team", "sub": "Tennis", "t": "Bristol Parks Tennis: Eastville Park", "v": "Eastville Park", "ll": [51.47545, -2.5543],
-      "u": "https://clubspark.lta.org.uk/bristolparkstennis", "p": "£5",
-      "g": "two public park courts to book online; £5 a court per hour, or a household membership for £35 a year",
-      "w": "All year; book a court online", "dow": [1, 2, 3, 4, 5, 6, 7], "wk": true
-    }
-  ],
-  "pulled": "2026-11-21",
-  "src": "Venue and organiser sites, Bristol City Council"
+ "items": [
+  {
+   "k": "swim",
+   "sub": "Lido",
+   "t": "Lido Bristol",
+   "v": "Lido Bristol",
+   "ll": [
+    51.4595,
+    -2.6108
+   ],
+   "u": "https://www.lidobristol.com/swimming/public-access/",
+   "p": "from £25",
+   "g": "heated outdoor pool; non-member sessions include the sauna, steam room and hot tub, £25 Monday to Thursday and £30 Friday to Sunday; swim and meal packages also bookable",
+   "w": "Daily, two-hour sessions starting 10:00 to 15:00",
+   "dow": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "wk": true
+  },
+  {
+   "k": "spa",
+   "sub": "Spa",
+   "t": "Lido Bristol: sauna, steam room and hot tub",
+   "v": "Lido Bristol",
+   "ll": [
+    51.4595,
+    -2.6108
+   ],
+   "u": "https://www.lidobristol.com/spa/facilities",
+   "p": "from £25",
+   "g": "sauna, steam room and hot tub beside the outdoor pool, adults only; non-member sessions £25 Monday to Thursday and £30 Friday to Sunday; massages and treatments from £90",
+   "w": "Daily, two-hour sessions starting 10:00 to 15:00",
+   "dow": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "wk": true
+  },
+  {
+   "k": "spa",
+   "sub": "Community sauna",
+   "t": "The Ardagh Community Sauna",
+   "v": "Ardagh Pavilion, Horfield Common",
+   "ll": [
+    51.4852,
+    -2.5955
+   ],
+   "u": "https://ardaghcommunitysauna.org/",
+   "p": "£12",
+   "g": "large wood-fired community sauna; £12 for 60 minutes",
+   "w": "Mon to Thu 15:00 to 21:00, Fri to Sun 10:00 to 21:00",
+   "dow": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "wk": true
+  },
+  {
+   "k": "spa",
+   "sub": "Community sauna",
+   "t": "Bristol Community Sauna",
+   "v": "St Anne's House",
+   "ll": [
+    51.4527,
+    -2.5477
+   ],
+   "u": "https://bristolcommunitysauna.org/",
+   "p": "£10",
+   "g": "not-for-profit Finnish saunas with cold plunges; 75-minute sessions, £5 for members",
+   "w": "Booked sessions; see the schedule",
+   "dow": [],
+   "wk": true
+  },
+  {
+   "k": "spa",
+   "sub": "Community sauna",
+   "t": "Stone & Steam Community Sauna",
+   "v": "Hartcliffe City Farm",
+   "ll": [
+    51.4035,
+    -2.5881
+   ],
+   "u": "https://sites.google.com/view/stoneandsteam/find-us",
+   "p": "£12",
+   "g": "community sauna with a cold plunge at the city farm; 60-minute sessions, £6 for members",
+   "w": "Booked sessions; check the calendar",
+   "dow": [],
+   "wk": true
+  },
+  {
+   "k": "spa",
+   "sub": "Outdoor sauna",
+   "t": "Orchard Sauna",
+   "v": "Windmill Hill City Farm",
+   "ll": [
+    51.4431,
+    -2.5934
+   ],
+   "u": "https://www.orchardsauna.co.uk/",
+   "g": "outdoor barrel sauna with cold plunge pools in the farm orchard; use the Philip Street entrance",
+   "w": "Fri to Mon all day, Tue to Thu 15:00 to 21:00",
+   "dow": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "wk": true
+  },
+  {
+   "k": "spa",
+   "sub": "Outdoor sauna",
+   "t": "Fire & Ice Wellness",
+   "v": "Westbury Wildlife Park",
+   "ll": [
+    51.4944,
+    -2.6141
+   ],
+   "u": "https://www.fireicewellness.co.uk/",
+   "p": "£17.50",
+   "g": "two wood-fired saunas, a wild swimming pool and ice baths in a wildlife park; £17.50 for an hour",
+   "w": "Mon and Tue 15:00 to 21:00, Wed to Sun 09:00 to 21:00",
+   "dow": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "wk": true
+  },
+  {
+   "k": "spa",
+   "sub": "Outdoor sauna",
+   "t": "SiVo Wellness",
+   "v": "SiVo Wellness, Leigh Court",
+   "ll": [
+    51.469,
+    -2.6598
+   ],
+   "u": "https://sivowellness.com/",
+   "g": "saunas and ice baths in a wellness garden at Leigh Court, Abbots Leigh",
+   "w": "Tue, Wed and Fri 18:00 to 21:00, Sat and Sun 09:00 to 14:00",
+   "dow": [
+    2,
+    3,
+    5,
+    6,
+    7
+   ],
+   "wk": true
+  },
+  {
+   "k": "spa",
+   "sub": "Spa",
+   "t": "HarSPA at Harbour Hotel Bristol",
+   "v": "Harbour Hotel Bristol",
+   "ll": [
+    51.4545,
+    -2.5945
+   ],
+   "u": "https://www.harbourhotels.co.uk/our-hotels/bristol/harbour-hotel-bristol/harspa-bristol",
+   "p": "from £40",
+   "g": "hotel spa with indoor pool, hydrotherapy pool, sauna and steam room; four hours for £40 Monday to Thursday, £45 Friday to Sunday, over-18s",
+   "w": "Booked spa access; check availability",
+   "dow": [],
+   "wk": true
+  },
+  {
+   "k": "spa",
+   "sub": "Floatation",
+   "t": "Bristol Float Centre",
+   "v": "Bristol Float Centre",
+   "ll": [
+    51.4525,
+    -2.5987
+   ],
+   "u": "https://www.floatbristol.co.uk/",
+   "p": "from £60",
+   "g": "three private floatation rooms on College Green; one-hour float from £60, float for two £90",
+   "w": "Tue to Sat 09:00 to 17:00",
+   "dow": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "wk": true
+  },
+  {
+   "k": "swim",
+   "sub": "Harbour swimming",
+   "t": "Sunday Morning Swim (winter)",
+   "v": "All-Aboard Watersports, Baltic Wharf",
+   "ll": [
+    51.4463,
+    -2.6173
+   ],
+   "u": "https://www.allaboardwatersports.co.uk/book-with-us/courses/course/winter-swim/",
+   "p": "£8",
+   "g": "lifeguarded open-water swim in a cordoned part of the Floating Harbour; runs most Sundays, book ahead, 18 and over, called off if water quality or weather is poor",
+   "w": "Sundays",
+   "dow": [
+    7
+   ],
+   "s": "09:00",
+   "e": "10:30",
+   "wk": true
+  },
+  {
+   "k": "swim",
+   "sub": "Harbour swimming",
+   "t": "Winter Solstice Swim, Yoga and Sauna",
+   "v": "All-Aboard Watersports, Baltic Wharf",
+   "ll": [
+    51.4463,
+    -2.6173
+   ],
+   "u": "https://www.allaboardwatersports.co.uk/book-with-us/courses/course/winter-solstice-swim/",
+   "p": "£8",
+   "g": "one-off harbour swim; £15 with yoga, sauna booked separately",
+   "w": "Monday 21 December, 10:00 to 12:00",
+   "dow": [
+    1
+   ],
+   "wk": false,
+   "to": "2026-12-21"
+  },
+  {
+   "k": "swim",
+   "sub": "Harbour swimming",
+   "t": "New Year's Day Dip",
+   "v": "All-Aboard Watersports, Baltic Wharf",
+   "ll": [
+    51.4463,
+    -2.6173
+   ],
+   "u": "https://www.allaboardwatersports.co.uk/book-with-us/courses/course/new-years-day-dip/",
+   "p": "£8",
+   "g": "one-off harbour dip",
+   "w": "Friday 1 January, 10:30 to 12:00",
+   "dow": [
+    5
+   ],
+   "wk": false,
+   "to": "2027-01-01"
+  },
+  {
+   "k": "pool",
+   "sub": "Swimming pool",
+   "t": "Bristol South Swimming Pool",
+   "v": "Bristol South Swimming Pool",
+   "ll": [
+    51.442,
+    -2.6003
+   ],
+   "u": "https://www.everyoneactive.com/centre/bristol-south-swimming-pool/",
+   "g": "30m indoor pool in a listed 1931 building; these are centre hours, so check the swim timetable",
+   "w": "Mon to Fri 07:00 to 22:00, Sat and Sun 08:00 to 15:00",
+   "dow": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "wk": true
+  },
+  {
+   "k": "pool",
+   "sub": "Swimming pool",
+   "t": "Jubilee Pool & Gym",
+   "v": "Jubilee Pool & Gym",
+   "ll": [
+    51.4326,
+    -2.5621
+   ],
+   "u": "https://jubileepoolbristol.co.uk/timetable/",
+   "p": "£5.95",
+   "g": "community-run indoor pool and gym in Knowle; adult swim price shown, concessions and juniors pay less",
+   "w": "See the timetable for swim sessions",
+   "dow": [],
+   "wk": true
+  },
+  {
+   "k": "pool",
+   "sub": "Leisure centre",
+   "t": "Horfield Leisure Centre",
+   "v": "Horfield Leisure Centre",
+   "ll": [
+    51.4938,
+    -2.5871
+   ],
+   "u": "https://www.everyoneactive.com/centre/horfield-leisure-centre/",
+   "g": "eight-lane 25m pool and learner pool, gym, classes, sports hall and squash",
+   "w": "Mon to Fri 06:00 to 22:00, Sat and Sun 07:00 to 22:00",
+   "dow": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "wk": true
+  },
+  {
+   "k": "pool",
+   "sub": "Leisure centre",
+   "t": "Easton Leisure Centre",
+   "v": "Easton Leisure Centre",
+   "ll": [
+    51.4598,
+    -2.574
+   ],
+   "u": "https://www.everyoneactive.com/centre/easton-leisure-centre/",
+   "g": "main and teaching pools, gym with a women-only gym, classes, sports hall and squash; pool hours are shorter at weekends",
+   "w": "Mon to Fri 06:30 to 22:30, Sat 07:30 to 20:00, Sun 07:30 to 21:00",
+   "dow": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "wk": true
+  },
+  {
+   "k": "pool",
+   "sub": "Leisure centre",
+   "t": "Hengrove Park Leisure Centre",
+   "v": "Hengrove Park Leisure Centre",
+   "ll": [
+    51.4129,
+    -2.5834
+   ],
+   "u": "https://www.leisurecentre.com/hengrove-park-leisure-centre",
+   "p": "£5.60",
+   "g": "50m pool and learner pool, large gym, classes, sports hall and climbing wall; adult swim price shown",
+   "w": "Mon to Fri 05:30 to 22:00, Sat 08:00 to 18:00, Sun 08:00 to 19:00",
+   "dow": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "wk": true
+  },
+  {
+   "k": "pool",
+   "sub": "Leisure centre",
+   "t": "Henbury Leisure Centre",
+   "v": "Henbury Leisure Centre",
+   "ll": [
+    51.5094,
+    -2.6326
+   ],
+   "u": "https://www.everyoneactive.com/centre/henbury-leisure-centre/",
+   "g": "six-lane 25m pool and teaching pool, gym, classes and sports hall",
+   "w": "Mon to Fri 06:30 to 22:00, Sat and Sun 07:30 to 17:30",
+   "dow": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "wk": true
+  },
+  {
+   "k": "gym",
+   "sub": "Gym & sports centre",
+   "t": "St Pauls Community Sports Academy",
+   "v": "St Pauls Community Sports Academy",
+   "ll": [
+    51.4624,
+    -2.5805
+   ],
+   "u": "https://www.everyoneactive.com/centre/st-pauls-community-sports-academy/",
+   "g": "gym, studios, sports hall and floodlit 3G pitches",
+   "w": "Mon to Fri 07:00 to 22:00, Sat 09:00 to 16:00, Sun 09:00 to 21:00",
+   "dow": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "wk": true
+  },
+  {
+   "k": "gym",
+   "sub": "Gym & sports centre",
+   "t": "Kingsdown Sports Centre",
+   "v": "Kingsdown Sports Centre",
+   "ll": [
+    51.4618,
+    -2.5986
+   ],
+   "u": "https://www.elitesportsuk.com/kingsdown/",
+   "p": "£8",
+   "g": "gym, classes, five-court sports hall and squash courts; price shown is a pay-as-you-go class",
+   "w": "Mon to Thu 07:00 to 22:30, Fri 07:00 to 22:00, Sat 08:00 to 18:00, Sun 09:00 to 22:00",
+   "dow": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "wk": true
+  },
+  {
+   "k": "gym",
+   "sub": "Gym & sports centre",
+   "t": "University of Bristol Indoor Sports Centre",
+   "v": "University of Bristol Indoor Sports Centre",
+   "ll": [
+    51.4592,
+    -2.6028
+   ],
+   "u": "https://www.bristol.ac.uk/sport/memberships/payg/",
+   "p": "£12",
+   "g": "university gym open to the public pay-as-you-go; £12 a gym visit, classes £8.50; hours change by term",
+   "w": "Mon to Fri 07:00 to 22:30, Sat 08:00 to 20:00, Sun 08:00 to 21:00",
+   "dow": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "wk": true
+  },
+  {
+   "k": "run",
+   "sub": "parkrun",
+   "t": "Ashton Court parkrun",
+   "v": "Ashton Court Estate",
+   "ll": [
+    51.4437,
+    -2.6381
+   ],
+   "u": "https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/sports-and-fitness/running-in-bristol",
+   "p": "Free",
+   "g": "free weekly timed 5km run or walk; register with parkrun before your first one",
+   "w": "Saturdays",
+   "dow": [
+    6
+   ],
+   "s": "09:00",
+   "wk": true
+  },
+  {
+   "k": "run",
+   "sub": "parkrun",
+   "t": "Eastville parkrun",
+   "v": "Eastville Park",
+   "ll": [
+    51.47545,
+    -2.5543
+   ],
+   "u": "https://www.parkrun.org.uk/eastville/",
+   "p": "Free",
+   "g": "free weekly timed 5km run or walk; register with parkrun before your first one",
+   "w": "Saturdays",
+   "dow": [
+    6
+   ],
+   "s": "09:00",
+   "wk": true
+  },
+  {
+   "k": "run",
+   "sub": "Junior parkrun",
+   "t": "Eastville junior parkrun",
+   "v": "Eastville Park",
+   "ll": [
+    51.47545,
+    -2.5543
+   ],
+   "u": "https://www.bristol.gov.uk/residents/museums-parks-sports-and-culture/sports-and-fitness/running-in-bristol",
+   "p": "Free",
+   "g": "free weekly 2km run for ages 4 to 14; check the start time",
+   "w": "Sunday mornings",
+   "dow": [
+    7
+   ],
+   "wk": true
+  },
+  {
+   "k": "yoga",
+   "sub": "Yoga",
+   "t": "Bristol Yoga Centre",
+   "v": "Bristol Yoga Centre",
+   "ll": [
+    51.4553,
+    -2.6007
+   ],
+   "u": "https://bristolyogacentre.co.uk/",
+   "p": "£12",
+   "g": "yoga studio on Park Row; drop-ins welcome, booking recommended, £11 concession",
+   "w": "See the timetable for classes",
+   "dow": [],
+   "wk": true
+  },
+  {
+   "k": "yoga",
+   "sub": "Yoga",
+   "t": "Yogasara",
+   "v": "Yogasara",
+   "ll": [
+    51.4654,
+    -2.5889
+   ],
+   "u": "https://www.yogasara.co.uk/timetable/",
+   "p": "from £5",
+   "g": "yoga studio in Montpelier; £5 community places, 14-day intro pass £25",
+   "w": "See the timetable for classes",
+   "dow": [],
+   "wk": true
+  },
+  {
+   "k": "yoga",
+   "sub": "Hot yoga",
+   "t": "Hot Pod Yoga Bristol",
+   "v": "Hot Pod Yoga Bristol",
+   "ll": [
+    51.4559,
+    -2.5918
+   ],
+   "u": "https://hotpodyoga.com/studios/bristol/",
+   "g": "hot yoga in a heated pod studio",
+   "w": "Open seven days; see the timetable for classes",
+   "dow": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "wk": true
+  },
+  {
+   "k": "climb",
+   "sub": "Bouldering",
+   "t": "The Climbing Academy: The Mothership",
+   "v": "The Climbing Academy, The Mothership",
+   "ll": [
+    51.4554,
+    -2.5691
+   ],
+   "u": "https://www.theclimbingacademy.com/locations/the-mothership/",
+   "p": "£14.50",
+   "g": "large indoor bouldering centre; adult entry shown, under-16s £9.80",
+   "w": "Mon to Fri 07:00 to 22:00, Sat and Sun 08:00 to 20:00",
+   "dow": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "wk": true
+  },
+  {
+   "k": "climb",
+   "sub": "Indoor climbing",
+   "t": "The Climbing Academy: The Church",
+   "v": "The Climbing Academy, The Church",
+   "ll": [
+    51.4713,
+    -2.5768
+   ],
+   "u": "https://www.theclimbingacademy.com/locations/the-church/",
+   "p": "£14.50",
+   "g": "indoor climbing in a converted church in St Werburghs; adult entry shown, under-16s £9.80",
+   "w": "Mon to Fri 12:00 to 22:00, Sat and Sun 09:00 to 18:00",
+   "dow": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "wk": true
+  },
+  {
+   "k": "climb",
+   "sub": "Indoor climbing",
+   "t": "Redpoint Bristol",
+   "v": "Redpoint Bristol",
+   "ll": [
+    51.4344,
+    -2.6129
+   ],
+   "u": "https://www.redpointbristol.co.uk/",
+   "p": "£16",
+   "g": "indoor roped climbing and bouldering centre; adult entry shown",
+   "w": "Mon to Fri 10:00 to 22:00, weekends 10:00 to 19:00",
+   "dow": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "wk": true
+  },
+  {
+   "k": "climb",
+   "sub": "Bouldering",
+   "t": "Flashpoint Bristol: Easton",
+   "v": "Flashpoint Bristol, Easton",
+   "ll": [
+    51.4685,
+    -2.5702
+   ],
+   "u": "https://flashpointeaston.com/",
+   "p": "£16",
+   "g": "bouldering centre with Clip 'n Climb, formerly Bloc Climbing; adult entry shown; opens 07:00 on Wednesdays",
+   "w": "Mon to Fri 09:00 to 22:00, weekends 09:00 to 18:00",
+   "dow": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "wk": true
+  },
+  {
+   "k": "climb",
+   "sub": "Bouldering",
+   "t": "Flashpoint Bristol: Temple Meads",
+   "v": "Flashpoint Bristol, Temple Meads",
+   "ll": [
+    51.4449,
+    -2.5824
+   ],
+   "u": "https://flashpointtemple.com/",
+   "p": "£16",
+   "g": "indoor bouldering centre; adult entry shown; opens 07:00 Tuesday to Thursday",
+   "w": "Mon 10:00 to 22:00, Tue to Fri 09:00 to 22:00, weekends 09:00 to 19:00",
+   "dow": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "wk": true
+  },
+  {
+   "k": "cycle",
+   "sub": "Mountain biking",
+   "t": "Pedal Progression",
+   "v": "Pedal Progression, Ashton Court",
+   "ll": [
+    51.453,
+    -2.6399
+   ],
+   "u": "https://www.pedalprogression.com/",
+   "p": "from £15",
+   "g": "mountain bike hire and skills coaching on the Ashton Court trails; adult hire £15 for an hour; closed Mondays",
+   "w": "Tue to Fri 10:00 to 17:00, Sat 10:30 to 17:00, Sun 10:00 to 16:00",
+   "dow": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "wk": true
+  },
+  {
+   "k": "cycle",
+   "sub": "Traffic-free track",
+   "t": "Bristol Cycling Centre",
+   "v": "Bristol Cycling Centre",
+   "ll": [
+    51.4094,
+    -2.5778
+   ],
+   "u": "https://betterbybike.info/cycling-centres/bristol-cycling-centre/",
+   "p": "from £3",
+   "g": "traffic-free track in Hengrove with family, inclusive and learn-to-ride sessions; open sessions £3 per family member, £5 for adults without children",
+   "w": "Timetabled sessions; check the dates before you go",
+   "dow": [],
+   "wk": false
+  },
+  {
+   "k": "water",
+   "sub": "Rowing, sailing & paddling",
+   "t": "All-Aboard Watersports",
+   "v": "All-Aboard Watersports, Baltic Wharf",
+   "ll": [
+    51.4463,
+    -2.6173
+   ],
+   "u": "https://www.allaboardwatersports.co.uk/",
+   "p": "from £8",
+   "g": "charity running sailing, rowing and paddlesports on the harbour; social rowing £17, social sailing £22, pay and play rowing £8 for people who have rowed before",
+   "w": "Sessions through the week; book online",
+   "dow": [],
+   "wk": true
+  },
+  {
+   "k": "water",
+   "sub": "Paddleboarding",
+   "t": "SUP Bristol",
+   "v": "SUP Bristol, Bristol Harbour",
+   "ll": [
+    51.4463,
+    -2.6173
+   ],
+   "u": "https://www.supbristol.com/",
+   "p": "from £30",
+   "g": "guided paddleboarding and sit-on-top kayaking on the harbour, meeting near Underfall Yard",
+   "w": "Booked sessions; check dates when you book",
+   "dow": [],
+   "wk": false
+  },
+  {
+   "k": "team",
+   "sub": "Tennis",
+   "t": "Bristol Parks Tennis: Canford Park",
+   "v": "Canford Park, Westbury-on-Trym",
+   "ll": [
+    51.4993,
+    -2.6212
+   ],
+   "u": "https://clubspark.lta.org.uk/bristolparkstennis",
+   "p": "£5",
+   "g": "eight public park courts to book online; £5 a court per hour, or a household membership for £35 a year",
+   "w": "All year; book a court online",
+   "dow": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "wk": true
+  },
+  {
+   "k": "team",
+   "sub": "Tennis",
+   "t": "Bristol Parks Tennis: Eastville Park",
+   "v": "Eastville Park",
+   "ll": [
+    51.47545,
+    -2.5543
+   ],
+   "u": "https://clubspark.lta.org.uk/bristolparkstennis",
+   "p": "£5",
+   "g": "two public park courts to book online; £5 a court per hour, or a household membership for £35 a year",
+   "w": "All year; book a court online",
+   "dow": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "wk": true
+  },
+  {
+   "k": "dance",
+   "sub": "Salsa",
+   "t": "Salsa Souls absolute beginners night",
+   "v": "The Elmgrove Centre",
+   "ll": [
+    51.4674,
+    -2.5975
+   ],
+   "u": "https://www.salsasouls.co.uk/tuesday/",
+   "p": "£12.30",
+   "g": "absolute beginners night, drop-in with no partner or booking needed; £12 cash, students £11.30 card or £11 cash",
+   "w": "Tuesdays, 19:30 to 20:45",
+   "dow": [
+    2
+   ],
+   "s": "19:30",
+   "wk": true
+  },
+  {
+   "k": "dance",
+   "sub": "Salsa",
+   "t": "Salsa Souls Wednesday classes",
+   "v": "Victoria Methodist Church",
+   "ll": [
+    51.4586,
+    -2.6084
+   ],
+   "u": "https://www.salsasouls.co.uk/classes/wednesday/",
+   "p": "£12.30",
+   "g": "drop-in with no booking, partners rotate so you can come alone, and one payment covers both levels; £12 cash",
+   "w": "Wednesdays, beginners 20:00, improver and intermediate 21:00, social dancing until 22:45",
+   "dow": [
+    3
+   ],
+   "s": "20:00",
+   "wk": true
+  },
+  {
+   "k": "dance",
+   "sub": "Salsa",
+   "t": "Salsify Salsa Mondays",
+   "v": "SouthBank Club",
+   "ll": [
+    51.4432,
+    -2.5992
+   ],
+   "u": "https://www.salsify.co.uk/salsify",
+   "p": "from £9.40",
+   "g": "classes are booked online in advance rather than paid on the door; Level 0 for absolute beginners runs as a 4-week course",
+   "w": "Mondays, Level 0 and Level 1 19:30, social 20:30, Level 1.5 21:00",
+   "dow": [
+    1
+   ],
+   "s": "19:30",
+   "wk": true
+  },
+  {
+   "k": "dance",
+   "sub": "Salsa",
+   "t": "Bristol Salsa Fix Monday classes",
+   "v": "SouthBank Club",
+   "ll": [
+    51.4432,
+    -2.5992
+   ],
+   "u": "https://www.bristolsalsafix.co.uk/classes/book-classes/",
+   "p": "£8",
+   "g": "improver and intermediate salsa booked per class online, not for complete beginners; the 21:00 slot is sometimes cha cha",
+   "w": "Mondays, improvers 19:30, social 20:30, intermediate 21:00",
+   "dow": [
+    1
+   ],
+   "s": "19:30",
+   "wk": true
+  },
+  {
+   "k": "dance",
+   "sub": "Salsa",
+   "t": "Bristol Salsa Fix Thursday classes",
+   "v": "Stoke Bishop Village Hall",
+   "ll": [
+    51.4797,
+    -2.6338
+   ],
+   "u": "https://www.bristolsalsafix.co.uk/classes/salsa-classes/",
+   "g": "beginners join a 6-week course with no partner or experience needed; later classes are booked per class online",
+   "w": "Thursdays, beginners 19:00, improvers 20:30, intermediate and advanced 21:30",
+   "dow": [
+    4
+   ],
+   "s": "19:00",
+   "wk": true
+  },
+  {
+   "k": "dance",
+   "sub": "Salsa",
+   "t": "Amity Salsa Thursdays",
+   "v": "Faithspace",
+   "ll": [
+    51.4478,
+    -2.5877
+   ],
+   "u": "https://amitysalsa.com/timetable-tickets/thursdays-salsa-partnerwork/",
+   "p": "£10",
+   "g": "drop-in is £10 for improvers and above; beginners are a 4-week course for £25, and a first-ever visit is free if you register; no classes 24 or 31 December",
+   "w": "Thursdays, classes 19:30 and 20:30, social 21:30 to 23:00",
+   "dow": [
+    4
+   ],
+   "s": "19:30",
+   "wk": true
+  },
+  {
+   "k": "dance",
+   "sub": "Bachata",
+   "t": "Bachatify bachata classes",
+   "v": "SouthBank Club",
+   "ll": [
+    51.4432,
+    -2.5992
+   ],
+   "u": "https://www.salsify.co.uk/bachatify",
+   "p": "£9",
+   "g": "four levels from absolute beginner upward, booked online in advance; two classes on the same night cost £13.50",
+   "w": "Tuesdays, Level 0 and Level 1 18:15, Level 2 19:45, Level 3 21:15",
+   "dow": [
+    2
+   ],
+   "s": "18:15",
+   "wk": true
+  },
+  {
+   "k": "dance",
+   "sub": "Swing & lindy hop",
+   "t": "Beginners lindy hop with Bristol Swing Riot",
+   "v": "SouthBank Club",
+   "ll": [
+    51.4432,
+    -2.5992
+   ],
+   "u": "https://www.bristolswingriot.co.uk/beginners",
+   "p": "£10",
+   "g": "drop-in any week with no partner needed as partners rotate; £8 concessions; term ends 2 December and classes return 6 January",
+   "w": "Wednesdays, 20:30 to 21:30, then 30 minutes of practice",
+   "dow": [
+    3
+   ],
+   "s": "20:30",
+   "wk": true
+  },
+  {
+   "k": "dance",
+   "sub": "Swing & lindy hop",
+   "t": "Lindy hop Level 1 and 2 with Bristol Swing Riot",
+   "v": "Easton Community Centre",
+   "ll": [
+    51.4619,
+    -2.5632
+   ],
+   "u": "https://www.bristolswingriot.co.uk/LindyHop",
+   "g": "drop-in classes taught in themed blocks for people who have done the beginners classes; term ends 8 December",
+   "w": "Tuesdays, Level 2 19:15, Level 1 20:30",
+   "dow": [
+    2
+   ],
+   "s": "19:15",
+   "wk": true
+  },
+  {
+   "k": "dance",
+   "sub": "Scottish country",
+   "t": "Scottish country dance classes (RSCDS Bristol)",
+   "v": "Oatley Hall, St Monica Trust",
+   "ll": [
+    51.4836,
+    -2.6179
+   ],
+   "u": "https://www.rscdsbristol.info/classes/",
+   "p": "£6",
+   "g": "open to beginners with no partner needed; first class free for newcomers, then £4 a class in your first year; autumn term runs to 17 December",
+   "w": "Thursdays, newer dancers 19:00, main class 19:30 to 20:45, experienced 21:00 to 22:00",
+   "dow": [
+    4
+   ],
+   "s": "19:00",
+   "wk": true
+  },
+  {
+   "k": "dance",
+   "sub": "Ballet & contemporary",
+   "t": "Adult ballet for beginners with AE Dance + Fitness",
+   "v": "Cotham School",
+   "ll": [
+    51.4636,
+    -2.602
+   ],
+   "u": "https://bookwhen.com/aedancefitness",
+   "p": "from £7",
+   "g": "adult class for people fairly new to ballet, bookable as a single class online; improvers, intermediate and lyrical contemporary run on other evenings",
+   "w": "Mondays 18:00; see the timetable for other ballet and contemporary classes",
+   "dow": [
+    1
+   ],
+   "s": "18:00",
+   "wk": true
+  },
+  {
+   "k": "dance",
+   "sub": "Street & commercial",
+   "t": "Adult commercial dance for beginners with AE Dance + Fitness",
+   "v": "The Island",
+   "ll": [
+    51.4566,
+    -2.5924
+   ],
+   "u": "https://bookwhen.com/aedancefitness",
+   "p": "from £7",
+   "g": "beginners-level adult class bookable as a single class online; new joiners can buy 4 classes for £20",
+   "w": "Mondays 18:00; see the timetable for other commercial classes",
+   "dow": [
+    1
+   ],
+   "s": "18:00",
+   "wk": true
+  }
+ ],
+ "pulled": "2026-11-21",
+ "src": "Venue and organiser sites, Bristol City Council"
 }
