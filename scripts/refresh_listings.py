@@ -61,13 +61,14 @@ def discover():
     for _, x in old_items():
         m = re.match(re.escape(BASE) + r'/whats-on/([^/]+)/', x.get('u', ''))
         if m: venues.add(m.group(1))
-    found, seen, fails = set(), set(), []
+    found, seen, fails, tags = set(), set(), [], load('genres.json', {})
     def scan(url):
         if url in seen: return
         seen.add(url)
         try: h = text(url)
         except Exception as e:
             fails.append([url, str(e)[:120]]); print('skip', url, e, flush=True); return
+        tags.update(card_genres(h))
         for u in re.findall(r'https://www\.headfirstbristol\.co\.uk/whats-on/[^"\'\s<>#?]+', h):
             parts = u[len(BASE) + 1:].split('/')
             if len(parts) == 3 and re.match(r'[a-z]{3}-\d', parts[2]): found.add(u); venues.add(parts[1])
@@ -85,9 +86,55 @@ def discover():
         if i % 25 == 0: print(i, 'venues,', len(found), 'event links', flush=True)
     keep = sorted(u for u in found if (d := slug_date(u)) and d <= LAST)
     save('event_urls.json', keep); save('discover_fails.json', fails)
-    print(f'{len(found)} event links, {len(keep)} between {TODAY} and {LAST}; {len(fails)} pages skipped')
+    save('genres.json', {u: tags[u] for u in keep if u in tags})
+    print(f'{len(found)} event links, {len(keep)} between {TODAY} and {LAST}; {sum(1 for u in keep if u in tags)} with genre tags; {len(fails)} pages skipped')
+
+EVENT_LINK = re.compile(r'https://www\.headfirstbristol\.co\.uk/whats-on/[^"\'\s<>#?/]+/[a-z]{3}-\d[^"\'\s<>#?/]*')
+def card_genres(h):
+    """The genre tags Headfirst shows on each listing card of a listings page: {event url: [tag, ...]}."""
+    out, starts = {}, [m.start() for m in re.finditer(r'class="\s*c-listing\s+c-listing--', h)]
+    for a, b in zip(starts, starts[1:] + [len(h)]):
+        card = h[a:b]; link = EVENT_LINK.search(card)
+        g = [html.unescape(x).strip().lower() for x in re.findall(r'c-listing__genre">([^<]+)<', card)]
+        if link and g: out[link.group(0)] = g[:8]
+    return out
 
 def has(pat, s): return re.search(r'\b(?:' + pat + r')\b', s, re.I) is not None
+
+# Music genres for the site's Music tile, most specific first. Each: id, label, pattern for Headfirst's own tags,
+# and a stricter pattern for free text, where words like "house", "pop" and "party" usually mean something else.
+MUSIC_GENRES = [
+    ('tribute', 'Tribute acts', r'tribute', None),
+    ('openmic', 'Open mic & jams', r'open mic|jam session|jam night|open decks', None),
+    ('dnb', 'Drum & bass & jungle', r'drum (?:and|&|n) bass|d ?& ?b|dnb|jungle|neurofunk|jump ?up', None),
+    ('bass', 'Garage, dubstep & bass', r'uk garage|speed garage|ukg|garage(?! rock)|dubstep|bassline|140|grime|bass music|breaks|breakbeat|footwork|uk funky', r'uk garage|ukg|dubstep|bassline|grime|breakbeat'),
+    ('techno', 'Techno, trance & hard dance', r'techno|trance|hard dance|hardstyle|gabber|acid|rave|psy|industrial|ebm|electro(?!nic| swing)', r'techno|trance|hard dance|hardstyle|gabber|psytrance|acid house|ebm'),
+    ('house', 'House & disco', r'house|disco|italo|balearic|boogie', r'house music|tech house|deep house|disco|italo'),
+    ('hiphop', 'Hip hop, rap & R&B', r'hip[ -]?hop|rap|r ?& ?b|rnb|trap|drill', r'hip[ -]?hop|rapper|r ?& ?b|rnb'),
+    ('reggae', 'Reggae, dub & ska', r'reggae|dub(?!step)|dancehall|ska|sound ?system|roots|soca|bashment', r'reggae|dancehall|ska|sound ?system|dubwise'),
+    ('global', 'Latin, Afro & global', r'latin|salsa|cumbia|afro\w*|amapiano|highlife|world|balkan|klezmer|samba|bossa|flamenco|brazil\w*|bhangra|tropical|reggaeton|gqom|arabic|african',
+     r'latin|salsa|cumbia|afrobeats?|amapiano|balkan|klezmer|samba|flamenco|bhangra|world music'),
+    ('punk', 'Punk, metal & hardcore', r'(?<!post[- ])punk|metal|hardcore|grunge|emo|doom|stoner|thrash|sludge|noise|screamo|grindcore', r'(?<!post[- ])punk|metal|hardcore|grunge|emo|doom|stoner|thrash|sludge'),
+    ('rock', 'Rock, indie & alternative', r'rock|indie|alternative|psych\w*|shoegaze|britpop|post[- ]punk|new wave|math', r'rock|indie|shoegaze|psych|post[- ]punk|britpop'),
+    ('folk', 'Folk, country & acoustic', r'folk|acoustic|singer[- ]songwriter|country|americana|bluegrass|ceilidh|shanty|celtic|trad\w*', r'folk|acoustic|singer[- ]songwriter|country music|americana|bluegrass|ceilidh|shanty|celtic'),
+    ('jazz', 'Jazz, funk & soul', r'jazz|funk|soul|blues|swing|big band|motown|gospel', None),
+    ('classical', 'Classical, choral & opera', r'classical|orchestra\w*|choir|choral|opera|symphon\w*|quartet|recital|baroque|chamber', None),
+    ('electronic', 'Electronic & experimental', r'electronic\w*|synth\w*|ambient|experimental|modular|idm|downtempo|leftfield', r'electronica?|synth\w*|ambient|experimental|modular'),
+    ('pop', 'Pop & party nights', r'pop|80s|90s|00s|2000s|karaoke|sing[- ]?along|party|cheese|student|lgbtq\+?|drag|queer', r'pop music|80s|90s|00s|karaoke|sing[- ]?along'),
+]
+def music_genre(tags, title, desc, k):
+    """One genre id for a gig or club night: Headfirst's tags vote first, then words in the title and description."""
+    votes = {}
+    for t in tags or []:
+        for gid, _, pat, _ in MUSIC_GENRES:
+            if re.search(r'(?<![a-z0-9])(?:' + pat + r')(?![a-z])', t, re.I): votes[gid] = votes.get(gid, 0) + 1; break
+    if not votes:
+        for gid, _, pat, strict in MUSIC_GENRES:
+            n = 3 * len(re.findall(r'\b(?:' + (strict or pat) + r')\b', title, re.I)) + len(re.findall(r'\b(?:' + (strict or pat) + r')\b', desc, re.I))
+            if n: votes[gid] = n
+    if not votes: return 'otherclub' if k == 'club' else 'othergig'
+    order = [g[0] for g in MUSIC_GENRES]
+    return max(votes, key=lambda g: (votes[g], -order.index(g)))
 
 GENRES = ['drum and bass', 'drum & bass', 'jungle', 'dubstep', 'uk garage', 'garage', 'house', 'tech house', 'techno', 'trance', 'disco', 'funk', 'soul', 'jazz', 'afrobeats', 'amapiano', 'dancehall', 'reggae', 'dub', 'hip hop', 'grime', 'electro', 'breakbeat', 'punk', 'hardcore', 'metal', 'grunge', 'emo', 'indie', 'alt rock', 'rock', 'psych', 'folk', 'ceilidh', 'singer-songwriter', 'tribute', 'world', 'lgbtq+']
 def genres(s):

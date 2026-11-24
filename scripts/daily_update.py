@@ -2,6 +2,7 @@
 
 Usage (from anywhere):  python scripts/daily_update.py            full refresh
                         python scripts/daily_update.py --data-only  rebuild site/data/listings.json from source/ only
+                        python scripts/daily_update.py --rebuild    re-sort the events already read (no scraping), then rebuild
 Set NO_IMAGES=1 to publish without scraped images.
 If the scrape looks broken (far fewer events than last time) it stops before touching the site.
 """
@@ -36,14 +37,17 @@ def refresh():
     fails_p = os.path.join(WORK, 'event_fails.json')
     if os.path.exists(fails_p): os.remove(fails_p)
     run('refresh_listings.py', 'events', SRC, WORK, IMG)
+    merge()
+    if not NO_IMAGES:
+        run('refresh_listings.py', 'images', SRC, WORK, IMG, '100000')
+
+def merge():   # turn the event pages already read into the dated files in source/days
     run('build_docs.py', SRC, SRC, WORK)
     docs = glob.glob(os.path.join(WORK, 'docs', '*.json'))
     if not docs: sys.exit('No day documents were built. Leaving the site as it is.')
     for f in glob.glob(os.path.join(SRC, 'days', '*.json')):
         if DATED.match(os.path.splitext(os.path.basename(f))[0]): os.remove(f)
     for f in docs: shutil.copy(f, os.path.join(SRC, 'days'))
-    if not NO_IMAGES:
-        run('refresh_listings.py', 'images', SRC, WORK, IMG, '100000')
 
 def build_site_data():
     today = TODAY.isoformat()
@@ -70,5 +74,6 @@ def build_site_data():
     n = sum(len(d['items']) for d in days), sum(len(d['items']) for d in dirs)
     print(f'site data written: {n[0]} events, {n[1]} directory listings, {len(set(img.values()))} images, updated {today}')
 
-if '--data-only' not in sys.argv: refresh()
+if '--rebuild' in sys.argv: merge()
+elif '--data-only' not in sys.argv: refresh()
 build_site_data()

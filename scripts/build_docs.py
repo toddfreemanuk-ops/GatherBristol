@@ -13,7 +13,9 @@ raw = json.load(open(os.path.join(WORK, 'events_raw.json'), encoding='utf-8'))
 src = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'refresh_listings.py'), encoding='utf-8').read()
 g = {'re': re}
 exec(src[src.index('def has('):src.index('def parse_event(')], g)
-classify = g['classify']
+classify, music_genre = g['classify'], g['music_genre']
+tags_p = os.path.join(WORK, 'genres.json')
+tags = json.load(open(tags_p, encoding='utf-8')) if os.path.exists(tags_p) else {}   # Headfirst's genre tags per event, collected while finding the events
 
 def norm(v): return re.sub(r'[^a-z0-9]', '', re.sub(r'^the\s+', '', v.lower()))
 ll = {}
@@ -94,6 +96,8 @@ for u, e in raw.items():
         for f in ('k', 'sub', 'g', 'f', 'area'):
             if f in prev[1]: item[f] = prev[1][f]
             elif f == 'g': item.pop('g', None)
+    if item['k'] in ('gig', 'club'):   # the Music tile's genre: always worked out afresh, from Headfirst's own tags where it gives any
+        item['mg'] = music_genre(tags.get(u), e['title'], e['desc'], item['k'])
     new[d].append(item)
 
 out = os.path.join(WORK, 'docs'); os.makedirs(out, exist_ok=True)

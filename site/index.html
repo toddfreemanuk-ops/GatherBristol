@@ -59089,7 +59089,13 @@ MV.forEach((k,i)=>{const t=KINDS.always.types[i]; KINDS[k]={label:t[1],one:'Plac
 KINDS.sport={label:'Live sport',one:'Event',noun:'fixture',icon:'Trophy',types:[]};   // categories are the sports, filled from the data
 const isMusic=e=>e.k==='gig'||e.k==='club';   // Music, Arts & culture and Other events are three views over the one events list, split by category
 const OTHER_EV=['food','social','family','sport','season'], isOther=e=>OTHER_EV.includes(e.k);
-KINDS.music={label:'Music',one:'Event',noun:'event',icon:'Music',types:KINDS.events.types.filter(t=>t[0]==='gig'||t[0]==='club')};
+// Music lists by genre (the "mg" the daily build gives each gig and club night); Gigs and Club nights are the sub-filter inside a genre
+KINDS.music={label:'Music',one:'Event',noun:'event',icon:'Music',types:[['dnb','Drum & bass & jungle','AudioWaveform'],['house','House & disco','Disc3'],['techno','Techno, trance & hard dance','Zap'],['bass','Garage, dubstep & bass','Speaker'],
+  ['rock','Rock, indie & alternative','Guitar'],['punk','Punk, metal & hardcore','Skull'],['folk','Folk, country & acoustic','Feather'],['jazz','Jazz, funk & soul','Music3'],['hiphop','Hip hop, rap & R&B','Mic'],['reggae','Reggae, dub & ska','Radio'],
+  ['global','Latin, Afro & global','Globe'],['electronic','Electronic & experimental','Sparkles'],['pop','Pop & party nights','PartyPopper'],['classical','Classical, choral & opera','Piano'],['tribute','Tribute acts','Star'],['openmic','Open mic & jams','MicVocal'],
+  ['othergig','Other gigs','Guitar'],['otherclub','Other club nights','Disc3']]};
+const subOf=e=>kind==='music'?(e.k==='club'?'Club nights':'Gigs'):e.sub;   // the chips that open under a chosen category
+const subLabel=e=>e.kind==='events'&&(e.k==='gig'||e.k==='club')&&e.mg?(/^other/.test(e.mg)?'':KINDS.music.name[e.mg]||''):(e.sub&&e.sub!=='Other'?e.sub:'');   // the second label on a card: a gig's genre, else its sub-category
 KINDS.ev={label:'Arts & culture',one:'Event',noun:'event',icon:'Ticket',types:KINDS.events.types.filter(t=>t[0]==='comedy').concat(KINDS.events.types.filter(t=>!['gig','club','comedy'].concat(OTHER_EV).includes(t[0])))};   // comedy leads the list
 KINDS.oev={label:'Other events',one:'Event',noun:'event',icon:'PartyPopper',types:OTHER_EV.map(k=>KINDS.events.types.find(t=>t[0]===k))};
 KINDS.search={label:'Search results',one:'Listing',noun:'listing',icon:'Search',types:[['events','Events','Ticket'],['clubs','Clubs & societies','Users'],['courses','Courses','GraduationCap'],['fit','Sports & wellbeing','HeartPulse'],['always','Places','Landmark'],['deals','Offers','BadgePercent'],['vol','Volunteering','Heart']]};   // every listing at once; the categories are the sections
@@ -59105,18 +59111,18 @@ const wkKind=()=>kind==='clubs'||kind==='deals'||kind==='vol'||fitKind()||PTILES
 const wkly=e=>e.kind==='clubs'||e.kind==='deals'||e.kind==='vol'||e.kind==='fit';   // listings that repeat on weekdays rather than sit on a date
 const isEv=()=>!wkKind()&&kind!=='courses'&&!alwKind();
 const undated=e=>wkly(e)||e.kind==='always';
-const ck=e=>kind==='season'?e.sea:kind==='kids'?e.kc:kind==='sport'?e.sub:fitKind()?e.fc:kind==='search'?e.kind:e.k;   // which field the left-hand category list filters on
+const ck=e=>kind==='season'?e.sea:kind==='kids'?e.kc:kind==='sport'?e.sub:kind==='music'?e.mg:fitKind()?e.fc:kind==='search'?e.kind:e.k;   // which field the left-hand category list filters on
 const isKid=e=>e.kind==='events'?(e.k==='family'||/\bfamily\b/i.test(e.g)||e.sub==='Fireworks'):e.kind==='clubs'?e.k==='kids':e.kind==='deals'?e.k==='kids':e.kind==='always'?!!e.kid:false;
 const kidCat=e=>e.kind==='deals'?'place':e.kind==='clubs'?'story':e.kind==='always'?'place':(e.sub==='Fireworks'||e.sea)?'fire':/making|workshop/i.test(e.g+' '+e.sub)?'make':'fam';
 function rebuildViews(){ DATA.kids=KORDER.flatMap(k=>DATA[k]).filter(isKid); DATA.kids.forEach(e=>{e.kc=kidCat(e);}); PTILES.forEach(k=>{DATA[k]=DATA.deals.filter(e=>e.pt===PT[k][0]);});
   MV.forEach(k=>{DATA[k]=DATA.always.filter(e=>'mv_'+e.k===k);});
   { const o=KINDS.fit.types.map(t=>t[0]); DATA.fit=FIT.concat(DATA.clubs.filter(e=>e.k==='run'||e.k==='out'||isDance(e))); DATA.fit.forEach(e=>{e.fc=fitCat(e);}); DATA.fit.sort((a,b)=>o.indexOf(a.fc)-o.indexOf(b.fc)||a.t.localeCompare(b.t));
     [['play',SPORTS],['well',WELL]].forEach(([k,cats])=>{ DATA[k]=DATA.fit.filter(e=>cats.includes(e.fc)).sort((a,b)=>cats.indexOf(a.fc)-cats.indexOf(b.fc)||a.t.localeCompare(b.t)); }); }
-  DATA.music=DATA.events.filter(isMusic); DATA.oev=DATA.events.filter(isOther); DATA.ev=DATA.events.filter(e=>!isMusic(e)&&!isOther(e)); DATA.search=KORDER.flatMap(k=>DATA[k]).concat(FIT);
+  DATA.music=DATA.events.filter(isMusic); DATA.music.forEach(e=>{ if(!KINDS.music.name[e.mg]) e.mg=e.k==='club'?'otherclub':'othergig'; }); DATA.oev=DATA.events.filter(isOther); DATA.ev=DATA.events.filter(e=>!isMusic(e)&&!isOther(e)); DATA.search=KORDER.flatMap(k=>DATA[k]).concat(FIT);
   DATA.sport=DATA.events.filter(e=>e.k==='sport'); const S=KINDS.sport, sn=[...new Set(DATA.sport.filter(upcoming).map(e=>e.sub))].sort();
   S.types=sn.map(n=>[n,n,SPORTICON[n]||'Trophy']); S.name={}; S.col={}; S.ico={}; sn.forEach((n,i)=>{S.name[n]=n; S.ico[n]=SPORTICON[n]||'Trophy'; S.col[n]='var(--c'+[6,0,4,1,5,3][i%6]+')';}); }
-['events','clubs','courses','kids','always','deals','vol','fit','search'].concat(PTILES,MV).forEach(k=>{const K=KINDS[k];K.name={};K.col={};K.ico={};K.types.forEach(([id,n,ic],i)=>{K.name[id]=n;K.ico[id]=ic;K.col[id]='var(--c'+(i%10)+')';});});
-['music','ev','oev'].forEach(k=>{const K=KINDS[k],E=KINDS.events;K.name={};K.col={};K.ico={};K.types.forEach(([id,n,ic])=>{K.name[id]=n;K.ico[id]=ic;K.col[id]=E.col[id];});});
+['events','clubs','courses','kids','always','deals','vol','fit','music','search'].concat(PTILES,MV).forEach(k=>{const K=KINDS[k];K.name={};K.col={};K.ico={};K.types.forEach(([id,n,ic],i)=>{K.name[id]=n;K.ico[id]=ic;K.col[id]='var(--c'+(i%10)+')';});});
+['ev','oev'].forEach(k=>{const K=KINDS[k],E=KINDS.events;K.name={};K.col={};K.ico={};K.types.forEach(([id,n,ic])=>{K.name[id]=n;K.ico[id]=ic;K.col[id]=E.col[id];});});
 ['play','well'].forEach(k=>{const K=KINDS[k],E=KINDS.fit;K.name={};K.col={};K.ico={};K.types.forEach(([id,n,ic])=>{K.name[id]=n;K.ico[id]=ic;K.col[id]=E.col[id];});});
 const SLOTS=[['am','Morning','before 12'],['pm','Afternoon','12 to 5'],['eve','Evening','5 to 9'],['late','Late','9pm on']];
 const slotOf=s=>{const h=+s.slice(0,2);return h<6?'late':h<12?'am':h<17?'pm':h<21?'eve':'late';};
@@ -59373,7 +59379,7 @@ const okTime=s=>/^\d\d:\d\d$/.test(s||'')?s:'';
 function base(o,kd){ if(!o||!o.t||!o.v||!Array.isArray(o.ll)||typeof o.ll[0]!=='number') return null;
   const K=KINDS[kd], ll=place(String(o.v),o.ll);
   const b={kind:kd,t:String(o.t),v:String(o.v),ll,k:K.name[o.k]?o.k:K.types[K.types.length-1][0],sub:o.sub?String(o.sub):'Other',u:/^https:\/\//.test(o.u||'')?o.u:'',
-    p:o.p?String(o.p):'',x:o.x?String(o.x):'',g:o.g?String(o.g):'',sea:o.sea?String(o.sea).slice(0,40):'',f:!!o.f,s:okTime(o.s),e:okTime(o.e),area:o.area?String(o.area).slice(0,40):areaOf(ll[0],ll[1])};
+    p:o.p?String(o.p):'',x:o.x?String(o.x):'',g:o.g?String(o.g):'',sea:o.sea?String(o.sea).slice(0,40):'',mg:typeof o.mg==='string'?o.mg.slice(0,20):'',f:!!o.f,s:okTime(o.s),e:okTime(o.e),area:o.area?String(o.area).slice(0,40):areaOf(ll[0],ll[1])};
   const m=/^£(\d+(?:\.\d+)?)$/.exec(b.p); b.cost=b.p==='Free'?0:m?+m[1]:null;
   b.hay=(b.t+' '+b.v+' '+b.g+' '+b.area+' '+K.name[b.k]+' '+b.sub).toLowerCase(); return b;}
 const ord=e=>e.s?((+e.s.slice(0,2)<6?24:0)+ +e.s.slice(0,2))*60+ +e.s.slice(3):9999;
@@ -59429,7 +59435,7 @@ function pass(e,skip){
   }
   if(wkly(e)){ if(skip!=='dow'&&F.dows.size&&!e.dow.some(d=>F.dows.has(d))) return false; if(F.weekly&&!e.wk) return false; }
   if(e.kind==='courses'){ if(skip!=='len'&&F.lens.size&&!F.lens.has(e.one?'day':'multi')) return false; if(F.under50&&!(e.cost!==null&&e.cost<50)) return false; }
-  if(skip!=='cat'&&F.cat){ if(ck(e)!==F.cat) return false; if(skip!=='sub'&&F.subs.size&&!F.subs.has(e.sub)) return false; }
+  if(skip!=='cat'&&F.cat){ if(ck(e)!==F.cat) return false; if(skip!=='sub'&&F.subs.size&&!F.subs.has(subOf(e))) return false; }
   if(skip!=='time'&&F.slots.size&&e.kind!=='always'){ if(e.run||!e.s){ if(!(e.kind==='events'&&F.untimed)) return false; } else if(!F.slots.has(slotOf(e.s))) return false; }
   if(skip!=='near'&&F.near&&LOC&&dist(e)>F.near) return false;
   if(F.free&&e.cost!==0) return false;
@@ -59457,7 +59463,7 @@ function lead(e){
   if(wkly(e)) return e.dow.length?e.dow.map(d=>WD[d-1][1]).join(' '):'var.';
   if(e.kind==='courses') return e.s;
   return e.s||(e.run?'daily':'tbc');}
-function meta(e,full){const m=el('div','me'); const i=el('i'); i.style.background=col(e); m.append(i,el('span','',tname(e)+(e.sub&&e.sub!=='Other'?' · '+e.sub:'')));
+function meta(e,full){const m=el('div','me'); const i=el('i'); i.style.background=col(e); m.append(i,el('span','',tname(e)+(subLabel(e)?' · '+subLabel(e):'')));
   if(full) m.append(el('span','','· '+e.v+(e.area?', '+e.area:'')));
   if(full&&LOC) m.append(el('span','','· '+distText(e)));
   if(wkly(e)) m.append(el('span','','· '+e.w+(e.s&&!/\d/.test(e.w)?' '+e.s:'')));
@@ -59489,7 +59495,7 @@ function unhighlight(){ if(hi){const n=hi.getElement(); if(n) n.classList.remove
 function linkHover(node,e){ node.addEventListener('mouseenter',()=>highlight(e)); node.addEventListener('mouseleave',unhighlight); node.addEventListener('focusin',()=>highlight(e)); node.addEventListener('focusout',unhighlight); }
 function fact(icon,text){ const f=el('span','fact'); f.append(ico(icon,14),document.createTextNode(text)); return f; }
 function profile(e){ const K=KINDS[e.kind], p=el('article','prof'); p.style.setProperty('--c',col(e));
-  const bd=el('div','pb'); const k=el('div','k',K.one+' · '+tname(e)+(e.sub&&e.sub!=='Other'&&e.kind!=='always'?' · '+e.sub:''));
+  const bd=el('div','pb'); const k=el('div','k',K.one+' · '+tname(e)+(subLabel(e)&&e.kind!=='always'?' · '+subLabel(e):''));
   const D=e.kind==='deals'; const ti=el('button','ti',D?e.v:e.t); ti.type='button'; ti.title='Show on the map'; ti.addEventListener('click',()=>focus(e));
   const facts=el('div','facts'); facts.append(fact(wkly(e)?'Repeat':e.kind==='always'?'Clock':'CalendarDays',whenText(e)),fact('MapPin',(e.kind==='always'||D?e.area:e.v+(e.area?', '+e.area:''))+(LOC?' · '+distText(e):'')));
   if(priceText(e)) facts.append(fact('Tag',priceText(e)));
@@ -59545,13 +59551,13 @@ function renderControls(){
   $('kinds').replaceChildren(...ETILES.map(tile)); $('wkinds').replaceChildren(...WTILES.map(tile)); $('pkinds').replaceChildren(...PTILES.map(tile));
   $('diceBarSub').textContent='Picks one at random from the list below';
   // category, with its sub-categories opening underneath
-  const tc={}, sc2={}; all.forEach(e=>{ if(pass(e,'cat')) tc[ck(e)]=(tc[ck(e)]||0)+1; if(ck(e)===F.cat&&pass(e,'sub')) sc2[e.sub]=(sc2[e.sub]||0)+1; });
+  const tc={}, sc2={}; all.forEach(e=>{ if(pass(e,'cat')) tc[ck(e)]=(tc[ck(e)]||0)+1; if(ck(e)===F.cat&&pass(e,'sub')) sc2[subOf(e)]=(sc2[subOf(e)]||0)+1; });
   const kids=[];
   K.types.forEach(([k,n])=>{ if(!tc[k]&&F.cat!==k) return;
     const b=el('button','cat'); b.type='button'; b.style.setProperty('--c',K.col[k]); b.setAttribute('aria-pressed',F.cat===k?'true':'false');
     const i=el('i'); i.style.color=K.col[k]; i.append(ico(K.ico[k],17)); b.append(i,el('span','',n),el('small','',String(tc[k]||0)));
     b.addEventListener('click',()=>{F.cat=F.cat===k?'':k; F.subs.clear(); if(F.cat) track('category: '+K.label+' / '+n); render();}); kids.push(b);
-    if(F.cat===k){ const names=[...new Set(all.filter(e=>ck(e)===k).map(e=>e.sub))].sort((a,b)=>(a==='Other')-(b==='Other')||a.localeCompare(b));
+    if(F.cat===k){ const names=[...new Set(all.filter(e=>ck(e)===k).map(subOf))].sort((a,b)=>(a==='Other')-(b==='Other')||a.localeCompare(b));
       if(names.length>1){ const s=el('div','subs'); s.setAttribute('role','group'); s.setAttribute('aria-label',n+' types');
         names.forEach(nm=>s.append(chip(nm,F.subs.has(nm),tog(F.subs,nm),sc2[nm]||0))); kids.push(s);} } });
   $('cats').replaceChildren(...kids); $('catClear').hidden=!F.cat;
