@@ -489,6 +489,9 @@ h3 small{font-size:13px;color:var(--muted2)}
 /* the three tile sections: Events, Weekly & recurring, Local deals. Side by side they share eight tile columns (3 + 3 + 2) in two rows */
 .lookgrid{border-radius:28px;padding:24px;box-shadow:0 14px 40px rgba(120,80,40,.06);grid-template-columns:minmax(0,3fr) minmax(0,3fr) minmax(0,2fr);gap:24px 28px;align-items:start}
 .lookgrid h3 small.soon,.pr h3 .soon{font:400 12px var(--f-body);letter-spacing:0;text-transform:none;color:var(--muted2)}
+.lksearch{grid-column:1/-1;display:flex;align-items:center;gap:10px 12px;flex-wrap:wrap}
+.lksearch label{font-family:var(--f-display);font-size:19px;white-space:nowrap}
+.lksearch input{flex:1 1 220px;min-width:0;width:auto;padding:10px 16px;font-size:15px}
 .dash .lookgrid .kinds{gap:18px}
 .dash #kinds,.dash #wkinds{grid-template-columns:repeat(3,minmax(0,1fr))}
 .dash #pkinds{grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -513,7 +516,7 @@ h3 small{font-size:13px;color:var(--muted2)}
 .kind[data-k="season"],.kind[data-k="vol"]{--c:#C8401A;--fg:#FFFFFF}
 .kind[data-k="events"],.kind[data-k="ev"],.kind[data-k="always"]{--c:#8B3F7A;--fg:#FFFFFF}
 .kind[data-k="music"],.kind[data-k="pfood"]{--c:#F2B134;--fg:#2B1D16}
-.kind[data-k="courses"],.kind[data-k="pdrink"]{--c:#1F7A75;--fg:#FFFFFF}
+.kind[data-k="courses"],.kind[data-k="oev"],.kind[data-k="pdrink"]{--c:#1F7A75;--fg:#FFFFFF}
 .kind[data-k="clubs"],.kind[data-k="sport"]{--c:#2F5DA8;--fg:#FFFFFF}
 .kind[data-k="kids"],.kind[data-k="pshop"]{--c:#F4A7B0;--fg:#2B1D16}
 .kind[data-k="fit"],.kind[data-k="play"],.kind[data-k="pother"]{--c:#357A40;--fg:#FFFFFF}
@@ -835,6 +838,7 @@ dialog.dlg::backdrop{background:rgba(20,16,12,.5)}
     </header>
     <section class="dash" id="exDash">
       <div class="panel lookgrid">
+        <form class="lksearch" id="gqForm" role="search" autocomplete="off"><label for="gq2">Search all</label><input type="search" id="gq2" placeholder="Search every listing: salsa, quiz, sauna…" maxlength="80"><button class="btn" type="submit">Search</button></form>
         <div class="lk"><h3><span>Events</span></h3>
         <div class="kinds" id="kinds"></div></div>
         <div class="lk"><h3><span>Weekly &amp; recurring</span></h3>
@@ -59069,7 +59073,7 @@ KINDS.always={label:'Always on',one:'Place',noun:'place',icon:'Landmark',types:[
 const KORDER=['events','clubs','courses','always','deals','vol'];
 KINDS.season={label:'In season',one:'Seasonal',noun:'listing',icon:'Flame',types:[]};   // categories are the seasons, filled from the data
 KINDS.kids={label:'Kids & family',one:'Family',noun:'listing',icon:'Smile',types:[['fam','Family events & shows','PartyPopper'],['story','Story & rhyme time','BookOpen'],['make','Making & play','Scissors'],['fire','Fireworks & seasonal','Flame'],['place','Places to take them','Landmark']]};
-const ETILES=['season','music','kids','sport','ev'], WTILES=['play','well','clubs','vol','courses','always'], TILES=ETILES.concat(WTILES);   // the Events row and the Weekly & recurring row
+const ETILES=['season','music','kids','sport','ev','oev'], WTILES=['play','well','clubs','vol','courses','always'], TILES=ETILES.concat(WTILES);   // the Events row and the Weekly & recurring row
 KINDS.fit={label:'Sports & wellbeing',one:'Activity',noun:'listing',icon:'HeartPulse',types:[['dance','Dance classes','Music4'],['swim','Outdoor & wild swimming','Waves'],['pool','Pools & leisure centres','LifeBuoy'],['spa','Saunas & spas','Bath'],['gym','Gyms & classes','Dumbbell'],['run','Running','Footprints'],['yoga','Yoga & pilates','Flower2'],['climb','Climbing','Mountain'],
   ['cycle','Cycling','Bike'],['water','Watersports','Sailboat'],['team','Team & racket sports','Volleyball'],['walk','Walking & outdoor fitness','TreePine']]};   // its own listings (source/dir/fitness.json) plus the sporty groups already under Clubs & societies
 const isDance=e=>/\bdanc|salsa|bachata|kizomba|lindy|tango|ceilidh|ballroom/i.test(e.sub+' '+e.t);
@@ -59083,11 +59087,13 @@ KINDS.vol={label:'Volunteering',one:'Volunteering',noun:'role',icon:'Heart',type
 const MV=KINDS.always.types.map(t=>'mv_'+t[0]);   // the Must visit row: one tile per kind of place
 MV.forEach((k,i)=>{const t=KINDS.always.types[i]; KINDS[k]={label:t[1],one:'Place',noun:'place',icon:t[2],types:[t]};});
 KINDS.sport={label:'Live sport',one:'Event',noun:'fixture',icon:'Trophy',types:[]};   // categories are the sports, filled from the data
-const isMusic=e=>e.k==='gig'||e.k==='club';   // the Events tile and the Music tile are two views over the one events list
+const isMusic=e=>e.k==='gig'||e.k==='club';   // Music, Arts & culture and Other events are three views over the one events list, split by category
+const OTHER_EV=['food','social','family','sport','season'], isOther=e=>OTHER_EV.includes(e.k);
 KINDS.music={label:'Music',one:'Event',noun:'event',icon:'Music',types:KINDS.events.types.filter(t=>t[0]==='gig'||t[0]==='club')};
-KINDS.ev={label:'Cultural events',one:'Event',noun:'event',icon:'Ticket',types:KINDS.events.types.filter(t=>t[0]==='comedy').concat(KINDS.events.types.filter(t=>!['gig','club','comedy'].includes(t[0])))};   // comedy leads the list
+KINDS.ev={label:'Arts & culture',one:'Event',noun:'event',icon:'Ticket',types:KINDS.events.types.filter(t=>t[0]==='comedy').concat(KINDS.events.types.filter(t=>!['gig','club','comedy'].concat(OTHER_EV).includes(t[0])))};   // comedy leads the list
+KINDS.oev={label:'Other events',one:'Event',noun:'event',icon:'PartyPopper',types:OTHER_EV.map(k=>KINDS.events.types.find(t=>t[0]===k))};
 KINDS.search={label:'Search results',one:'Listing',noun:'listing',icon:'Search',types:[['events','Events','Ticket'],['clubs','Clubs & societies','Users'],['courses','Courses','GraduationCap'],['fit','Sports & wellbeing','HeartPulse'],['always','Places','Landmark'],['deals','Offers','BadgePercent'],['vol','Volunteering','Heart']]};   // every listing at once; the categories are the sections
-const homeKind=e=>e.kind==='deals'?'p'+e.pt:e.kind==='events'?(isMusic(e)?'music':'ev'):e.kind==='fit'?(SPORTS.includes(e.k)?'play':'well'):e.kind;   // the tile a listing lives under
+const homeKind=e=>e.kind==='deals'?'p'+e.pt:e.kind==='events'?(isMusic(e)?'music':isOther(e)?'oev':'ev'):e.kind==='fit'?(SPORTS.includes(e.k)?'play':'well'):e.kind;   // the tile a listing lives under
 const SPORTICON={'Football':'Goal','Basketball':'Dribbble','Rugby union':'Trophy'};
 const alwKind=()=>kind==='always'||MV.includes(kind);
 const PTILES=['pfood','pdrink','pshop','pother'];   // the Editor's picks row: four views over the one offers list
@@ -59106,11 +59112,11 @@ function rebuildViews(){ DATA.kids=KORDER.flatMap(k=>DATA[k]).filter(isKid); DAT
   MV.forEach(k=>{DATA[k]=DATA.always.filter(e=>'mv_'+e.k===k);});
   { const o=KINDS.fit.types.map(t=>t[0]); DATA.fit=FIT.concat(DATA.clubs.filter(e=>e.k==='run'||e.k==='out'||isDance(e))); DATA.fit.forEach(e=>{e.fc=fitCat(e);}); DATA.fit.sort((a,b)=>o.indexOf(a.fc)-o.indexOf(b.fc)||a.t.localeCompare(b.t));
     [['play',SPORTS],['well',WELL]].forEach(([k,cats])=>{ DATA[k]=DATA.fit.filter(e=>cats.includes(e.fc)).sort((a,b)=>cats.indexOf(a.fc)-cats.indexOf(b.fc)||a.t.localeCompare(b.t)); }); }
-  DATA.music=DATA.events.filter(isMusic); DATA.ev=DATA.events.filter(e=>!isMusic(e)); DATA.search=KORDER.flatMap(k=>DATA[k]).concat(FIT);
+  DATA.music=DATA.events.filter(isMusic); DATA.oev=DATA.events.filter(isOther); DATA.ev=DATA.events.filter(e=>!isMusic(e)&&!isOther(e)); DATA.search=KORDER.flatMap(k=>DATA[k]).concat(FIT);
   DATA.sport=DATA.events.filter(e=>e.k==='sport'); const S=KINDS.sport, sn=[...new Set(DATA.sport.filter(upcoming).map(e=>e.sub))].sort();
   S.types=sn.map(n=>[n,n,SPORTICON[n]||'Trophy']); S.name={}; S.col={}; S.ico={}; sn.forEach((n,i)=>{S.name[n]=n; S.ico[n]=SPORTICON[n]||'Trophy'; S.col[n]='var(--c'+[6,0,4,1,5,3][i%6]+')';}); }
 ['events','clubs','courses','kids','always','deals','vol','fit','search'].concat(PTILES,MV).forEach(k=>{const K=KINDS[k];K.name={};K.col={};K.ico={};K.types.forEach(([id,n,ic],i)=>{K.name[id]=n;K.ico[id]=ic;K.col[id]='var(--c'+(i%10)+')';});});
-['music','ev'].forEach(k=>{const K=KINDS[k],E=KINDS.events;K.name={};K.col={};K.ico={};K.types.forEach(([id,n,ic])=>{K.name[id]=n;K.ico[id]=ic;K.col[id]=E.col[id];});});
+['music','ev','oev'].forEach(k=>{const K=KINDS[k],E=KINDS.events;K.name={};K.col={};K.ico={};K.types.forEach(([id,n,ic])=>{K.name[id]=n;K.ico[id]=ic;K.col[id]=E.col[id];});});
 ['play','well'].forEach(k=>{const K=KINDS[k],E=KINDS.fit;K.name={};K.col={};K.ico={};K.types.forEach(([id,n,ic])=>{K.name[id]=n;K.ico[id]=ic;K.col[id]=E.col[id];});});
 const SLOTS=[['am','Morning','before 12'],['pm','Afternoon','12 to 5'],['eve','Evening','5 to 9'],['late','Late','9pm on']];
 const slotOf=s=>{const h=+s.slice(0,2);return h<6?'late':h<12?'am':h<17?'pm':h<21?'eve':'late';};
@@ -59153,16 +59159,16 @@ function poster(e,cls){ const p=el('div','poster '+(cls||'')+' pt'+(parseInt(has
 
 /* ---------- state ---------- */
 const mkF=()=>({cat:'',subs:new Set(),days:new Set(),all:false,slots:new Set(),dows:new Set(),lens:new Set(),q:'',free:false,hideSold:false,untimed:false,under50:false,weekly:false,near:0});
-const FS={}; function startFilters(){ ['events','clubs','courses','always','deals','vol','season','kids','fit','play','well','ev','music','search'].concat(PTILES,MV,['sport']).forEach(k=>FS[k]=mkF()); }
+const FS={}; function startFilters(){ ['events','clubs','courses','always','deals','vol','season','kids','fit','play','well','ev','oev','music','search'].concat(PTILES,MV,['sport']).forEach(k=>FS[k]=mkF()); }
 startFilters();
 // Date-led views open on the rest of this month; picking days narrows to those days, and "All upcoming" lifts the limit.
 // In a month's last three days the window runs on through the next month, so it is never just a day or two.
-const DATED=['events','ev','music','season','kids','sport'];
+const DATED=['events','ev','oev','music','season','kids','sport'];
 const WINDOW=(()=>{ const d=pd(TODAY), left=new Date(d.getFullYear(),d.getMonth()+1,0).getDate()-d.getDate(), more=left<3;
   return {end:iso(new Date(d.getFullYear(),d.getMonth()+(more?2:1),0)), label:'Rest of '+MON[d.getMonth()]+(more?' & '+MON[(d.getMonth()+1)%12]:'')}; })();
 const inWindow=e=>e.run?(e.to>=TODAY&&e.from<=WINDOW.end):(e.d>=TODAY&&e.d<=WINDOW.end);
 let kind='ev', F=FS.ev;
-const DATA={events:[],clubs:[],courses:[],always:[],deals:[],vol:[],season:[],kids:[],fit:[],play:[],well:[],ev:[],music:[],search:[]}; PTILES.concat(MV,['sport']).forEach(k=>DATA[k]=[]);
+const DATA={events:[],clubs:[],courses:[],always:[],deals:[],vol:[],season:[],kids:[],fit:[],play:[],well:[],ev:[],oev:[],music:[],search:[]}; PTILES.concat(MV,['sport']).forEach(k=>DATA[k]=[]);
 let FIT=[];   // the Health & fitness tile's own listings; DATA.fit adds the sporty clubs to these
 const BYID=new Map();
 let NEWS=[]; const got={days:false,dir:false}; let fitted=false;
@@ -59534,7 +59540,8 @@ function renderControls(){
   const K=KINDS[kind], all=DATA[kind];
   const toResults=()=>(matchMedia('(max-width:820px)').matches?document.querySelector('.mappanel'):$('exMain')).scrollIntoView({block:'start',behavior:still()?'auto':'smooth'});   // picking a tile jumps down to the map and its results; on one-column screens the filters sit above the map, so go to the map itself
   const tile=k=>{const b=el('button','kind'); b.type='button'; b.setAttribute('aria-pressed',k===kind?'true':'false');
-    b.dataset.k=k; const ic=el('i'); ic.append(ico(KINDS[k].icon,21)); b.append(ic,el('span','',KINDS[k].label),el('small','',String(DATA[k].filter(upcoming).length))); b.addEventListener('click',()=>{$('gq').value='';setKind(k);toResults();track('tile: '+KINDS[k].label);}); return b;};
+    b.dataset.k=k; const ic=el('i'); ic.append(ico(KINDS[k].icon,21)); b.append(ic,el('span','',KINDS[k].label),el('small','',String(DATA[k].filter(upcoming).length))); b.addEventListener('click',()=>{$('gq').value='';$('gq2').value='';setKind(k);toResults();track('tile: '+KINDS[k].label);}); return b;};
+  if(document.activeElement!==$('gq2')) $('gq2').value=kind==='search'?$('gq').value:'';   // keep the panel's search box in step with the one above the map
   $('kinds').replaceChildren(...ETILES.map(tile)); $('wkinds').replaceChildren(...WTILES.map(tile)); $('pkinds').replaceChildren(...PTILES.map(tile));
   $('diceBarSub').textContent='Picks one at random from the list below';
   // category, with its sub-categories opening underneath
@@ -59702,6 +59709,10 @@ $('gq').addEventListener('input',ev=>{ const q=ev.target.value.trim().toLowerCas
   if(q.length>=2){ if(kind!=='search'){ prevKind=kind; setKind('search',true); } F.q=q; $('q').value=q; render(); }
   else if(kind==='search') setKind(prevKind); });
 $('gq').addEventListener('change',()=>{ if(kind==='search') track('search everything'); });   // counted without what was typed
+// the "Search all" box in the tiles panel drives the same search; submitting it jumps down to the results
+$('gq2').addEventListener('input',ev=>{ $('gq').value=ev.target.value; $('gq').dispatchEvent(new Event('input')); });
+$('gqForm').addEventListener('submit',ev=>{ ev.preventDefault(); if(kind!=='search') return; track('search everything');
+  (matchMedia('(max-width:820px)').matches?document.querySelector('.mappanel'):$('exMain')).scrollIntoView({block:'start',behavior:still()?'auto':'smooth'}); });
 const note=t=>{ const n=$('mapNote'); n.textContent=t||''; n.hidden=!t; };
 function setLoc(l){ LOC=l; if(!l) Object.keys(FS).forEach(k=>FS[k].near=0); sortNear=!!l;
   const b=$('nearBtn'); b.setAttribute('aria-pressed',l?'true':'false'); b.textContent=l?'Near me: on':'Near me';
