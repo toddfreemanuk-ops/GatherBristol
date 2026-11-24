@@ -816,7 +816,11 @@ dialog.dlg::backdrop{background:rgba(20,16,12,.5)}
 .gb-scene .bob{transform-box:fill-box;transform-origin:50% 25%;animation:gb-bob 4.5s ease-in-out infinite}
 @keyframes gb-bob{0%,100%{transform:translateY(0) rotate(-1.2deg)}50%{transform:translateY(-8px) rotate(1.2deg)}}
 @media (prefers-reduced-motion:reduce){.gb-scene .bob{animation:none}}
-#exHero.gb-header{display:block;min-height:260px;max-height:420px;border:0;border-radius:0}   /* the scene is drawn 1440 x 420; wider screens keep that height and crop the sky */
+#exHero.gb-header{display:block;min-height:260px;max-height:420px;border:0;border-radius:0;background:linear-gradient(180deg,#dde9ec 0%,#efe4d8 45%,#f7ebdd 70%,#d3dcc4 82%,#b7c8a4 100%)}
+/* The scene is drawn 1440 x 420 and never shown wider than that: on a wider screen it sits in the middle at full height,
+   its edges fade out, and the band of sky and hill colours behind it runs on to the sides. */
+#exHero.gb-header .gb-scene{inset:0 auto 0 50%;width:min(100%,1440px);transform:translateX(-50%)}
+@media (min-width:1441px){#exHero.gb-header .gb-scene{-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 9%,#000 91%,transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000 9%,#000 91%,transparent 100%)}}
 #exHero.gb-header .herotext{position:absolute;inset:0 0 auto 0;display:block;max-width:1440px;margin-inline:auto;padding:clamp(18px,3cqw,44px) 24px 0;z-index:2}
 @media (max-width:900px){#exHero.gb-header .herotext{padding-inline:16px}}
 /* on phones the scene crops to its middle, so the balloons end up behind the text: a soft wash of sky colour keeps it readable */
