@@ -11,6 +11,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  actions: read   # lets the deploy step look up the uploaded site bundle
 
 concurrency:
   group: pages
@@ -21,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+      url: ${{ steps.deploy.outputs.page_url || steps.deploy2.outputs.page_url }}
     steps:
       - uses: actions/checkout@v7
 
@@ -49,5 +50,14 @@ jobs:
       - uses: actions/upload-pages-artifact@v5
         with:
           path: site
+      # Deploying straight after the upload can fail with "No artifacts named github-pages were found": GitHub has not
+      # registered the upload yet (actions/deploy-pages issue 451). So wait, and if it still fails, wait longer and try once more.
+      - run: sleep 30
       - id: deploy
+        uses: actions/deploy-pages@v5
+        continue-on-error: true
+      - if: steps.deploy.outcome == 'failure'
+        run: sleep 90
+      - id: deploy2
+        if: steps.deploy.outcome == 'failure'
         uses: actions/deploy-pages@v5
