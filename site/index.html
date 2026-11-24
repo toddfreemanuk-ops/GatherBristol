@@ -1094,7 +1094,7 @@ dialog.dlg::backdrop{background:rgba(20,16,12,.5)}
 </svg>
       <div class="herotext">
         <div><div class="hdate" id="hDate"></div><h1 class="brand">GatherBristol</h1>
-        <p class="cap">Come join your fellow Bristolians</p>
+        <p class="cap">Discover Bristol</p>
         </div>
       </div>
     </header>
@@ -59925,7 +59925,11 @@ $('q').addEventListener('input',e=>{F.q=e.target.value.trim().toLowerCase();rend
 $('reset').addEventListener('click',()=>{FS[kind]=F=mkF(); syncInputs(); render();});
 
 /* ---------- header: today's date ---------- */
-$('hDate').textContent=NOW.toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long'}).replace(',','')+' · Bristol';
+// The date line ends with today's forecast for Bristol, which the daily build saves with the listings; without one for today it just says Bristol.
+const SKY=[[0,'Sunny'],[1,'Mostly sunny'],[2,'Partly cloudy'],[3,'Cloudy'],[48,'Fog'],[55,'Drizzle'],[57,'Freezing drizzle'],[61,'Light rain'],[63,'Rain'],[65,'Heavy rain'],[67,'Freezing rain'],[71,'Light snow'],[77,'Snow'],[80,'Light showers'],[82,'Showers'],[86,'Snow showers'],[99,'Thunderstorms']];   // WMO weather codes, each entry covering codes up to its number
+function dateLine(w){ const ok=w&&w.date===TODAY&&Number.isFinite(+w.code)&&Number.isFinite(+w.max), sky=ok&&(SKY.find(s=>+w.code<=s[0])||[])[1];
+  $('hDate').textContent=NOW.toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long'}).replace(',','')+' · '+(sky?sky+', high '+Math.round(+w.max)+'°':'Bristol'); }
+dateLine(null);
 
 /* ---------- first view of the map ---------- */
 let mapSized=false;
@@ -60032,7 +60036,7 @@ render(); fitMap();
 const fail=t=>{failMsg=t; render();};
 (async()=>{
   try{ const r=await fetch('data/listings.json',{cache:'no-cache'}); if(!r.ok) throw new Error(r.status);
-    const d=await r.json(); IMG=d.img||{}; UPDATED=/^\d{4}-\d\d-\d\d$/.test(d.updated||'')?d.updated:'';
+    const d=await r.json(); dateLine(d.weather); IMG=d.img||{}; UPDATED=/^\d{4}-\d\d-\d\d$/.test(d.updated||'')?d.updated:'';
     ingestDays(Array.isArray(d.days)?d.days:[]); ingestDir(Array.isArray(d.dir)?d.dir:[]); afterData();
   }catch(e){ fail('The listings could not be loaded just now. Reload to try again.'); }
 })();
