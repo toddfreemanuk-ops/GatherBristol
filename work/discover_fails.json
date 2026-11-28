@@ -8,6 +8,10 @@
 "HTTP Error 404: Not Found"
 ],
 [
+"https://www.headfirstbristol.co.uk/whats-on/all-saints-clifton",
+"HTTP Error 404: Not Found"
+],
+[
 "https://www.headfirstbristol.co.uk/whats-on/artist-in-residence",
 "HTTP Error 404: Not Found"
 ],
@@ -33,10 +37,6 @@
 ],
 [
 "https://www.headfirstbristol.co.uk/whats-on/black-city-records",
-"HTTP Error 404: Not Found"
-],
-[
-"https://www.headfirstbristol.co.uk/whats-on/boona-boona-coffee-roasters-unit-9-windmill-farm-business-centre-bedminster-bs3-4db",
 "HTTP Error 404: Not Found"
 ],
 [
@@ -88,10 +88,6 @@
 "HTTP Error 404: Not Found"
 ],
 [
-"https://www.headfirstbristol.co.uk/whats-on/coppa-club-clifton",
-"HTTP Error 404: Not Found"
-],
-[
 "https://www.headfirstbristol.co.uk/whats-on/cotham-parish-church",
 "HTTP Error 404: Not Found"
 ],
@@ -132,15 +128,7 @@
 "HTTP Error 404: Not Found"
 ],
 [
-"https://www.headfirstbristol.co.uk/whats-on/flourish-at-glenavon-farm",
-"HTTP Error 404: Not Found"
-],
-[
 "https://www.headfirstbristol.co.uk/whats-on/friends-of-eastville-park-community-hub",
-"HTTP Error 404: Not Found"
-],
-[
-"https://www.headfirstbristol.co.uk/whats-on/future-temple",
 "HTTP Error 404: Not Found"
 ],
 [
@@ -160,10 +148,6 @@
 "HTTP Error 404: Not Found"
 ],
 [
-"https://www.headfirstbristol.co.uk/whats-on/hoard-dungeons",
-"HTTP Error 404: Not Found"
-],
-[
 "https://www.headfirstbristol.co.uk/whats-on/holy-trinity-church-hotwells",
 "HTTP Error 404: Not Found"
 ],
@@ -172,19 +156,11 @@
 "HTTP Error 404: Not Found"
 ],
 [
-"https://www.headfirstbristol.co.uk/whats-on/independence-sports-bar-ashton-gate-stadium",
-"HTTP Error 404: Not Found"
-],
-[
-"https://www.headfirstbristol.co.uk/whats-on/john-sebastian-light-ship",
-"HTTP Error 404: Not Found"
-],
-[
 "https://www.headfirstbristol.co.uk/whats-on/kelvin-players-theatre-253b-gloucester-road-bs7-8ny",
 "HTTP Error 404: Not Found"
 ],
 [
-"https://www.headfirstbristol.co.uk/whats-on/king-william-ale-house-king-street-bristol",
+"https://www.headfirstbristol.co.uk/whats-on/kongs-of-king-street",
 "HTTP Error 404: Not Found"
 ],
 [
@@ -192,15 +168,7 @@
 "HTTP Error 404: Not Found"
 ],
 [
-"https://www.headfirstbristol.co.uk/whats-on/left-handed-giant-st-philips-brewery-tap-room",
-"HTTP Error 404: Not Found"
-],
-[
 "https://www.headfirstbristol.co.uk/whats-on/lhg-brewpub",
-"HTTP Error 404: Not Found"
-],
-[
-"https://www.headfirstbristol.co.uk/whats-on/life2020",
 "HTTP Error 404: Not Found"
 ],
 [
@@ -264,15 +232,7 @@
 "HTTP Error 404: Not Found"
 ],
 [
-"https://www.headfirstbristol.co.uk/whats-on/renatos-bristol",
-"HTTP Error 404: Not Found"
-],
-[
 "https://www.headfirstbristol.co.uk/whats-on/replay-board-game-cafe",
-"HTTP Error 404: Not Found"
-],
-[
-"https://www.headfirstbristol.co.uk/whats-on/replay-bristol-board-game-cafe",
 "HTTP Error 404: Not Found"
 ],
 [
@@ -292,19 +252,11 @@
 "HTTP Error 404: Not Found"
 ],
 [
-"https://www.headfirstbristol.co.uk/whats-on/st-anne-s-church",
-"HTTP Error 404: Not Found"
-],
-[
 "https://www.headfirstbristol.co.uk/whats-on/st-anne-s-church-eastville",
 "HTTP Error 404: Not Found"
 ],
 [
 "https://www.headfirstbristol.co.uk/whats-on/st-anne-s-eastville",
-"HTTP Error 404: Not Found"
-],
-[
-"https://www.headfirstbristol.co.uk/whats-on/st-anne-s-house",
 "HTTP Error 404: Not Found"
 ],
 [
@@ -344,7 +296,7 @@
 "HTTP Error 404: Not Found"
 ],
 [
-"https://www.headfirstbristol.co.uk/whats-on/sundial-kitchen-totterdown",
+"https://www.headfirstbristol.co.uk/whats-on/the-arc-27-broad-street-bs1-2hg",
 "HTTP Error 404: Not Found"
 ],
 [
@@ -352,19 +304,15 @@
 "HTTP Error 404: Not Found"
 ],
 [
-"https://www.headfirstbristol.co.uk/whats-on/the-armadillo-yate-",
-"HTTP Error 404: Not Found"
-],
-[
 "https://www.headfirstbristol.co.uk/whats-on/the-avon-centre",
 "HTTP Error 404: Not Found"
 ],
 [
-"https://www.headfirstbristol.co.uk/whats-on/the-bell-inn",
+"https://www.headfirstbristol.co.uk/whats-on/the-beehive-centre-19a-stretford-road-bs5-7aw",
 "HTTP Error 404: Not Found"
 ],
 [
-"https://www.headfirstbristol.co.uk/whats-on/the-bristol-theosophiocal-lodge",
+"https://www.headfirstbristol.co.uk/whats-on/the-bell-inn",
 "HTTP Error 404: Not Found"
 ],
 [
@@ -412,10 +360,6 @@
 "HTTP Error 404: Not Found"
 ],
 [
-"https://www.headfirstbristol.co.uk/whats-on/the-greenbank-pub",
-"HTTP Error 404: Not Found"
-],
-[
 "https://www.headfirstbristol.co.uk/whats-on/the-greenbank-pub-57-belle-vue-rd-easton-bristol-bs5-6dp",
 "HTTP Error 404: Not Found"
 ],
@@ -433,14 +377,6 @@
 ],
 [
 "https://www.headfirstbristol.co.uk/whats-on/the-hideout-bedminster-bs3-4na",
-"HTTP Error 404: Not Found"
-],
-[
-"https://www.headfirstbristol.co.uk/whats-on/the-hideout-studio-bedminster-bristol",
-"HTTP Error 404: Not Found"
-],
-[
-"https://www.headfirstbristol.co.uk/whats-on/the-langton",
 "HTTP Error 404: Not Found"
 ],
 [
@@ -484,19 +420,11 @@
 "HTTP Error 404: Not Found"
 ],
 [
-"https://www.headfirstbristol.co.uk/whats-on/the-reel-space",
-"HTTP Error 404: Not Found"
-],
-[
 "https://www.headfirstbristol.co.uk/whats-on/the-scrandit",
 "HTTP Error 404: Not Found"
 ],
 [
 "https://www.headfirstbristol.co.uk/whats-on/the-spotted-cow",
-"HTTP Error 404: Not Found"
-],
-[
-"https://www.headfirstbristol.co.uk/whats-on/the-star-and-dove",
 "HTTP Error 404: Not Found"
 ],
 [
@@ -517,10 +445,6 @@
 ],
 [
 "https://www.headfirstbristol.co.uk/whats-on/toto-s-by-the-river",
-"HTTP Error 404: Not Found"
-],
-[
-"https://www.headfirstbristol.co.uk/whats-on/various",
 "HTTP Error 404: Not Found"
 ],
 [
